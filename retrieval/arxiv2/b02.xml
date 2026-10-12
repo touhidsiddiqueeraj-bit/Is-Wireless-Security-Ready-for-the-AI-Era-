@@ -1,0 +1,1508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k6ZExZUxI91y3dTF/mRbYPNyDYQ</id>
+  <title>arXiv Query: search_query=all:physical OR all:layer OR all:key OR all:generation AND all:deep OR all:learning&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:physical+OR+(all:layer+OR+(all:key+OR+(all:generation+AND+(all:deep+OR+all:learning))))&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>740274</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12470v1</id>
+    <title>Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration</title>
+    <updated>2026-10-08T17:59:58Z</updated>
+    <link href="https://arxiv.org/abs/2610.12470v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12470v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Our key insight is to abstract the video into sequential scene graphs that guide RL, enabling efficient exploration while preserving broad generalizability. The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage. Because the graphs constrain relations rather than exact poses, these reset states cover object poses and grasps beyond the video, while initializing each stage from them with dense rewards keeps exploration short and guided. Trained entirely in simulation, Dex-One2Many transfers zero-shot to a real multi-fingered hand. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:58Z</published>
+    <arxiv:comment>Project page: https://dex-one2many.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jusuk Lee</name>
+    </author>
+    <author>
+      <name>Sungha Kim</name>
+    </author>
+    <author>
+      <name>Yeonsoo Park</name>
+    </author>
+    <author>
+      <name>Jonguk Cheon</name>
+    </author>
+    <author>
+      <name>Yoonkyo Jung</name>
+    </author>
+    <author>
+      <name>Yongjun You</name>
+    </author>
+    <author>
+      <name>H. Jin Kim</name>
+    </author>
+    <author>
+      <name>Jia-Bin Huang</name>
+    </author>
+    <author>
+      <name>Furong Huang</name>
+    </author>
+    <author>
+      <name>Youngseok Jang</name>
+    </author>
+    <author>
+      <name>Seungjae Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12468v1</id>
+    <title>DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training</title>
+    <updated>2026-10-08T17:59:51Z</updated>
+    <link href="https://arxiv.org/abs/2610.12468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions without paired ground-truth futures, we construct a human-annotated video dataset covering robot, object, and interaction defects and use it to train an embodied video reward model. Its scores guide reinforcement-learning post-training toward more physically plausible interaction outcomes. On AgiBot, DreamTrue attains state-of-the-art action following, while reducing the human-assessed interaction defect rate from from 48.12% to 6.25%. Notably, our model ranks first in the world model track of the AgiBot World Challenge 2026. The project page can be found at https://brave-eai.github.io/DreamTrue.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:51Z</published>
+    <arxiv:comment>project page: https://brave-eai.github.io/DreamTrue; code: https://github.com/brave-eai/DreamTrue</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Junyan Li</name>
+    </author>
+    <author>
+      <name>Ruizhi Li</name>
+    </author>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Xiangshuo Liu</name>
+    </author>
+    <author>
+      <name>Mingchao Sun</name>
+    </author>
+    <author>
+      <name>Hongyu Pan</name>
+    </author>
+    <author>
+      <name>Mu Xu</name>
+    </author>
+    <author>
+      <name>Lue Fan</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12467v1</id>
+    <title>CSF: Contextual Safety Filtering for Motion Generators</title>
+    <updated>2026-10-08T17:59:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.12467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and unsafe reference trajectories produced by the generator. For each active rule, safe and unsafe reference trajectories define an affine safety value that a safe reference tracking CBF-QP enforces. Across four pretrained generators with different architectures, CSF activates the intended rules in all explicit and scene-triggered unsafe cases and reduces the danger-event rate by up to 90%, while preserving 88-100% of benign motions. We demonstrate the complete system on a real-world Unitree G1, where it successfully prevents unsafe motions in a variety of scenarios, including interactions with humans and objects.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:50Z</published>
+    <arxiv:comment>8 pages, 6 figures, website at https://lzyang2000.github.io/csf/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Lizhi Yang</name>
+    </author>
+    <author>
+      <name>Yiling Hou</name>
+    </author>
+    <author>
+      <name>Yao Tang</name>
+    </author>
+    <author>
+      <name>Junheng Li</name>
+    </author>
+    <author>
+      <name>Daniel Weng</name>
+    </author>
+    <author>
+      <name>Blake Werner</name>
+    </author>
+    <author>
+      <name>Aaron D. Ames</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12465v1</id>
+    <title>A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control</title>
+    <updated>2026-10-08T17:59:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.12465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. While simulator resets can help with exploration, uniformly sampling over this distribution wastes a growing fraction of learning experience on task configurations the policy has already mastered or cannot yet attempt. This makes it challenging to see the expected benefits of scaling parallel environments for RL, since much of the learning signal in a batch is wasted during learning. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Doing so allows large-scale simulated RL to make the most out of the experience in a batch, enabling much more effective scaling to large-scale parallel simulation. Across experiments using up to $2^{20}$ (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Finally, we distill the learned manipulation policies into RGB-based policies and demonstrate zero-shot transfer to several challenging assembly tasks on real hardware. Project website: https://sgs-rl.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:50Z</published>
+    <arxiv:comment>CoRL 2026. Project website: https://sgs-rl.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Octi Zhang</name>
+    </author>
+    <author>
+      <name>Mateo Guaman Castro</name>
+    </author>
+    <author>
+      <name>Patrick Yin</name>
+    </author>
+    <author>
+      <name>Ignacio Dagnino</name>
+    </author>
+    <author>
+      <name>Abhishek Gupta</name>
+    </author>
+    <author>
+      <name>Rosario Scalise</name>
+    </author>
+    <author>
+      <name>Byron Boots</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12463v1</id>
+    <title>From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents</title>
+    <updated>2026-10-08T17:59:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.12463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopped in all three instances. Taken together, the cases show why an evaluation cannot rely on an assumed boundary. That boundary must be verified while the agent is operating. This comparative instrumental case study develops a Proactive Agent Security Assurance Cycle (PASAC) and a five-layer Boundary Assurance Stack. The framework combines risk-tiered task design, executable scope contracts, pre-run validation, least-capability access, independent egress enforcement, credential restrictions, cross-run monitoring, automatic stop conditions, and evidence-based reauthorization. A leading-indicator model, nine design propositions, and seven falsifiable hypotheses turn these lessons into a testable research program. Because the public Gemini record is limited to attributed statements and journalism, its detailed causal mechanism remains provisional. The central conclusion is straightforward: proactive agent security requires continuous assurance across the full execution system, not confidence in any single sandbox or safeguard.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:49Z</published>
+    <arxiv:comment>Conceptual research paper; includes one framework figure. The manuscript proposes a model-agnostic Boundary Assurance Stack for proactive security and accountable human oversight of high-capability AI agents</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Abbas Raftari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12462v1</id>
+    <title>Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required</title>
+    <updated>2026-10-08T17:59:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.12462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with traditional variability models, where the X-ray irradiation emitted from the corona is the main driver of variability in UV-optical light curves. Conversely, the UV-optical light curves emitted from the thicker bottom of the disk are not strongly correlated with the X-ray light curve and have disk continuum reverberation mapping lags that are $3-5\times$ longer than the light travel time. While these features are inconsistent with traditional variability models, they are in good agreement with numerous recent observations. Our simulations allow us to interpret these recent observations with a new model for AGN disks, where the thicker disk leads to greater X-ray absorption, less X-ray reprocessing at larger disk radii, and a stronger signal from intrinsic variability driven by fluctuations in the AGN disk. In our simulations, we can measure the inflow timescale of these fluctuations as a long lag between light curves emitted from different disk radii. Understanding how disk structure impacts AGN variability and reverberation mapping can allow us to predict the thickness of AGN disks using UV-optical AGN light curves.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:49Z</published>
+    <arxiv:comment>submitted to ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Amy Secunda</name>
+    </author>
+    <author>
+      <name>Yan-Fei Jiang</name>
+    </author>
+    <author>
+      <name>Jenny E. Greene</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12464v1</id>
+    <title>What 30,000 Hours of Ego-centric Video Does Not Teach</title>
+    <updated>2026-10-08T17:59:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.12464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstream metrics, we directly evaluate agent and object-interaction fidelity on a challenging out-of-distribution benchmark. Increasing training data by 100x improves both, but unevenly: the agent is modeled well, while object fidelity remains far lower and improves slowly. We show that the agent gains need not come from data, and a careful visual conditioning design saturates fidelity with a fraction of it, which lets us measure object fidelity on its own and discover its saturation point. We then introduce a supervision scheme that shifts capacity from scene appearance toward object dynamics, improving object fidelity though a substantial gap remains. Finally, our conclusions transfer to downstream humanoid modeling. Overall, our results suggest that scaling ego-centric data brings agent modeling close to its limit while leaving its effects on the world far behind, and that closing this gap will depend on how models are trained, not only on how much data they see.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiahua Dong</name>
+    </author>
+    <author>
+      <name>Anurag Bagchi</name>
+    </author>
+    <author>
+      <name>Yash Jangir</name>
+    </author>
+    <author>
+      <name>Muhammad Zubair Irshad</name>
+    </author>
+    <author>
+      <name>Sergey Zakharov</name>
+    </author>
+    <author>
+      <name>Martial Hebert</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Yu-Xiong Wang</name>
+    </author>
+    <author>
+      <name>Vitor Campagnolo Guizilini</name>
+    </author>
+    <author>
+      <name>Pavel Tokmakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12461v1</id>
+    <title>OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs</title>
+    <updated>2026-10-08T17:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2610.12461v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12461v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inconsistency-Robust Periodic 4DGS: a Fourier-series deformation field guarantees looping by construction, while a Grounded Drift Field anchored at the reference view absorbs cross-view inconsistency. Unlike prior Eulerian methods limited to fluid-like motion, we capture general deformation, object motion, and illumination change. We introduce a ground-truth-free evaluation covering vividness, naturalness, loop seam coherence, and scene quality. On 39 reconstructed and generated scenes, OuroWorld outperforms all baselines and wins 70.8%-99.0% of user-study comparisons. Project page: https://ouroworld.userwei.com</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:46Z</published>
+    <arxiv:comment>Project page: https://ouroworld.userwei.com</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>You-Zhe Xie</name>
+    </author>
+    <author>
+      <name>Ting-Wei Chou</name>
+    </author>
+    <author>
+      <name>Yu-Hsuan Li</name>
+    </author>
+    <author>
+      <name>Kaipeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhixiang Wang</name>
+    </author>
+    <author>
+      <name>Yu-Lun Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12459v1</id>
+    <title>WorldGuide: Goal-Directed Video World Model for Procedural Task Execution</title>
+    <updated>2026-10-08T17:59:31Z</updated>
+    <link href="https://arxiv.org/abs/2610.12459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video generators and video-based world models can synthesize plausible visual trajectories, but long-horizon procedural tasks require generation to adapt to what has actually been produced. A model must determine the next action from its generated state, execute that action, and recognize when the task is complete. Open-loop generation cannot adapt to execution outcomes, while existing closed-loop systems often rely on pretrained executors or indirect verification. This leaves a gap between deciding an action and successfully realizing it. We formulate procedural video generation as \emph{closed-loop task execution in visual world space} and introduce \textbf{WorldGuide}. Given only an initial image and a task goal, WorldGuide predicts an atomic action, generates its corresponding video clip, and uses the generated result to select the next action or terminate. The Planner and Executor are trained on the same step-level procedural demonstrations: the Planner learns to predict the next atomic action or task completion from visual progress, while the Executor is directly trained to realize the predicted actions. Hierarchical visual memory maintains state across long-horizon execution with bounded history token cost. Due to the lack of step-level action-video supervision for joint planner-executor training, we introduce \textbf{WorldGuide Bench}: approximately 59K step-annotated videos across 245 tasks and 27 procedural categories. WorldGuide achieves a 33.33\% Task Success on \textbf{WorldGuide-Bench}, compared with 29.90\% for the strong recent video model MiniMax-H3, even though MiniMax-H3 receives reference action plans, and achieves 47.69\% on \textbf{VideoCraft-Bench} compared with 32.73\% for MiniMax-H3 under goal-only conditioning. These results demonstrate the importance of coupling planning with learned execution for goal-directed procedural video generation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:31Z</published>
+    <arxiv:comment>34 pages, 14 figures, 15 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ankan Deria</name>
+    </author>
+    <author>
+      <name>Komal Kumar</name>
+    </author>
+    <author>
+      <name>Hisham Cholakkal</name>
+    </author>
+    <author>
+      <name>Fahad Shahbaz Khan</name>
+    </author>
+    <author>
+      <name>Salman Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12457v1</id>
+    <title>SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation</title>
+    <updated>2026-10-08T17:59:20Z</updated>
+    <link href="https://arxiv.org/abs/2610.12457v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12457v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: https://emilia113.github.io/SpatialHarness/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:20Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiayu Wang</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+    <author>
+      <name>Zhiyao Yang</name>
+    </author>
+    <author>
+      <name>Jingjing Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12455v1</id>
+    <title>Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting</title>
+    <updated>2026-10-08T17:59:11Z</updated>
+    <link href="https://arxiv.org/abs/2610.12455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On a film set, the camera move is committed during a take. Generative video reshooting lets filmmakers change it afterward, but may require hallucinating unrecorded content, a gap sometimes discovered only after leaving the set. We present Hybrid Cinematography, a workflow that bridges physical capture and generative reshooting to manage hallucination risk while filmmakers can still act on it. Using an editable 3D shot plan and a proxy of the take, our previsualization evaluates hallucination risk in real time. Seeing where the take lacks support, filmmakers can iteratively adjust the plan, explore moves that balance capture and generation, shoot guided pickups, or knowingly accept hallucination. We demonstrate the workflow through a mobile augmented reality application for on-set planning, capture, and review, and an offline pipeline for existing video. A study with experienced filmmakers reveals how previsualizing risk informs camera decisions and exposes tensions between creative intent and generative hallucination.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:11Z</published>
+    <arxiv:comment>Project page: https://hybridcinematography.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name> Nhan</name>
+      <arxiv:affiliation>Nathan</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Tran</name>
+    </author>
+    <author>
+      <name>Neal Wadhwa</name>
+    </author>
+    <author>
+      <name>Abe Davis</name>
+    </author>
+    <author>
+      <name>Stefan Stojanov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12453v1</id>
+    <title>Mental-Models for Multi-Agent Systems</title>
+    <updated>2026-10-08T17:59:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.12453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial observability. Current agentic systems often operate through prompt design, memory, or end-to-end behavioral shaping, but typically do not learn an explicit partner-state representation that can be reused as a decision variable across tasks. We introduce \emph{mental-model-enabled agents}, a framework that equips an agent with a latent mental model of its counterpart, allowing it to infer hidden beliefs, intentions, and likely reactions from the observed history and use these inferences to guide action selection. Our method learns an amortized recursive Theory-of-Mind representation, with first- and second-order mental-state structure, jointly with a belief-conditioned reward model that evaluates candidate actions relative to the inferred partner state. A policy is then learned under this belief-aware signal, yielding an agent that can act independently at inference time while retaining the benefits of explicit partner modeling. We evaluate the same framework on both language-only and multimodal benchmarks. Across these settings, explicit mental-state modeling consistently improves interaction quality and Theory-of-Mind performance over base agentic systems, showing that structured partner modeling is a useful inductive bias for general multi-agent systems. Our code is publicly available at https://github.com/hananshafi/Mental-Models</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:59:01Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Hanan Gani</name>
+    </author>
+    <author>
+      <name>Lulu Shao</name>
+    </author>
+    <author>
+      <name>Manmohan Chandraker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12452v1</id>
+    <title>BrickBench: Evaluating Agentic Brick Design</title>
+    <updated>2026-10-08T17:58:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.12452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding agents to construct, inspect, and validate their designs. We find that leading agents largely satisfy verifiable physical and semantic requirements, but fall short of human designs. We release our benchmark and environment at http://www.brickben.ch</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:56Z</published>
+    <arxiv:comment>Project page: http://www.brickben.ch</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Peter Kulits</name>
+    </author>
+    <author>
+      <name>Yiqing Xu</name>
+    </author>
+    <author>
+      <name>R. Kenny Jones</name>
+    </author>
+    <author>
+      <name>Cordelia Schmid</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12449v1</id>
+    <title>Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems</title>
+    <updated>2026-10-08T17:58:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.12449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anna Zimmel</name>
+    </author>
+    <author>
+      <name>Fleur Hendriks</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Florian Sestak</name>
+    </author>
+    <author>
+      <name>Martin Weichselbaumer</name>
+    </author>
+    <author>
+      <name>Vlado Menkovski</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12447v1</id>
+    <title>Entanglement entropy and magic of ZX-diagrams</title>
+    <updated>2026-10-08T17:58:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entanglement and non-stabilizerness are complementary resources underlying the complexity of quantum states, yet extracting either quantity from large quantum circuits generally requires exponentially scaling resources. In diagrammatic approaches to quantum computation, such as the ZX-calculus, both quantities likewise typically require expensive tensor contractions that are not native to graphical rewriting. Here we show that both entanglement and magic can be efficiently estimated directly from ZX-diagrams. Flow enables efficient extraction of a normal form separating a potentially extensively entangled graph-state backbone from non-Clifford Pauli gadgets. This structure yields additive upper and lower bounds on bipartite entanglement entropy, which we further tighten through a preprocessing procedure that removes or merges redundant non-Clifford contributions. The same normal form gives an upper bound on logarithmic stabilizer extent. We benchmark these methods in random unitary and monitored circuits, and a circuit combining Trotterized Hamiltonian evolution with Clifford layers, finding that the resulting bounds remain informative even at large qubit numbers, circuit depths, and internal spider counts. Our results provide scalable probes of entanglement and non-stabilizerness of ZX-diagrams and establish a bridge between ZX-calculus and quantum many-body resource characterization, with applications across quantum computing, quantum information, and condensed-matter physics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:32Z</published>
+    <arxiv:comment>6+6 pages, 3+2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Marcin Szyniszewski</name>
+    </author>
+    <author>
+      <name>Razin A. Shaikh</name>
+    </author>
+    <author>
+      <name>Aleks Kissinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12445v1</id>
+    <title>Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception</title>
+    <updated>2026-10-08T17:58:13Z</updated>
+    <link href="https://arxiv.org/abs/2610.12445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show improved efficacy as the underlying model is scaled up. To push our probes to their limit, we test them on several cases where deception cannot be determined from the context alone. In these cases, which we refer to as introspective deception, the ground truth can only be determined through careful elicitation or thorough knowledge of a model's training data. In one such evaluation, we show that probes can distinguish transcripts containing a model's true hidden goal from other goals with an AUC of up to 99.7%. Our probes also readily detect deception on prominent open-weight models which lie about politically sensitive topics, and about their beliefs when put under pressure. We release our training dataset, dubbed FIBS, to help drive frontier deployment of effective probes, and encourage the community to expand upon it with further examples of deception and sabotage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:13Z</published>
+    <arxiv:comment>11 pages main text, 98 pages total; 18 figures, 18 tables. Code and data: https://github.com/AlignmentResearch/caught-in-the-act-probes</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oskar J. Hollinsworth</name>
+    </author>
+    <author>
+      <name>Alex F. Spies</name>
+    </author>
+    <author>
+      <name>Tigist Diriba</name>
+    </author>
+    <author>
+      <name>Adam Gleave</name>
+    </author>
+    <author>
+      <name>Chris Cundy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12442v1</id>
+    <title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</title>
+    <updated>2026-10-08T17:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2610.12442v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12442v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-free answer: a learned view synthesizer, an LVSM-style transformer fine-tuned to render the egocentric view directly without depth, point clouds, or reprojection, resolving cross-view correspondence internally. In contrast, its probabilistic mapping averages each region over candidate source locations according to a learned correspondence distribution, preserving structure while fine texture is averaged away. We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness. This distribution's concentration also yields a per-region confidence, used both to mask low-confidence regions and to guide the generator toward high-confidence areas during early layout-forming denoising steps. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Suhwan Cho</name>
+    </author>
+    <author>
+      <name>Yonwoo Choi</name>
+    </author>
+    <author>
+      <name>Soongjin Kim</name>
+    </author>
+    <author>
+      <name>Jicheol Park</name>
+    </author>
+    <author>
+      <name>Taegyu Lim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12440v1</id>
+    <title>Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation</title>
+    <updated>2026-10-08T17:57:58Z</updated>
+    <link href="https://arxiv.org/abs/2610.12440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human demonstrations are a scalable data source for learning dexterous manipulation, but the embodiment gap prevents human motion from being executed directly on robots. Inverse kinematics (IK) retargets human motion to robots efficiently but ignores dynamics, often producing infeasible motions. Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters. RL suffers from costly and unstable training and tedious reward engineering; MPC avoids policy optimization, yet retargets each trajectory in isolation, and solving one does not make the next easier. Sampling cost grows rapidly with dataset size and task difficulty. We hypothesize that dynamically feasible trajectories concentrate near a low-dimensional manifold shared across demonstrations, so that retargeting can be reduced to sampling from that manifold, conditioned on human motion, rather than solving a fresh optimization problem for every demonstration. We propose \textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories. GNR outperforms MPC with only $8.5\%$ of the samples required by MPC, achieving a success rate of $56.20\%$ compared to $27.20\%$ for MPC. GNR can be used for scalable and efficient retargeting of large-scale, long-horizon, and millimeter precision human demonstrations: by applying GNR within a real-to-sim data engine, we produce a dexterous manipulation dataset with dense contact-force labels, spanning $223$k demonstrations and $3.3$k object geometries.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:57:58Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Dechen Gao</name>
+    </author>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Ben Abbatematteo</name>
+    </author>
+    <author>
+      <name>Nathan Godwin</name>
+    </author>
+    <author>
+      <name>Pengcheng Wang</name>
+    </author>
+    <author>
+      <name>Roger Boldu</name>
+    </author>
+    <author>
+      <name>Steven Man</name>
+    </author>
+    <author>
+      <name>Zhiyang Dou</name>
+    </author>
+    <author>
+      <name>Chuan Qin</name>
+    </author>
+    <author>
+      <name>Sho Nakagome</name>
+    </author>
+    <author>
+      <name>Eric Whitmire</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12437v1</id>
+    <title>Density Ratio Estimation with Stein Displacement Fields</title>
+    <updated>2026-10-08T17:57:33Z</updated>
+    <link href="https://arxiv.org/abs/2610.12437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Density ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another. Although both offer complementary insights, they are usually estimated separately, and converting one into the other requires post-processing. In this paper, we estimate the density ratio between a target and a base distribution by parametrizing it through a displacement field acting on the base: the log-ratio is modeled as minus the Stein operator of the base applied to the field, up to a normalizing constant. This gives both statistical and dynamical descriptions of the distribution shift through a single convex optimization problem. Iterating this estimate-and-move step gives two inference algorithms: push-forward moves the model and corrects a pretrained sampler without retraining it, whereas pull-back moves the data closer to the base and fits a transformation model one layer at a time. Applications to distribution shift in simulation-based inference and to nonlinear independent component analysis illustrate the benefits and limitations of the approach.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:57:33Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Song Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12429v1</id>
+    <title>Listening to the Horizon: Probing Near-Horizon Reflectivity with GW250114</title>
+    <updated>2026-10-08T17:56:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.12429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Testing the horizon properties of astrophysical black holes is a central goal of gravitational-wave astronomy. The recently identified Direct Wave (DW), a prompt non-quasinormal component of GW250114, provides a new probe of near-horizon physics. While it remains unclear whether the DW itself carries horizon information, we show that it enables a novel null test of horizon reflectivity. If the remnant is an exotic compact object (ECO) with a partially reflecting surface, inward plunge radiation is reflected and leaks back through the gravitational potential barrier, producing a delayed DW echo whose amplitude is set by the surface reflectivity ($|\mathcal{R}_s|$). We construct the corresponding echo template, normalized by the observed DW, and search for it in quasinormal-mode-filtered data. We find no evidence for an echo ($\ln\mathcal{B}=-2.9$) and obtain the 90\% credible bound $|\mathcal{R}_s|&lt;0.06$, corresponding to a reflected energy fraction below $0.4\%$, for surfaces from $0.1\, M_f$ to a Planck length from the would-be horizon. Our method thus turns the prompt ringdown signal into a direct test of horizon reflectivity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:56:25Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>R. Prasad</name>
+    </author>
+    <author>
+      <name>Subhodeep Sarkar</name>
+    </author>
+    <author>
+      <name>Sudipta Sarkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12428v1</id>
+    <title>Toward Joint Optimization of Circuit Depth and Training Data Size in Adaptively Grown Quantum Classifiers</title>
+    <updated>2026-10-08T17:55:57Z</updated>
+    <link href="https://arxiv.org/abs/2610.12428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building a quantum model involves a tradeoff: how complex the circuit should be, and how much training data it needs. Caro et al. show that models with fewer trainable gates need less training data to generalize well. Q-FLAIR shows that a quantum feature-map circuit can be grown gate-by-gate, stopping once further growth stops improving the training loss. We ask whether these two results combine into a predictable scaling law. Does Q-FLAIR's own stopping rule pick larger or smaller circuits as training data grows? Does the resulting generalization behavior track Caro et al.'s bound?
+  We reimplement Q-FLAIR's growth mechanism faithfully, including its analytic reconstruction and exact stopping rule. We run it on full-resolution (784-pixel) MNIST 3-vs-5 classification, at five training-set sizes from N = 2000 to 10000. We then fine-tune each resulting circuit, so we can measure Caro et al.'s notion of active gates, K.
+  We find no predictable relationship between training-set size and the circuit size Q-FLAIR converges to. Circuit size and test accuracy both vary non-monotonically with N, and seed-to-seed variance is nearly as large as any trend across N. The empirical generalization gap never exceeds Caro et al.'s bound in 14 of 15 runs, so the bound holds as a valid guarantee in those runs. But the gap correlates only weakly with the bound's value (r = 0.12). This shows that K does not explain most of the variation we observe. Why a valid guarantee can coexist with such weak predictive power remains an open question, and answering it may be necessary before circuit depth and training data size can be jointly optimized in practice.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:55:57Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>NeurIPS 2026 Workshop SaTQuML: Secure and Trustworthy Quantum Machine Learning, NeurIPS 2026 Workshop</arxiv:journal_ref>
+    <author>
+      <name>Saeefa Rubaiyet Nowmi</name>
+    </author>
+    <author>
+      <name>Md Mahmuduzzaman Kamol</name>
+    </author>
+    <author>
+      <name>Mohammad Saidur Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12423v1</id>
+    <title>Pumpire: Unified Benchmark for Metric Distance Estimation</title>
+    <updated>2026-10-08T17:55:11Z</updated>
+    <link href="https://arxiv.org/abs/2610.12423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approaches that normally evaluate depth and camera intrinsics separately or evaluate point-clouds with geometric similarity metrics, which cannot directly reflect models' point-to-point distance estimation capability, Pumpire directly assesses point-to-point distances from the reconstructed geometry. To this end, we collect a large-scale and diverse dataset (pumpire-6k) comprising 100 real-world scenes, each annotated with physically measured point-pair distances and containing 64 frames, for a total of 6,400 frames. Building on this dataset, we establish a holistic evaluation protocol that covers both image- and video-level 3D foundation models and enables direct assessment of point-pair distance errors and cross-setting comparison. We conduct extensive experiments across 29 baseline configurations of representative 3D foundation models and provide a comprehensive analysis of the results. By offering this benchmark, we target the more fundamental ability to perceive and estimate physical scale in the reconstructed 3D space, which prior evaluation protocols have largely overlooked. The project page can be found at https://pumpire.github.io/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:55:11Z</published>
+    <arxiv:comment>Project page: https://pumpire.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Siyu Chen</name>
+    </author>
+    <author>
+      <name>Zehan Wang</name>
+    </author>
+    <author>
+      <name>Jiayang Xu</name>
+    </author>
+    <author>
+      <name>Yihan Wu</name>
+    </author>
+    <author>
+      <name>Jialei Wang</name>
+    </author>
+    <author>
+      <name>Junming Chen</name>
+    </author>
+    <author>
+      <name>Ziang Zhang</name>
+    </author>
+    <author>
+      <name>Yutong Ying</name>
+    </author>
+    <author>
+      <name>Zhou Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12421v1</id>
+    <title>Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching</title>
+    <updated>2026-10-08T17:53:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.12421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence across such transformations, we introduce FreeMatching, a generalizable framework combining generative and semantic foundation representations with heterogeneous supervision from classical datasets, tracked videos, and synthetic scenes. Teacher-guided iterative refinement further improves correspondence in IEG without dense correspondence annotations. Experimentally, a single FreeMatching model substantially improves correspondence quality on challenging IEG image pairs while retaining competitive performance on classical benchmarks. Furthermore, we demonstrate its utility as a quantitative metric for evaluating identity preservation, with scores that correlate with human judgment. The code is available at https://github.com/luping-liu/FreeMatching.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:53:04Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026. 24 pages, 7 figures, including appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Luping Liu</name>
+    </author>
+    <author>
+      <name>Bingyi Kang</name>
+    </author>
+    <author>
+      <name>Yifan Wang</name>
+    </author>
+    <author>
+      <name>Dong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12419v1</id>
+    <title>OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video</title>
+    <updated>2026-10-08T17:52:46Z</updated>
+    <link href="https://arxiv.org/abs/2610.12419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grounded Evidence Graph (VGEG), which encodes these dependencies as a shared task-level reference for data construction, process supervision, and operation-level evaluation. Our VGEG-based data engine constructs and verifies multi-image and video questions and filters expert trajectories. Using these data, we assemble OneSearch-VL-SFT-110K and OneSearch-VL-RL-10K for SFT and RL, respectively. We further derive the Evidence-aware Visual-Grounded Rubric reward (EVGR) from VGEG annotations to supervise evidence traceability and visual grounding during RL. For fine-grained evaluation, we construct OneSearch-MI-Bench and OneSearch-Video-Bench, organizing questions by the research operations encoded in their VGEGs. Experiments show that OneSearch-VL-8B improves over Qwen3-VL-8B with tool access by 20.2 and 17.6 percentage points on the two new benchmarks, respectively, while also achieving substantial gains across 7 image benchmarks and VideoDR. Project repository: https://github.com/appletea233/OneSearch-VL</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:52:46Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hongyu Li</name>
+    </author>
+    <author>
+      <name>Manyuan Zhang</name>
+    </author>
+    <author>
+      <name>Kaituo Feng</name>
+    </author>
+    <author>
+      <name>Shu Chen</name>
+    </author>
+    <author>
+      <name>Dian Zheng</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Hao Yu</name>
+    </author>
+    <author>
+      <name>Zhangquan Chen</name>
+    </author>
+    <author>
+      <name>Zoey Guo</name>
+    </author>
+    <author>
+      <name>Ray Zhang</name>
+    </author>
+    <author>
+      <name>Shaofei Huang</name>
+    </author>
+    <author>
+      <name>Tianrui Hui</name>
+    </author>
+    <author>
+      <name>Linjiang Huang</name>
+    </author>
+    <author>
+      <name>Si Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12417v1</id>
+    <title>WOVEN: Weaving Visual World Modeling into Multimodal LLMs</title>
+    <updated>2026-10-08T17:52:03Z</updated>
+    <link href="https://arxiv.org/abs/2610.12417v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12417v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do not support controlled comparisons across scenes, actions, and reasoning operations. We therefore introduce WOVEN, a training source and benchmark for visual transition reasoning that organizes transition supervision by scene, action, and reasoning type, using diverse, realistic rollouts from video-pretrained generative models: 36,076 examples across 20 scene types, 5 action types, and 8 reasoning types. We first evaluate 38 frontier MLLMs (e.g., GPT-5.4 and Qwen3-VL-235B-A22B) and find a substantial and systematic deficit: even the strongest models fall far below humans, and the failures recur across model families and persist with scale. We then train MLLMs at multiple scales on WOVEN and find that they learn a shared capability that transfers broadly: training subsets of only about 2,000 items each collectively improve 22 of 26 external benchmarks by up to 27.3 percentage points, and WOVEN data can replace 30-50% of a task's own training data with comparable accuracy. Controlled comparisons further yield a training recipe for visual world modeling, validated prospectively on held-out benchmarks: select supervision by the reasoning operation it teaches rather than by the actions, scenes, or domains it shows, and prefer larger changes to the visual state for robustness. Our work establishes visual transition reasoning as a reusable foundation for systematic visual world-model training in MLLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:52:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zheyu Fan</name>
+    </author>
+    <author>
+      <name>Yue Zhang</name>
+    </author>
+    <author>
+      <name>Mingkai Deng</name>
+    </author>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Qineng Wang</name>
+    </author>
+    <author>
+      <name>Canyu Chen</name>
+    </author>
+    <author>
+      <name>Jie Hao</name>
+    </author>
+    <author>
+      <name>Xing Fan</name>
+    </author>
+    <author>
+      <name>Chenlei Guo</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12416v1</id>
+    <title>MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances</title>
+    <updated>2026-10-08T17:52:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.12416v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12416v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion. However, supervision for these capabilities is rarely available jointly at scale. Human-scene datasets provide rich information about environment-aware motion, while human-object datasets capture detailed interaction dynamics, yet paired human-object-scene data remain scarce. We present MAMHOI, an affordance-mediated factorization for scene-aware human-object interaction generation. MAMHOI factorizes scene-aware HOI generation through an explicit motion-affordance interface between scene understanding and motion synthesis: a scene-conditioned model first predicts where and how an interaction can be feasibly executed, and an affordance-conditioned HOI model then generates the corresponding human-object motion. This factorization allows scene understanding and interaction dynamics to be learned from complementary sources of supervision without requiring paired human-object-scene data. Experiments in complex indoor environments show that MAMHOI reduces object--scene penetration while better preserving human--object interaction quality, yielding more realistic and physically feasible scene-aware interactions. Project page: https://leimingyuan.github.io/MAMHOI-project-page/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:52:02Z</published>
+    <arxiv:comment>Project page: https://leimingyuan.github.io/MAMHOI-project-page/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mingyuan Lei</name>
+    </author>
+    <author>
+      <name>Yoonchang Sung</name>
+    </author>
+    <author>
+      <name>Tat-Jen Cham</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12414v1</id>
+    <title>Energy-energy correlators in the large-charge limit of $\mathcal{N}=4$ super Yang-Mills theory</title>
+    <updated>2026-10-08T17:51:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.12414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the energy-energy correlator (EEC) in heavy states of four-dimensional $\mathcal N=4$ super Yang--Mills theory in the large-charge 't Hooft limit, in which the dimension $Δ$ of the heavy operator (or, equivalently, its $R$-charge) is taken to infinity with the effective coupling $λ_Q \propto g_{\mathrm{YM}}^2Δ$ held fixed. The relevant heavy-heavy-light-light four-point correlators are known to all orders in $λ_Q$ in this limit. For certain classes of operators, the perturbative series can be resummed to obtain exact finite-coupling expressions. We use these results to determine the corresponding EEC, whose dynamical part can be extracted from a double discontinuity of the four-point correlator. We determine the EEC at finite effective coupling and study its physical behavior as a function of $λ_Q$ and the angular separation between the detectors, both at generic angles and in the collinear and back-to-back limits.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:51:04Z</published>
+    <arxiv:comment>27 pages + appendices; 8 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Alessandro Georgoudis</name>
+    </author>
+    <author>
+      <name>Max Jackson</name>
+    </author>
+    <author>
+      <name>Congkao Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12410v1</id>
+    <title>Predicting Alignment Generalization with Value Representations</title>
+    <updated>2026-10-08T17:47:26Z</updated>
+    <link href="https://arxiv.org/abs/2610.12410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a model to follow a given value changes its behavior across a wide range of held-out values. We conduct a large-scale analysis of alignment generalization effects across 66 values found in modern alignment targets, and benchmark representational techniques on the alignment generalization prediction task. We find that representations based on model activations when applying values in context significantly outperform methods based on textual descriptions of the values. Specifically, the best activations-based methods achieve correlations of 0.45 with our generalization matrix, compared with 0.05 from description-based baselines. We then show the applicability of representations that predict alignment generalization toward downstream tasks by using them to measure how similar the values in a multi-value alignment target are, which we find is significantly correlated with model robustness. Finally, we show initial evidence towards a shared, model-independent value space, which we use to develop the first taxonomy of LLM values grounded in empirical generalization dynamics. Our work demonstrates the importance of studying value generalization in LLMs and its application toward the more empirical design and training of model behavior.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:47:26Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Andy Liu</name>
+    </author>
+    <author>
+      <name>Mehar Bhatia</name>
+    </author>
+    <author>
+      <name>Karolina Stanczak</name>
+    </author>
+    <author>
+      <name>Mona Diab</name>
+    </author>
+    <author>
+      <name>Vered Shwartz</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12408v1</id>
+    <title>A compact, interrogable Tree Tensor Network Jet Tagger on Lund declustering trees</title>
+    <updated>2026-10-08T17:46:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.12408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Jet taggers built on the Lund declustering tree encode QCD radiation structure in the inputs and process it with graph networks. We ask whether the tree itself can also constrain the computation, and what becomes accessible when it does. For this, we construct a novel quantum-inspired Tree Tensor Network (TTN), where a single tensor core is shared among the internal nodes of the Cambridge/Aachen declustering tree, employing Lund coordinates, and with no particle-identification or detector-level information. The construction is based on a strong prior on the radiation history rather than on the constituents, complementary to compact equivariant taggers. Because the same learned map acts identically at every node, the trained model can be evaluated on truncated trees and its latent space compared across recursions, and used to localise where on the Lund jet plane the Pythia and Herwig jet representations diverge, showing the regions of generator-dependent concentration. The $χ=8$ model has 4014 trainable parameters against approximately 391,000 for LundNet. We evaluate boosted top tagging and quark/gluon discrimination at particle level on Pythia and Herwig samples, in both native (Pythia$\to$Pythia) and transfer (Pythia$\to$Herwig) configurations. Despite differing in capacity by two orders of magnitude, the TTN reaches native performance close to LundNet in quark/gluon discrimination, slightly underperforming in top tagging, with a similar Pythia-to-Herwig transfer behavior in both tasks. Finally, we show the behavior of the network as a function of the bond dimension, and as a function of the perturbative scale.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:46:36Z</published>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Fabrizio Napolitano</name>
+    </author>
+    <author>
+      <name>Luca Della Penna</name>
+    </author>
+    <author>
+      <name>Tommaso Tedeschi</name>
+    </author>
+    <author>
+      <name>Livio Fanò</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12405v1</id>
+    <title>OctoSense: Building a Unified Ecosystem for Open-Source Wireless Sensing</title>
+    <updated>2026-10-08T17:45:43Z</updated>
+    <link href="https://arxiv.org/abs/2610.12405v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12405v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI enters the physical world, wireless sensing has emerged as a key modality for enabling non-intrusive physical intelligence. However, unlike the mature ecosystems of vision and language models, wireless sensing research remains highly fragmented. The field faces a growing "reproducibility wall" caused by heterogeneous data formats, non-interoperable processing pipelines, and the lack of standardized benchmarks. To dismantle this barrier, we present OctoSense, a unified platform designed to propel wireless sensing toward an "ImageNet-style" research ecosystem. OctoSense introduces a holistic framework that decouples high-level model logic from ad-hoc data nuances through three distinct components: a unified data abstraction for streamlined dataset access, standardized signal operators for efficient model development, and a rigorous benchmark engine for rapid and fair comparison. To support existing datasets and models, OctoSense integrates a comprehensive suite of widely used datasets and models, reducing the effort required for data and model adaptation to a few lines of declarative code. We demonstrate the efficacy of OctoSense through a set of usage examples that reproduce representative models on popular datasets. By providing a foundational open-source infrastructure, OctoSense enables community efforts to accumulate rather than fragment, paving the way for wireless sensing research that is interoperable, reusable, and reproducible by design.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:45:43Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Weiying Hou</name>
+    </author>
+    <author>
+      <name>Xie Zhang</name>
+    </author>
+    <author>
+      <name>Chenshu Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12404v1</id>
+    <title>A Physics-Informed Collision Learning Framework for Collaborative Robot Motion Generation</title>
+    <updated>2026-10-08T17:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.12404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Close-proximity multi-arm manipulation requires collision models that are both geometrically accurate and differentiable enough for real-time optimization. Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion. We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots. PI-UDF combines analytical forward kinematics with learnable link-geometry embeddings and a shared residual network to predict pairwise inter-arm distances directly from robot configurations. To improve safety-critical fidelity, we combine quota-driven boundary mining with an asymmetric boundary-crossing penalty that emphasizes false-safe sign errors near the collision boundary. The learned distance field is integrated into nonlinear MPC as a differentiable inter-arm clearance term. We validate the framework on a real dual-Franka platform through high-speed close-proximity 14-DoF dual-arm swapping, sustained single-arm dynamic evasion, and dynamic-evasion planning configurations with frozen, predicted, and target-switching treatments of the moving arm. Hardware experiments and offline Drake/FCL replay show that PI-UDF provides a differentiable inter-arm clearance estimate suitable for closed-loop collision-aware collaborative robot motion generation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:45:04Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chen Cai</name>
+    </author>
+    <author>
+      <name>Steven Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12400v1</id>
+    <title>Measure Now, Mitigate Later: Virtual Error Cancellation for Logical Quantum Circuits</title>
+    <updated>2026-10-08T17:43:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.12400v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12400v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Early fault-tolerant quantum algorithms are a key step in scalable quantum computing, but are ultimately constrained by residual, uncorrectable logical errors. Logical quantum error mitigation can eliminate this bias, however its standard requirements include prior noise characterization, more complex experiments, and substantial sampling overhead. Although no mitigation technique can simultaneously overcome all three constraints, we demonstrate that the first two---noise learning and need for modified circuits---can be completely bypassed for logical circuits by leveraging only syndrome records. Specifically, we introduce virtual error cancellation: a method that, unlike previous bias-free approaches, operates entirely in classical post-processing on universal quantum circuits. We develop and numerically test end-to-end protocols that reduce the sampling overhead beyond fundamental limitations of existing syndrome-aware mitigation techniques, including syndrome-based postselection. In particular, we propose a scheme that pairs the low-latency decoder used in the experiment with a high-complexity decoder run in post-processing. In numerical simulations of a distance-7 rotated surface code, we show that our full-stack dual-decoder algorithm exhibits an error that diminishes as the number of samples increases, capable of reaching more than three orders of magnitude of suppression compared to the decoded logical error rate in an experimentally achievable setting. These results establish syndrome records as a resource for correcting universal computational estimates after quantum execution.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:43:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Oles Shtanko</name>
+    </author>
+    <author>
+      <name>Saswata Roy</name>
+    </author>
+    <author>
+      <name>Shashwat Kumar</name>
+    </author>
+    <author>
+      <name>Zlatko Minev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12398v1</id>
+    <title>ACORN I. Massive Black Hole Seeding and Tidal Disruption Events from Star Clusters in Cosmological Simulations</title>
+    <updated>2026-10-08T17:41:37Z</updated>
+    <link href="https://arxiv.org/abs/2610.12398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>JWST has revealed massive star clusters at $z\gtrsim 6$, which provide promising environments for massive black hole (MBH) seed formation. We introduce a new MBH seeding model for cosmological simulations, physically motivated by the runaway collisions in star clusters. Subgrid star clusters are generated according to the local ISM and evolved through stellar evolution and two-body relaxation. The masses of MBH seeds formed through runaway collisions are determined by the properties of their host clusters, including the effects of metallicity-dependent stellar winds. We further follow tidal disruption events (TDEs) with the evolving clusters, which can be enhanced in MBH binaries, and account for gravitational-wave (GW) recoil following MBH mergers. We implement this model in a constrained simulation of a 5$σ$ overdense region, where seeds of $10^{3}-10^{5.6}\,M_\odot$ form in clusters with $10^{4}\leq m_{\rm SC}\leq 10^{8}\,M_\odot$. Because both the seed abundance and mass are directly connected to the local environment, we have a more physical $M_{\rm BH}\!-\!M_{\rm galaxy}$ scaling for low-mass galaxies ($M_{\rm galaxy}\sim10^{6-9}\,M_\odot$), a regime poorly described by previous seeding models. Multiple MBHs are naturally allowed to form in-situ within individual halos, producing a spatially clustered population. This increases the MBH merger rate by $\sim100$ relative to other seeding models, significantly enhancing the expected LISA event rate. TDEs can dominate the growth of $10^{3-4}\,M_\odot$ MBHs and produce luminous flares of $L_{\rm peak}\sim 10^{42-43}\,{\rm erg\,s^{-1}}$, increasing the observability of low-mass seeds. This seeding prescription accelerates early MBH growth at $z\gtrsim 8$, while subsequent self-regulated gas accretion drives the central MBH toward similar masses $\sim10^{8.6}\, M_\odot$ by $z=6$ across different seeding models.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:41:37Z</published>
+    <arxiv:comment>32 pages, 24 figures. Comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Yihao Zhou</name>
+    </author>
+    <author>
+      <name>Tiziana Di Matteo</name>
+    </author>
+    <author>
+      <name>Claire E. Williams</name>
+    </author>
+    <author>
+      <name>Aklant Kumar Bhowmick</name>
+    </author>
+    <author>
+      <name>Marta Reina-Campos</name>
+    </author>
+    <author>
+      <name>Carl L. Rodriguez</name>
+    </author>
+    <author>
+      <name>Elena González Prieto</name>
+    </author>
+    <author>
+      <name>Laura Blecha</name>
+    </author>
+    <author>
+      <name>Rupert Croft</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12395v1</id>
+    <title>A neural characteristic mapping method: Lagrangian PINNs based on flow maps for transport-dominated problems</title>
+    <updated>2026-10-08T17:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.12395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel numerical method for transport-dominated problems using Physics-Informed Neural Networks (PINNs). In such problems, the solution can develop large gradients and fine structures over time. This is particularly challenging for classical PINNs, which represent the solution itself. In our approach, rather than the solution, we choose to approximate the flow map of the equation. The solution is then recovered by pulling back the exact initial condition, so that its fine structures are produced by the map rather than represented by the network. Our method is constructed by approximating the flow map of the equation with multiple PINNs, one per time subinterval, and composing them using the semigroup property of the flow, so that each network only has to represent a map close to the identity. To highlight the advantages of our method compared to classical PINNs or classical numerical schemes, we present numerical results on the linear advection equation, the incompressible Euler equation in vorticity formulation, the Vlasov-Poisson equation, and finally a drift-kinetic equation.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:40:05Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Martin Campos Pinto</name>
+    </author>
+    <author>
+      <name>Victor Fournet</name>
+    </author>
+    <author>
+      <name>Emmanuel Franck</name>
+    </author>
+    <author>
+      <name>Philipp Krah</name>
+    </author>
+    <author>
+      <name>Victor Michel-Dansac</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12393v1</id>
+    <title>HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling</title>
+    <updated>2026-10-08T17:39:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.12393v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12393v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the information capacity for such synergistic signals in multimodal representations. The key observation is that synergistic information is reflected in higher-order statistical dependence among modalities, which provides a principled target for explicitly modeling joint interactions. Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent multi-way interactions. HRIL employs Tucker decomposition to obtain a core tensor, complemented by a synergy-aware regularizer that prevents energy concentration and preserves higher-order coupling capacity for synergistic information capture. Experiments on the controlled synergy task and real-world benchmarks demonstrate consistent improvements over existing multimodal contrastive methods, with notable gains on tasks dominated by synergistic interactions. Code is released at https://github.com/brightest66/HRIL.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:39:45Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qun Dai</name>
+    </author>
+    <author>
+      <name>Liangjian Wen</name>
+    </author>
+    <author>
+      <name>Jiang Duan</name>
+    </author>
+    <author>
+      <name>Yong Dai</name>
+    </author>
+    <author>
+      <name>Dongkai Wang</name>
+    </author>
+    <author>
+      <name>Maolin Wang</name>
+    </author>
+    <author>
+      <name>Mingjie Wang</name>
+    </author>
+    <author>
+      <name>Jianzhuang Liu</name>
+    </author>
+    <author>
+      <name>He Yan</name>
+    </author>
+    <author>
+      <name>Zhao Kang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12391v1</id>
+    <title>GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving</title>
+    <updated>2026-10-08T17:39:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.12391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explicit textual representations for the model to reason over. However, effective formalization is highly non-trivial: on Geometry3K, structure injection fixes 28 errors but introduces 13 new ones among 200 examples. Redundant relations can distract the model, while ambiguous references to diagram elements can lead it to apply constraints incorrectly. This suggests that the key challenge is not merely extracting more geometric facts, but organizing them into representations that support downstream reasoning. To fully exploit the power of formalization, we further propose GeoReform, a reflective formalization evolution framework that treats formalization as an optimizable policy rather than a fixed parser output. GeoReform executes the full reasoning pipeline, collects failed rollouts, diagnoses defects in the current representation, and mutates the policy to better select, ground, group, and present geometric entities, relations, constraints, and targets. On Geometry3K, GeoReform improves Qwen3VL-2B accuracy from 42.0\% to 56.0\%. Extensive experiments and analyses across geometry reasoning benchmarks demonstrate that effective formalization is crucial for improving multimodal geometry reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:39:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jialu Wang</name>
+    </author>
+    <author>
+      <name>Ruichen Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoou Liu</name>
+    </author>
+    <author>
+      <name>Hua Wei</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12388v1</id>
+    <title>GenIA: Generative Reconstruction with Test-Time Input Alignment</title>
+    <updated>2026-10-08T17:38:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.12388v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12388v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconstructing complete 3D object assets from monocular or sparse multi-view observations remains challenging. Generative 3D foundation models can complete object geometry beyond the observed views, but their predictions may not faithfully reproduce the observed geometry, appearance, or pose. We introduce GenIA, a framework for test-time input-aligned generation that grounds SAM3D's generative prior in geometric and photometric observations without retraining the foundation model. We improve object pose by deriving translation and scale from geometry while retaining the learned rotation prior, and align appearance through visibility-biased attention, cross-observation fusion, and differentiable rendering guidance during denoising. An optional post-denoising refinement further adapts the appearance latent, lightweight decoder adapters, and object placement to the observations. Our framework also supports externally supplied geometry; when given temporal shapes of dynamic objects, it recovers a shared, input-aligned canonical appearance and stable world-space placement. Across synthetic and real benchmarks, GenIA improves pose prediction and object reconstruction from monocular, multi-view, and dynamic inputs, outperforming recent optimization-based, per-frame image-to-3D, and video-to-4D methods. Our project page is available at https://facebookresearch.github.io/GenIA.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:38:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Stefano Esposito</name>
+    </author>
+    <author>
+      <name>Naama Pearl</name>
+    </author>
+    <author>
+      <name>Polina Karpikova</name>
+    </author>
+    <author>
+      <name>Samuel Rota Bulò</name>
+    </author>
+    <author>
+      <name>Lorenzo Porzi</name>
+    </author>
+    <author>
+      <name>Peter Kontschieder</name>
+    </author>
+    <author>
+      <name>Andreas Geiger</name>
+    </author>
+    <author>
+      <name>Jonathon Luiten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12386v1</id>
+    <title>ARC: A Reasoning Recipe for Robot Foundation Models</title>
+    <updated>2026-10-08T17:38:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.12386v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12386v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapting pretrained RFMs to use these traces for control. First, we find that effective reasoning traces should be grounded in the robot's next action and explain its causal structure: why the action is appropriate and what effect it should produce. Second, we show that these traces can be generated automatically from existing demonstrations, enabling us to construct ARC-Trace-DROID from DROID without collecting new robot data. Third, we show how state-of-the-art VLAs such as $π_{0.5}$ and WAMs such as Cosmos3-Nano-Policy can learn to use these traces for control, with fine-tuning and inference tailored to each model's architecture and capabilities. Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training. The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50. On real robots, ARC improves $π_{0.5}$'s task success by 82.2 percentage points. Project website: https://arc-robot-reasoning.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:38:04Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Gokul Puthumanaillam</name>
+    </author>
+    <author>
+      <name>Tao Sun</name>
+    </author>
+    <author>
+      <name>Elie Aljalbout</name>
+    </author>
+    <author>
+      <name>Moritz Reuss</name>
+    </author>
+    <author>
+      <name>Zhaoshuo Li</name>
+    </author>
+    <author>
+      <name>Fabio Ramos</name>
+    </author>
+    <author>
+      <name>Ankit Goyal</name>
+    </author>
+    <author>
+      <name>Jenai Xuning Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12382v1</id>
+    <title>WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation</title>
+    <updated>2026-10-08T17:35:19Z</updated>
+    <link href="https://arxiv.org/abs/2610.12382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Faithful visual world simulation requires generated videos to maintain 4D world consistency, encompassing both static and dynamic consistency. Static consistency requires coherent 3D structure in static environments across viewpoints, while dynamic consistency requires plausible subject motion and consistent appearance over time. Geometry-aware post-training offers a promising way to improve world consistency. However, existing methods often rely on a static-scene assumption. Even those that accommodate dynamic scenes struggle to provide reliable static-consistency feedback, while dynamic consistency is often overlooked or inadequately assessed. To address these limitations, we introduce WorldAlign, a decoupled 4D reward framework that semantically separates static regions and dynamic subjects and provides feedback by aligning each with a world prior suited to its assumptions. For static regions, WorldAlign aligns static geometry with a geometric world prior through semantically guided masked reprojection, enabling more reliable static-consistency evaluation; an auxiliary camera-motion reward discourages nearly static solutions. For dynamic subjects, WorldAlign uses a strong vision-language model (VLM) as a dynamic world prior and constructs a VLM-as-a-judge reward based on sample-specific checklists that assess dynamicity, physical plausibility, shape, and texture consistency. This decoupled design enables more effective online post-training without requiring human preference annotations. Across two pretrained image-to-video generators, Wan2.1 and Wan2.2, WorldAlign jointly improves static and dynamic consistency over existing methods without suppressing overall or subject motion. These results support decoupled world-prior alignment for more faithful visual world simulation. Project page: https://worldalign.github.io/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:35:19Z</published>
+    <arxiv:comment>Includes an appendix with implementation details, human evaluation, and additional ablation analysis. Project page: https://worldalign.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jing He</name>
+    </author>
+    <author>
+      <name>Kaixin Ding</name>
+    </author>
+    <author>
+      <name>Xingye Tian</name>
+    </author>
+    <author>
+      <name>Guibao Shen</name>
+    </author>
+    <author>
+      <name>Wenhang Ge</name>
+    </author>
+    <author>
+      <name>Xin Tao</name>
+    </author>
+    <author>
+      <name>Pengfei Wan</name>
+    </author>
+    <author>
+      <name>Ying-Cong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12379v1</id>
+    <title>Marformer: A Transformer for Predicting Missing Data Distributions</title>
+    <updated>2026-10-08T17:33:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.12379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real decisions are made under incomplete information. If we observe only some of the random variables we need, we can predict the others. The \textbf{conditional marginals} over the missing variables are the key ingredient for computing Bayes risk and Value of Information (VOI), the expected gain from acquiring one more observation before deciding. We present the Marformer, a Transformer trained to directly predict conditional marginals given any set of observed values. Like BERT, which is trained to predict missing words from context, the Marformer constructs a hidden-vector representation for each distribution $p(X_i)$ and iteratively refines it through attention to other distributions $p(X_j)$. Unlike generative approaches, the Marformer does not model the full joint distribution, requires no domain knowledge of the data-generating process, and makes all predictions in a single forward pass. We evaluate across three synthetic domains with missing data---Bayesian networks, discretized multivariate Gaussians, and structured annotation data. The Marformer can match or outperform classical missing-data methods, even when those methods are given the true model family and prior that generated the synthetic data. We also evaluate on a real annotation dataset, where the Marformer outperforms the evaluated baselines at the largest training size. In both cases, the Marformer is substantially faster than the evaluated generative baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:33:16Z</published>
+    <arxiv:comment>45 pages, 19 figures; presented in part in a COLM 2026 keynote</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Prabhav Singh</name>
+    </author>
+    <author>
+      <name>Xiheng Tom Wang</name>
+    </author>
+    <author>
+      <name>Haojun Shi</name>
+    </author>
+    <author>
+      <name>Jason Eisner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12378v1</id>
+    <title>On the Hardness of $4$-to-$1$ Games with Perfect Completeness</title>
+    <updated>2026-10-08T17:32:55Z</updated>
+    <link href="https://arxiv.org/abs/2610.12378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that for all $\varepsilon&gt;0$, there exists a positive integer $k$ such that given a $4$-to-$1$ game $Ψ$ with alphabet size at most $k$, it is $\mathbf{NP}$-hard to distinguish between the case that $\mathrm{val}(Ψ)=1$ and the case that $\mathrm{val}(Ψ)\leq \varepsilon$. This confirms the $4$-to-$1$ Games Conjecture from [Khot, \textit{CCC 2002}]. Previously, the best known result, due to [Dinur, Khot, Kindler, Minzer, Safra], established the almost-perfect completeness version (but applied to the stricter problem of $2$-to-$1$ games). Using results from the literature, we get the following implications: (1) for all $k\in \mathbb{N}$, given a $3$-colorable graph $G$, it is $\mathbf{NP}$-hard to find a proper $k$-coloring; (2) for all $δ&gt;0$, given a $2$-colorable $3$-uniform hypergraph $G$, it is $\mathbf{NP}$-hard to find in it an independent set containing at least $δ$ fraction of the vertices.
+  Our proof is a three-step construction that builds on the two-step framework of [Dinur, Khot, Kindler, Minzer, Safra]. In the outer-PCP step, we use quadratic equations to gain perfect completeness. We then construct a new middle PCP that performs low-rank tests while preserving a key covering property. Finally, we construct a new inner PCP based on a tensor of the standard Grassmann encoding with its low-rank variant due to [Golowich, FOCS 2023].</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:32:55Z</published>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Yumou Fei</name>
+    </author>
+    <author>
+      <name>Dor Minzer</name>
+    </author>
+    <author>
+      <name>Shuo Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12375v1</id>
+    <title>OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport</title>
+    <updated>2026-10-08T17:32:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.12375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is done. To overcome this, we propose OnTrack, a streaming monitoring mechanism that compares an agent's steps and dependencies against recorded successful runs to alert users or block the agent in about a millisecond per step. We study this problem in three regimes of decreasing access: full reference access (historical runs and tool schemas), intermediate access (only tool schemas), and no prior knowledge (only step logs as generated). Expectation of OnTrack's monitoring capabilities reduces as data access drops, ranging from plan violation detection to identifying loops, stalls, and repeated tool calls. Finally, we evaluate OnTrack using SWE-bench trajectories. Based on the first 8 steps, our method ranks failing trajectories below succeeding ones better than content similarity approaches (+0.057 AUROC). With an abort policy, we save about 18% of compute that would be burned on failing runs, where 83% of interrupted runs were actually heading to failure (5 out of 6 aborts were correct).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:32:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Babak Barazandeh</name>
+    </author>
+    <author>
+      <name>Connor Swanson</name>
+    </author>
+    <author>
+      <name>Chinmay Kulkarni</name>
+    </author>
+    <author>
+      <name>Nikhil Mungel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12374v1</id>
+    <title>AgentGarten: Code Worlds for Evolving Agents</title>
+    <updated>2026-10-08T17:32:00Z</updated>
+    <link href="https://arxiv.org/abs/2610.12374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framework that couples simulators and game engines with a shared neural renderer to build real-time interactive environments. Its simulation backends maintain persistent world state and execute program-defined interaction rules, while the renderer generates visual observations from structured conditions exported through a common interface. To build the neural renderer, we adapt a pretrained video model to geometry conditions, distill it with our proposed Adversarial Forcing, and optimize inference for real-time interaction. Adversarial Forcing makes history prefilling differentiable through exact replay, so that losses on later predictions update how the renderer encodes prior observations, and adds real-data adversarial supervision to improve its visual quality. In AgentGarten, agents perceive the world through visual observations, interact with it in real time, and improve by distilling each round of experience into playbooks that subsequent agents inherit and refine. Our empirical study demonstrates a substantial gain in learning efficiency, with agents learning from just 4 rounds compared with millions for a conventional reinforcement learning counterpart. As new worlds can be written as code and rendered through the same interface, environments can scale in both number and difficulty alongside their agents, a step toward agents that keep evolving through interactive experience.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:32:00Z</published>
+    <arxiv:comment>Project page: https://mirros-lab.github.io/agent-garten</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiawei Chi</name>
+    </author>
+    <author>
+      <name>Shangchen Miao</name>
+    </author>
+    <author>
+      <name>Zhiyuan Shi</name>
+    </author>
+    <author>
+      <name>Kailu Wu</name>
+    </author>
+    <author>
+      <name>Hanyang Wang</name>
+    </author>
+    <author>
+      <name>Weiliang Chen</name>
+    </author>
+    <author>
+      <name>Qiyu Dai</name>
+    </author>
+    <author>
+      <name>Jinshan Ren</name>
+    </author>
+    <author>
+      <name>Jun Gao</name>
+    </author>
+    <author>
+      <name>Mingsheng Long</name>
+    </author>
+    <author>
+      <name>Yueqi Duan</name>
+    </author>
+    <author>
+      <name>Jiangran Lyu</name>
+    </author>
+    <author>
+      <name>Jialong Wu</name>
+    </author>
+    <author>
+      <name>Fangfu Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12373v1</id>
+    <title>LFV in flavourful SMEFT: Dimension-Six Running versus Dimension-Eight Mixing</title>
+    <updated>2026-10-08T17:31:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.12373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how charged-lepton flavour violation (CLFV) generated in the $τ$ sector propagates into the $μ\to e$ sector within the Standard Model Effective Field Theory (SMEFT). Assuming that new physics at a scale $Λ\gg v$ produces only dimension-6 operators that mediate $τ\to e$ and $τ\toμ$ transitions, we identify and compare the three mechanisms that induce $μ\to e$ observables. All three originate from double insertions of the two $τ\to\ell$ operators and scale as $C_6^{τe}C_6^{τμ}/Λ^4$. (T1) Renormalization-group mixing misaligns the charged-lepton mass matrix, and the rotation to the mass basis generates dimension-6 $μ\to e$ operators. (T2) A finite, non-logarithmic remainder, which we find to be negligible. (T3) The overall divergence renormalizes dimension-8 operators, contributing after electroweak symmetry breaking. Since T1 and T3 carry no relative power of $Λ$, neither can be neglected at any scale, and only their comparison reveals which mechanism, and hence which $μ\to e$ observable, most strongly probes a given operator pair. Surveying the Warsaw-basis operators, we classify representative $(τ\to e,τ\toμ)$ pairs into T1-dominated, T3-dominated, and T1--T3-comparable regimes, and explain the hierarchy through the underlying mixing chains. Translating current $μ\to eγ$, $μ\to eee$ and $μ\to e$ conversion limits into bounds on products of $τ\to\ell$ Wilson coefficients, we find that they exceed the direct $τ$-decay constraints by factors of ten to several hundred. Excluding either T1 or T3 would miss these limits by orders of magnitude for some pairs, and shift them by factors of two to three in others. Interpreting $μ\to e$ data as a probe of $τ$ flavour violation therefore requires both the dimension-6 RG running and the dimension-8 mixing contributions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:31:30Z</published>
+    <arxiv:comment>43 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Md Isha Ali</name>
+    </author>
+    <author>
+      <name>Siddhartha Karmakar</name>
+    </author>
+    <author>
+      <name>N Rajeev</name>
+    </author>
+    <author>
+      <name>Sudhir K. Vempati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12371v1</id>
+    <title>FeatureZ: A General Framework for Feature-Preserving Compression via Pointwise Bounds and Star Classification</title>
+    <updated>2026-10-08T17:30:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.12371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Geometric and topological features, such as isosurfaces, quantiles, merge trees, and Morse-Smale complexes, are central to the analysis and visualization of scientific data across diverse domains, including medical imaging, climate science, materials science, and astronomy. However, most lossy compressors for scientific data provide only pointwise error guarantees and do not preserve derived features. Existing feature-preserving compressors are often difficult to develop and typically tailored to a single feature. In this paper, we introduce FeatureZ, a lossy compression framework for structured volumetric scalar fields that can preserve a wide class of geometric and topological features. In particular, FeatureZ frames feature-preserving compression as preserving pointwise upper and lower bounds together with a consistent classification of each point's star (i.e., its incident cells) in the underlying structured mesh. Although not all notions of feature preservation fit this framework, many features and topological descriptors targeted by existing compressors do. FeatureZ provides an efficient implementation of feature-preserving compression under this formulation. In particular, FeatureZ operates as an augmentation layer that refines the output of an existing lossy compressor. It first applies quantization to enforce pointwise bounds, and then employs an iterative procedure to ensure consistent star classification. We demonstrate that FeatureZ preserves diverse features during compression with minimal overhead, achieving compression ratios comparable to or better than methods specialized for individual features.</summary>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:30:38Z</published>
+    <arxiv:comment>27 pages, 16 figures, to be presented at IEEE Vis 2026 (and published in IEEE TVCG 2027)</arxiv:comment>
+    <arxiv:primary_category term="cs.GR"/>
+    <author>
+      <name>Nathaniel Gorski</name>
+    </author>
+    <author>
+      <name>Xin Liang</name>
+    </author>
+    <author>
+      <name>Hanqi Guo</name>
+    </author>
+    <author>
+      <name>Bei Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12368v1</id>
+    <title>LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild</title>
+    <updated>2026-10-08T17:29:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.12368v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12368v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct visual navigation policies generate trajectories efficiently but do not explicitly evaluate their future consequences. Generative navigation world models provide this foresight through visual rollouts, which are costly when evaluating multiple candidates. We present LiteNWM, a latent navigation world model that shares visual encoding across candidates and jointly predicts their action-conditioned future representations at multiple horizons, while a learned scorer uses these predictions to select trajectories. In offline evaluations on RECON, SCAND, and SACSoN, LiteNWM reduces macro-averaged trajectory error by 17.56% relative to NoMaD+NWM-XL and achieves a 128.00-fold end-to-end speedup on an RTX 5090. The same evaluator transfers from NoMaD to MBRA without proposer-specific retraining, reducing MBRA's macro-averaged trajectory error by 16.2%. In real-robot experiments in unseen indoor and outdoor environments, LiteNWM improves navigation success from 43.3% to 83.3% relative to NoMaD. These results demonstrate that LiteNWM can be deployed for future-aware planning and closed-loop navigation on a physical robot.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:29:04Z</published>
+    <arxiv:comment>12 pages, 11 figures, including appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Linkai Liu</name>
+    </author>
+    <author>
+      <name>Yuntian Zhang</name>
+    </author>
+    <author>
+      <name>Zhenshan Bing</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Lingjuan Lyu</name>
+    </author>
+    <author>
+      <name>Shangguang Wang</name>
+    </author>
+    <author>
+      <name>Mengwei Xu</name>
+    </author>
+    <author>
+      <name>Dongqi Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12367v1</id>
+    <title>Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution</title>
+    <updated>2026-10-08T17:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.12367v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12367v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Skills, reusable procedural guidance added at inference, can substantially improve LLM downstream performance (Li et al., 2026). Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or for model distillation. The individual utility of each skill, however, is largely neglected. We first show that, in on-policy distillation where skill-conditioned policies serve as teachers, fewer than 25% of retrieved skills provide useful distillation signals. We then propose SGUID, a method for selecting a compact subset of skills for distillation. SGUID retains a skill only if it consistently yields effective learning signals during training. The selected skills are then distilled to produce a better model. Our results show that not all skills are worth distilling. Across four models from the Olmo and Qwen families, distilling 6 selected skills matches or exceeds full-bank distillation in mean avg@12 on three of the four models, and on all four after a second round that distills 3 newly selected skills, while the full banks are up to 11x larger. Importantly, SGUID supports stable model-skill co-evolution: after a distillation round, a new candidate bank is curated from the updated model's rollouts, and SGUID selects which skills to internalize next. In the second round, this loop selects 3 new skills and improves Qwen3-8B from 64.3% to 66.3%. The selection step is essential for stability: on Qwen3-4B, naively updating the model with unfiltered skills degrades performance, including a 0.3 percentage point drop on HMMT25, whereas SGUID improves HMMT25 by 0.5 points after the first round and 1.1 points after the second. These results identify skill selection as the key mechanism for stable model-skill co-evolution.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:27:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Xiyao Ma</name>
+    </author>
+    <author>
+      <name>Zhongkai Sun</name>
+    </author>
+    <author>
+      <name>Xu Han</name>
+    </author>
+    <author>
+      <name>Chengyuan Ma</name>
+    </author>
+    <author>
+      <name>Benjamin Z. Yao</name>
+    </author>
+    <author>
+      <name>Chenlei Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12365v1</id>
+    <title>Energy-constrained two-way capacities of the pure-loss channel</title>
+    <updated>2026-10-08T17:27:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We determine the two-way quantum and secret-key capacities of the pure-loss channel under an average input photon-number constraint. For transmissivity $η$ and photon budget $N$, both capacities equal $g(N)-g((1-η)N)$, where $g$ is the entropy of a thermal state. This coincides with the rate achieved by the known reverse coherent information of a two-mode squeezed vacuum. Our result provides the last missing capacity formula for the celebrated pure-loss channel, completing the picture of bosonic quantum communication under pure loss.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:27:32Z</published>
+    <arxiv:comment>13 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alessandro Falco</name>
+    </author>
+    <author>
+      <name>Francesco Anna Mele</name>
+    </author>
+    <author>
+      <name>Ludovico Lami</name>
+    </author>
+    <author>
+      <name>Vittorio Giovannetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12358v1</id>
+    <title>Subspace Uncertainty and Sharp Sampling Thresholds on the Boolean Cube</title>
+    <updated>2026-10-08T17:23:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.12358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Gaussian regression under squared population $L_2$ loss in a known $m$-dimensional subspace of degree-at-most-$k$ functions on the $d$-dimensional Boolean cube. Random inputs can undersample regions essential for prediction, delaying the parametric rate even when the model is known.
+  For fixed $q_0&lt;1/2$, $1\le k\le q_0d$, and sufficiently large fixed $A$, the worst-subspace sample threshold for minimax error $Aσ^2(m+t)/n$ with confidence $1-e^{-t}$, $t\ge\log4$, is \[ N=(m+t)\exp\{E_{d,k}+O(k^{1/3})\}, \quad E_{d,k}=dΨ(k/d), \] where $Ψ(q)=\log2-\mathsf H(\tfrac12-\sqrt{q(1-q)})$ and $\mathsf H$ is binary entropy with natural logarithms. The upper bound holds for every feasible $m$; the matching lower bound holds when $m\le\binom d{\lfloor k^{1/3}\rfloor}$ or $t\ge m$.
+  We sharpen the Polyanskiy--Samorodnitsky uncertainty principle in two respects. First, for fixed leakage $ρ\in(0,1)$, the smallest set carrying a fraction $1-ρ$ of a nonzero degree-at-most-$k$ polynomial's energy has probability $\exp\{-E_{d,k}+O_{ρ,q_0}(k^{1/3})\}$. An Airy-kernel construction proves that the remainder cannot be $o(k^{1/3})$ in general. Second, we construct a subspace of dimension $\binom d{\lfloor k^{1/3}\rfloor}$ such that every function in the subspace has at least a fraction $1-ρ$ of its energy on the same set, whose probability is at most $\exp\{-E_{d,k}+C_{ρ,q_0}k^{1/3}\}$. For sufficiently large $k$, this set is a Hamming ball.
+  A striking consequence is an exponential cost of noise: the parametric rate can require $(m+t)4^k\exp\{-O(k^{1/3})\}$ samples, whereas $O((m+t)2^k)$ suffice for noiseless identification. As $k\to\infty$ with $k/d\to0$, the noisy threshold is $(m+t)\exp\{2k+o(k)\}$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:23:25Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Thomas Weinberger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12356v1</id>
+    <title>A morphological search for stable year-scale modulation in gamma-ray blazars</title>
+    <updated>2026-10-08T17:22:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.12356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Year-scale quasi-periodic oscillations (QPOs) in blazar gamma-ray light curves have been proposed as signatures of supermassive binary black holes and precessing jets. Red noise can mimic periodicity, and detection alone does not establish persistence or period stability. We develop and calibrate a morphological framework to characterize year-scale modulation and constrain the incidence of stable modulation in blazars. We analyze 120 Fermi-LAT light curves spanning 18.1 yr. Singular spectrum analysis selects the oscillatory mode and period, while weighted wavelet Z-transform ridge tracking measures persistence, period drift, and cycle-to-cycle volatility. Flux randomization, 10,000 red-noise simulations, and about 20,000 injections calibrate the classification. Of 97 quality-selected sources, two show persistent, coherent modulation consistent with a stationary period (Rank I: PG 1553+113 and B2 1215+30), six show coherent modulation whose stationarity cannot be established (Rank II), and 89 form Rank III. Neither Rank I nor Rank II significantly exceeds red-noise expectations. Stationary 1-3 yr injections reach Rank I in 63-97% of trials at signal-to-noise ratio (SNR) = 1, depending on period, and 100% at SNR = 2; 92% of drifting injections reach Rank II. These results limit stable, approximately sinusoidal 1-3 yr modulation to at most 7% of the sample at SNR &gt;= 1 and 5% at SNR &gt;= 2 (95% confidence). PG 1553+113 has the lowest false-alarm probability, 4.7% after trials. Stable year-scale modulation is uncommon, and no source is established as periodic. The framework distinguishes persistent, stationary modulation from coherent variability whose period may evolve or fluctuate, but not the physical mechanism. PG 1553+113 and B2 1215+30 are candidates for monitoring and continuous gravitational-wave searches, although their stability does not establish a binary origin.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:22:50Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Adithiya Dinesh</name>
+    </author>
+    <author>
+      <name>Alberto Domínguez</name>
+    </author>
+    <author>
+      <name>Alba Rico</name>
+    </author>
+    <author>
+      <name>Pablo Peñil</name>
+    </author>
+    <author>
+      <name>Marco Ajello</name>
+    </author>
+    <author>
+      <name>Sara Buson</name>
+    </author>
+  </entry>
+</feed>

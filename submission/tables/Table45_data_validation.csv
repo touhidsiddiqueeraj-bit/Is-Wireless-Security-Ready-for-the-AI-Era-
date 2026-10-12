@@ -1,0 +1,11 @@
+dimension,value,papers
+data_source,Testbed/OTA measurement,46
+data_source,Unclear (abstract),32
+data_source,Collected dataset/traces,26
+data_source,Simulation,20
+data_source,Analysis/benchmark,6
+validation,Testbed/field demonstration,47
+validation,Standard split/unclear,35
+validation,Cross-domain/generalization test,26
+validation,Simulation-only,18
+validation,Benchmark/analysis,4

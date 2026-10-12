@@ -1,0 +1,2 @@
+record_id,title,source_db,stage,decision,exclusion_reason,track_tag,notes
+R001,,scopus|ieee|acm|supplemental|rerun|pqc-mini,title-abstract|full-text,include|exclude,ok|not-wireless|no-crypto-link|no-ai-link|survey-opinion-only|preprint-no-evidence|superseded-by-published|pre-2020|non-english|retracted|unretrievable|duplicate|no-evaluable-evidence|methods-insufficient,threat|defense|unclear|pqc-context,

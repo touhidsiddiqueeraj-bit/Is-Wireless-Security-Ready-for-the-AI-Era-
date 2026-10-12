@@ -1,0 +1,1042 @@
+[
+ {
+  "cites": 6,
+  "doi": "10.1109/vtc2024-fall63153.2024.10757486",
+  "q": 0,
+  "title": "Wireless Security and IoT Device Identification using RF Fingerprinting and Deep Learning",
+  "venue": "IEEE Vehicular Technology Conference",
+  "year": 2024
+ },
+ {
+  "cites": 12,
+  "doi": "10.11591/ijeecs.v20.i2.pp1098-1102",
+  "q": 0,
+  "title": "The effect of optimizers in fingerprint classification model utilizing deep learning",
+  "venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+  "year": 2020
+ },
+ {
+  "cites": 9,
+  "doi": "10.1109/twc.2025.3618614",
+  "q": 6,
+  "title": "Graph Attention Network-Driven Hierarchical Learning for Anti-Jamming UAV Communications",
+  "venue": "IEEE Transactions on Wireless Communications",
+  "year": 2025
+ },
+ {
+  "cites": 11,
+  "doi": "10.1109/tifs.2023.3331588",
+  "q": 1,
+  "title": "Secret Key Generation for IRS-Assisted Multi-Antenna Systems: A Machine Learning-Based Approach",
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "year": 2023
+ },
+ {
+  "cites": 10,
+  "doi": "10.1155/2023/2132148",
+  "q": 0,
+  "title": "Radio Frequency Fingerprinting Identification of Few-Shot Wireless Signals Based on Deep Metric Learning",
+  "venue": "Wireless Communications and Mobile Computing",
+  "year": 2023
+ },
+ {
+  "cites": 26,
+  "doi": "10.1145/3468218.3469049",
+  "q": 6,
+  "title": "A Machine Learning Approach for Detecting and Classifying Jamming Attacks Against OFDM-based UAVs",
+  "venue": null,
+  "year": 2021
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2312.16715",
+  "q": 2,
+  "title": "Adversarial Attacks on LoRa Device Identification and Rogue Signal Detection with Deep Learning",
+  "venue": "arXiv (Cornell University)",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2604.24022",
+  "q": 2,
+  "title": "IPRU: Input-Perturbation-based Radio Frequency Fingerprinting Unlearning for LAWNs",
+  "venue": "arXiv (Cornell University)",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.1109/ojcoms.2026.3667450",
+  "q": 0,
+  "title": "Scalable Deep Learning for RF Fingerprinting: The MADE Architecture for Robust Physical-Layer Device Identification",
+  "venue": "IEEE Open Journal of the Communications Society",
+  "year": 2026
+ },
+ {
+  "cites": 10,
+  "doi": "10.1109/access.2023.3305257",
+  "q": 3,
+  "title": "Deep Learning Model Portability for Domain-Agnostic Device Fingerprinting",
+  "venue": "IEEE Access",
+  "year": 2023
+ },
+ {
+  "cites": 4,
+  "doi": "10.48550/arxiv.2201.06093",
+  "q": 2,
+  "title": "Adversarial Machine Learning Threat Analysis and Remediation in Open Radio Access Network (O-RAN)",
+  "venue": "arXiv (Cornell University)",
+  "year": 2022
+ },
+ {
+  "cites": 6,
+  "doi": "10.48550/arxiv.2211.07687",
+  "q": 3,
+  "title": "Uncovering the Portability Limitation of Deep Learning-Based Wireless Device Fingerprints",
+  "venue": "arXiv (Cornell University)",
+  "year": 2022
+ },
+ {
+  "cites": 12,
+  "doi": "10.1007/s44443-025-00145-9",
+  "q": 6,
+  "title": "Multi-agent deep reinforcement learning for RIS-assisted secure UAV communication",
+  "venue": "Journal of King Saud University - Computer and Information Sciences",
+  "year": 2025
+ },
+ {
+  "cites": 47,
+  "doi": "10.1109/tcomm.2023.3268286",
+  "q": 0,
+  "title": "Disentangled Representation Learning for RF Fingerprint Extraction Under Unknown Channel Statistics",
+  "venue": "IEEE Transactions on Communications",
+  "year": 2023
+ },
+ {
+  "cites": 12,
+  "doi": "10.1051/sands/2023026",
+  "q": 3,
+  "title": "The technology of radio frequency fingerprint identification based on deep learning for 5G application",
+  "venue": "Security and Safety",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.65521/ijeecs.v14i2.1993",
+  "q": 4,
+  "title": "Deep Learning and Optimization Approaches in Secure AI for 6G Mobile Devices: Deep Kronecker Neural Network Optimized with Hybrid Cat Hunting Optimization to Combat Side-Channel Attacks: A Review",
+  "venue": "International Journal of Electrical Electronics and Computer Systems",
+  "year": 2025
+ },
+ {
+  "cites": 236,
+  "doi": "10.3390/s22134730",
+  "q": 1,
+  "title": "Machine Learning for Wireless Sensor Networks Security: An Overview of Challenges and Issues",
+  "venue": "Sensors",
+  "year": 2022
+ },
+ {
+  "cites": 16,
+  "doi": "10.1016/j.cose.2024.103905",
+  "q": 4,
+  "title": "MAG-PUFs: Authenticating IoT devices via electromagnetic physical unclonable functions and deep learning",
+  "venue": "Computers & Security",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.18178/ijeetc.15.5.323-333",
+  "q": 1,
+  "title": "Adaptive Artificial Noise and Machine Learning-based Framework for Secure Wireless Communication",
+  "venue": "International Journal of Electrical and Electronic Engineering & Telecommunications",
+  "year": 2026
+ },
+ {
+  "cites": 11,
+  "doi": "10.1109/ucom59132.2023.10257584",
+  "q": 2,
+  "title": "Hidden Backdoor Attack: A New Threat to Learning-Aided Physical Layer Authentication",
+  "venue": "International Conference on Ubiquitous Communication (Ucom)",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2403.15739",
+  "q": 0,
+  "title": "Towards Channel-Resilient CSI-Based RF Fingerprinting using Deep Learning",
+  "venue": "arXiv (Cornell University)",
+  "year": 2024
+ },
+ {
+  "cites": 21,
+  "doi": "10.1109/wcnc51071.2022.9771750",
+  "q": 0,
+  "title": "Deep RF Device Fingerprinting by Semi-Supervised Learning with Meta Pseudo Time-Frequency Labels",
+  "venue": "IEEE Wireless Communications and Networking Conference",
+  "year": 2022
+ },
+ {
+  "cites": 0,
+  "doi": "10.1007/978-981-95-4677-0_9",
+  "q": 0,
+  "title": "LRF-KDTL: Lightweight RF Fingerprint Identification Based on Knowledge Distillation and Transfer Learning",
+  "venue": "Lecture notes in computer science",
+  "year": 2026
+ },
+ {
+  "cites": 26,
+  "doi": "10.3390/s24134411",
+  "q": 0,
+  "title": "A Comprehensive Survey on Deep Learning-Based LoRa Radio Frequency Fingerprinting Identification",
+  "venue": "Sensors",
+  "year": 2024
+ },
+ {
+  "cites": 2,
+  "doi": "10.48550/arxiv.2301.03760",
+  "q": 2,
+  "title": "Over-The-Air Adversarial Attacks on Deep Learning Wi-Fi Fingerprinting",
+  "venue": "arXiv (Cornell University)",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.1016/j.comnet.2025.111849",
+  "q": 3,
+  "title": "Radio frequency identification and real-time security of LoRa devices with deep learning on embedded GPU",
+  "venue": "Computer Networks",
+  "year": 2025
+ },
+ {
+  "cites": 7,
+  "doi": "10.1109/aero53065.2022.9843479",
+  "q": 0,
+  "title": "Signature-Aware RF Exploitation (SNARE) Fingerprinting using Deep Learning to identify UAVs",
+  "venue": "Proceedings - IEEE Aerospace Conference",
+  "year": 2022
+ },
+ {
+  "cites": 1,
+  "doi": "10.3390/electronics14244945",
+  "q": 6,
+  "title": "A Q-Learning-Based Method for UAV Communication Resilience Against Random Pulse Jamming",
+  "venue": "Electronics",
+  "year": 2025
+ },
+ {
+  "cites": 8,
+  "doi": "10.3390/electronics12092008",
+  "q": 6,
+  "title": "Reinforcement Learning Based Dual-UAV Trajectory Optimization for Secure Communication",
+  "venue": "Electronics",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.12928/telkomnika.v24i4.27791",
+  "q": 4,
+  "title": "Acoustic and vibration side channel analysis on post-quantum cryptography using image-based deep learning",
+  "venue": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2303.07466",
+  "q": 0,
+  "title": "Deep Learning-based RF Fingerprint Authentication with Chaotic Antenna Arrays",
+  "venue": "arXiv (Cornell University)",
+  "year": 2023
+ },
+ {
+  "cites": 3,
+  "doi": "10.1007/978-3-030-90196-7_1",
+  "q": 0,
+  "title": "Federated Learning Based Distributed Algorithms for RF Fingerprinting Extraction and Identification of IoT Devices",
+  "venue": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+  "year": 2021
+ },
+ {
+  "cites": 0,
+  "doi": "10.1049/bme2/9919250",
+  "q": 0,
+  "title": "Deep Spatiotextural Feature Learning\u2010Driven Multimetric Biometric Authentication System for Strategic Smart Infrastructures: An Iris\u2013Fingerprint Multimodality Solution",
+  "venue": "IET Biometrics",
+  "year": 2025
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2104.04477",
+  "q": 6,
+  "title": "Jamming-Resilient Path Planning for Multiple UAVs via Deep Reinforcement Learning",
+  "venue": "arXiv (Cornell University)",
+  "year": 2021
+ },
+ {
+  "cites": 75,
+  "doi": "10.1109/tii.2020.2963962",
+  "q": 1,
+  "title": "Automated Labeling and Learning for Physical Layer Authentication Against Clone Node and Sybil Attacks in Industrial Wireless Edge Networks",
+  "venue": "IEEE Transactions on Industrial Informatics",
+  "year": 2020
+ },
+ {
+  "cites": 2,
+  "doi": "10.52783/tjjpt.v44.i2.491",
+  "q": 3,
+  "title": "Literature Review on Improving IoT Security Using Machine and Deep Learning Technique",
+  "venue": "Journal of Propulsion Technology",
+  "year": 2023
+ },
+ {
+  "cites": 5,
+  "doi": "10.1109/cscwd61410.2024.10580394",
+  "q": 0,
+  "title": "RF Fingerprint Recognition for Different Receiving Devices Using Transfer Learning",
+  "venue": "International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+  "year": 2024
+ },
+ {
+  "cites": 3,
+  "doi": "10.1007/978-981-99-0479-2_109",
+  "q": 6,
+  "title": "Multi-agent Deep Reinforcement Learning for Dynamic Motion Control Allocation in UAV Swarm Cooperative Jamming to Netted Radar",
+  "venue": "Lecture notes in electrical engineering",
+  "year": 2023
+ },
+ {
+  "cites": 92,
+  "doi": "10.1155/2022/8951961",
+  "q": 4,
+  "title": "Machine and Deep Learning for IoT Security and Privacy: Applications, Challenges, and Future Directions",
+  "venue": "Security and Communication Networks",
+  "year": 2022
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2608.19881",
+  "q": 0,
+  "title": "Interpretable Feature Learning for RF Fingerprinting via Polar MKANs",
+  "venue": "arXiv (Cornell University)",
+  "year": 2026
+ },
+ {
+  "cites": 27,
+  "doi": "10.3390/electronics11193025",
+  "q": 6,
+  "title": "A Survey on the Use of Deep Learning Techniques for UAV Jamming and Deception",
+  "venue": "Electronics",
+  "year": 2022
+ },
+ {
+  "cites": 77,
+  "doi": "10.1109/access.2022.3150020",
+  "q": 6,
+  "title": "Jamming Detection and Classification in OFDM-Based UAVs via Feature- and Spectrogram-Tailored Machine Learning",
+  "venue": "IEEE Access",
+  "year": 2022
+ },
+ {
+  "cites": 71,
+  "doi": "10.1109/comst.2024.3482973",
+  "q": 6,
+  "title": "Game Theory and Reinforcement Learning for Anti-Jamming Defense in Wireless Communications: Current Research, Challenges, and Solutions",
+  "venue": "IEEE Communications Surveys & Tutorials",
+  "year": 2024
+ },
+ {
+  "cites": 15,
+  "doi": "10.1109/ojcoms.2022.3233372",
+  "q": 3,
+  "title": "Channel-Resilient Deep-Learning-Driven Device Fingerprinting Through Multiple Data Streams",
+  "venue": "IEEE Open Journal of the Communications Society",
+  "year": 2023
+ },
+ {
+  "cites": 1,
+  "doi": "10.46620/ursigass.2023.1786.ysmb8506",
+  "q": 0,
+  "title": "Machine Learning-based RFID Real-time RF Fingerprint Authentication System",
+  "venue": null,
+  "year": 2023
+ },
+ {
+  "cites": 30,
+  "doi": "10.1109/tgcn.2024.3373886",
+  "q": 6,
+  "title": "UAV Communication Against Intelligent Jamming: A Stackelberg Game Approach With Federated Reinforcement Learning",
+  "venue": "IEEE Transactions on Green Communications and Networking",
+  "year": 2024
+ },
+ {
+  "cites": 97,
+  "doi": "10.1038/s41598-024-62861-y",
+  "q": 3,
+  "title": "Using machine learning algorithms to enhance IoT system security",
+  "venue": "Scientific Reports",
+  "year": 2024
+ },
+ {
+  "cites": 6,
+  "doi": "10.1109/access.2025.3526583",
+  "q": 0,
+  "title": "Hardware and Deep Learning-Based Authentication Through Enhanced RF Fingerprints of 3D-Printed Chaotic Antenna Arrays",
+  "venue": "IEEE Access",
+  "year": 2025
+ },
+ {
+  "cites": 17,
+  "doi": "10.1109/wcsp49889.2020.9299859",
+  "q": 2,
+  "title": "Radio Frequency Fingerprint Based Wireless Transmitter Identification Against Malicious Attacker: An Adversarial Learning Approach",
+  "venue": "International Conference on Wireless Communications and Signal Processing (WCSP)",
+  "year": 2020
+ },
+ {
+  "cites": 5,
+  "doi": "10.1186/s13634-024-01169-5",
+  "q": 2,
+  "title": "A RSBU-LSTM network for radio frequency fingerprint identification relying on multiple features",
+  "venue": "EURASIP Journal on Advances in Signal Processing",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2602.19926",
+  "q": 3,
+  "title": "Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models",
+  "venue": "arXiv (Cornell University)",
+  "year": 2026
+ },
+ {
+  "cites": 27,
+  "doi": "10.1109/ojcoms.2023.3334489",
+  "q": 6,
+  "title": "Reinforcement Learning for Resilient Aerial-IRS Assisted Wireless Communications Networks in the Presence of Multiple Jammers",
+  "venue": "IEEE Open Journal of the Communications Society",
+  "year": 2023
+ },
+ {
+  "cites": 58,
+  "doi": "10.1016/j.comnet.2024.110255",
+  "q": 1,
+  "title": "Artificial intelligence empowered physical layer security for 6G: State-of-the-art, challenges, and opportunities",
+  "venue": "Computer Networks",
+  "year": 2024
+ },
+ {
+  "cites": 1,
+  "doi": "10.3390/s26072127",
+  "q": 3,
+  "title": "Neural Network-Based LoRa Received Signal Strength Indicator Fingerprint Identification for Indoor Localization of Mobile Robots",
+  "venue": "Sensors",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.1109/tccn.2026.3687591",
+  "q": 6,
+  "title": "Multi-User Collaborative Jamming Deception for UAV Communications: A Multi-Agent Reinforcement Learning-Based Method",
+  "venue": "IEEE Transactions on Cognitive Communications and Networking",
+  "year": 2026
+ },
+ {
+  "cites": 13,
+  "doi": "10.1109/jiot.2023.3327953",
+  "q": 2,
+  "title": "Attacking Modulation Recognition With Adversarial Federated Learning in Cognitive-Radio-Enabled IoT",
+  "venue": "IEEE Internet of Things Journal",
+  "year": 2023
+ },
+ {
+  "cites": 1,
+  "doi": "10.1109/iccc62479.2024.10681679",
+  "q": 6,
+  "title": "Learning-Based Edge-Assisted UAV Object Detection Against Jamming for Extended Reality",
+  "venue": "IEEE/CIC International Conference on Communications in China (ICCC)",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2609.16341",
+  "q": 1,
+  "title": "Channel-Informed Neural Network for Physical Layer Key Generation",
+  "venue": "arXiv (Cornell University)",
+  "year": 2026
+ },
+ {
+  "cites": 118,
+  "doi": "10.1109/access.2024.3355312",
+  "q": 1,
+  "title": "Machine Learning Solutions for the Security of Wireless Sensor Networks: A Review",
+  "venue": "IEEE Access",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2603.08402",
+  "q": 2,
+  "title": "Deep Learning based Cross-Receiver Radio Frequency Fingerprint Identification Under Varying Channels",
+  "venue": "arXiv (Cornell University)",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.25212/lfu.qzj.11.1.32",
+  "q": 1,
+  "title": "Machine learning-driven Security Frameworks for IoT in Next-Generation Wireless Networks",
+  "venue": "Qalaai Zanist Scientific Journal",
+  "year": 2026
+ },
+ {
+  "cites": 18,
+  "doi": "10.1109/tmlcn.2024.3446743",
+  "q": 0,
+  "title": "Distinguishable IQ Feature Representation for Domain-Adaptation Learning of WiFi Device Fingerprints",
+  "venue": "IEEE Transactions on Machine Learning in Communications and Networking",
+  "year": 2024
+ },
+ {
+  "cites": 3,
+  "doi": "10.3390/s26010181",
+  "q": 6,
+  "title": "A Federated Hierarchical DQN-Based Distributed Intelligent Anti-Jamming Method for UAVs",
+  "venue": "Sensors",
+  "year": 2025
+ },
+ {
+  "cites": 2,
+  "doi": "10.21533/pen.v13.i4.1287",
+  "q": 3,
+  "title": "A review paper: Blockchain security with IoT devices and deep-learning methods",
+  "venue": "Periodicals of Engineering and Natural Sciences (PEN)",
+  "year": 2025
+ },
+ {
+  "cites": 8,
+  "doi": "10.1051/sands/2023019",
+  "q": 3,
+  "title": "Exploration of transferable deep learning-aided radio frequency fingerprint identification systems",
+  "venue": "Security and Safety",
+  "year": 2023
+ },
+ {
+  "cites": 13,
+  "doi": "10.1109/ojcoms.2024.3451288",
+  "q": 6,
+  "title": "Leveraging Transformer Models for Anti-Jamming in Heavily Attacked UAV Environments",
+  "venue": "IEEE Open Journal of the Communications Society",
+  "year": 2024
+ },
+ {
+  "cites": 1,
+  "doi": "10.3390/math13193124",
+  "q": 2,
+  "title": "Radio Frequency Fingerprint-Identification Learning Method Based-On LMMSE Channel Estimation for Internet of Vehicles",
+  "venue": "Mathematics",
+  "year": 2025
+ },
+ {
+  "cites": 112,
+  "doi": "10.1109/tifs.2022.3219287",
+  "q": 0,
+  "title": "PAST-AI: Physical-Layer Authentication of Satellite Transmitters via Deep Learning",
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "year": 2022
+ },
+ {
+  "cites": 3,
+  "doi": "10.32604/cmes.2025.072611",
+  "q": 5,
+  "title": "Enhancing Roaming Security in Cloud-Native 5G Core Network through Deep Learning-Based Intrusion Detection System",
+  "venue": "Computer Modeling in Engineering & Sciences",
+  "year": 2025
+ },
+ {
+  "cites": 8,
+  "doi": "10.1007/s00521-024-10861-4",
+  "q": 0,
+  "title": "DCNN-RFF-NFC: a novel design of NFC security using deep Convolution neural network-based RF fingerprinting",
+  "venue": "Neural Computing and Applications",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2302.04994",
+  "q": 6,
+  "title": "RIS-Assisted Jamming Rejection and Path Planning for UAV-Borne IoT Platform: A New Deep Reinforcement Learning Framework",
+  "venue": "arXiv (Cornell University)",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.1016/j.knosys.2026.116186",
+  "q": 2,
+  "title": "SinFormer: A tailored transformer for robust Radio Frequency Fingerprint Identification",
+  "venue": "Knowledge-Based Systems",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.24996/ijs.2025.66.12.35",
+  "q": 3,
+  "title": "Fingerprint Forgery Detection and Person Identification Based on Deep Learning",
+  "venue": "Iraqi Journal of Science",
+  "year": 2025
+ },
+ {
+  "cites": 95,
+  "doi": "10.1109/globecom42002.2020.9348261",
+  "q": 0,
+  "title": "Trust in 5G Open RANs through Machine Learning: RF Fingerprinting on the POWDER PAWR Platform",
+  "venue": "Globecom",
+  "year": 2020
+ },
+ {
+  "cites": 0,
+  "doi": "10.21203/rs.3.rs-11088012/v1",
+  "q": 6,
+  "title": "Explainable graph-based meta-reinforcement learning for cognitive UAV swarms under partial observability and adaptive jamming",
+  "venue": "Research Square",
+  "year": 2026
+ },
+ {
+  "cites": 2,
+  "doi": "10.1109/pimrc59610.2024.10817402",
+  "q": 3,
+  "title": "Low Complexity Deep Learning Models for LoRa Radio Frequency Fingerprinting",
+  "venue": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.3389/frai.2026.1752124",
+  "q": 6,
+  "title": "Systematic review of trends in deep learning for UAV cybersecurity",
+  "venue": "Frontiers in Artificial Intelligence",
+  "year": 2026
+ },
+ {
+  "cites": 62,
+  "doi": "10.1109/access.2023.3349022",
+  "q": 4,
+  "title": "A Systematic Analysis of Enhancing Cyber Security Using Deep Learning for Cyber Physical Systems",
+  "venue": "IEEE Access",
+  "year": 2024
+ },
+ {
+  "cites": 8,
+  "doi": "10.3390/electronics12183874",
+  "q": 6,
+  "title": "Research on Efficient Multiagent Reinforcement Learning for Multiple UAVs\u2019 Distributed Jamming Strategy",
+  "venue": "Electronics",
+  "year": 2023
+ },
+ {
+  "cites": 3,
+  "doi": "10.4108/eetsc.v7i1.2067",
+  "q": 3,
+  "title": "Design a framework for IoT- Identification, Authentication and Anomaly detection using Deep Learning: A Review",
+  "venue": "EAI Endorsed Transactions on Smart Cities",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.48550/arxiv.2501.15468",
+  "q": 6,
+  "title": "Low-altitude UAV Friendly-Jamming for Satellite-Maritime Communications via Generative AI-enabled Deep Reinforcement Learning",
+  "venue": "arXiv (Cornell University)",
+  "year": 2025
+ },
+ {
+  "cites": 21,
+  "doi": "10.1109/jiot.2024.3361892",
+  "q": 0,
+  "title": "Deep Learning Methods for IoT Device Authentication Using Symbols Density Trace Plot",
+  "venue": "IEEE Internet of Things Journal",
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.55041/isjem08192",
+  "q": 1,
+  "title": "Artificial Intelligence-Based Secure MIMO Communication Framework for Enhancing Physical Layer Security in Next-Generation Wireless Networks",
+  "venue": "International Scientific Journal of Engineering and Management",
+  "year": 2026
+ },
+ {
+  "cites": 7,
+  "doi": "10.1145/3643833.3656138",
+  "q": 0,
+  "title": "No Blind Spots: On the Resiliency of Device Fingerprints to Hardware Warm-Up Through Sequential Transfer Learning",
+  "venue": "ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)",
+  "year": 2024
+ },
+ {
+  "cites": 23,
+  "doi": "10.33969/ais.2021.31010",
+  "q": 0,
+  "title": "Deep Learning Algorithms based Fingerprint Authentication: Systematic Literature Review",
+  "venue": "Journal of Artificial Intelligence and Systems",
+  "year": 2021
+ },
+ {
+  "cites": 10,
+  "doi": "10.1109/vtc2023-fall60731.2023.10333558",
+  "q": 6,
+  "title": "Deep Reinforcement Learning-Based Resource Allocation for Secure RIS-aided UAV Communication",
+  "venue": "IEEE Vehicular Technology Conference",
+  "year": 2023
+ },
+ {
+  "cites": 2,
+  "doi": "10.3934/era.2024060",
+  "q": 5,
+  "title": "Securing cloud-enabled smart cities by detecting intrusion using spark-based stacking ensemble of machine learning algorithms",
+  "venue": "Electronic Research Archive",
+  "year": 2024
+ },
+ {
+  "cites": 5,
+  "doi": "10.3390/e26010038",
+  "q": 3,
+  "title": "Radio Frequency Fingerprint Identification for 5G Mobile Devices Using DCTF and Deep Learning",
+  "venue": "Entropy",
+  "year": 2023
+ },
+ {
+  "cites": 95,
+  "doi": "10.1109/access.2023.3303113",
+  "q": 1,
+  "title": "Detection of Denial-of-Service Attack in Wireless Sensor Networks: A Lightweight Machine Learning Approach",
+  "venue": "IEEE Access",
+  "year": 2023
+ },
+ {
+  "cites": 81,
+  "doi": "10.3390/fi15060200",
+  "q": 1,
+  "title": "Securing Wireless Sensor Networks Using Machine Learning and Blockchain: A Review",
+  "venue": "Future Internet",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.62791/20360",
+  "q": 0,
+  "title": "Dataset generation for deep learning to authenticate Wireless Sensor Network (WSN) at physical layer for Structural Health Monitoring (SHM) of transportation infrastructure",
+  "venue": null,
+  "year": 2024
+ },
+ {
+  "cites": 0,
+  "doi": "10.1038/s41598-026-72200-y",
+  "q": 3,
+  "title": "STFT\u2013LoRA\u2013DANN: a lightweight adversarial transfer learning framework for cross-load bearing fault diagnosis",
+  "venue": "Scientific Reports",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.1109/pimrc62392.2025.11275484",
+  "q": 0,
+  "title": "On the Generalization of Deep Learning Based Radio Frequency Fingerprint Identification System in a Multi-Distance Scenario",
+  "venue": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
+  "year": 2025
+ },
+ {
+  "cites": 37,
+  "doi": "10.1109/cns56114.2022.9947255",
+  "q": 0,
+  "title": "RadioNet: Robust Deep-Learning Based Radio Fingerprinting",
+  "venue": "IEEE Conference on Communications and Network Security",
+  "year": 2022
+ },
+ {
+  "cites": 0,
+  "doi": "10.1016/j.iot.2026.101977",
+  "q": 0,
+  "title": "Beyond correlation: causal learning for open-set single-source RF fingerprinting in dynamic IoT",
+  "venue": "Internet of Things",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.31130/ud-jst.2026.24(6a).190e",
+  "q": 0,
+  "title": "A unified RF fingerprinting framework for device level UAV identification using HOCv2, wavelet RF-DNA, and deep learning",
+  "venue": "The University of Danang - Journal of Science and Technology",
+  "year": 2026
+ },
+ {
+  "cites": 0,
+  "doi": "10.5281/zenodo.21224418",
+  "q": 0,
+  "title": "IoT Device Security via Deep Learning-Based RF Fingerprinting: A Survey of Channel Robustness, Adversarial Attacks, and Edge Deployment",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "year": 2026
+ },
+ {
+  "cites": 1,
+  "doi": "10.21203/rs.3.rs-1156014/v1",
+  "q": 6,
+  "title": "Approximating Stackelberg Equilibrium in Anti-UAV Jamming Markov Game with Hierarchical Multi-Agent Deep Reinforcement Learning Algorithm",
+  "venue": "Research Square",
+  "year": 2021
+ },
+ {
+  "cites": 2,
+  "doi": "10.3991/ijim.v18i17.50729",
+  "q": 6,
+  "title": "Deep Reinforcement Learning Based Secure Transmission for UAV-Assisted Mobile Edge Computing",
+  "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+  "year": 2024
+ },
+ {
+  "cites": 73,
+  "doi": "10.1109/tifs.2022.3149396",
+  "q": 6,
+  "title": "Safe Exploration in Wireless Security: A Safe Reinforcement Learning Algorithm With Hierarchical Structure",
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "year": 2022
+ },
+ {
+  "cites": 89,
+  "doi": "10.1109/iotm.0001.2000019",
+  "q": 3,
+  "title": "RSSI Fingerprinting-Based Localization Using Machine Learning in LoRa Networks",
+  "venue": "IEEE Internet of Things Magazine",
+  "year": 2020
+ },
+ {
+  "cites": 15,
+  "doi": "10.1109/jiot.2023.3345937",
+  "q": 2,
+  "title": "Adversarial Attacking and Defensing Modulation Recognition With Deep Learning in Cognitive-Radio-Enabled IoT",
+  "venue": "IEEE Internet of Things Journal",
+  "year": 2023
+ },
+ {
+  "cites": 0,
+  "doi": "10.31838/njap/07.01.24",
+  "q": 1,
+  "title": "Quantum Machine Learning for Secure Key Generation in Wireless Communication: Addressing Limitations of Classical Cryptographic Protocols",
+  "venue": "National Journal Of Antennas And Propagation",
+  "year": 2025
+ },
+ {
+  "cites": 0,
+  "doi": "10.34413/dr.01840",
+  "q": 4,
+  "title": "Deep learning-based cyberattacks behaviour analysis for IoT ecosystem",
+  "venue": "Institutional Repositories DataBase (IRDB)",
+  "year": 2022
+ },
+ {
+  "cites": 9,
+  "doi": "10.1109/tifs.2024.3352423",
+  "q": 2,
+  "title": "Frequency-Selective Adversarial Attack Against Deep Learning-Based Wireless Signal Classifiers",
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "year": 2024
+ },
+ {
+  "cites": 1,
+  "doi": "10.1109/ithings-greencom-cpscom-smartdata-cybermatics60724.2023.00061",
+  "q": 0,
+  "title": "Performance Evaluation of RF Fingerprinting via Deep Learning for Satellite Network Security",
+  "venue": null,
+  "year": 2023
+ },
+ {
+  "cites": 1,
+  "doi": "10.1016/j.phycom.2026.103004",
+  "q": 6,
+  "title": "Joint optimization of resource and position for UAV secure two-Way relay systems using reinforcement learning",
+  "venue": "Physical Communication",
+  "year": 2026
+ },
+ {
+  "cites": 11,
+  "doi": "10.3390/s24227336",
+  "q": 3,
+  "title": "Privacy-Preserving Detection of Tampered Radio-Frequency Transmissions Utilizing Federated Learning in LoRa Networks",
+  "venue": "Sensors",
+  "year": 2024
+ },
+ {
+  "cites": 110,
+  "doi": "10.1109/tnse.2022.3185130",
+  "q": 6,
+  "title": "Secure Transmission for Multi-UAV-Assisted Mobile Edge Computing Based on Reinforcement Learning",
+  "venue": "IEEE Transactions on Network Science and Engineering",
+  "year": 2022
+ },
+ {
+  "cites": 74,
+  "doi": "10.3390/fi16010032",
+  "q": 2,
+  "title": "A Holistic Review of Machine Learning Adversarial Attacks in IoT Networks",
+  "venue": "Future Internet",
+  "year": 2024
+ },
+ {
+  "doi": "10.22215/etd/2020-14171",
+  "title": "Encrypted Network Traffic Classification using Ensemble Learning Techniques",
+  "year": 2020,
+  "venue": null,
+  "cites": 10,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/comst.2020.2988293",
+  "title": "A Survey of Machine and Deep Learning Methods for Internet of Things (IoT) Security",
+  "year": 2020,
+  "venue": "IEEE Communications Surveys & Tutorials",
+  "cites": 1366,
+  "q": 9
+ },
+ {
+  "doi": "10.13052/jcsm2245-1439.1547",
+  "title": "Security Analysis of IoT Traffic Classification Systems Under Adversarial Machine Learning Attacks",
+  "year": 2026,
+  "venue": "Journal of Cyber Security and Mobility",
+  "cites": 0,
+  "q": 9
+ },
+ {
+  "doi": "10.1016/j.engappai.2023.106432",
+  "title": "Towards a machine learning-based framework for DDOS attack detection in software-defined IoT (SD-IoT) networks",
+  "year": 2023,
+  "venue": "Engineering Applications of Artificial Intelligence",
+  "cites": 228,
+  "q": 9
+ },
+ {
+  "doi": "10.1016/j.phycom.2022.101685",
+  "title": "Injection attack detection using machine learning for smart IoT applications",
+  "year": 2022,
+  "venue": "Physical Communication",
+  "cites": 114,
+  "q": 9
+ },
+ {
+  "doi": "10.7717/peerj-cs.1259",
+  "title": "Machine learning based IoT system for secure traffic management and accident detection in smart cities",
+  "year": 2023,
+  "venue": "PeerJ Computer Science",
+  "cites": 47,
+  "q": 9
+ },
+ {
+  "doi": "10.1080/24751839.2020.1767484",
+  "title": "Denial of service attack detection through machine learning for the IoT",
+  "year": 2020,
+  "venue": "Journal of Information and Telecommunication",
+  "cites": 141,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/comst.2020.2986444",
+  "title": "Machine Learning in IoT Security: Current Solutions and Future Challenges",
+  "year": 2020,
+  "venue": "IEEE Communications Surveys & Tutorials",
+  "cites": 97,
+  "q": 9
+ },
+ {
+  "doi": "10.3390/electronics10212662",
+  "title": "Detection of Security Attacks in Industrial IoT Networks: A Blockchain and Machine Learning Approach",
+  "year": 2021,
+  "venue": "Electronics",
+  "cites": 50,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/access.2021.3131014",
+  "title": "A Two-Fold Machine Learning Approach to Prevent and Detect IoT Botnet Attacks",
+  "year": 2021,
+  "venue": "IEEE Access",
+  "cites": 140,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/access.2023.3250235",
+  "title": "Toward Secured IoT-Based Smart Systems Using Machine Learning",
+  "year": 2023,
+  "venue": "IEEE Access",
+  "cites": 65,
+  "q": 9
+ },
+ {
+  "doi": "10.3390/s25113341",
+  "title": "Machine Learning-Based Security Solutions for IoT Networks: A Comprehensive Survey",
+  "year": 2025,
+  "venue": "Sensors",
+  "cites": 74,
+  "q": 9
+ },
+ {
+  "doi": "10.3390/s21155122",
+  "title": "Machine Learning for Authentication and Authorization in IoT: Taxonomy, Challenges and Future Research Direction",
+  "year": 2021,
+  "venue": "Sensors",
+  "cites": 104,
+  "q": 9
+ },
+ {
+  "doi": "10.4108/eetiot.v7i28.324",
+  "title": "Detections of IoT Attacks via Machine Learning-Based Approaches with Cooja",
+  "year": 2022,
+  "venue": "EAI Endorsed Transactions on Internet of Things",
+  "cites": 18,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/access.2024.3376400",
+  "title": "Hybrid Machine Learning Model for Efficient Botnet Attack Detection in IoT Environment",
+  "year": 2024,
+  "venue": "IEEE Access",
+  "cites": 77,
+  "q": 9
+ },
+ {
+  "doi": "10.1088/1742-6596/1963/1/012046",
+  "title": "Machine Learning Challenges for IoT Device Fingerprints Identification",
+  "year": 2021,
+  "venue": "Journal of Physics Conference Series",
+  "cites": 6,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/access.2022.3179047",
+  "title": "Hardware-Assisted Machine Learning in Resource-Constrained IoT Environments for Security: Review and Future Prospective",
+  "year": 2022,
+  "venue": "IEEE Access",
+  "cites": 97,
+  "q": 9
+ },
+ {
+  "doi": "10.1109/inmic50486.2020.9318092",
+  "title": "A review on machine learning techniques for secure IoT networks",
+  "year": 2020,
+  "venue": "IEEE International Multitopic Conference (INMIC)",
+  "cites": 13,
+  "q": 9
+ },
+ {
+  "doi": "10.1016/j.comcom.2020.01.016",
+  "title": "Deep learning and big data technologies for IoT security",
+  "year": 2020,
+  "venue": "Computer Communications",
+  "cites": 359,
+  "q": 9
+ },
+ {
+  "doi": "10.1155/2023/8068038",
+  "title": "Blockchain-Based Secure Localization against Malicious Nodes in IoT-Based Wireless Sensor Networks Using Federated Learning",
+  "year": 2023,
+  "venue": "Wireless Communications and Mobile Computing",
+  "cites": 74,
+  "q": 9
+ }
+]

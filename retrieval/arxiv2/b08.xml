@@ -1,0 +1,1401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ryFBCmyfYpenCWPTfcOGNQOxUwo</id>
+  <title>arXiv Query: search_query=all:open-set AND all:RF OR all:fingerprinting&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:open-set+AND+(all:RF+OR+all:fingerprinting)&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>228</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05979v1</id>
+    <title>From Identification to Discovery: Holistic RF Fingerprinting via Learning-Aided Quantization</title>
+    <updated>2026-10-05T08:32:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.05979v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05979v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio frequency fingerprint identification (RFFI) enables device identification and authentication by exploiting transmitter-specific hardware impairments embedded in received RF signals. Existing RFFI methods are typically designed for a specific operating regime, such as closed-set identification, open-set recognition (OSR), or discovery of new devices, and often treat these tasks as separate algorithmic components. In this paper, we propose a holistic RFFI framework that jointly supports closed-set identification, OSR, and novel class discovery (NCD) within a single expandable architecture. The proposed method formulates RFFI as vector quantization in a learned latent feature space, where registered devices are represented by labeled codewords. This representation enables closed-set identification through codeword assignment, OSR through uncertainty measures induced by the codebook geometry, and NCD by using the latent representations and open-set uncertainty of rejected samples to organize them into new device identities. We further develop a multi-stage training procedure that combines supervised representation learning, latent-space refinement, codebook initialization, and vector-quantization-aware optimization. Experimental results on LoRa and WiFi RFFI datasets demonstrate that the proposed framework achieves accurate identification of registered devices, reliable detection of unseen transmitters, and effective discovery and registration of new device classes, highlighting the benefits of coupling the different RFFI tasks.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T08:32:30Z</published>
+    <arxiv:comment>Under review for publication in the IEEE</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Omer Hazan</name>
+    </author>
+    <author>
+      <name>Gil Paryanti</name>
+    </author>
+    <author>
+      <name>Nir Shlezinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03470v1</id>
+    <title>CorrectGuard: Eyes-Off Correctness Estimation for Black-Box Security Guardrails</title>
+    <updated>2026-10-02T15:42:10Z</updated>
+    <link href="https://arxiv.org/abs/2610.03470v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03470v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI services increasingly rely on black-box security guardrails, yet privacy-preserving model auditing regimes often cannot measure how well these systems perform in both a human eyes-off production setting, which disallows human inspection of user input, and a machine eyes-off setting, which disallows model inspection of such input. We introduce CorrectGuard, an eyes-off correctness estimation framework for both settings, which involves an independent model-based evaluator predicting whether guardrail decisions on human- and machine-inaccessible inputs are correct using only labeled eyes-on data and without access to the guardrail's internals. We evaluate in-context learning, embedding, and finetuning-based correctness models under leave-one-dataset-out evaluation across 13 safety and security datasets spanning harmful content, jailbreaks, prompt injection, and extraction, and across open-weight guardrails treated uniformly as black boxes. Across both human and machine eyes-off settings (the latter implemented using privacy-preserving fingerprinting of inputs), in-context-learning-based correctness classifiers substantially improve error identification across guardrails, achieving up to a 25 percentage-point increase in macro accuracy, as do finetuning-based approaches which provide a nearly 15-point boost, although performance varies sharply across guardrails and held-out datasets. Correctness scores also support guardrail decision ranking and abstention: across 3 guardrails, the best correctness rankings reduce AURC from unranked baselines of 0.33-0.44 to 0.17-0.22, while the best operating points retain 37.5-52.0% of guardrail decisions at 15% observed risk. These results show that external correctness models can expose systematic failures and support guardrail decision abstention without privileged access to the guardrail.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T15:42:10Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Adam Faulkner</name>
+    </author>
+    <author>
+      <name>Nil-Jana Akpinar</name>
+    </author>
+    <author>
+      <name>Matthew Dressman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38831v1</id>
+    <title>Forging LLM Authorship Fingerprints with Targeted Rewriting</title>
+    <updated>2026-09-30T02:52:35Z</updated>
+    <link href="https://arxiv.org/abs/2609.38831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model-attribution classifiers can often identify which language model produced a text, making model-specific writing patterns a signal of provenance. Accurate attribution on unmodified text, however, does not show whether the prediction still identifies the original source after deliberate rewriting. We formulate this problem as targeted fingerprint transfer: rewriting one model's output so that attribution classifiers assign it to a chosen target model. We study summarization, where different models receive the same document and express the same underlying content, providing a controlled setting for conditional generation. We introduce ForgePrint, a search-then-distil framework that first searches for rewrites that move attribution toward a target fingerprint, then distils the selected rewrites into a one-pass 4B Student model. On CNN/DM, the Student reaches 70.2% target success rate, outperforming both its Teacher (54.1%) and the strongest of six published rewriting baselines (39.3%), against held-out classifiers that are never queried by the attack. It also reaches 68.3% target success when transferring summaries from an open model toward chosen commercial models. These results show that fingerprint detectability should not be conflated with source authenticity, and that text-only attribution can provide misleading evidence of model identity under targeted rewriting, even when it is accurate on unmodified text.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T02:52:35Z</published>
+    <arxiv:comment>31 pages, 7 figures, 25 tables. Project page: https://haohanyuan01.github.io/ForgePrint/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haohan Yuan</name>
+    </author>
+    <author>
+      <name>Simin Chen</name>
+    </author>
+    <author>
+      <name>Xi Niu</name>
+    </author>
+    <author>
+      <name>Hanqing Guo</name>
+    </author>
+    <author>
+      <name>Depeng Xu</name>
+    </author>
+    <author>
+      <name>Haopeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.31784v1</id>
+    <title>Witeness Overlap: Directional Provenance Inside Open-Weight Model Families</title>
+    <updated>2026-09-24T21:41:02Z</updated>
+    <link href="https://arxiv.org/abs/2609.31784v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.31784v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are related, but also which checkpoint came first. Many existing model-provenance methods are designed for a base-known audit setting: given a victim or source model, they test whether a suspect model is related to it. Although these audits are framed as source-to-suspect tests, their underlying evidence is often symmetric, relying on representation similarity, weight similarity, behavioral fingerprints, or correlation statistics. Symmetric pairwise comparisons can detect relatedness, but they cannot by themselves orient relationship between checkpoints A and B. We therefore introduce a local geometric comparison: instead of comparing two checkpoints directly, we add a third same-family checkpoint as a witness and compare the geometry around each candidate endpoint. Direction is inferred by asking which candidate behaves more like a branching parent. Motivated by this idea, and by the empirically observed asymmetry between parent-anchored and child-anchored witness-overlap distributions, we propose Witness Overlap, a prompt-free, training-free white-box test for directional provenance. On 176 LLM checkpoints from 16 families, our one-witness test orients 95.3\% of parent-child decisions using Frobenius cosine. We further evaluate root identification, sibling discrimination, generalizations to VLM and diffusion families, and chain-structured ordering. The signal is robust to weight noise and sparse pruning, with a proposed SVD weight reduction variant showing greater robustness than Frobenius cosine.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T21:41:02Z</published>
+    <arxiv:comment>accepted at neurips 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Siyuan Li</name>
+    </author>
+    <author>
+      <name>Haoxuan Zeng</name>
+    </author>
+    <author>
+      <name>Xin Luo</name>
+    </author>
+    <author>
+      <name>Fernando Jia</name>
+    </author>
+    <author>
+      <name>Florence Li</name>
+    </author>
+    <author>
+      <name>Zhengyang Geng</name>
+    </author>
+    <author>
+      <name>Zico Kolter</name>
+    </author>
+    <author>
+      <name>Tai Sing Lee</name>
+    </author>
+    <author>
+      <name>Tianqin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29330v1</id>
+    <title>FlowAtom: Atom-Based Evidence Aggregation for Multi-Label Website Fingerprinting</title>
+    <updated>2026-09-24T10:06:25Z</updated>
+    <link href="https://arxiv.org/abs/2609.29330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identifying the set of monitored websites in mixed encrypted traffic is challenging because an individual flow often provides only partial evidence of website identity. To address this challenge, we propose FlowAtom, which constructs shared prototypes, called Atoms, from flow representations without website labels. Specifically, FlowAtom pretrains a flow encoder on external unlabeled traffic and aggregates Atom responses across flows within each observation window into a fixed-dimensional, permutation-invariant representation for monitored website-set prediction. Across Direct HTTPS, Trojan, and VMess, FlowAtom achieves micro-F1 scores of 97.82%, 94.43%, and 93.92% in closed-world evaluation, respectively, and consistently outperforms the evaluated baselines in open-world evaluation on windows containing monitored visits. The code is available at https://github.com/aimafan123/FlowAtom.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T10:06:25Z</published>
+    <arxiv:comment>5 pages. Submitted to ICASSP 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chongru Fan</name>
+    </author>
+    <author>
+      <name>Wentao Huang</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Zhenquan Ding</name>
+    </author>
+    <author>
+      <name>Jinqiao Shi</name>
+    </author>
+    <author>
+      <name>Wei Cai</name>
+    </author>
+    <author>
+      <name>Zhiyu Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26485v1</id>
+    <title>Extraordinary Lifetime Enhancement of Coherent Phonon-Amplitude Modes in the Excitonic Insulator Phase of Ta2Pd3Te5</title>
+    <updated>2026-09-22T14:23:30Z</updated>
+    <link href="https://arxiv.org/abs/2609.26485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The excitonic insulator (EI) is an electronic phase of condensed excitons. However, in many prototypical materials the presence of a concurrent structural transition complicates the identification of a purely electronic origin of the ordered state. Here, we investigate Ta2Pd3Te5, in which an EI phase develops below TC ~ 100 K in the absence of a detectable structural transition. We characterize the excitonic condensate via its coherent phonon-amplitude response. Most strikingly, an extraordinarily strong lifetime enhancement of these modes sets in below TC which we establish as a new and robust fingerprint linked to exciton condensation. We discuss possibilities to capture the enhancement when taking into account a coupling of excitonic and lattice effects in line with the coupled phonon-amplitude response. Within an order-parameter polaron picture coupling to the excitonic state may dress the phonon mode and thereby suppress its relaxation and a phenomenological model combines the anharmonic phonon response and a reduced electronic scattering due to the gap opening in the EI phase.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T14:23:30Z</published>
+    <arxiv:comment>11-page manuscript with 3 figures; 19 pages of Supplemental Material with 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Anjan Kumar N M</name>
+    </author>
+    <author>
+      <name>Shuhan Wang</name>
+    </author>
+    <author>
+      <name>Snehashish Chatterjee</name>
+    </author>
+    <author>
+      <name>Yan Zhu</name>
+    </author>
+    <author>
+      <name>MinJae Kim</name>
+    </author>
+    <author>
+      <name>Tobias Ritschel</name>
+    </author>
+    <author>
+      <name>Elaheh Sadrollahi</name>
+    </author>
+    <author>
+      <name>Jochen Geck</name>
+    </author>
+    <author>
+      <name>Achim Rosch</name>
+    </author>
+    <author>
+      <name>Chandra Shekhar</name>
+    </author>
+    <author>
+      <name>Claudia Felser</name>
+    </author>
+    <author>
+      <name>Stefan Kaiser</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.24084v1</id>
+    <title>From Bits to Beliefs: Recoverable Semantic Fingerprints for Black-Box Verification of Large Language Models</title>
+    <updated>2026-09-21T04:11:07Z</updated>
+    <link href="https://arxiv.org/abs/2609.24084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.24084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-weight large language models (LLMs) can be copied, modified, and redeployed behind black-box APIs, making post-release ownership verification difficult. Existing black-box fingerprints often rely on secret query-key pairs that reproduce predefined responses, and can therefore be easily disrupted by fine-tuning, pruning, quantization, model merging, and serving-time prompt changes. We propose SimPrint, a recoverable semantic fingerprinting framework for black-box LLM ownership verification. Rather than relying on isolated exact matches, SimPrint encodes a private owner signature into a coded semantic fingerprint domain, distributing ownership evidence across natural binary question-answering probes. It implants only base-deviating probes through a low-interference batch update that preserves the original model behavior, and later recovers the signature by parsing suspect-model responses into reliable bits or erasures with an error-correcting recovery mechanism. Because verification only uses input-output queries, SimPrint remains applicable when model weights or activations are inaccessible. Experiments on three open-weight LLMs show that SimPrint reliably recovers the owner signature in both clean and modified settings, remains robust under fine-tuning, pruning, quantization, model merging, and serving-time perturbations, and maintains comparable downstream utility.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T04:11:07Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiaxin Hong</name>
+    </author>
+    <author>
+      <name>Yuxin Peng</name>
+    </author>
+    <author>
+      <name>Hongyao Yu</name>
+    </author>
+    <author>
+      <name>Hao Fang</name>
+    </author>
+    <author>
+      <name>Shuoyang Sun</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.21738v1</id>
+    <title>GenTraceBench: A Benchmark for Tracing Audio Deepfakes Across Pre- and Post-training Stages</title>
+    <updated>2026-09-18T13:15:52Z</updated>
+    <link href="https://arxiv.org/abs/2609.21738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.21738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern text-to-speech (TTS) systems are rarely deployed as unchanged pre-trained models. They are often adapted through supervised fine-tuning (SFT) or preference optimization such as DPO and GRPO. This raises a practical question for audio deepfake forensics: do fingerprints learned from a foundation generator remain valid after adaptation? We present GenTraceBench, a controlled benchmark spanning five TTS architectures, 16 pre-/post-training variants, and 49,728 utterances generated with fixed texts and speaker prompts. Under a train-on-foundation, test-on-adapted protocol, we evaluate binary detection, closed-set attribution, and open-set verification. DPO and GRPO generally preserve fingerprints, whereas some SFT and pre-training-data changes cause substantial drift; effect sizes vary across three forensic backbones. Repeated training runs confirm the largest W2V-BERT attribution drop, while a data-mixture control with comparable speech quality shows that composition change need not cause drift. In W2V-BERT verification, multi-shot enrollment reduces EER for the SFT condition from 44.4% to 11.0%, whereas the SingNet-only condition remains at or above 45% EER.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-18T13:15:52Z</published>
+    <arxiv:comment>5 pages, 2 figures, 4 tables. Accepted to the 15th International Symposium on Chinese Spoken Language Processing (ISCSLP 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Kunyu Feng</name>
+    </author>
+    <author>
+      <name>Wan Lin</name>
+    </author>
+    <author>
+      <name>Dekun Chen</name>
+    </author>
+    <author>
+      <name>Qinke Ni</name>
+    </author>
+    <author>
+      <name>Xueyao Zhang</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Jie Shi</name>
+    </author>
+    <author>
+      <name>Haizhou Li</name>
+    </author>
+    <author>
+      <name>Zhizheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17842v1</id>
+    <title>Lexara-RF: Reference-Free Metrics for Evaluating Conversational Visual Analytics Agents</title>
+    <updated>2026-09-15T21:02:24Z</updated>
+    <link href="https://arxiv.org/abs/2609.17842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conversational visual analytics (CVA) agents powered by large language models generate visualizations and natural-language explanations from open-ended queries. Evaluating these multimodal outputs is challenging: curated reference benchmarks are costly to author, cannot comprehensively capture the space of valid responses, and are unavailable in production. Building on the Lexara evaluation framework, we introduce Lexara-RF, a reference-free set of metrics that scores CVA outputs using only the prompt, data, and model response. We reformulate evaluation as verification: 13 metrics operationalize visualization design theory and Gricean cooperative principles as computable consistency, intent-alignment, and design validity checks. On a human-rated corpus of CVA test-cases, Lexara-RF achieves alignment comparable to reference-based formulations, outperforms surface-similarity NLG baselines, and localizes structurally grounded failures with high accuracy.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T21:02:24Z</published>
+    <arxiv:comment>4 pages, 1 figure Conversational Visual Analytics, Evaluation Metrics, Visualization Design, Cooperative Communication Principles</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <arxiv:journal_ref>2026 IEEE Visualization and Visual Analytics (VIS) Conference</arxiv:journal_ref>
+    <author>
+      <name>Srishti Palani</name>
+    </author>
+    <author>
+      <name>Vidya Setlur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17491v1</id>
+    <title>FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection</title>
+    <updated>2026-09-15T17:32:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.17491v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17491v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and directions, but their frequency and spatial dimensions exhibit different structural dependencies. We propose FreqSpaNet, an SFPF representation learning network for open set hardware anomaly detection. A frequency branch captures local variations among neighboring frequencies, while a geometry-aware spatial branch models directional relationships using angular information. The two representations are combined through adaptive fusion, and complementary pretraining further captures shared information while preserving the distinct characteristics of the frequency and spatial representations. Experiments show that FreqSpaNet achieves a mean AUROC of 96.31\%, 9.05 points above the baseline. Results under seven hardware replacement scenarios further verify the effectiveness of FreqSpaNet.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T17:32:12Z</published>
+    <arxiv:comment>5 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiaoxuan Huang</name>
+    </author>
+    <author>
+      <name>Jinlong Xu</name>
+    </author>
+    <author>
+      <name>YiZhe Wang</name>
+    </author>
+    <author>
+      <name>Meng Zhang</name>
+    </author>
+    <author>
+      <name>Xian Li</name>
+    </author>
+    <author>
+      <name>Yuying Bian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.04707v1</id>
+    <title>Wireless Foundation Models: State-of-the-Art and Open Challenges</title>
+    <updated>2026-09-04T04:26:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.04707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.04707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wireless foundation models (WFMs) have emerged as a promising approach for learning reusable representations from large-scale wireless data and adapting them to downstream tasks. However, the rapidly growing literature remains fragmented across modalities, pretraining objectives, architectures, adaptation strategies, and evaluation protocols, making it difficult to assess progress toward broadly transferable models. This survey provides a systematic analysis of WFMs for physical-layer applications. We first introduce the main WFM design components, including pretraining, backbone architectures, and downstream adaptation. We then organize the literature into five physical-layer task families: signal recognition and demodulation, channel representation learning, RF sensing and localization, beam management, and spectrum sensing and monitoring, while separately examining multi-task PHY models. Across these categories, we analyze how existing models are pretrained, adapted, and evaluated, with particular attention to downstream task diversity and the distinction between in-distribution, partial-shift, and out-of-distribution transfer. Our analysis shows that current WFMs provide increasing evidence of reusable wireless representations, but this evidence varies considerably across task families and evaluation settings. Differences in datasets, modalities, architectures, pretraining objectives, adaptation protocols, and distribution shifts make it difficult to determine which design choices drive transfer and generalization. We conclude by identifying open directions for improving data availability, evaluation rigor, generalization, efficient adaptation, and real-world deployment, providing a unified framework for understanding the current WFM landscape and the requirements for developing more reusable foundation models for future physical-layer wireless systems.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-04T04:26:04Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Alonso M. Pacheco Huachaca</name>
+    </author>
+    <author>
+      <name>Juan J. Rodriguez Rodriguez</name>
+    </author>
+    <author>
+      <name>Ahmed Aboulfotouh</name>
+    </author>
+    <author>
+      <name>Nelson L. S. da Fonseca</name>
+    </author>
+    <author>
+      <name>Carlos A. Astudillo</name>
+    </author>
+    <author>
+      <name>Hatem Abou-Zeid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02007v1</id>
+    <title>C$^2$T-OpenMax: A Novel Open-Set WiFi RF Fingerprinting Method via Center Constrained Learning and Confidence-Guided Tail Modeling</title>
+    <updated>2026-09-02T02:32:42Z</updated>
+    <link href="https://arxiv.org/abs/2609.02007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio frequency fingerprinting (RFF) enables device authentication from transmitter-specific hardware imperfections, but practical deployment requires cross-environment open-set recognition. Data augmentation improves environmental generalization, yet may yield dispersed, low-confidence known-class representations that distort the class statistics used by OpenMax. To address this problem, we propose C$^2$T-OpenMax, an enhanced OpenMax framework combining center-constrained learning with confidence-guided tail modeling. The former improves intra-class compactness, making class-wise representations more suitable for distance-based modeling. The latter retains only correctly classified, high-confidence logits for mean activation vector estimation and Weibull fitting, reducing bias from ambiguous boundary samples. Together, the two modules refine representation geometry and OpenMax construction while preserving augmentation benefits. Experiments on a public WiFi CSI dataset show that C$^2$T-OpenMax achieves the highest open-set accuracy in seven of eight location groups and outperforms all baselines in area under the receiver operating characteristic curve (AUROC) and open-set classification rate (OSCR) across every tested openness level. Under the largest-openness setting, it improves accuracy by 12.31%, AUROC by 0.0887, and OSCR by 0.0856 over the augmented OpenMax baseline.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T02:32:42Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuanyu Zhang</name>
+    </author>
+    <author>
+      <name>Junjie Yang</name>
+    </author>
+    <author>
+      <name>Ji He</name>
+    </author>
+    <author>
+      <name>Shuangrui Zhao</name>
+    </author>
+    <author>
+      <name>Lele Zheng</name>
+    </author>
+    <author>
+      <name>Yulong Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26891v1</id>
+    <title>Sparse Delta Integration method for the calculation of spatiotemporal pressure fields of arbitrary ultrasound transducer geometries</title>
+    <updated>2026-08-27T09:46:32Z</updated>
+    <link href="https://arxiv.org/abs/2608.26891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate and efficient simulation of ultrasound pressure fields and pulse-echo responses is essential for transducer design, beamforming optimization, and model-based imaging research. Conventional Spatial Impulse Response methods compute acoustic fields by explicitly sampling trapezoidal impulse responses for each rectangular aperture subdivision, which leads to high computational cost for large apertures, dense spatial grids, and high sampling frequencies. We introduce Sparse Delta Integration, a mathematical framework for the far-field SIR of rectangular apertures that expresses the trapezoidal spatial impulse response as the double integration of a sparse set of Dirac delta distributions. This formulation yields compact expressions for time-domain and frequency-domain SIRs and enables vectorized implementations whose computational cost is independent of the trapezoid duration. We further derive a spectral formulation for pulse-echo simulation that removes part of the conventional Fourier-domain convolution pipeline. Implemented in the open-source Python package eSDIva, these methods achieve speedups of up to 180x for temporal SIR computation and up to 20x for pulse-echo RF simulation relative to Field II, while maintaining high numerical accuracy with mean squared errors below 1e-5 and correlation coefficients close to unity.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T09:46:32Z</published>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>Deyver E. Rivera</name>
+    </author>
+    <author>
+      <name>Charlie Demene</name>
+    </author>
+    <author>
+      <name>Mickael Tanter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20160v1</id>
+    <title>Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing</title>
+    <updated>2026-08-20T15:16:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.20160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features. We further show that robustness against adversarial training does not necessarily imply robustness against defense-aware autoencoder (DAAE)-based attacks.
+  To address these limitations, we present Chameleon, a robust WF defense based on many-to-many randomized traffic morphing. Chameleon selects morphing candidates with high intra-class diversity and low inter-class disparity. Chameleon randomly maps each webpage trace to multiple candidates, and allows different webpages to share morphing targets, thereby increasing adversarial uncertainty. For practical Tor deployment, Chameleon introduces a radix-trie-based synchronization mechanism that enables pluggable transport (PT) endpoints to identify consistent morphing traces using packet-direction prefixes, together with trace mutation and normalized prefix matching to reduce overhead. We evaluate Chameleon against six state-of-the-art defenses and five WF attacks on three public datasets in closed- and open-world settings. Compared with Adaptive Tamaraw, Chameleon reduces adversarial-training-based attack accuracy by up to 36.74% while reducing bandwidth and time overhead by 34.12% and 60.38%, respectively. Under DAAE-based RF attacks on GTT23, Chameleon limits attack performance to 35.19% F1-score while Adaptive Tamaraw only limits it to 88.22% F1-score. In the real-world PT bridge evaluation, Chameleon substantially reduces the effectiveness of strong WF attacks while incurring only 16.25% time overhead.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T15:16:37Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuwen Cui</name>
+    </author>
+    <author>
+      <name>Kai Wei</name>
+    </author>
+    <author>
+      <name>Kehan Shen</name>
+    </author>
+    <author>
+      <name>Ning Wang</name>
+    </author>
+    <author>
+      <name>Zhuo Lu</name>
+    </author>
+    <author>
+      <name>Yao Liu</name>
+    </author>
+    <author>
+      <name>Guangjing Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19668v2</id>
+    <title>A charge selection rule fixes what a squeezed-light reservoir computer can compute and afford</title>
+    <updated>2026-08-27T23:46:15Z</updated>
+    <link href="https://arxiv.org/abs/2608.19668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reading an optical quantum reservoir costs repetitions growing super-exponentially with feature order: what it can afford is set by its detector, not its optics. For reservoirs encoding data in a parametric pump's phase, one conservation law fixes what is readable and what it costs. Pairwise photon exchange conserves an integer phase charge: across an ensemble of input masks, order-D readout reaches exactly the assemblies of at most D unit-charge kernels; degree-one homodyne readout is universal for fading-memory functionals along weak-squeezing families, at shot cost polynomial in accuracy; and at fixed squeezing no finite degree reaches every sector, at a computable distance. Nonlinearity sits in the optics, not the detector, whose per-shot variance is fixed at every order. In a hardware-faithful digital twin-no device was built-the rule is visible: on an open RF corpus a displacement-encoded control at identical photon number loses 17.7 accuracy points, as the charge algebra predicts.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T06:03:09Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel Soh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18642v1</id>
+    <title>IriSig-Spoof: A Real-World Benchmark for Time-Robust Satellite RF Fingerprinting and Spoofing Detection</title>
+    <updated>2026-08-19T07:43:32Z</updated>
+    <link href="https://arxiv.org/abs/2608.18642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low Earth orbit (LEO) satellite Internet is becoming critical communications infrastructure, yet its open wireless links remain vulnerable to satellite impersonation and signal spoofing. Radio frequency fingerprinting (RFF) offers a potential defense by exploiting transmitter-specific hardware imperfections manifested in received signals. However, the reliability of existing satellite RFF methods remains difficult to assess because no unified dataset and benchmark support temporal, open-set, and cross-scenario evaluation. To address this gap, we introduce IriSig-Spoof, a real-world Iridium dataset comprising 5.17 million messages collected from 66 satellites over 32 days, together with software-defined radio (SDR)-generated spoofing signals from indoor and outdoor settings. We further establish three benchmark tasks: temporal robustness evaluation, open-set RFF identification with unknown-signal rejection, and cross-scenario spoofing detection. Experiments using a multi-scale attention convolutional neural network (MACNN) show that temporal robustness varies across configurations, with the best configuration achieving 97.75% average cross-day accuracy. In open-set evaluation, MACNN achieves an area under the receiver operating characteristic curve (AUROC) of 0.9715, while showing that effective unknown-signal rejection does not necessarily ensure reliable identity assignment. Cross-scenario experiments reveal differences at low false-positive rates. IriSig-Spoof provides a reproducible basis for evaluating robust RFF methods under temporal variation and changing attack conditions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-19T07:43:32Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shichang Guo</name>
+    </author>
+    <author>
+      <name>Yuanyu Zhang</name>
+    </author>
+    <author>
+      <name>Shuangrui Zhao</name>
+    </author>
+    <author>
+      <name>Ji He</name>
+    </author>
+    <author>
+      <name>Pinchang Zhang</name>
+    </author>
+    <author>
+      <name>Yulong Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.15652v2</id>
+    <title>Scalable Black-Box Model Attribution for Images</title>
+    <updated>2026-09-20T13:53:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.15652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.15652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of generative models raises the model attribution problem: given only an image, can we determine which model produced it? We propose a lightweight CNN to solve this problem in a strict black box setting. The CNN operates on multiple image patches to handle varying image size and improve accuracy. It attributes more models at higher accuracy than prior work, reaching 98.9% on 25-class DRAGON and 95.0% on 27-class OpenFake; runs in a few milliseconds at a cost nearly independent of candidate-set size; and remains robust to transformations encountered in the wild. Beyond closed-set attribution, its learned representation serves as a reusable fingerprint backbone: it supports open-set rejection and few-shot enrollment, recovers model-family structure without lineage supervision, and groups images from unseen generators by source. Controlled ablations and causal perturbations show that its attribution decisions are driven by a spatially local, low-level signal that behaves as a generator-specific fingerprint.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-16T09:45:09Z</published>
+    <arxiv:comment>Project page: https://asaf-livne.github.io/RPA/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Asaf Livne</name>
+    </author>
+    <author>
+      <name>Amir Jevnisek</name>
+    </author>
+    <author>
+      <name>Shai Avidan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26282v1</id>
+    <title>Neural Fingerprints for Malware Analysis: An Image-Based Metric Learning Approach with Application to Cross-Domain Classification</title>
+    <updated>2026-08-14T14:16:19Z</updated>
+    <link href="https://arxiv.org/abs/2609.26282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identifying the family of a newly observed malware sample is a core task in threat intelligence, yet conventional classifiers must be retrained whenever a new family appears. This chapter develops an image-based metric learning approach that instead learns to extract discriminative neural fingerprints--fixed-length embeddings--from malware-as-image representations, so that family membership can be determined by nearest-neighbor search in the embedding space. The central advantage of this formulation is zero-shot capability: because the learned embedding induces a similarity metric rather than a fixed set of class boundaries, families that were never seen during training can be recognized by comparison against a gallery, with no retraining. We demonstrate this directly by training an encoder on MalNet-Images-Tiny and MalImg combined (453 families, 96,769 images) and evaluate it zero-shot on a held-out 17-family grayscale dataset with no family overlap. Using a lightweight CNN with multi-proxy anchor loss, this model attains 73.1% retrieval@1 and 90.5% open-set AUROC on families the encoder has never seen. We benchmark our embedding approach against two conventional paradigms in a same-domain setting, where all three are competitive at classifying malware into families. We further show that the learned embeddings transfer across datasets. Unlike classifiers, our embedding approach also yields interpretable similarity scores and scales to large galleries via Facebook AI Similarity Search (FAISS). Finally, we provide a comprehensive evaluation of the learned embedding space using retrieval@k, cluster purity, silhouette score, separation ratio, few-shot accuracy, and open-set detection metrics, along with robustness analysis under image perturbations.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-14T14:16:19Z</published>
+    <arxiv:comment>To appear as a chapter in the book "Artificial Intelligence for Cyber Defense in Emerging Threats", to be published by Springer by early 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Manasa Deshagouni</name>
+    </author>
+    <author>
+      <name>Sayma Akther</name>
+    </author>
+    <author>
+      <name>Martin Jurecek</name>
+    </author>
+    <author>
+      <name>Mark Stamp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.14139v1</id>
+    <title>Birth of the Coil: another Milestone towards a fully reproducible low-field MRI scanner for head-imaging</title>
+    <updated>2026-08-14T09:46:05Z</updated>
+    <link href="https://arxiv.org/abs/2608.14139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.14139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-field magnetic resonance imaging (MRI) provides an accessible, portable, and low-cost alternative to high-field scanners, expanding diagnostic imaging to point-of-care settings. However, widespread adoption is fundamentally hindered by a severely reduced signal-to-noise ratio (SNR). At low frequencies, radiofrequency (RF) coil conductor losses - rather than tissue sample losses - predominantly govern the system's total noise, making meticulous RF coil optimization critical to recovering image quality. This work presents an open-source, optimized solenoid head coil tailored for the 50 mT open-source scanner (OSII ONE v2.1). The paper validates production reproducibility across three independent international institutions and introduce an open-source connector with integrated digital circuitry for coil identification and DC or logic signals. Comprehensive benchtop measurements, Electromagnetic Interference (EMI) coupling analysis, Specific Absorption Rate (SAR) safety simulations, and phantom and human volunteer imaging confirm the design's efficacy, safety, and reproducibility. The results of the paper, when combined with the material provided in the open-source dedicated repositories, set the basis for a fully reliable and reproducible component for the open-source OSII ONE MRI scanner. In addition, the same optimization strategy and design material can be exploited for designing other RF coils for imaging of other body parts.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-14T09:46:05Z</published>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>Umberto Zanovello</name>
+    </author>
+    <author>
+      <name>Julia Pfitzer</name>
+    </author>
+    <author>
+      <name>Ariane Ernst</name>
+    </author>
+    <author>
+      <name>Joshua Harper</name>
+    </author>
+    <author>
+      <name>Jack Hayhoe</name>
+    </author>
+    <author>
+      <name>Tri Nguyen</name>
+    </author>
+    <author>
+      <name>Lukas Winter</name>
+    </author>
+    <author>
+      <name>Nicola De Zanche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.13905v1</id>
+    <title>CipherSight: Robust Website Fingerprinting via Record-Resource Semantic Supervision under Distribution Shifts</title>
+    <updated>2026-08-14T03:17:57Z</updated>
+    <link href="https://arxiv.org/abs/2608.13905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.13905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>HTTPS website fingerprinting (WF) aims to identify visited websites from metadata observable in encrypted traffic. However, real-world deployments introduce a significant out-of-distribution (OOD) problem caused by temporal and geographic changes, while previously unseen websites are common in open-world scenarios. Existing methods primarily learn from raw TCP packet sequences and struggle to capture stable and generalizable website representations, resulting in performance degradation under practical conditions.
+  We propose CipherSight, a TLS-record-based hierarchical framework for robust HTTPS WF. Unlike existing approaches that rely on TCP packet sequences and are sensitive to transport-layer artifacts, CipherSight learns website representations from TLS records by jointly encoding multiple record-level attributes. It introduces a hierarchical architecture that captures both intra-flow dependencies among TLS records and inter-flow interactions across concurrent flows, enabling the model to exploit structural patterns in HTTPS traffic. Besides, to learn robust representations, CipherSight employs a masked record modeling (MRM) task to capture contextual traffic semantics and leverages fine-grained record-resource annotations as privileged supervision through structure-aware objectives and semantic distillation. Experiments show that CipherSight achieves 95.41% accuracy across more than 2,000 website classes in the closed-world setting and maintains over 90% accuracy under both temporal and geographic drift, consistently outperforming all evaluated baselines.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-14T03:17:57Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Runhan Song</name>
+    </author>
+    <author>
+      <name>Qiqi Liu</name>
+    </author>
+    <author>
+      <name>Chuanzhou Pan</name>
+    </author>
+    <author>
+      <name>Zhenquan Ding</name>
+    </author>
+    <author>
+      <name>Youquan Xian</name>
+    </author>
+    <author>
+      <name>Chongru Fan</name>
+    </author>
+    <author>
+      <name>Lei Cui</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Zhiyu Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08501v1</id>
+    <title>Hybrid Beamforming in Non-Terrestrial Networks: Architectures, Design Challenges, and Opportunities</title>
+    <updated>2026-08-09T05:44:52Z</updated>
+    <link href="https://arxiv.org/abs/2608.08501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hybrid analog-digital beamforming (HBF) has emerged as a key enabling technology for non-terrestrial networks (NTNs), where large antenna arrays are required to compensate for severe propagation loss but fully digital beamforming is often impractical due to radio-frequency (RF) chain cost, power consumption, and payload limitations. Compared with terrestrial networks, NTN platforms such as low Earth orbit (LEO) satellites and unmanned aerial vehicles (UAVs) impose distinctive HBF design challenges, including high mobility, Doppler effects, sparse line-of-sight-dominant channels, stringent on-board energy budgets, and, for UAVs, the additional coupling between beamforming and controllable platform placement or trajectory. This survey provides a systematic review of HBF techniques for NTN systems, with emphasis on LEO satellite and UAV communications. We first introduce common HBF architectures, signal models, channel representations, analog and digital precoder designs, and learning-aided approaches that form the shared technical foundation of existing works. We then survey both platforms under a common set of five categories, which cover system architecture and precoding design, time-varying beam management, network-level cooperation and scheduling, sensing capability and reconfigurable surfaces, and security and multiple access. Their platform-specific content differs most sharply in the second one, since the dominant time-varying mechanism is traffic-driven beam hopping on an LEO payload but mobility-aware beam tracking on a UAV. Finally, we discuss open research challenges and future directions toward scalable, robust, and hardware-efficient HBF in next-generation NTNs.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-09T05:44:52Z</published>
+    <arxiv:comment>This manuscript has been submitted to the IEEE Communications Surveys and Tutorials</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Thuan Van Le</name>
+    </author>
+    <author>
+      <name>Nguyen Cong Luong</name>
+    </author>
+    <author>
+      <name>Huy T. Nguyen</name>
+    </author>
+    <author>
+      <name>Trong-Dai Hoang</name>
+    </author>
+    <author>
+      <name>Xiaojing Huang</name>
+    </author>
+    <author>
+      <name>Peiyuan Qin</name>
+    </author>
+    <author>
+      <name>Tran Thien Thanh</name>
+    </author>
+    <author>
+      <name>Vo Nguyen Quoc Bao</name>
+    </author>
+    <author>
+      <name>Ngo Hoang Tu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08195v1</id>
+    <title>Targeted Counterfactual Fingerprinting for Black-Box LLM Ownership Verification</title>
+    <updated>2026-08-08T15:44:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.08195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are high-value assets that can be derived through redeployment, fine-tuning, quantization, or further alignment. Because deployed LLMs are commonly exposed only through query APIs, ownership verification must often rely on black-box text responses. This setting is difficult: generations are open-ended and can vary across repeated queries, while existing black-box fingerprints rely on signals that are fragile under a final-response interface, including full-text matching, soft behavioral features, or model-specific prompts designed not to transfer. We propose TCF (Targeted Counterfactual Fingerprinting), a black-box LLM fingerprinting framework that converts open-ended generation comparison into constrained-answer targeted counterfactual transfer. TCF restricts each verification query to a finite answer space, reducing the surface-form ambiguity that enters the verification score, and optimizes a prompt perturbation toward a counterfactual target different from the protected model's clean answer on the original prompt. Verification reduces to checking whether the suspect model's parsed final answer matches the recorded target. We introduce the source-model counterfactual margin (SCM), a protected-model-only quantity that certifies the target is unlikely before the perturbation and likely after it; SCM controls target selection, perturbation stopping, and fingerprint filtering. Under explicit derived-preservation and independent-transfer budgets motivated by local behavioral closeness, we derive a target-accuracy gap between derived and independent models. Across four LLM families, TCF achieves an average AUC of 0.9861, improving over TRAP, ProFLingo, and ZeroPrint by 0.07 to 0.19.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-08T15:44:31Z</published>
+    <arxiv:comment>37 pages, 18 figures, 23 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yutong Wu</name>
+    </author>
+    <author>
+      <name>Xiaofan Bai</name>
+    </author>
+    <author>
+      <name>Shixin Li</name>
+    </author>
+    <author>
+      <name>Pingyi Hu</name>
+    </author>
+    <author>
+      <name>Ziqi Zhou</name>
+    </author>
+    <author>
+      <name>Zilong Wang</name>
+    </author>
+    <author>
+      <name>Xiaojing Ma</name>
+    </author>
+    <author>
+      <name>Songfeng Lu</name>
+    </author>
+    <author>
+      <name>Yuhong Li</name>
+    </author>
+    <author>
+      <name>Jin Xuan</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Dongmei Zhang</name>
+    </author>
+    <author>
+      <name>Bin Benjamin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04881v1</id>
+    <title>HoRFFI: High-Openness RF Fingerprint Identification with a Similarity-Enhanced Variational Information Bottleneck</title>
+    <updated>2026-08-05T14:07:52Z</updated>
+    <link href="https://arxiv.org/abs/2608.04881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio frequency fingerprint identification (RFFI) is a promising technique for wireless device authentication. However, practical RFFI systems must enroll newly authorized devices while rejecting previously unseen ones, even when the feature extractor is trained on only a few labeled base-device classes, giving rise to a high-openness RFFI problem. Existing open-set recognition methods typically rely on feature spaces learned from a large and diverse set of known-device classes, limiting their applicability in practical scenarios. To address this challenge, we propose HoRFFI, a high-openness RFFI framework that supports scalable device identification and unknown-device rejection using only a small number of labeled training devices. HoRFFI employs a similarity-enhanced variational information bottleneck (SVIB)-based supervision mechanism, which reduces the encoder's dependence on training-class diversity and learns a more transferable embedding space. This supervision mechanism uses feature-space augmentation and clustering to derive inter-sample similarity information, which provides supplementary supervision for regularizing the embedding space. Experiments on public LoRa and Wi-Fi datasets show that HoRFFI achieves absolute improvements of \(0.112\) and \(0.288\) in novel-class accuracy, respectively, and corresponding absolute AUC improvements of \(0.029\) and \(0.060\) over the best-performing baselines.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-05T14:07:52Z</published>
+    <arxiv:comment>Submitted to IEEE INFOCOM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shuiguang Zeng</name>
+      <arxiv:affiliation>College of Computer and Cyber Security, Hebei Normal University, Shijiazhuang, China</arxiv:affiliation>
+      <arxiv:affiliation>Hebei Key Laboratory of Network and Information Security, Shijiazhuang, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuxiang Shen</name>
+      <arxiv:affiliation>College of Computer and Cyber Security, Hebei Normal University, Shijiazhuang, China</arxiv:affiliation>
+      <arxiv:affiliation>Hebei Key Laboratory of Network and Information Security, Shijiazhuang, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuanyu Zhang</name>
+      <arxiv:affiliation>School of Computer Science and Technology, Xidian University, Xi'an, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yulong Shen</name>
+      <arxiv:affiliation>School of Computer Science and Technology, Xidian University, Xi'an, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhiyuan Tan</name>
+      <arxiv:affiliation>School of Computing, Engineering and the Built Environment, Edinburgh Napier University, Edinburgh, U.K</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Houbing Herbert Song</name>
+      <arxiv:affiliation>Department of Information Systems, University of Maryland, Baltimore County</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02258v1</id>
+    <title>Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow</title>
+    <updated>2026-08-03T14:03:27Z</updated>
+    <link href="https://arxiv.org/abs/2608.02258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapidly evolving Generative AI enables sophisticated visual text manipulations that increasingly evade current forensic detectors. Existing discriminative models often overfit specific forgery patterns, limiting their generalization to unseen, open-set attacks. To address this challenge, we propose a generative detector that localizes tampering by estimating the local restoration cost required to align a query image with authentic visual-text statistics, rather than by learning forgery-specific decision boundaries. Specifically, we introduce Sparse-Constraint Rectified Flow (SC-RF), a detector-oriented adaptation of Flow Matching for spatially sparse anomaly localization. We further mitigate data scarcity via self-supervised Artifact Injection and preserve high-frequency forensic traces using a pixel-space Forensic-DiT. Extensive experiments on three benchmarks show that our method achieves state-of-the-art performance, surpassing the runner-up by 3.2 and 4.8 percentage points in F1 and IoU, respectively. In particular, the proposed detector demonstrates strong zero-shot performance on challenging unseen text editing patterns. We further provide an auxiliary stress-test analysis showing that local harmonization produced by our model can weaken the statistical cues relied upon by existing detectors, offering a complementary vulnerability-analysis perspective.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T14:03:27Z</published>
+    <arxiv:comment>Accepted to ACM MM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiangling Zhang</name>
+    </author>
+    <author>
+      <name>Shuxuan Gao</name>
+    </author>
+    <author>
+      <name>Zeyu Chen</name>
+    </author>
+    <author>
+      <name>Yichao Liu</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00966v1</id>
+    <title>AgenTag: Attribution of AI Coding Agents from Behavioral Fingerprints</title>
+    <updated>2026-08-02T03:35:25Z</updated>
+    <link href="https://arxiv.org/abs/2608.00966v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00966v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI coding agents increasingly author pull requests (PRs), often under developers' own accounts, obscuring who actually produced a change. Reliable attribution is important for repository governance, empirical studies of AI-assisted software development, and measuring the impact of AI coding agents. Existing work focuses on closed-set identification of known agents, leaving the practical limits of open-world AI coding agent attribution largely unexplored. In this paper, we present AgenTag, a multimodal framework for open-world AI coding agent attribution, evaluated on AIDev, comprising 33,580 PRs from five AI coding agents and 6,618 human-authored PRs. We represent each PR using textual, behavioral, and code-based modalities, and compare conventional classification with supervised contrastive learning for open-set recognition and few-shot enrollment of previously unseen agents. AgenTag identifies authoring agents with a weighted F1 of 0.96 (macro F1 of 0.84), distinguishes AI- from human-authored PRs with a balanced F1 of 0.89, and detects previously unseen agents with an AUC of 0.84. We further show that PR descriptions and commit messages provide nearly all of the attribution signal, whereas code diffs contribute little across multiple representations, indicating that coding agents are distinguished primarily by how they communicate changes rather than by the code they generate. Moreover, these behavioral fingerprints persist after removing explicit self-disclosed markers, demonstrating that attribution relies largely on latent stylistic characteristics. These findings show that reliable attribution of AI coding agents is feasible and clarify the practical trade-offs between attribution accuracy and the information required to achieve it.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T03:35:25Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Taher A. Ghaleb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.25880v1</id>
+    <title>Stemma: Induced Decision Regions Reveal LLM Provenance</title>
+    <updated>2026-07-28T15:42:53Z</updated>
+    <link href="https://arxiv.org/abs/2607.25880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.25880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM provenance testing asks whether a suspect LLM belongs to the same lineage as a source. Existing black-box methods largely infer this relationship from response-level characteristics, but these characteristics may shift under adaptation or deployment even when the underlying meaning remains unchanged, weakening the reliability of provenance evidence. To address this limitation, we introduce induced decision regions by mapping open-ended outputs into a finite decision space, thereby abstracting away surface-form variation and reframing provenance testing as measuring the inheritance of decision regions. Empirical analysis shows that the source's induced regions are preserved more strongly in related models than in unrelated models. Building on this signal, we propose Stemma, a practical black-box LLM fingerprinting method that operationalises stability, robustness, and specificity as complementary probe-selection principles for reliably estimating induced decision region inheritance. Across 770 source-suspect pairs drawn from 56 public checkpoints and spanning diverse model-weight transformations, Stemma achieves 0.967 AUC and 87.8% TPR at 1% FPR, substantially outperforming four representative baselines. It further achieves 0.995 AUC and 93.5% TPR at 1% FPR on 1,260 pairs covering 91 deployment instances, demonstrating robustness to diverse inference-time deployment settings.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-28T15:42:53Z</published>
+    <arxiv:comment>25 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Keyu Zhang</name>
+    </author>
+    <author>
+      <name>Vadim Safronov</name>
+    </author>
+    <author>
+      <name>Andrew Martin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21564v1</id>
+    <title>Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting</title>
+    <updated>2026-07-23T17:48:38Z</updated>
+    <link href="https://arxiv.org/abs/2607.21564v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21564v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio Frequency Fingerprint Identification (RFFI) enables transmitter identification at the physical layer by learning device-specific impairments from received signals, yet the literature is inconsistent about where in the receiver chain those samples should be collected. Since distinct transformations are applied to the signal by the different receiver operations, i.e., carrier recovery, gain normalization, pulse shaping, and timing recovery, they can either tighten within-transmitter variability or suppress the features RFFI requires for classification. We present a systematic real-world evaluation of open-set, reconstruction-error RFFI using data collected at five probe points along a standard BPSK receiver chain. Our results show that RFFI is strongly probe-dependent: timing recovery and, to a lesser extent, carrier recovery enable low false-acceptance operation with limited in-distribution-out-of-distribution overlap, whereas other stages often require a false-acceptance ratio above 0.1 to achieve a true-acceptance ratio of 0.9. To test the validity of our findings across model selection, we benchmark several LLM-designed autoencoders using a controlled pipeline that holds preprocessing and MSE scoring fixed. These architectures confirm that RFFI is probe-dependent. Moreover, they do not outperform the baseline at the chosen operating point and typically increase training time. Overall, probe selection dominates reconstruction-based open-set RFFI performance, more than the autoencoder complexity.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T17:48:38Z</published>
+    <arxiv:comment>10 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Gabriele Oligeri</name>
+    </author>
+    <author>
+      <name>Savio Sciancalepore</name>
+    </author>
+    <author>
+      <name>Ingrid Huso</name>
+    </author>
+    <author>
+      <name>Fatima Al-Mousawi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18986v3</id>
+    <title>Mag4: An Automated First-Principles Workflow to Extract Magnetic Interactions, from Pair Couplings to Four-Spin Ring Exchange</title>
+    <updated>2026-08-20T14:28:04Z</updated>
+    <link href="https://arxiv.org/abs/2607.18986v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18986v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chemists design magnetic materials through structure-property relationships built on pairwise exchange couplings $J$, now extracted routinely from first principles by energy-mapping. But wherever four magnetic centers close a loop---as in cuprate CuO$_2$ planes or infinite-layer square nets---a four-spin ring exchange $J_{\rm ring}$ can arise, reshaping ground states and corrupting the $J$ values used for design. Missing has been a direct, local way to obtain it, as the four-state method gives for $J$. We supply it by generalizing that method to a sixteen-state ($2^4$) scheme, automated in the open Mag4 package---the first automatic implementation of the four-state family. From one cif file, Mag4 proposes the supercell that isolates the couplings, generates DFT inputs in the user's chosen functional, extracts $J$ and $J_{\rm ring}$ with band-gap and local-moment diagnostics, and predicts the magnetic order, propagation vector, and critical temperature. Symmetry reduces the sixteen configurations to six or eight inequivalent energies, so the cost is modest. The derivation shows the conventional four-state $J$ is itself ring-renormalized by $\mp 2 J_{\rm ring} S^2$, the sign set by the reference state. T-La$_2$CuO$_4$ confirms this: three routes agree on $J_{\rm ring}$ to $0.2\%$, giving $J_{\rm ring}/J_1=0.25$, and a four-state $J_1$ quoted without its reference is wrong by $12\%$. The sixteen-state value is itself reference-dependent---Néel and ferromagnetic baths bracket it---a fourth-order fingerprint of interactions beyond the pair-plus-ring model, resolved by further baths into a bare $J_{\rm ring}$ and a converging tower of six- and eight-spin loop couplings. SrFeO$_2$ ($S=2$), same plaquette yet $J_{\rm ring}/J=0.006$, is the negative control: a plaquette is necessary for ring exchange but far from sufficient---a structure-property criterion for screening new multi-spin magnets.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-21T11:19:52Z</published>
+    <arxiv:comment>42 pages, 6 figures, 6 Tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Xavier Rocquefelte</name>
+    </author>
+    <author>
+      <name>Peter Blaha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11967v1</id>
+    <title>Beyond Coordinate Gauge: An Audited Protocol for Detecting Donor-Specific Functional Fingerprints after Neural Collapse</title>
+    <updated>2026-07-12T18:59:12Z</updated>
+    <link href="https://arxiv.org/abs/2607.11967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Independently trained neural networks have no shared neuron-index reference frame, so comparing them requires accounting for coordinate freedom. Neural Collapse sharpens this problem: networks converge toward a shared, low-dimensional geometry, raising the question of whether trajectory-specific functional variation remains distinguishable after convergence. We distinguish three claims - detectability, transplantability, and causal persistence - and address the first. Using five independently trained networks reconstructing Neural Collapse on MNIST, we apply a verified affine-correct alignment mapping donor heads into recipient coordinates. Donor-specific functional fingerprints remain distinguishable after recipient-level baseline correction: all 20 ordered donor-recipient pairs are correctly identified, with an exact permutation p=0.0083, robust to a leakage audit. These findings establish detectability under the test used here, but not transplantability or causal persistence. The study shows how alignment, ambiguity diagnostics, and leakage control combine to test cross-network variation in a controlled setting; whether this generalizes beyond it is open.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-12T18:59:12Z</published>
+    <arxiv:comment>23 pages, 4 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Truong Xuan Khanh</name>
+    </author>
+    <author>
+      <name>Phan Thanh Duc</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.07339v1</id>
+    <title>Machine Learning Materials Properties by Encoding Orbital-Projected Density of States</title>
+    <updated>2026-07-08T12:28:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.07339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.07339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks have become the dominant machine-learning architecture for predicting materials properties from crystal structures. Yet the initialization of atomic node features has received comparatively little attention, and conventional approaches rely on static elemental descriptors that carry no information about the quantum-mechanical electronic environment of each atom in its crystalline host. Here we show that augmenting atomic node representations with site-projected orbital density of states (pDOS) fingerprints, computed directly from density functional theory calculations, yields systematic and substantial improvements in predictive performance.These representations are fused with Pettifor elemental embeddings at each atomic site before message passing. For the superconducting critical temperature $T_c$ and the optical dielectric constant $ε_{\infty}$,the pDOS augmentation reduces prediction errors by 22.9% and 27.9%, respectively, relative to the elemental-descriptor baseline. These improvements are comparable to those achieved by doubling the training-set size. The gains are, however, contingent on training-set size. For the magnetic exchange energies of Heusler compounds, a substantially smaller dataset, the improvement is reduced,indicating that pDOS augmentation is most effective when the training data exceeds the length of the pDOS feature vector. We introduce an interpretable spectral attention-gating mechanism that reveals that the model autonomously learns to prioritize the orbital channels and energy windows most physically relevant to each target property. These results establish pDOS-augmented graph nodes as a broadly applicable strategy for infusing first-principles electronic-structure knowledge into graph networks, opening a practical route to high-accuracy property prediction in data-scarce regimes.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-08T12:28:37Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Paulo Pires</name>
+    </author>
+    <author>
+      <name>Pierre-Paul De Breuck</name>
+    </author>
+    <author>
+      <name>Mauro Fava</name>
+    </author>
+    <author>
+      <name>Hai-Chen Wang</name>
+    </author>
+    <author>
+      <name>Miguel A. L. Marques</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02567v4</id>
+    <title>Cross-Receiver Open-Set Radio Frequency Fingerprinting via Structure-First Adaptation</title>
+    <updated>2026-07-14T11:46:50Z</updated>
+    <link href="https://arxiv.org/abs/2607.02567v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02567v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio frequency fingerprint identification (RFFI) provides a critical physical-layer security mechanism for dynamic Internet of Things (IoT) and ad hoc networks. However, the decentralized and open nature of these networks imposes two strict deployment criteria: the credential must transfer reliably across physically dispersed, heterogeneous receivers, and it must decisively reject unregistered rogue traffic. Cross-receiver hardware shifts depress the confidence of registered devices and may also place unseen rogue transmitters in high-confidence known regions under naive domain adaptation, increasing false acceptance. To address these risks, we propose CRODA-ST, a joint optimization framework that couples Discriminative Structure Anchoring (DSA) with Rejection Oriented Alignment (ROA). Within this coupled objective, DSA establishes a stable target-known semantic foundation for shifted registered devices, while ROA regularizes the open-set decision boundaries governing rejection of unseen rogue transmitters. In the canonical WiSig setting, CRODA-ST achieves an open-set classification rate (OSCR) of 0.9580 and a target-domain false positive rate of 0.0469 at a 90% true positive rate (FPR90). A controllable LoRa simulation provides a complementary diagnostic under synthesized hardware distortions. At the distinct source-calibrated deployment operating point with rho = 0.80, CRODA-ST yields a target-unknown false acceptance rate (FAR) of 0.0075 in the evaluated setting.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T03:56:42Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fengchong Yao</name>
+    </author>
+    <author>
+      <name>Jianbing Li</name>
+    </author>
+    <author>
+      <name>Qing Liu</name>
+    </author>
+    <author>
+      <name>Kefeng Song</name>
+    </author>
+    <author>
+      <name>Haitao Li</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Feixiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24105v1</id>
+    <title>DoHFuse: A Dual-Branch Architecture with DMAGLSTM for Website Fingerprinting over DNS over HTTPS/3</title>
+    <updated>2026-06-23T03:36:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.24105v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24105v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As personal data privacy becomes increasingly critical in Internet of Things (IoT) environments, secure DNS protocols such as DNS over HTTPS (DoH) and DNS over TLS (DoT) have been widely adopted to protect device communications. However, without effective obfuscation, these protocols remain vulnerable to Website Fingerprinting (WF) attacks that can reveal user activity. With the ongoing deployment of DNS over HTTP/3 (DoH/3) in modern networked systems, padding strategies have been increasingly applied in practice. It is therefore essential to investigate whether DoH/3 can effectively mitigate WF attacks in realistic IoT and edge-network scenarios. To address this, we first collect and publicly release the first real-world benchmark dataset of DoH/3 traffic, generated from domain resolution processes in practical network environments. We further propose DoHFuse, a dual-branch learning framework that integrates inter-arrival time sequences and refined statistical features through an improved DMAG-LSTM, specifically designed to capture burst-aligned temporal patterns. Experimental results show that DoHFuse achieves an accuracy of 88.05% (precision 88.56, recall 87.96, F1 87.83) in a closed-world setting of 449 classes, and an AUPRC of 0.975 with an F1 score of 0.951 (precision 0.906, recall 1.0) in open-world detection. These findings demonstrate that DoH/3 traffic remains susceptible to WF attacks, suggesting that commonly deployed padding mechanisms alone are insufficient to ensure privacy protection in IoT-scale encrypted DNS communications.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T03:36:35Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>ZunDong Zhang</name>
+    </author>
+    <author>
+      <name>Yanan Cheng</name>
+    </author>
+    <author>
+      <name>Zhaoxin Zhang</name>
+    </author>
+    <author>
+      <name>Xueyang Huo</name>
+    </author>
+    <author>
+      <name>Changjiang Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22698v2</id>
+    <title>Black-Box Forensics for Conversational LLM Agents</title>
+    <updated>2026-10-07T23:46:14Z</updated>
+    <link href="https://arxiv.org/abs/2606.22698v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22698v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLM-powered scams proliferate, black-box forensics for conversational LLM agents offers a path to accountability for systems hidden behind anonymous endpoints. Identifying the base model behind a chatbot endpoint (attribution), without model parameter access or knowledge of the hidden system prompt, would let investigators trace AI-enabled scams back to the providers whose models power them. Detecting when two endpoints run the exact same system prompt (fingerprinting), even one novel and unseen, would link individual scams into criminal networks and expose silent API changes. We conduct an empirical investigation of both capabilities. Our attribution classifiers identify the base model behind an agent with 98% accuracy from a few turns of non-adversarial conversation. Attribution of system prompts, while possible, requires retraining on a large amount of data for each prompt; system prompts in the wild are unbounded and ever-changing, making this approach costly. To tackle this more open-ended setting, our cross-encoder fingerprinting method achieves an AUC of 0.768 and an F1 of 0.703 on entirely unseen system prompts, and aggregating 50 interaction conversations from each target agent boosts AUC to 0.943. Conversational agents with unseen system prompts can thus be fingerprinted with robust accuracy from a few turns of ordinary conversation.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-21T22:24:55Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Isadora White</name>
+    </author>
+    <author>
+      <name>Yasaman Jafari</name>
+    </author>
+    <author>
+      <name>Taylor Berg-Kirkpatrick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.17462v1</id>
+    <title>ResAware: Cross-Environment Website Fingerprinting via Resource-Privileged Distillation</title>
+    <updated>2026-06-16T03:24:01Z</updated>
+    <link href="https://arxiv.org/abs/2606.17462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.17462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Website Fingerprinting (WF) attacks achieve high accuracy in controlled laboratory settings, they often degrade substantially in real-world environments due to spatio-temporal drift, browser heterogeneity, proxy obfuscation and etc. This limitation stems from their sole reliance on low-level traffic features that are noisy and highly sensitive to environmental perturbations. To address this problem, we propose \textbf{ResAware}, a cross-environment resource-aware distillation framework under a \textit{training-rich/inference-poor} asymmetric setting. Specifically, ResAware trains a teacher model on resource-level features, and then distills the resulting privileged knowledge into a student model through heterogeneous knowledge distillation. At deployment time, the student model performs inference using only encrypted traffic, incurring zero additional cost. We evaluate ResAware on a large-scale dataset collected over five months from six globally distributed vantage points, comprising more than $160{,}000$ paired samples. The results show that ResAware significantly enhances the cross-environment robustness of diverse WF baselines. Under a 150-day temporal drift, for example, ResAware improves the F1-score of Var-CNN from $72.77\%$ to $81.49\%$ and the open-world $TPR@1\%FPR$ from $22.40\%$ to $27.20\%$. Our results demonstrate that resource-level supervision improves WF robustness without expanding online observation capabilities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T03:24:01Z</published>
+    <arxiv:comment>18 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chongru Fan</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Wentao Huang</name>
+    </author>
+    <author>
+      <name>Zhenquan Ding</name>
+    </author>
+    <author>
+      <name>Jinqiao Shi</name>
+    </author>
+    <author>
+      <name>Lei Cui</name>
+    </author>
+    <author>
+      <name>Zhiyu Hao</name>
+    </author>
+    <author>
+      <name>Xiaochun Yun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.17301v1</id>
+    <title>Turning music identification into a neural forward pass</title>
+    <updated>2026-06-15T21:12:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.17301v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.17301v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Search, a foundational operation in computer science, maps a query to a matching item in a collection. It is typically implemented as a System-2 like, rule-based pipeline in which a key is computed, an index is probed, and candidates are verified. By contrast, human recognition resembles a System-1 like, associative model of identity recovery, in which even partial cues can trigger a recall without explicitly enumerating, ranking, or even accessing discrete candidates. Here, we show that music sound identification, a difficult search problem, can be performed in a single neural feed-forward pass by a generative transformer. Trained on an audio dataset, the model predicts the corresponding track identifier from a short audio excerpt. This approach surpasses state-of-the-art acoustic fingerprinting, with the largest gains for short audio segments (1 second), demonstrating the method is not only viable but advantageous. Moreover, it reduces external storage to 0.33% of the baseline footprint and improves inference latency by 2.3x (p95). Furthermore, the model can reject queries for unseen tracks, supporting open-set operation while reducing misattribution risk. Using music track identification as an example, this work reframes search, bringing it closer in spirit to human associative recognition and away from algorithmic database lookup.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-15T21:12:44Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Muhammad Taimoor Haseeb</name>
+    </author>
+    <author>
+      <name>Ahmad Hammoudeh</name>
+    </author>
+    <author>
+      <name>Gus Xia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.14431v1</id>
+    <title>On-chip superconducting GHz RF reflectometry of the capacitance response in bilayer graphene</title>
+    <updated>2026-06-12T13:11:57Z</updated>
+    <link href="https://arxiv.org/abs/2606.14431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.14431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In dual-gated bilayer graphene, a perpendicular displacement field opens a band gap that modifies both the channel conductance and the electronic compressibility, motivating measurements that resolve resistive and capacitive responses on the same device. We integrate an hBN-encapsulated bilayer graphene heterostructure with an on-chip superconducting Nb lumped-element LC resonator and carry out RF reflectometry near 4.25 GHz. DC transport and finite-bias spectroscopy on the same device provide a transport reference. Top and bottom gates independently set the carrier density and displacement field. The DC and RF gate maps share the same gate-dependent features, with finite-bias measurements revealing a region of suppressed conductance whose bias extent grows with the displacement field, consistent with a field-induced gap. The gate-dependent resonance-frequency shift is converted to the effective capacitance seen by the resonator using an equivalent-circuit model. The capacitance shows a minimum near the conductance-suppressed region, consistent with reduced electronic compressibility in the gapped bilayer graphene, and exhibits an electron-hole asymmetry. The on-chip configuration probes the gate-dependent admittance of a dual-gated van der Waals heterostructure, providing capacitance-sensitive information that complements DC transport within a single device.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-12T13:11:57Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Sung Jin An</name>
+    </author>
+    <author>
+      <name>Minseo Cho</name>
+    </author>
+    <author>
+      <name>Minjun Park</name>
+    </author>
+    <author>
+      <name>Dohun Kim</name>
+    </author>
+    <author>
+      <name>HyeonJeong An</name>
+    </author>
+    <author>
+      <name>Seung-Bo Shim</name>
+    </author>
+    <author>
+      <name>Hakseong Kim</name>
+    </author>
+    <author>
+      <name>Sunghun Lee</name>
+    </author>
+    <author>
+      <name>Myoung-Jae Lee</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>Jungpil Seo</name>
+    </author>
+    <author>
+      <name>Myunglae Jo</name>
+    </author>
+    <author>
+      <name>Youngwook Kim</name>
+    </author>
+    <author>
+      <name>Minkyung Jung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.12718v1</id>
+    <title>Out-of-Distribution (OOD) Detectors for Open-Set RF Fingerprinting</title>
+    <updated>2026-06-10T22:09:47Z</updated>
+    <link href="https://arxiv.org/abs/2606.12718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.12718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio-frequency (RF) fingerprinting systems must operate in open-world environments where signals from unknown transmitters and temporal drift introduce distribution shift at test time. Out-of-distribution (OOD) detection provides a natural framework for this problem, yet its application to RF fingerprinting (RFF) remains limited. A key barrier to their adoption is that most OOD detectors require auxiliary OOD data for parameter tuning, an assumption that is difficult to satisfy in RF environments where representative OOD data is impractical to collect. In this work, we introduce a promising set of OOD detection methods from the machine learning literature to open-set RFF domain. We present these methods within a unified mathematical framework based on information theory, which is a natural framework for communication systems. Our framework allows for the systematic analysis of methods and development of new methods. We further demonstrate the applicability of recent work on tuning OOD detectors without given OOD tuning data for open-set RFF. We evaluate on the POWDER RF fingerprinting dataset, showing that detectors tuned without any given OOD data achieve performance comparable to baselines with access to true OOD tuning data and greatly out-perform baseline approaches without access to true OOD tuning data, showcasing the practical viability for the RFF problem.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-10T22:09:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sudeepta Mondal</name>
+    </author>
+    <author>
+      <name>Ganesh Sundaramoorthi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10600v2</id>
+    <title>Toward Proactive RF Charging Scheduling: Generative AI for Decision Support</title>
+    <updated>2026-09-28T15:04:20Z</updated>
+    <link href="https://arxiv.org/abs/2606.10600v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10600v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio frequency wireless power transfer (RF-WPT) is an enabling technology for supporting uninterrupted communications in future Internet of Things systems by reducing the need for battery replacement and mitigating battery-waste-related issues. For large-scale RF-WPT deployment, one of the main challenges is the scheduler-level resource allocation. Specifically, the RF charger must decide how much energy to deliver, when, and to whom, under limited charging resources, incomplete receiver-side information, and uncertain near-future charging conditions. This article positions generative artificial intelligence (GenAI) as a promising tool for this setting because it can foresee multiple plausible charging scenarios conditioned on coarse operational context and receiver-side information. We propose GenAI to act as an uncertainty-aware support layer for the RF-WPT scheduler rather than as a standalone forecasting or decision-making tool. To this end, we first revisit the main challenges of RF-WPT scheduling, and discuss how major GenAI families can support uncertainty-aware charging decisions by generating scenario-based inputs for downstream tasks. We then present a case study showing that distribution-aware prediction can improve robust charging decisions over deterministic, ensemble, and non-learning baselines, particularly under risk-sensitive objectives. Finally, we outline key open challenges and future research directions.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T09:04:19Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Amirhossein Azarbahram</name>
+    </author>
+    <author>
+      <name>Osmel M. Rosabal</name>
+    </author>
+    <author>
+      <name>David Ernesto Ruiz-Guirola</name>
+    </author>
+    <author>
+      <name>Melike Erol-Kantarci</name>
+    </author>
+    <author>
+      <name>Kaibin Huang</name>
+    </author>
+    <author>
+      <name>Onel L. A. López</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10031v1</id>
+    <title>The Chronicles of Radio Frequency Fingerprinting</title>
+    <updated>2026-06-08T18:09:42Z</updated>
+    <link href="https://arxiv.org/abs/2606.10031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio Frequency Fingerprinting (RFF) has evolved from an early idea for radar emitter identification into a broad research field for wireless device identification and spectrum monitoring for security. Rather than presenting a conventional literature survey, this work provides a critical historical analysis of RFF organized around the field's major conceptual paradigm shifts from 1993 to 2026. We discuss the evolution of RFF across its fundamental methodological phases, beginning with early transient-based approaches, in which transmitter turn-on behavior, unintentional modulation, and hardware nonlinearities were treated as the primary fingerprint sources. We then examine the transition to digital communications, during which attention shifted to steady-state impairments and to engineered features extracted from signals. Next, we discuss the Machine Learning period, which standardized the RFF workflow around feature extraction, dimensionality reduction, and supervised classification, followed by the Deep Learning period, in which representation learning from raw IQ samples significantly improved performance and expanded the application space. Beyond a chronological list of methods and best practices, this paper critically examines the changing assumptions and persistent limitations that have driven these transitions. We highlight the central challenges that continue to shape the field, including channel dependence, receiver sensitivity, limited dataset realism, poor cross-domain generalization, open-set recognition, and adversarial robustness. By organizing more than three decades of work into a coherent narrative, this paper clarifies the evolution of RFF, identifies persistent limitations, and outlines the key research directions required to move the field toward dependable real-world adoption.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-08T18:09:42Z</published>
+    <arxiv:comment>12 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Abdul Aziz</name>
+    </author>
+    <author>
+      <name>Ingrid Huso</name>
+    </author>
+    <author>
+      <name>Savio Sciancalepore</name>
+    </author>
+    <author>
+      <name>Gabriele Oligeri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.07150v3</id>
+    <title>From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability</title>
+    <updated>2026-06-17T17:01:06Z</updated>
+    <link href="https://arxiv.org/abs/2606.07150v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.07150v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent-interoperability protocols such as A2A and MCP standardize what agents say to one another but assume address-based transport. Whether over HTTP(S) or a content-protecting binding such as MLS-based SLIM, these transports protect message content yet leave the communication graph exposed: which agent contacts which, when, and how often. In agent systems this graph is more consequential than a privacy framing suggests. Endpoints are capability-labeled, workflows are structured and chained, and interactions are coupled to actions, so an observer recovers more than past relationships: it can recognize a recurring pending workflow from its opening and, at machine speed, act on it before it completes. The threat is one of workflow integrity, not privacy alone. We give a threat model for the communication graph and locate what makes its metadata distinctively consequential: not stronger fingerprinting but exposure across independent trust domains, coupled to autonomous action. We define transport- and bootstrap-layer privacy properties, give them an indistinguishability-game semantics, evaluate transports, and give an A2A case study where a metadata-protecting binding surfaces its implicit identity assumptions. On a corpus of real multi-agent A2A traffic from the official reference agents, on a live A2A binding, and with a generative model as a controlled instrument, a label-blind classifier recovers a task's class from passive metadata at 6x chance, and from only its opening; a defense-aware adversary does not overturn this, and only the full set of properties drives recovery toward chance. Acting on the leak is distinct from recoverability: under a fixed budget an adversary captures 0.63 of a clairvoyant attacker's advantage on the corpus (0.41 from a workflow's opening), governed by top-ranked precision rather than overall accuracy, so integrity and privacy come apart under defense.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T11:07:55Z</published>
+    <arxiv:comment>22 pages, 7 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Bijaya Dangol</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03330v1</id>
+    <title>FLIPS: Instance-Fingerprinting for LLMs via Pseudo-random Sequences</title>
+    <updated>2026-06-02T08:39:50Z</updated>
+    <link href="https://arxiv.org/abs/2606.03330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Literature reveals that a Large Language Model's (LLM) behavior is not only conditioned by its original weights but also its instance-level parameters, such as instructional prompt, sampling configuration or quantization. A model that generates safe outputs under one configuration may produce toxic content under another. However, current LLM identification techniques (such as fingerprinting) focus on intellectual property protection, and their design favors robustness to changes in these instance-level parameters. This poses a critical challenge for AI regulation in which compliance assessments target actual deployed behaviors, not model provenance. In this paper, we introduce instance-level fingerprinting, a regulator-oriented paradigm that distinguishes configurations of the same LLM. Our method FLIPS, exploits biases in generated binary random sequences to reach 96% (closed-set) and 90% (open-set, where some targets are unknown) identification accuracy across 237 model instances, versus 35% for the adapted LLMmap baseline. This shows that instance-level fingerprinting is both necessary for regulation and practically feasible. Code available at https://github.com/GurvanR/FLIPS-LLM-Instance-Fingerprinting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T08:39:50Z</published>
+    <arxiv:comment>20 pages, 20 figures, 3 tables. 43rd International Conference on Machine Learning (ICML 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gurvan Richardeau</name>
+    </author>
+    <author>
+      <name>Gohar Dashyan</name>
+    </author>
+    <author>
+      <name>Erwan Le Merrer</name>
+    </author>
+    <author>
+      <name>Gilles Tredan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.30393v1</id>
+    <title>NumLeak: Public Numeric Benchmarks as Latent Labels in Foundation Models</title>
+    <updated>2026-05-28T12:52:49Z</updated>
+    <link href="https://arxiv.org/abs/2605.30393v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.30393v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public numeric benchmarks appear in pretraining, so an evaluation that conditions on a date may be measuring memorized recall rather than out-of-sample skill. We introduce NumLeak, a measurement framework that combines API-boundary probes on production models with a white-box controlled validation on an open causal LM. Top-tier frontier LLMs recall the Fama-French market excess return at 3-seed pooled Pearson r=0.97-0.99 while staying within 0.15 within-25bps on the five sibling factors; comparable fidelity appears on U.S. unemployment, CPI inflation, and NOAA temperature. On a recent-release holdout, parse rate collapses to 21-57% but r stays at approximately 0.99 on months answered, the refuse-or-recall asymmetry a memorized channel predicts. The white-box experiment reproduces the dose-response, and logprob ranking detects memorization that open-ended generation misses, implying closed-API black-box probes understate the channel. A Sonnet "date to market-sentiment" regression that correlates with true Mkt-RF at r=0.74 collapses to r=0.02 once the model's own recall is residualized out. A one-line system-prompt defense blocks 99.8% of a non-adaptive single-turn suffix attack set at near-zero utility cost on conceptual and historical-narrative queries</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T12:52:49Z</published>
+    <arxiv:comment>23 pages, 12 figures, 17 tables. Accepted at the ICML 2026 Workshop on the Impact of Memorization on Trustworthy Foundation Models (MemFM)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anany Kotawala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.28264v1</id>
+    <title>Entropy Distribution as a Fingerprint for Hallucinations in Generative Models</title>
+    <updated>2026-05-27T10:12:44Z</updated>
+    <link href="https://arxiv.org/abs/2605.28264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.28264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often generate factually incorrect outputs, commonly termed hallucinations, that undermine trust and limit deployment in high-stakes settings. Existing hallucination detection methods typically require multiple forward passes, or access to model internals. In this work, we provide theoretical background and empirical evidence that the distribution of token-level entropies, beyond the mean captured by perplexity or length-normalised entropy, serves as a fingerprint of hallucination, with distributional shape and tail behaviour carrying independent signal. We formalize hallucination detection as a statistical hypothesis test and propose the Calibrated Entropy Score (CES), a lightweight algorithm requiring only a single forward pass and black-box access to token logits. CES combines the mean signal with the maximum signal of the generated entropy through a calibrated reference CDF, producing scores that are directly comparable across models and tasks. We establish finite-sample calibration guarantees via a novel random-length Dvoretzky--Kiefer--Wolfowitz inequality, and also prove that CES detects hallucinations with probability converging to one exponentially fast in the generation length. Across eight QA benchmarks and ten generator models spanning open-source and API access models, CES achieves the highest detection performance among all single-pass black-box methods while providing formal error guarantees that existing heuristics lack. Remarkably, CES is statistically indistinguishable from multi-sample methods that require far greater computational cost, closing the gap between lightweight and expensive detection and making it suitable for real-time, large-scale deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T10:12:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mattia J. Villani</name>
+    </author>
+    <author>
+      <name>Pranav Deshpande</name>
+    </author>
+    <author>
+      <name>Akshay Seshadri</name>
+    </author>
+    <author>
+      <name>Romina Yalovetzky</name>
+    </author>
+    <author>
+      <name>Niraj Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.25902v2</id>
+    <title>Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing</title>
+    <updated>2026-06-02T12:10:15Z</updated>
+    <link href="https://arxiv.org/abs/2605.25902v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.25902v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Narrowly finetuned language models memorize implanted content verbatim, but auditing what a deployed model has been taught, without access to its weights or training data, remains an open challenge. Recent work shows that activation differences between base and finetuned models carry readable traces of the finetuning domain; the state-of-the-art Activation Difference Lens (ADL) recovers a vague domain-level description but requires full "white-box" access to model internals. We introduce Contrastive Decoding Diffing (CDD), a model diffing method that operates on output-level logit distributions only, with no weight access, no layer selection, and no per-model tuning, yet recovers implanted facts. CDD consists of three ideas: bypassing the chat template to expose the raw finetuning prior, seeding generation with maximally vague pre-fills, and amplifying the logit-space difference between finetuned and base models at each decoding step. A single default configuration recovers implanted facts verbatim -- exact drug names, vote counts, physical measurements, and procedural details -- across four architectures (1B--32B parameters), uniformly outperforming ADL despite less access and running ~170x faster. Furthermore, CDD surfaces unintended data pipeline artifacts: a fictional persona introduced by the LLM data generator via mode collapse leaked into model weights and was extracted by CDD, constituting to our knowledge the first demonstrated end-to-end fingerprinting chain from data generator artifact to model weights to recovered output. We validate on real-domain finetuning settings, achieving near-perfect recovery across all single-dataset non-CoT variants and correctly identifying all four datasets in the mixed-dataset setting. CDD's success as a grey-box method outperforming white-box baselines underscores its practical utility for transparency and accountability in AI systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-25T14:29:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michał Brzozowski</name>
+    </author>
+    <author>
+      <name>Zuzanna Dubanowska</name>
+    </author>
+    <author>
+      <name>Enrico Cassano</name>
+    </author>
+    <author>
+      <name>Neo Christopher Chung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15962v1</id>
+    <title>PersonaFingerprint: Measuring Persona Inference on Modern Websites with LLM-Driven Browsing</title>
+    <updated>2026-05-15T13:54:42Z</updated>
+    <link href="https://arxiv.org/abs/2605.15962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Website Fingerprinting (WFP) has traditionally focused on inferring which website a user visits from encrypted traffic metadata such as packet sizes and timing. In this paper, we identify and quantify a new privacy risk in modern web settings: an adversary can infer a user's persona using only packet-length and inter-arrival-time sequences. To study this risk at scale, we build an LLM-driven multi-agent browsing framework that enforces controllable persona constraints while a computer-use agent interacts with real websites and collects corresponding encrypted traffic traces. We formalize persona fingerprinting under both closed-set and open-world settings and further evaluate whether persona information is already embedded in representations learned by existing WFP models and can be amplified at low cost. Across 10 modern websites and 15 personas (plus an open-world class), persona inference achieves about 84% accuracy on mixed-site traffic; moreover, a lightweight multi-task objective can boost persona accuracy to around 80% while retaining strong site classification performance (about 93% baseline). Our results show that, on modern websites, encrypted traffic metadata can leak not only which site a user visits, but also how they browse and who is browsing.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T13:54:42Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chuxu Song</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Richard Martin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15593v1</id>
+    <title>Dynamic and Open-Set RF Fingerprinting and Localization in Crowded Indoor Environments through Contrastive Channel State Information Learning</title>
+    <updated>2026-05-15T04:03:43Z</updated>
+    <link href="https://arxiv.org/abs/2605.15593v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15593v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio Frequency Fingerprinting (RFF) using deep learning has gained attention as a complementary approach to cryptographic authentication, offering resistance to spoofing, replay attacks, and key leakage. While most RFF approaches rely on In-Phase and Quadrature (IQ) samples, Channel State Information (CSI) has emerged as a more accessible alternative, enabling device authentication through physical-layer characteristics. In this work, we propose ContraCSI, a CSI-based contrastive learning framework for RFF using low-cost ESP32 devices. We investigate multiple encoder backbones, including a Vision Transformer (ViT), a lightweight 3D-CNN (Lite3D-CNN), and R3D18, to learn joint CSI and device-ID embeddings for transmitter authentication. For closed-set identification, the ViT variants achieve the best overall performance. We further study open-set authentication by applying a Geometric Entropy Minimization (GEM)-based anomaly score and sequential CUSUM (Cumulative Sum) test on embeddings learned by Lite3D-CNN-Contra, enabling rejection of unseen or non-enrolled transmitters rather than forcing a closed-set label. To evaluate robustness in highly dynamic and crowded indoor environments with human motion, multipath fading, and varying device orientations and distances, we conduct extensive experiments in a real-world setting. Our results demonstrate high authentication accuracy, strong generalization in non-ideal conditions, and effective rejection of unknown transmitters. Additionally, we explore CSI-based indoor localization via trilateration, illustrating the potential for integrated authentication and localization in practical indoor deployments.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T04:03:43Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fawaz Abdul Razak</name>
+    </author>
+    <author>
+      <name>Yasin Yilmaz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.11402v1</id>
+    <title>More Than Meets the Eye: A Semantics-Aware Traffic Augmentation Framework for Generalizable Website Fingerprinting</title>
+    <updated>2026-05-12T01:48:05Z</updated>
+    <link href="https://arxiv.org/abs/2605.11402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.11402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning-based website fingerprinting has emerged as an effective technique for inferring the websites users visit. Although existing methods achieve strong performance on closed-world datasets, they often fail to generalize to real-world environments, especially under geographic and temporal shifts. This limitation fundamentally stems from the coupled effects of two key challenges: application-layer resource composition variability and observable feature instability induced by cross-layer encapsulation. Intertwined, these factors induce systematic shifts between underlying application semantics and observable traffic features. To address the above challenges, we propose SATA , a semantics-aware traffic augmentation framework. Specifically, SATA first performs application-layer semantic augmentation based on protocol rules, expanding the resource composition patterns within each flow and frame sequence patterns under protocol constraints. Based on these augmented frame sequences, we further introduce a cross-layer feature alignment mechanism via knowledge distillation. It aligns frame sequence with packet-length sequence features, enabling cross-layer feature alignment between enhanced semantics and observable sequences. Extensive experiments show that SATA successfully generates traffic patterns that are absent from the training set but genuinely exist in the test set, and significantly improves the performance of mainstream models across diverse and complex scenarios. In particular, in open-world settings, SATA improves ACC by 90.81% and AUROC by 48.37%. The source code of the prototype system is available at https://anonymous.4open.science/r/SATA-B6C2/.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T01:48:05Z</published>
+    <arxiv:comment>18 pages, 19 figures, Submitted to NDSS 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Youquan Xian</name>
+    </author>
+    <author>
+      <name>Xueying Zeng</name>
+    </author>
+    <author>
+      <name>Lingjia Meng</name>
+    </author>
+    <author>
+      <name>Lei Cui</name>
+    </author>
+    <author>
+      <name>Runhan Song</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Zhengquan Ding</name>
+    </author>
+    <author>
+      <name>Peng Liu</name>
+    </author>
+    <author>
+      <name>Zhiyu Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.16368v2</id>
+    <title>A Unified Critical Scaling Theory for Macroscopic Lightning and Quantum Avalanches: From Three-Dimensional Directed Percolation to Testable Predictions</title>
+    <updated>2026-06-14T14:46:28Z</updated>
+    <link href="https://arxiv.org/abs/2605.16368v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.16368v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lightning, the most colossal discharge in nature, and flux avalanches in quantum superconductors--phenomena separated by twenty orders of magnitude in scale--display striking fractal similarity. We demonstrate that this is no mere analogy but reveals a deep physical unity. Here, we establish a universal theoretical framework that connects them. By mapping both onto the same three-dimensional reaction-diffusion-advection equation grounded in non-equilibrium statistical physics, we show they belong to the same critical universality class. We demonstrate that both systems belong to the three-dimensional Directed Percolation (3D-DP) universality class near their critical point, sharing a unified set of universal critical exponents (e.g., avalanche size distribution exponent $τ\approx 1.41$ , fractal dimension $D_f \approx 2.5$). Furthermore, by incorporating the anisotropy and turbulence coupling intrinsic to real thunderstorm environments, we predict novel effects such as anisotropic fractality of lightning channels and the systematic shift of critical exponents by turbulence. The core theoretical breakthrough lies in proposing a geometric correspondence of quantum phase information: through a rigorous mapping, the microscopic quantum phase coherence of superconductors is translated into the curvature and torsion distributions of macroscopic lightning channels, revealing a quantum statistical fingerprint emergent in classical geometry. This framework not only provides a unified paradigm for understanding dissipative structures across scales but also, via seven testable predictions, opens avenues for simulating natural lightning with laboratory quantum systems and developing novel physical early-warning methods.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-10T04:12:50Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Zhe Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03279v1</id>
+    <title>RFPrompt: Prompt-Based Expert Adaptation of the Large Wireless Model for Modulation Classification</title>
+    <updated>2026-05-05T02:09:58Z</updated>
+    <link href="https://arxiv.org/abs/2605.03279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic modulation classification (AMC) in real-world deployments demands robustness to distribution shifts arising from hardware impairments, unseen propagation environments, and recording conditions never encountered during training. Although wireless foundation models offer a promising starting point for robust RF representation learning, an important open question is how to adapt them efficiently to out-of-distribution (OOD) downstream tasks without overwriting the structure learned during large-scale pre-training. In this paper, we investigate prompt-based adaptation as a general mechanism for OOD transfer in wireless foundation models. We propose RFPrompt, a parameter-efficient framework that introduces learnable deep prompt tokens while keeping the pretrained backbone frozen, enabling task-specific adaptation with minimal trainable parameters. We instantiate and evaluate this approach on the Large Wireless Model (LWM), a mixture-of-experts wireless foundation model, and study its behavior under both standard and OOD modulation-classification settings. Results show that prompt-based adaptation consistently improves robustness under distribution shift and limited supervision, particularly on real-world over-the-air IQ data, while preserving strong parameter efficiency. These findings suggest that prompt learning is a practical and effective strategy for adapting wireless foundation models to challenging downstream RF environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T02:09:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Md Raihan Uddin</name>
+    </author>
+    <author>
+      <name>Tolunay Seyfi</name>
+    </author>
+    <author>
+      <name>Fatemeh Afghah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.01128v1</id>
+    <title>MORPH: Multi-Environment Orchestrated Reinforcement Learning for PRB Handling in O-RAN</title>
+    <updated>2026-05-01T21:55:50Z</updated>
+    <link href="https://arxiv.org/abs/2605.01128v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.01128v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement-learning (RL) solutions for dynamic spectrum access and radio resource management in Open Radio Access Networks (O-RAN) depend critically on the fidelity of the throughput signal used for training. Analytical or physical-layer (PHY)-only simulators scale well but often miss protocol-stack effects such as signaling overhead and retransmissions, whereas exhaustive throughput profiling on a standards-compliant 5G stack is slow and can be unstable under software execution constraints. This paper presents MORPH, a measurement-grounded multi-environment RL pipeline {for slice-aware PRB-level spectrum allocation (spectrum sharing and slice isolation within a single gNB)} built on OpenAirInterface (OAI) 5G-NR RF-simulator mode. MORPH leverages three complementary throughput sources: (i) application-layer throughput measured via \texttt{iPerf} on the OAI stack under controlled AWGN pathloss settings, (ii) empirical MCS-selection distributions conditioned on path loss, enabling a distribution-aware theoretical throughput estimator that reflects standards-compliant link adaptation, and (iii) scalable throughput estimates from a 3GPP-parameterized PHY-fidelity OFDM simulator. Using these components, we train and compare agents that differ only in the origin of their throughput feedback: an OAI-grounded practical agent, a simulator-driven agent, and MORPH, which fuses real and synthetic throughput signals for policy optimization. Evaluation on the OAI execution harness across heterogeneous slicing scenarios shows that MORPH yields more robust slice-wise performance and improved SLA compliance than single-source training, providing a practical foundation for PRB-level spectrum sharing and slice isolation within a single-cell stack and a stepping stone toward multi-cell spectrum coordination and interference management.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-01T21:55:50Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Alireza Ebrahimi Dorcheh</name>
+    </author>
+    <author>
+      <name>Tolunay Seyfi</name>
+    </author>
+    <author>
+      <name>Ryan Barker</name>
+    </author>
+    <author>
+      <name>Fatemeh Afghah</name>
+    </author>
+  </entry>
+</feed>

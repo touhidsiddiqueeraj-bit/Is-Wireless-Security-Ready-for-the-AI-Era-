@@ -1,0 +1,162 @@
+[
+ {
+  "doi": "10.1109/vtc2021-fall52928.2021.9625375",
+  "title": "Deep Radio Fingerprint ResNet for Reliable Lightweight Device Identification",
+  "year": 2021,
+  "venue": "IEEE Vehicular Technology Conference",
+  "cites": 18,
+  "q": 0
+ },
+ {
+  "doi": "10.1109/wcnc55385.2023.10119009",
+  "title": "Deep Radio Frequency Fingerprinting Based on Wavelet Scattering Network",
+  "year": 2023,
+  "venue": "IEEE Wireless Communications and Networking Conference",
+  "cites": 5,
+  "q": 0
+ },
+ {
+  "doi": "10.14722/futureg.2025.23009",
+  "title": "AI-Assisted RF Fingerprinting for Identification of User Devices in 5G and FutureG",
+  "year": 2025,
+  "venue": null,
+  "cites": 0,
+  "q": 0
+ },
+ {
+  "doi": "10.1109/access.2020.3037206",
+  "title": "Radio Frequency Fingerprint Identification Based on Deep Complex Residual Network",
+  "year": 2020,
+  "venue": "IEEE Access",
+  "cites": 32,
+  "q": 2
+ },
+ {
+  "doi": "10.52700/scir.v7i2.189",
+  "title": "Fusion of LoRa RFID and AI Base Smart Security Recognition Systems for Rural Areas",
+  "year": 2025,
+  "venue": "STATISTICS COMPUTING AND INTERDISCIPLINARY RESEARCH",
+  "cites": 0,
+  "q": 3
+ },
+ {
+  "doi": "10.3390/drones9010043",
+  "title": "Development of a Solar-Powered Edge Processing Perimeter Alert System with AI and LoRa/LoRaWAN Integration for Drone Detection and Enhanced Security",
+  "year": 2025,
+  "venue": "Drones",
+  "cites": 7,
+  "q": 3
+ },
+ {
+  "doi": "10.48550/arxiv.2606.08173",
+  "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "cites": 0,
+  "q": 5
+ },
+ {
+  "doi": "10.48550/arxiv.2106.13039",
+  "title": "Low-Latency Federated Learning over Wireless Channels with Differential Privacy",
+  "year": 2021,
+  "venue": "arXiv (Cornell University)",
+  "cites": 5,
+  "q": 7
+ },
+ {
+  "doi": "10.1109/tcomm.2021.3078783",
+  "title": "Harnessing Wireless Channels for Scalable and Privacy-Preserving Federated Learning",
+  "year": 2021,
+  "venue": "IEEE Transactions on Communications",
+  "cites": 12,
+  "q": 7
+ },
+ {
+  "doi": "10.3390/healthcare12242587",
+  "title": "Federated Learning in Smart Healthcare: A Comprehensive Review on Privacy, Security, and Predictive Analytics with IoT Integration",
+  "year": 2024,
+  "venue": "Healthcare",
+  "cites": 214,
+  "q": 7
+ },
+ {
+  "doi": "10.48550/arxiv.2605.30123",
+  "title": "Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "cites": 0,
+  "q": 7
+ },
+ {
+  "doi": "10.48550/arxiv.2109.09142",
+  "title": "Decentralized Wireless Federated Learning with Differential Privacy",
+  "year": 2021,
+  "venue": "arXiv (Cornell University)",
+  "cites": 0,
+  "q": 7
+ },
+ {
+  "doi": "10.1016/j.iot.2025.101592",
+  "title": "A novel federated learning-based IDS for enhancing UAVs privacy and security",
+  "year": 2025,
+  "venue": "Internet of Things",
+  "cites": 38,
+  "q": 7
+ },
+ {
+  "doi": "10.1109/isit45174.2021.9518031",
+  "title": "Privacy Amplification for Federated Learning via User Sampling and Wireless Aggregation",
+  "year": 2021,
+  "venue": "IEEE International Symposium on Information Theory (ISIT)",
+  "cites": 12,
+  "q": 7
+ },
+ {
+  "doi": "10.1049/cmu2.12722",
+  "title": "On differential privacy for federated learning in wireless systems with multiple base stations",
+  "year": 2024,
+  "venue": "IET Communications",
+  "cites": 12,
+  "q": 7
+ },
+ {
+  "doi": "10.48550/arxiv.2208.11848",
+  "title": "On Differential Privacy for Federated Learning in Wireless Systems with Multiple Base Stations",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "cites": 2,
+  "q": 7
+ },
+ {
+  "doi": "10.48550/arxiv.2304.07460",
+  "title": "Communication and Energy Efficient Wireless Federated Learning with Intrinsic Privacy",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "cites": 0,
+  "q": 7
+ },
+ {
+  "doi": "10.48084/etasr.7820",
+  "title": "Federated Learning for Privacy-Preserving Air Quality Forecasting using IoT Sensors",
+  "year": 2024,
+  "venue": "Engineering Technology & Applied Science Research",
+  "cites": 26,
+  "q": 7
+ },
+ {
+  "doi": "10.48550/arxiv.2201.05172",
+  "title": "Jamming Attacks on Federated Learning in Wireless Networks",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "cites": 6,
+  "q": 7
+ },
+ {
+  "doi": "10.1109/jsac.2021.3088655",
+  "title": "Privacy-Preserving Federated Learning for UAV-Enabled Networks: Learning-Based Joint Scheduling and Resource Management",
+  "year": 2021,
+  "venue": "IEEE Journal on Selected Areas in Communications",
+  "cites": 307,
+  "q": 7
+ }
+]

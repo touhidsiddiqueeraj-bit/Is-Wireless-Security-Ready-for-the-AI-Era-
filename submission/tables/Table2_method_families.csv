@@ -1,0 +1,13 @@
+method_family,papers
+Deep supervised (CNN/RNN/Transformer),45
+Adversarial ML,40
+Federated/private learning,12
+Reinforcement/DRL,9
+PQC implementation,9
+Survey/systematization,6
+Dataset/benchmark contribution,2
+Defensive/robust ML,2
+Traffic-analysis ML,2
+Optimization-based (SCA/SDR),1
+Classical/Bayesian ML,1
+LLM/foundation-assisted,1

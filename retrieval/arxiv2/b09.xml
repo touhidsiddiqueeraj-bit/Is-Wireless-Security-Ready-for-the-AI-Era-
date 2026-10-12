@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mVhcSZn7eFRMThKjFebqw1ILIms</id>
+  <title>arXiv Query: search_query=all:5G AND all:fuzzing AND all:security&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:5G+AND+(all:fuzzing+AND+all:security)&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21794v1</id>
+    <title>MulCovFuzz: A Multi-Component Coverage-Guided Greybox Fuzzer for 5G Protocol Testing</title>
+    <updated>2026-02-25T11:17:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.21794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As mobile networks transition to 5G infrastructure, ensuring robust security becomes more important due to the complex architecture and expanded attack surface. Traditional security testing approaches for 5G networks rely on black-box fuzzing techniques, which are limited by their inability to observe internal program state and coverage information. This paper presents MulCovFuzz, a novel coverage-guided greybox fuzzing tool for 5G network testing. Unlike existing tools that depend solely on system response, MulCovFuzz implements a multi-component coverage collection mechanism that dynamically monitors code coverage across different components of the 5G system architecture. Our approach introduces a novel testing paradigm that includes a scoring function combining coverage rewards with efficiency metrics to guide test case generation. We evaluate MulCovFuzz on open-source 5G implementation OpenAirInterface. Our experimental results demonstrate that MulCovFuzz significantly outperforms traditional fuzzing approaches, achieving a 5.85\% increase in branch coverage, 7.17\% increase in line coverage, and 16\% improvement in unique crash discovery during 24h fuzzing testing. MulCovFuzz uncovered three zero-day vulnerabilities, two of which were not identified by any other fuzzing technique. This work contributes to the advancement of security testing tools for next-generation mobile networks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T11:17:42Z</published>
+    <arxiv:comment>11 pages, 5 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Yang Xiang</name>
+    </author>
+    <author>
+      <name>Chandra Thapa</name>
+    </author>
+    <author>
+      <name>Hajime Suzuki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08992v1</id>
+    <title>Cross-Service Token: Finding Attacks in 5G Core Networks</title>
+    <updated>2025-09-10T20:40:33Z</updated>
+    <link href="https://arxiv.org/abs/2509.08992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>5G marks a major departure from previous cellular architectures, by transitioning from a monolithic design of the core network to a Service-Based Architecture (SBA) where services are modularized as Network Functions (NFs) which communicate with each other via standard-defined HTTP-based APIs called Service-Based Interfaces (SBIs). These NFs are deployed in private and public cloud infrastructure, and an access control framework based on OAuth restricts how they communicate with each other and obtain access to resources. Given the increased vulnerabilities of clouds to insiders, it is important to study the security of the 5G Core services for vulnerabilities that allow attackers to use compromised NFs to obtain unauthorized access to resources.
+  We present FivGeeFuzz, a grammar-based fuzzing framework designed to uncover security flaws in 5G core SBIs. FivGeeFuzz automatically derives grammars from 3GPP API specifications to generate malformed, unexpected, or semantically inconsistent inputs, and it integrates automated bug detection with manual validation and root-cause analysis. We evaluate our approach on free5GC, the only open-source 5G core implementing Release 17-compliant SBIs with an access control mechanism. Using FivGeeFuzz, we discovered 8 previously unknown vulnerabilities in free5GC, leading to runtime crashes, improper error handling, and unauthorized access to resources, including a very severe attack we call Cross-Service Token Attack. All bugs were confirmed by the free5GC team, 7 have already been patched, and the remaining one has a patch under development.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-10T20:40:33Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Anqi Chen</name>
+    </author>
+    <author>
+      <name>Riccardo Preatoni</name>
+    </author>
+    <author>
+      <name>Alessandro Brighente</name>
+    </author>
+    <author>
+      <name>Mauro Conti</name>
+    </author>
+    <author>
+      <name>Cristina Nita-Rotaru</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.20958v1</id>
+    <title>CovFUZZ: Coverage-based fuzzer for 4G&amp;5G protocols</title>
+    <updated>2024-10-28T12:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2410.20958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.20958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>4G and 5G represent the current cellular communication standards utilized daily by billions of users for various applications. Consequently, ensuring the security of 4G and 5G network implementations is critically important. This paper introduces an automated fuzzing framework designed to test the security of 4G and 5G attach procedure implementations. Our framework provides a comprehensive solution for uplink and downlink fuzzing in 4G, as well as downlink fuzzing in 5G, while supporting fuzzing on all layers except the physical layer. To guide the fuzzing process, we introduce a novel algorithm that assigns probabilities to packet fields and adjusts these probabilities based on coverage information from the device-under-test (DUT). For cases where coverage information from the DUT is unavailable, we propose a novel methodology to estimate it. When evaluating our framework, we first run the random fuzzing experiments, where the mutation probabilities are fixed throughout the fuzzing, and give an insight into how those probabilities should be chosen to optimize the Random fuzzer to achieve the best coverage. Next, we evaluate the efficiency of the proposed coverage-based algorithms by fuzzing open-source 4G stack (srsRAN) instances and show that the fuzzer guided by our algorithm outperforms the optimized Random fuzzer in terms of DUT's code coverage. In addition, we run fuzzing tests on 12 commercial off-the-shelf (COTS) devices. In total, we discovered vulnerabilities in 10 COTS devices and all of the srsRAN 4G instances.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T12:22:10Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ilja Siroš</name>
+    </author>
+    <author>
+      <name>Dave Singelée</name>
+    </author>
+    <author>
+      <name>Bart Preneel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.09641v1</id>
+    <title>Soft Tester UE: A Novel Approach for Open RAN Security Testing</title>
+    <updated>2024-10-12T20:35:49Z</updated>
+    <link href="https://arxiv.org/abs/2410.09641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.09641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rise of 5G and open radio access networks (O-RAN), there is a growing demand for customizable experimental platforms dedicated to security testing, as existing testbeds do not prioritize this area. Traditional, hardware-dependent testing methods pose challenges for smaller companies and research institutions. The growing wireless threat landscape highlights the critical need for proactive security testing, as 5G and O-RAN deployments are appealing targets for cybercriminals. To address these challenges, this article introduces the Soft Tester UE (soft T-UE), a software-defined test equipment designed to evaluate the security of 5G and O-RAN deployments via the Uu air interface between the user equipment (UE) and the network. The outcome is to deliver a free, open-source, and expandable test instrument to address the need for both standardized and customizable automated security testing. By extending beyond traditional security metrics, the soft T-UE promotes the development of new security measures and enhances the capability to anticipate and mitigate potential security breaches. The tool's automated testing capabilities are demonstrated through a scenario where the Radio Access Network (RAN) under test is evaluated when it receives fuzzed data when initiating a connection with an UE.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-12T20:35:49Z</published>
+    <arxiv:comment>This article has been accepted for publication in the IEEE VTC Fall 2024--RitiRAN Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Joshua Moore</name>
+    </author>
+    <author>
+      <name>Aly Sabri Abdalla</name>
+    </author>
+    <author>
+      <name>Charles Ueltschey</name>
+    </author>
+    <author>
+      <name>Vuk Marojevic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12994v1</id>
+    <title>Smart Fuzzing of 5G Wireless Software Implementation</title>
+    <updated>2023-09-22T16:45:42Z</updated>
+    <link href="https://arxiv.org/abs/2309.12994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce a comprehensive approach to bolstering the security, reliability, and comprehensibility of OpenAirInterface5G (OAI5G), an open-source software framework for the exploration, development, and testing of 5G wireless communication systems. Firstly, we employ AFL++, a powerful fuzzing tool, to fuzzy-test OAI5G with respect to its configuration files rigorously. This extensive testing process helps identify errors, defects, and security vulnerabilities that may evade conventional testing methods. Secondly, we harness the capabilities of Large Language Models such as Google Bard to automatically decipher and document the meanings of parameters within the OAI5G codebase that are used in fuzzing. This automated parameter interpretation streamlines subsequent analyses and facilitates more informed decision-making. Together, these two techniques contribute to fortifying the OAI5G system, making it more robust, secure, and understandable for developers and analysts alike.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-22T16:45:42Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Huan Wu</name>
+    </author>
+    <author>
+      <name>Brian Fang</name>
+    </author>
+    <author>
+      <name>Fei Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.11247v1</id>
+    <title>Formal-Guided Fuzz Testing: Targeting Security Assurance from Specification to Implementation for 5G and Beyond</title>
+    <updated>2023-07-20T21:38:00Z</updated>
+    <link href="https://arxiv.org/abs/2307.11247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.11247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Softwarization and virtualization in 5G and beyond necessitate thorough testing to ensure the security of critical infrastructure and networks, requiring the identification of vulnerabilities and unintended emergent behaviors from protocol designs to their software stack implementation. To provide an efficient and comprehensive solution, we propose a novel and first-of-its-kind approach that connects the strengths and coverage of formal and fuzzing methods to efficiently detect vulnerabilities across protocol logic and implementation stacks in a hierarchical manner. We design and implement formal verification to detect attack traces in critical protocols, which are used to guide subsequent fuzz testing and incorporate feedback from fuzz testing to broaden the scope of formal verification. This innovative approach significantly improves efficiency and enables the auto-discovery of vulnerabilities and unintended emergent behaviors from the 3GPP protocols to software stacks. Following this approach, we discover one identifier leakage model, one DoS attack model, and two eavesdrop attack models due to the absence of rudimentary MITM protection within the protocol, despite the existence of a Transport Layer Security (TLS) solution to this issue for over a decade. More remarkably, guided by the identified formal analysis and attack models, we exploit 61 vulnerabilities using fuzz testing demonstrated on srsRAN platforms. These identified vulnerabilities contribute to fortifying protocol-level assumptions and refining the search space. Compared to state-of-the-art fuzz testing, our united formal and fuzzing methodology enables auto-assurance by systematically discovering vulnerabilities. It significantly reduces computational complexity, transforming the non-practical exponential growth in computational cost into linear growth.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-20T21:38:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jingda Yang</name>
+    </author>
+    <author>
+      <name>Sudhanshu Arya</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05758v1</id>
+    <title>Formal and Fuzzing Amplification: Targeting Vulnerability Detection in 5G and Beyond</title>
+    <updated>2023-07-11T19:23:59Z</updated>
+    <link href="https://arxiv.org/abs/2307.05758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Softwarization and virtualization in 5G and beyond require rigorous testing against vulnerabilities and unintended emergent behaviors for critical infrastructure and network security assurance. Formal methods operates efficiently in protocol-level abstract specification models, and fuzz testing offers comprehensive experimental evaluation of system implementations. In this paper, we propose a novel framework that leverages the respective advantages and coverage of both formal and fuzzing methods to efficiently detect vulnerabilities from protocol logic to implementation stacks hierarchically. The detected attack traces from the formal verification results in critical protocols guide the case generation of fuzz testing, and the feedbacks from fuzz testing further broaden the scope of the formal verification. We examine the proposed framework with the 5G Non Standard-Alone (NSA) security processes, focusing on the Radio Resource Control (RRC) connection process. We first identify protocol-level vulnerabilities of user credentials via formal methods. Following this, we implement bit-level fuzzing to evaluate potential impacts and risks of integrity-vulnerable identifier variation. Concurrently, we conduct command-level mutation-based fuzzing by fixing the assumption identifier to assess the potential impacts and risks of confidentiality-vulnerable identifiers. During this approach, we established 1 attack model and detected 53 vulnerabilities. The vulnerabilities identified used to fortify protocol-level assumptions could further refine search space for the following detection cycles. Consequently, it addresses the prevalent scalability challenges in detecting vulnerabilities and unintended emergent behaviors in large-scale systems in 5G and beyond.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-11T19:23:59Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jingda Yang</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08226v1</id>
+    <title>NLP-based Cross-Layer 5G Vulnerabilities Detection via Fuzzing Generated Run-Time Profiling</title>
+    <updated>2023-05-14T19:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2305.08226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effectiveness and efficiency of 5G software stack vulnerability and unintended behavior detection are essential for 5G assurance, especially for its applications in critical infrastructures. Scalability and automation are the main challenges in testing approaches and cybersecurity research. In this paper, we propose an innovative approach for automatically detecting vulnerabilities, unintended emergent behaviors, and performance degradation in 5G stacks via run-time profiling documents corresponding to fuzz testing in code repositories. Piloting on srsRAN, we map the run-time profiling via Logging Information (LogInfo) generated by fuzzing test to a high dimensional metric space first and then construct feature spaces based on their timestamp information. Lastly, we further leverage machine learning-based classification algorithms, including Logistic Regression, K-Nearest Neighbors, and Random Forest to categorize the impacts on performance and security attributes. The performance of the proposed approach has high accuracy, ranging from $ 93.4 \% $ to $ 95.9 \% $, in detecting the fuzzing impacts. In addition, the proof of concept could identify and prioritize real-time vulnerabilities on 5G infrastructures and critical applications in various verticals.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-14T19:07:21Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhuzhu Wang</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08039v2</id>
+    <title>Systematic Meets Unintended: Prior Knowledge Adaptive 5G Vulnerability Detection via Multi-Fuzzing</title>
+    <updated>2024-01-05T15:15:40Z</updated>
+    <link href="https://arxiv.org/abs/2305.08039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The virtualization and softwarization of 5G and NextG are critical enablers of the shift to flexibility, but they also present a potential attack surface for threats. However, current security research in communication systems focuses on specific aspects of security challenges and lacks a holistic perspective. To address this challenge, a novel systematic fuzzing approach is proposed to reveal, detect, and predict vulnerabilities with and without prior knowledge assumptions from attackers. It also serves as a digital twin platform for system testing and defense simulation pipeline. Three fuzzing strategies are proposed: Listen-and-Learn (LAL), Synchronize-and-Learn (SyAL), and Source-and-Learn (SoAL). The LAL strategy is a black-box fuzzing strategy used to discover vulnerabilities without prior protocol knowledge, while the SyAL strategy, also a black-box fuzzing method, targets vulnerabilities more accurately with attacker-accessible user information and a novel probability-based fuzzing approach. The white-box fuzzing strategy, SoAL, is then employed to identify and explain vulnerabilities through fuzzing of significant bits. Using the srsRAN 5G platform, the LAL strategy identifies 129 RRC connection vulnerabilities with an average detection duration of 0.072s. Leveraging the probability-based fuzzing algorithm, the SyAL strategy outperforms existing models in precision and recall, using significantly fewer fuzzing cases. SoAL detects three man-in-the-middle vulnerabilities stemming from 5G protocol vulnerabilities. The proposed solution is scalable to other open-source and commercial 5G platforms and protocols beyond RRC. Extensive experimental results demonstrate that the proposed solution is an effective and efficient approach to validate 5G security; meanwhile, it serves as real-time vulnerability detection and proactive defense.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-14T01:00:54Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jingda Yang</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+    <author>
+      <name>Yanjun Pan</name>
+    </author>
+    <author>
+      <name>Tuyen X. Tran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01912v2</id>
+    <title>Berserker: ASN.1-based Fuzzing of Radio Resource Control Protocol for 4G and 5G</title>
+    <updated>2021-12-02T15:19:43Z</updated>
+    <link href="https://arxiv.org/abs/2107.01912v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01912v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Telecom networks together with mobile phones must be rigorously tested for robustness against vulnerabilities in order to guarantee availability. RRC protocol is responsible for the management of radio resources and is among the most important telecom protocols whose extensive testing is warranted. To that end, we present a novel RRC fuzzer, called Berserker, for 4G and 5G. Berserker's novelty comes from being backward and forward compatible to any version of 4G and 5G RRC technical specifications. It is based on RRC message format definitions in ASN.1 and additionally covers fuzz testing of another protocol, called NAS, tunneled in RRC. Berserker uses concrete implementations of telecom protocol stack and is unaffected by lower layer protocol handlings like encryption and segmentation. It is also capable of evading size and type constraints in RRC message format definitions. Berserker discovered two previously unknown serious vulnerabilities in srsLTE -- one of which also affects openLTE -- confirming its applicability to telecom robustness.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-05T10:06:25Z</published>
+    <arxiv:comment>19 pages, 9 figures, 17 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Srinath Potnuru</name>
+    </author>
+    <author>
+      <name>Prajwol Kumar Nakarmi</name>
+    </author>
+    <arxiv:doi>10.1109/WiMob52687.2021.9606317</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/WiMob52687.2021.9606317" title="doi"/>
+  </entry>
+</feed>

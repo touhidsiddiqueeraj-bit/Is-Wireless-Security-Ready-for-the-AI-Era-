@@ -1,0 +1,2 @@
+paper_id,title,authors,year,venue,venue_type,doi,track,wireless_tech,crypto_primitive,ai_role,evaluation_type,R1_threat_model,R2_realism,R4_repro,R3_score,R3_NA_reason,attacker_cost,R5_score,R5_NA_reason,affected_standard,repro_code,repro_data,sim_only_flag,quantum_tag,gap_realtime,gap_ota,gap_multiagent,screener,verifier_check,notes
+EXAMPLE,,,,,journal,,threat,,,,simulation,1,1,1,NA,,NA,NA,,NA,y,y,n,ai-threat,absent,absent,absent,,pending,delete-this-guide-row

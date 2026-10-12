@@ -1,0 +1,16 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Third-party publisher PDFs (copyrighted reference material — not ours to redistribute)
+/1-s2.0-S014206152600654X-main.pdf
+/ML-BMS-Review.pdf

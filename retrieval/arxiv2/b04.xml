@@ -1,0 +1,1304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1X1Kch+8lTXi7tADrbLo4FmbSpo</id>
+  <title>arXiv Query: search_query=all:anti-jamming AND all:reinforcement OR all:learning&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:anti-jamming+AND+(all:reinforcement+OR+all:learning)&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>59</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13526v1</id>
+    <title>A family of spectral conjugate gradient algorithms derived by least-squares approximations based on a modified quasi--Newton update with application to a revised robust binary classification model</title>
+    <updated>2026-09-11T20:51:14Z</updated>
+    <link href="https://arxiv.org/abs/2609.13526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a spectral three-term modification of the classic Hestenes--Stiefel conjugate gradient algorithm, preserving its anti-jamming characteristic and, simultaneously, taking care of the sufficient descent property. We discuss how a modified secant equation can be extracted from our modification scheme, yielding a memoryless BFGS updating formula. Then, the spectral parameter of our method is obtained by steering its direction toward the given BFGS direction within a least-squares context. Using our technical improvements, we outline the general framework of our algorithm and discuss its theoretical features, including the descent and convergence properties, without the convexity assumption. We put our algorithm to the test in comparison with the three other conjugate gradient algorithms on a set of CUTEr unconstrained optimization test models, comparing the outputs using the Dolan--More measure. Next, we provide a concise evaluation of the results, highlighting the practical advantages of our algorithm. As a real-world case study, we introduce a reduced quadratic surface SVM with the rescaled loss for robust binary classification and apply the proposed algorithm to assess its accuracy and training time against several other SVMs.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T20:51:14Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Saman Babaie-Kafaki</name>
+    </author>
+    <author>
+      <name>Maryam Khoshsimaye-Bargard</name>
+    </author>
+    <author>
+      <name>Ahmad Mousavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10264v1</id>
+    <title>Low-Cost GNSS Anti-Jamming Through 2-Bit Phase Shift Beamforming with Machine Learning</title>
+    <updated>2026-05-11T09:26:37Z</updated>
+    <link href="https://arxiv.org/abs/2605.10264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate low-cost GNSS anti-jamming using beamforming with inexpensive 2-bit phase shifters, constraining each complex array weight to one of four QPSK phase states (real/imaginary = -1 or +1). This severe quantization sharply limits the beampattern solution space, making conventional real-valued beamforming and naive weight quantization highly suboptimal. We formulate a discrete optimization that trades interference suppression against satellite-direction gain, and benchmark known combinatorial optimization methods across array sizes and interference conditions. Simulations show that performance improves with array size, with oracle and greedy search achieving up to 34 dB nulling, but oracle incurs exponential latency and greedy sampling is stochastic. To obtain deterministic low-latency performance, we propose an ML-aided method based on gradient-boosted decision trees followed by local search, which performs similar to the oracle for larger arrays at fixed latency. We further validate the approach experimentally using a fully digital emulation of the QPSK oracle beamformer and compare against a GNSS receiver without beamforming capability. Under mild jamming (J/S approximately 44 dB) both receivers maintain adequate tracking, with QPSK yielding a 4.2 dB higher average C/N0 (37.3 vs. 33.1 dB-Hz). Under moderate and strong jamming (J/S approximately 62-70 dB) the benefit is substantial. At J/S = 70 dB the unprotected receiver degrades to near tracking limits (avg C/N0 = 9.3 dB-Hz) while the QPSK oracle sustains an average C/N0 of 20.8 dB-Hz. These results confirm that 2-bit phase-shift beamforming provides considerable anti-jamming benefit over a standard GNSS receiver, motivating further research on oracle-level practical methods.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T09:26:37Z</published>
+    <arxiv:comment>Accepted for presentation at RAST 2026. Author accepted version. Final version to appear in IEEE Xplore</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Burak Soner</name>
+    </author>
+    <author>
+      <name>Ekin Uzun</name>
+    </author>
+    <author>
+      <name>Can Aksoy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.11016v1</id>
+    <title>Learning an Opponent-aware Anti-jamming Strategy via Online Convex Optimization</title>
+    <updated>2026-04-13T05:32:05Z</updated>
+    <link href="https://arxiv.org/abs/2604.11016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.11016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dynamic competition against intelligent jammer systems presents a significant challenge to modern radar. Traditional active anti-jamming strategy learning methods often suffer from low sample efficiency and fail to fully exploit the structures of the adversary jammer. To reveal the inherent structure, this paper adopts an Online Convex Optimization (OCO) framework to capture the competition between a frequency agile radar and a digital radio frequency memory (DRFM)-based intelligent jammer. Recognizing that conventional OCO algorithms also suffer from suboptimal sample efficiency, two refined algorithms are developed that incorporate unbiased gradient estimators specifically tailored to the unique characteristics of DRFM-based jammers. Our theoretical analysis of the regret bound indicates significant improvements in long-term performance compared to standard OCO. The simulation results consistently show that our algorithms outperform traditional OCO and reinforcement learning baselines, achieving faster convergence and better anti-jamming performance.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T05:32:05Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Liangqi Liu</name>
+    </author>
+    <author>
+      <name>Wenqiang Pu</name>
+    </author>
+    <author>
+      <name>Yingru Li</name>
+    </author>
+    <author>
+      <name>Zhi-Quan Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.24599v1</id>
+    <title>A Learnable SIM Paradigm: Fundamentals, Training Techniques, and Applications</title>
+    <updated>2026-03-13T09:17:28Z</updated>
+    <link href="https://arxiv.org/abs/2603.24599v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.24599v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stacked intelligent metasurfaces (SIMs) represent a breakthrough in wireless hardware by comprising multilayer, programmable metasurfaces capable of analog computing in the electromagnetic (EM) wave domain. By examining their architectural analogies, this article reveals a deeper connection between SIMs and artificial neural networks (ANNs). Leveraging this profound structural similarity, this work introduces a learnable SIM architecture and proposes a learnable SIM-based machine learning (ML) paradigm for sixth-generation (6G)-andbeyond systems. Then, we develop two SIM-empowered wireless signal processing schemes to effectively achieve multi-user signal separation and distinguish communication signals from jamming signals. The use cases highlight that the proposed SIM-enabled signal processing system can significantly enhance spectrum utilization efficiency and anti-jamming capability in a lightweight manner and pave the way for ultra-efficient and intelligent wireless infrastructures.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T09:17:28Z</published>
+    <arxiv:comment>9 pages, 5 figures, accepted by IEEE Wireless Communications Magazine</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Hetong Wang</name>
+    </author>
+    <author>
+      <name>Yashuai Cao</name>
+    </author>
+    <author>
+      <name>Tiejun Lv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.02579v1</id>
+    <title>Joint Optimization of Model Partitioning and Resource Allocation for Anti-Jamming Collaborative Inference Systems</title>
+    <updated>2026-03-03T03:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2603.02579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.02579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the increasing computational demands of deep neural network (DNN) inference on resource-constrained devices, DNN partitioning-based device-edge collaborative inference has emerged as a promising paradigm. However, the transmission of intermediate feature data is vulnerable to malicious jamming, which significantly degrades the overall inference performance. To counter this threat, this letter focuses on an anti-jamming collaborative inference system in the presence of a malicious jammer. In this system, a DNN model is partitioned into two distinct segments, which are executed by wireless devices and edge servers, respectively. We first analyze the effects of jamming and DNN partitioning on inference accuracy via data regression. Based on this, our objective is to maximize the system's revenue of delay and accuracy (RDA) under inference accuracy and computing resource constraints by jointly optimizing computation resource allocation, devices' transmit power, and DNN partitioning. To address the mixed-integer nonlinear programming problem, we propose an efficient alternating optimization-based algorithm, which decomposes the problem into three subproblems that are solved via Karush-Kuhn-Tucker conditions, convex optimization methods, and a quantum genetic algorithm, respectively. Extensive simulations demonstrate that our proposed scheme outperforms baselines in terms of RDA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T03:52:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mengru Wu</name>
+    </author>
+    <author>
+      <name>Jiawei Li</name>
+    </author>
+    <author>
+      <name>Jiaqi Wei</name>
+    </author>
+    <author>
+      <name>Bin Lyu</name>
+    </author>
+    <author>
+      <name>Kai-Kit Wong</name>
+    </author>
+    <author>
+      <name>Hyundong Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16813v1</id>
+    <title>Coordinated Anti-Jamming Resilience in Swarm Networks via Multi-Agent Reinforcement Learning</title>
+    <updated>2025-12-18T17:54:20Z</updated>
+    <link href="https://arxiv.org/abs/2512.16813v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16813v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reactive jammers pose a severe security threat to robotic-swarm networks by selectively disrupting inter-agent communications and undermining formation integrity and mission success. Conventional countermeasures such as fixed power control or static channel hopping are largely ineffective against such adaptive adversaries. This paper presents a multi-agent reinforcement learning (MARL) framework based on the QMIX algorithm to improve the resilience of swarm communications under reactive jamming. We consider a network of multiple transmitter-receiver pairs sharing channels while a reactive jammer with Markovian threshold dynamics senses aggregate power and reacts accordingly. Each agent jointly selects transmit frequency (channel) and power, and QMIX learns a centralized but factorizable action-value function that enables coordinated yet decentralized execution. We benchmark QMIX against a genie-aided optimal policy in a no-channel-reuse setting, and against local Upper Confidence Bound (UCB) and a stateless reactive policy in a more general fading regime with channel reuse enabled. Simulation results show that QMIX rapidly converges to cooperative policies that nearly match the genie-aided bound, while achieving higher throughput and lower jamming incidence than the baselines, thereby demonstrating MARL's effectiveness for securing autonomous swarms in contested environments.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T17:54:20Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Bahman Abolhassani</name>
+    </author>
+    <author>
+      <name>Tugba Erpek</name>
+    </author>
+    <author>
+      <name>Kemal Davaslioglu</name>
+    </author>
+    <author>
+      <name>Yalin E. Sagduyu</name>
+    </author>
+    <author>
+      <name>Sastry Kompella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08351v1</id>
+    <title>Turning Threat into Opportunity: DRL-Powered Anti-Jamming via Energy Harvesting in UAV-Disrupted Channels</title>
+    <updated>2025-12-09T08:19:53Z</updated>
+    <link href="https://arxiv.org/abs/2512.08351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The open and broadcast nature of wireless communication systems, while enabling ubiquitous connectivity, also exposes them to jamming attacks that may critically compromise network performance or disrupt service availability. The proliferation of Unmanned Aerial Vehicles (UAVs) introduces a new dimension to this threat, as UAVs can act as mobile, intelligent jammers capable of launching sophisticated attacks by leveraging Line-of-Sight (LoS) channels and adaptive strategies. This paper addresses a critical challenge of countering intelligent UAV jamming in the context of energy-constrained ambient backscatter communication systems. Traditional anti-jamming techniques often fall short against such dynamic threats or are unsuitable for low-power backscatter devices. Hence, we propose a novel anti-jamming framework based on Deep Reinforcement Learning (DRL) that empowers the transmitter to not only defend against but also strategically exploit the UAV's jamming signals. In particular, our approach allows the transmitter to learn an optimal policy for switching between active transmission, energy harvesting from the jamming signal, and backscattering information using the jammer's own emissions. We then formulate the problem as a Markov Decision Process (MDP) and employ a Deep Q-Network (DQN) to derive the optimal operational strategy. Simulation results demonstrate that our DQN-based method significantly outperforms conventional Q-learning in convergence speed and surpasses a greedy anti-jamming strategy in terms of average throughput, packet loss rate, and packet delivery ratio.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T08:19:53Z</published>
+    <arxiv:comment>8 pages, IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Ngoc-Tan Nguyen</name>
+    </author>
+    <author>
+      <name>Thi-Thu Hoang</name>
+    </author>
+    <author>
+      <name>Trung-Dung Hoang</name>
+    </author>
+    <author>
+      <name>Thai-Duong Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08341v1</id>
+    <title>Multi-Agent Deep Reinforcement Learning for Collaborative UAV Relay Networks under Jamming Atatcks</title>
+    <updated>2025-12-09T08:11:21Z</updated>
+    <link href="https://arxiv.org/abs/2512.08341v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08341v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The deployment of Unmanned Aerial Vehicle (UAV) swarms as dynamic communication relays is critical for next-generation tactical networks. However, operating in contested environments requires solving a complex trade-off, including maximizing system throughput while ensuring collision avoidance and resilience against adversarial jamming. Existing heuristic-based approaches often struggle to find effective solutions due to the dynamic and multi-objective nature of this problem. This paper formulates this challenge as a cooperative Multi-Agent Reinforcement Learning (MARL) problem, solved using the Centralized Training with Decentralized Execution (CTDE) framework. Our approach employs a centralized critic that uses global state information to guide decentralized actors which operate using only local observations. Simulation results show that our proposed framework significantly outperforms heuristic baselines, increasing the total system throughput by approximately 50% while simultaneously achieving a near-zero collision rate. A key finding is that the agents develop an emergent anti-jamming strategy without explicit programming. They learn to intelligently position themselves to balance the trade-off between mitigating interference from jammers and maintaining effective communication links with ground users.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T08:11:21Z</published>
+    <arxiv:comment>IEEE ICC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Thai Duong Nguyen</name>
+    </author>
+    <author>
+      <name>Ngoc-Tan Nguyen</name>
+    </author>
+    <author>
+      <name>Thanh-Dao Nguyen</name>
+    </author>
+    <author>
+      <name>Nguyen Van Huynh</name>
+    </author>
+    <author>
+      <name>Dinh-Hieu Tran</name>
+    </author>
+    <author>
+      <name>Symeon Chatzinotas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05753v2</id>
+    <title>A Fast Anti-Jamming Cognitive Radar Deployment Algorithm Based on Reinforcement Learning</title>
+    <updated>2026-01-05T08:40:11Z</updated>
+    <link href="https://arxiv.org/abs/2512.05753v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05753v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fast deployment of cognitive radar to counter jamming remains a critical challenge in modern warfare, where more efficient deployment leads to quicker detection of targets. Existing methods are primarily based on evolutionary algorithms, which are time-consuming and prone to falling into local optima. We tackle these drawbacks via the efficient inference of neural networks and propose a brand new framework: Fast Anti-Jamming Radar Deployment Algorithm (FARDA). We first model the radar deployment problem as an end-to-end task and design deep reinforcement learning algorithms to solve it, where we develop integrated neural modules to perceive heatmap information and a brand new reward format. Empirical results demonstrate that our method achieves coverage comparable to evolutionary algorithms while deploying radars approximately 7,000 times faster. Further ablation experiments confirm the necessity of each component of FARDA.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T14:39:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wencheng Cai</name>
+    </author>
+    <author>
+      <name>Xuchao Gao</name>
+    </author>
+    <author>
+      <name>Congying Han</name>
+    </author>
+    <author>
+      <name>Mingqiang Li</name>
+    </author>
+    <author>
+      <name>Tiande Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05711v1</id>
+    <title>Bayesian Active Inference for Intelligent UAV Anti-Jamming and Adaptive Trajectory Planning</title>
+    <updated>2025-12-05T13:38:52Z</updated>
+    <link href="https://arxiv.org/abs/2512.05711v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05711v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a hierarchical trajectory planning framework for UAVs operating under adversarial jamming conditions. Leveraging Bayesian Active Inference, the approach combines expert-generated demonstrations with probabilistic generative modeling to encode high-level symbolic planning, low-level motion policies, and wireless signal feedback. During deployment, the UAV performs online inference to anticipate interference, localize jammers, and adapt its trajectory accordingly, without prior knowledge of jammer locations. Simulation results demonstrate that the proposed method achieves near-expert performance, significantly reducing communication interference and mission cost compared to model-free reinforcement learning baselines, while maintaining robust generalization in dynamic environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T13:38:52Z</published>
+    <arxiv:comment>This paper has been accepted for the 2026 IEEE Consumer Communications &amp; Networking Conference (IEEE CCNC 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ali Krayani</name>
+    </author>
+    <author>
+      <name>Seyedeh Fatemeh Sadati</name>
+    </author>
+    <author>
+      <name>Lucio Marcenaro</name>
+    </author>
+    <author>
+      <name>Carlo Regazzoni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18086v1</id>
+    <title>Anti-Jamming based on Null-Steering Antennas and Intelligent UAV Swarm Behavior</title>
+    <updated>2025-11-22T15:00:19Z</updated>
+    <link href="https://arxiv.org/abs/2511.18086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unmanned Aerial Vehicle (UAV) swarms represent a key advancement in autonomous systems, enabling coordinated missions through inter-UAV communication. However, their reliance on wireless links makes them vulnerable to jamming, which can disrupt coordination and mission success. This work investigates whether a UAV swarm can effectively overcome jamming while maintaining communication and mission efficiency.
+  To address this, a unified optimization framework combining Genetic Algorithms (GA), Supervised Learning (SL), and Reinforcement Learning (RL) is proposed. The mission model, structured into epochs and timeslots, allows dynamic path planning, antenna orientation, and swarm formation while progressively enforcing collision rules. Null-steering antennas enhance resilience by directing antenna nulls toward interference sources.
+  Results show that the GA achieved stable, collision-free trajectories but with high computational cost. SL models replicated GA-based configurations but struggled to generalize under dynamic or constrained settings. RL, trained via Proximal Policy Optimization (PPO), demonstrated adaptability and real-time decision-making with consistent communication and lower computational demand. Additionally, the Adaptive Movement Model generalized UAV motion to arbitrary directions through a rotation-based mechanism, validating the scalability of the proposed system.
+  Overall, UAV swarms equipped with null-steering antennas and guided by intelligent optimization algorithms effectively mitigate jamming while maintaining communication stability, formation cohesion, and collision safety. The proposed framework establishes a unified, flexible, and reproducible basis for future research on resilient swarm communication systems.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T15:00:19Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Miguel Lourenço</name>
+    </author>
+    <author>
+      <name>António Grilo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.03305v1</id>
+    <title>DRL-Based Robust Multi-Timescale Anti-Jamming Approaches under State Uncertainty</title>
+    <updated>2025-11-05T09:17:42Z</updated>
+    <link href="https://arxiv.org/abs/2511.03305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.03305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Owing to the openness of wireless channels, wireless communication systems are highly susceptible to malicious jamming. Most existing anti-jamming methods rely on the assumption of accurate sensing and optimize parameters on a single timescale. However, such methods overlook two practical issues: mismatched execution latencies across heterogeneous actions and measurement errors caused by sensor imperfections. Especially for deep reinforcement learning (DRL)-based methods, the inherent sensitivity of neural networks implies that even minor perturbations in the input can mislead the agent into choosing suboptimal actions, with potentially severe consequences. To ensure reliable wireless transmission, we establish a multi-timescale decision model that incorporates state uncertainty. Subsequently, we propose two robust schemes that sustain performance under bounded sensing errors. First, a Projected Gradient Descent-assisted Double Deep Q-Network (PGD-DDQN) algorithm is designed, which derives worst-case perturbations under a norm-bounded error model and applies PGD during training for robust optimization. Second, a Nonlinear Q-Compression DDQN (NQC-DDQN) algorithm introduces a nonlinear compression mechanism that adaptively contracts Q-value ranges to eliminate action aliasing. Simulation results indicate that, compared with the perfect-sensing baseline, the proposed algorithms show only minor degradation in anti-jamming performance while maintaining robustness under various perturbations, thereby validating their practicality in imperfect sensing conditions.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-05T09:17:42Z</published>
+    <arxiv:comment>13pages,12figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Haoqin Zhao</name>
+    </author>
+    <author>
+      <name>Zan Li</name>
+    </author>
+    <author>
+      <name>Jiangbo Si</name>
+    </author>
+    <author>
+      <name>Rui Huang</name>
+    </author>
+    <author>
+      <name>Hang Hu</name>
+    </author>
+    <author>
+      <name>Tony Q. S. Quek</name>
+    </author>
+    <author>
+      <name>Naofal Al-Dhahir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11687v1</id>
+    <title>Agent-Based Anti-Jamming Techniques for UAV Communications in Adversarial Environments: A Comprehensive Survey</title>
+    <updated>2025-08-11T18:14:13Z</updated>
+    <link href="https://arxiv.org/abs/2508.11687v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11687v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unmanned Aerial Vehicle communications are encountering increasingly severe multi-source interference challenges in dynamic adversarial environments, which impose higher demands on their reliability and resilience. To address these challenges, agent-based autonomous anti-jamming techniques have emerged as a crucial research direction. This paper presents a comprehensive survey that first formalizes the concept of intelligent anti-jamming agents for UAV communications and establishes a closed-loop decision-making framework centered on the "Perception-Decision-Action" (P-D-A) paradigm. Within this framework, we systematically review key technologies at each stage, with particular emphasis on employing game theory to model UAV-jammer interactions and integrating reinforcement learning-based intelligent algorithms to derive adaptive anti-jamming strategies. Furthermore, we discuss potential limitations of current approaches, identify critical engineering challenges, and outline promising future research directions, aiming to provide valuable references for developing more intelligent and robust anti-jamming communication systems for UAVs.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T18:14:13Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jingpu Yang</name>
+    </author>
+    <author>
+      <name>Mingxuan Cui</name>
+    </author>
+    <author>
+      <name>Hang Zhang</name>
+    </author>
+    <author>
+      <name>Fengxian Ji</name>
+    </author>
+    <author>
+      <name>Zhengzhao Lai</name>
+    </author>
+    <author>
+      <name>Yufeng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.04964v1</id>
+    <title>Anti-Jamming Sensing with Distributed Reconfigurable Intelligent Metasurface Antennas</title>
+    <updated>2025-08-07T01:33:38Z</updated>
+    <link href="https://arxiv.org/abs/2508.04964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.04964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The utilization of radio frequency (RF) signals for wireless sensing has garnered increasing attention. However, the radio environment is unpredictable and often unfavorable, the sensing accuracy of traditional RF sensing methods is often affected by adverse propagation channels from the transmitter to the receiver, such as fading and noise. In this paper, we propose employing distributed Reconfigurable Intelligent Metasurface Antennas (RIMSA) to detect the presence and location of objects where multiple RIMSA receivers (RIMSA Rxs) are deployed on different places. By programming their beamforming patterns, RIMSA Rxs can enhance the quality of received signals. The RF sensing problem is modeled as a joint optimization problem of beamforming pattern and mapping of received signals to sensing outcomes. To address this challenge, we introduce a deep reinforcement learning (DRL) algorithm aimed at calculating the optimal beamforming patterns and a neural network aimed at converting received signals into sensing outcomes. In addition, the malicious attacker may potentially launch jamming attack to disrupt sensing process. To enable effective sensing in interferenceprone environment, we devise a combined loss function that takes into account the Signal to Interference plus Noise Ratio (SINR) of the received signals. The simulation results show that the proposed distributed RIMSA system can achieve more efficient sensing performance and better overcome environmental influences than centralized implementation. Furthermore, the introduced method ensures high-accuracy sensing performance even under jamming attack.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-07T01:33:38Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Zhaowei Wang</name>
+    </author>
+    <author>
+      <name>Yunsong Huang</name>
+    </author>
+    <author>
+      <name>Weicheng Liu</name>
+    </author>
+    <author>
+      <name>Hui-Ming Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.08046v2</id>
+    <title>Mobile Jamming Mitigation in 5G Networks: A MUSIC-Based Adaptive Beamforming Approach</title>
+    <updated>2025-11-17T21:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2505.08046v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.08046v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mobile jammers pose a critical threat to 5G networks, particularly in military communications. We propose an intelligent anti-jamming framework that integrates Multiple Signal Classification (MUSIC) for high-resolution Direction-of-Arrival (DoA) estimation, Minimum Variance Distortionless Response (MVDR) beamforming for adaptive interference suppression, and machine learning (ML) to enhance DoA prediction for mobile jammers. Extensive simulations in a realistic highway scenario demonstrate that our hybrid approach achieves an average Signal-to-Noise Ratio (SNR) improvement of 9.58 dB (maximum 11.08 dB) and up to 99.8% DoA estimation accuracy. The framework's computational efficiency and adaptability to dynamic jammer mobility patterns outperform conventional anti-jamming techniques, making it a robust solution for securing 5G communications in contested environments.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-12T20:31:31Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Olivia Holguin</name>
+    </author>
+    <author>
+      <name>Rachel Donati</name>
+    </author>
+    <author>
+      <name>Seyed bagher Hashemi Natanzi</name>
+    </author>
+    <author>
+      <name>Bo Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.04266v1</id>
+    <title>Frequency Hopping Synchronization by Reinforcement Learning for Satellite Communication System</title>
+    <updated>2025-03-06T09:50:43Z</updated>
+    <link href="https://arxiv.org/abs/2503.04266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.04266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Satellite communication systems (SCSs) used for tactical purposes require robust security and anti-jamming capabilities, making frequency hopping (FH) a powerful option. However, the current FH systems face challenges due to significant interference from other devices and the considerable path loss inherent in satellite communication. This misalignment leads to inefficient synchronization, crucial for maintaining reliable communication. Traditional methods, such as those employing long short-term memory (LSTM) networks, have made improvements, but they still struggle in dynamic conditions of satellite environments. This paper presents a novel method for synchronizing FH signals in tactical SCSs by combining serial search and reinforcement learning to achieve coarse and fine acquisition, respectively. The mathematical analysis and simulation results demonstrate that the proposed method reduces the average number of hops required for synchronization by 58.17% and mean squared error (MSE) of the uplink hop timing estimation by 76.95%, as compared to the conventional serial search method. Comparing with the early late gate synchronization method based on serial search and use of LSTM network, the average number of hops for synchronization is reduced by 12.24% and the MSE by 18.5%.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-06T09:50:43Z</published>
+    <arxiv:comment>18pages, 5figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Inkyu Kim</name>
+    </author>
+    <author>
+      <name>Sangkeum Lee</name>
+    </author>
+    <author>
+      <name>Haechan Jeong</name>
+    </author>
+    <author>
+      <name>Sarvar Hussain Nengroo</name>
+    </author>
+    <author>
+      <name>Dongsoo Har</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04963v3</id>
+    <title>Fast Adaptive Anti-Jamming Channel Access via Deep Q Learning and Coarse-Grained Spectrum Prediction</title>
+    <updated>2025-12-25T01:47:31Z</updated>
+    <link href="https://arxiv.org/abs/2502.04963v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04963v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the anti-jamming channel access problem in complex and unknown jamming environments, where the jammer could dynamically adjust its strategies to target different channels. Traditional channel hopping anti-jamming approaches using fixed patterns are ineffective against such dynamic jamming attacks. Although the emerging deep reinforcement learning (DRL) based dynamic channel access approach could achieve the Nash equilibrium (NE) under fast-changing jamming attacks, it requires extensive training episodes. To address this issue, we propose a fast adaptive anti-jamming channel access approach guided by the intuition of ``learning faster than the jammer", where a synchronously updated coarse-grained spectrum prediction serves as an auxiliary task for the deep Q network (DQN) based anti-jamming model. This helps the model identify a superior Q-function compared to standard DRL while significantly reducing the number of training episodes. Numerical results indicate that the proposed approach significantly accelerates the rate of convergence in model training, reducing the required training episodes by up to 70\% compared to standard DRL. Additionally, it also achieves a 10\% improvement in throughput over NE strategies, owing to the effective use of coarse-grained spectrum prediction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-07T14:25:28Z</published>
+    <arxiv:comment>This paper is accepted by IEEE Transactions on Vehicular Technology (TVT), 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jianshu Zhang</name>
+    </author>
+    <author>
+      <name>Xiaofu Wu</name>
+    </author>
+    <author>
+      <name>Junquan Hu</name>
+    </author>
+    <arxiv:doi>10.1109/TVT.2025.3646999</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TVT.2025.3646999" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02385v1</id>
+    <title>Achieving Hiding and Smart Anti-Jamming Communication: A Parallel DRL Approach against Moving Reactive Jammer</title>
+    <updated>2025-02-04T15:03:11Z</updated>
+    <link href="https://arxiv.org/abs/2502.02385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the challenge of anti-jamming in moving reactive jamming scenarios. The moving reactive jammer initiates high-power tracking jamming upon detecting any transmission activity, and when unable to detect a signal, resorts to indiscriminate jamming. This presents dual imperatives: maintaining hiding to avoid the jammer's detection and simultaneously evading indiscriminate jamming. Spread spectrum techniques effectively reduce transmitting power to elude detection but fall short in countering indiscriminate jamming. Conversely, changing communication frequencies can help evade indiscriminate jamming but makes the transmission vulnerable to tracking jamming without spread spectrum techniques to remain hidden. Current methodologies struggle with the complexity of simultaneously optimizing these two requirements due to the expansive joint action spaces and the dynamics of moving reactive jammers. To address these challenges, we propose a parallelized deep reinforcement learning (DRL) strategy. The approach includes a parallelized network architecture designed to decompose the action space. A parallel exploration-exploitation selection mechanism replaces the $\varepsilon $-greedy mechanism, accelerating convergence. Simulations demonstrate a nearly 90\% increase in normalized throughput.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-04T15:03:11Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yangyang Li</name>
+    </author>
+    <author>
+      <name>Yuhua Xu</name>
+    </author>
+    <author>
+      <name>Wen Li</name>
+    </author>
+    <author>
+      <name>Guoxin Li</name>
+    </author>
+    <author>
+      <name>Zhibing Feng</name>
+    </author>
+    <author>
+      <name>Songyi Liu</name>
+    </author>
+    <author>
+      <name>Jiatao Du</name>
+    </author>
+    <author>
+      <name>Xinran Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.20344v2</id>
+    <title>Deep Learning-Assisted Jamming Mitigation with Movable Antenna Array</title>
+    <updated>2025-04-04T11:38:15Z</updated>
+    <link href="https://arxiv.org/abs/2410.20344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.20344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper reveals the potential of movable antennas in enhancing anti-jamming communication. We consider a legitimate communication link in the presence of multiple jammers and propose deploying a movable antenna array at the receiver to combat jamming attacks. We formulate the problem as a signal-to-interference-plus-noise ratio maximization, by jointly optimizing the receive beamforming and antenna element positioning. Due to the non-convexity and multi-fold difficulties from an optimization perspective, we develop a deep learning-based framework where beamforming is tackled as a Rayleigh quotient problem, while antenna positioning is addressed through multi-layer perceptron training. The neural network parameters are optimized using stochastic gradient descent to achieve effective jamming mitigation strategy, featuring offline training with marginal complexity for online inference. Numerical results demonstrate that the proposed approach achieves near-optimal anti-jamming performance thereby significantly improving the efficiency in strategy determination.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-27T05:28:44Z</published>
+    <arxiv:comment>Accepted @ IEEE TVT</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Xiao Tang</name>
+    </author>
+    <author>
+      <name>Yudan Jiang</name>
+    </author>
+    <author>
+      <name>Jinxin Liu</name>
+    </author>
+    <author>
+      <name>Qinghe Du</name>
+    </author>
+    <author>
+      <name>Dusit Niyato</name>
+    </author>
+    <author>
+      <name>Zhu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10521v1</id>
+    <title>Continual Deep Reinforcement Learning to Prevent Catastrophic Forgetting in Jamming Mitigation</title>
+    <updated>2024-10-14T14:00:32Z</updated>
+    <link href="https://arxiv.org/abs/2410.10521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Reinforcement Learning (DRL) has been highly effective in learning from and adapting to RF environments and thus detecting and mitigating jamming effects to facilitate reliable wireless communications. However, traditional DRL methods are susceptible to catastrophic forgetting (namely forgetting old tasks when learning new ones), especially in dynamic wireless environments where jammer patterns change over time. This paper considers an anti-jamming system and addresses the challenge of catastrophic forgetting in DRL applied to jammer detection and mitigation. First, we demonstrate the impact of catastrophic forgetting in DRL when applied to jammer detection and mitigation tasks, where the network forgets previously learned jammer patterns while adapting to new ones. This catastrophic interference undermines the effectiveness of the system, particularly in scenarios where the environment is non-stationary. We present a method that enables the network to retain knowledge of old jammer patterns while learning to handle new ones. Our approach substantially reduces catastrophic forgetting, allowing the anti-jamming system to learn new tasks without compromising its ability to perform previously learned tasks effectively. Furthermore, we introduce a systematic methodology for sequentially learning tasks in the anti-jamming framework. By leveraging continual DRL techniques based on PackNet, we achieve superior anti-jamming performance compared to standard DRL methods. Our proposed approach not only addresses catastrophic forgetting but also enhances the adaptability and robustness of the system in dynamic jamming environments. We demonstrate the efficacy of our method in preserving knowledge of past jammer patterns, learning new tasks efficiently, and achieving superior anti-jamming performance compared to traditional DRL approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T14:00:32Z</published>
+    <arxiv:comment>IEEE MILCOM 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kemal Davaslioglu</name>
+    </author>
+    <author>
+      <name>Sastry Kompella</name>
+    </author>
+    <author>
+      <name>Tugba Erpek</name>
+    </author>
+    <author>
+      <name>Yalin E. Sagduyu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08045v1</id>
+    <title>Timely NextG Communications with Decoy Assistance against Deep Learning-based Jamming</title>
+    <updated>2024-10-10T15:36:26Z</updated>
+    <link href="https://arxiv.org/abs/2410.08045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the transfer of time-sensitive information in next-generation (NextG) communication systems in the presence of a deep learning based eavesdropper capable of jamming detected transmissions, subject to an average power budget. A decoy-based anti-jamming strategy is presented to confuse a jammer, causing it to waste power when disrupting decoy messages instead of real messages. We investigate the effectiveness of the anti-jamming strategy to guarantee timeliness of NextG communications in addition to reliability objectives, analyzing the Age of Information subject to jamming and channel effects. We assess the effect of power control, which determines the success of a transmission but also affects the accuracy of the adversary's detection, making it more likely for the jammer to successfully identify and jam the communication. The results demonstrate the feasibility of mitigating eavesdropping and jamming attacks in NextG communications with information freshness objectives using a decoy to guarantee timely information transfer.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T15:36:26Z</published>
+    <arxiv:comment>6 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>Proc. 2024 IEEE International Conference on Communications Workshops, pp.554-559. %\thanks{Peer-reviewed version in Proc. 2024 IEEE International Conference on Communications Workshops (ICC Workshops), Denver, CO, USA, 2024, pp. 554-559</arxiv:journal_ref>
+    <author>
+      <name>Maice Costa</name>
+    </author>
+    <author>
+      <name>Yalin E. Sagduyu</name>
+    </author>
+    <arxiv:doi>10.1109/ICCWorkshops59551.2024.10615460</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICCWorkshops59551.2024.10615460" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.05501v1</id>
+    <title>Timeliness in NextG Spectrum Sharing under Jamming Attacks with Deep Learning</title>
+    <updated>2024-10-07T21:13:08Z</updated>
+    <link href="https://arxiv.org/abs/2410.05501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.05501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the communication of time-sensitive information in NextG spectrum sharing where a deep learning-based classifier is used to identify transmission attempts. While the transmitter seeks for opportunities to use the spectrum without causing interference to an incumbent user, an adversary uses another deep learning classifier to detect and jam the signals, subject to an average power budget. We consider timeliness objectives of NextG communications and study the Age of Information (AoI) under different scenarios of spectrum sharing and jamming, analyzing the effect of transmit control, transmit probability, and channel utilization subject to wireless channel and jamming effects. The resulting signal-to-noise-plus-interference (SINR) determines the success of spectrum sharing, but also affects the accuracy of the adversary's detection, making it more likely for the jammer to successfully identify and jam the communication. Our results illustrate the benefits of spectrum sharing for anti-jamming by exemplifying how a limited-power adversary is motivated to decrease its jamming power as the channel occupancy rises in NextG spectrum sharing with timeliness objectives.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-07T21:13:08Z</published>
+    <arxiv:comment>7 figures, original 5 pages, in proceedings on IEEE VTC-Fall 2024 Conference</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>In proceedings on IEEE VTC-Fall 2024 Conference</arxiv:journal_ref>
+    <author>
+      <name>Maice Costa</name>
+    </author>
+    <author>
+      <name>Yalin E. Sagduyu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.15473v1</id>
+    <title>PyJama: Differentiable Jamming and Anti-Jamming with NVIDIA Sionna</title>
+    <updated>2024-07-22T08:38:29Z</updated>
+    <link href="https://arxiv.org/abs/2407.15473v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.15473v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite extensive research on jamming attacks on wireless communication systems, the potential of machine learning for amplifying the threat of such attacks, or our ability to mitigate them, remains largely untapped. A key obstacle to such research has been the absence of a suitable framework. To resolve this obstacle, we release PyJama, a fully-differentiable open-source library that adds jamming and anti-jamming functionality to NVIDIA Sionna. We demonstrate the utility of PyJama (i) for realistic MIMO simulations by showing examples that involve forward error correction, OFDM waveforms in time and frequency, realistic channel models, and mobility; and (ii) for learning to jam. Specifically, we use stochastic gradient descent to optimize jamming power allocation over an OFDM resource grid. The learned strategies are non-trivial, intelligible, and effective.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-22T08:38:29Z</published>
+    <arxiv:comment>Accepted at IEEE SPAWC 2024</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fabian Ulbricht</name>
+    </author>
+    <author>
+      <name>Gian Marti</name>
+    </author>
+    <author>
+      <name>Reinhard Wiesmayr</name>
+    </author>
+    <author>
+      <name>Christoph Studer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.11654v3</id>
+    <title>R-SFLLM: Jamming Resilient Framework for Split Federated Learning with Large Language Models</title>
+    <updated>2025-10-27T17:52:25Z</updated>
+    <link href="https://arxiv.org/abs/2407.11654v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.11654v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Split federated learning (SFL) is a compute-efficient paradigm in distributed machine learning (ML), where components of large ML models are outsourced to remote servers. A significant challenge in SFL, particularly when deployed over wireless channels, is the susceptibility of transmitted model parameters to adversarial jamming that could jeopardize the learning process. This is particularly pronounced for embedding parameters in large language models (LLMs) and vision language models (VLMs), which are learned feature vectors essential for domain understanding. In this paper, rigorous insights are provided into the influence of jamming embeddings in SFL by deriving an expression for the ML training loss divergence and showing that it is upper-bounded by the mean squared error (MSE). Based on this analysis, a physical layer framework is developed for resilient SFL with LLMs (R-SFLLM) over wireless networks. R-SFLLM leverages wireless sensing data to gather information on the jamming directions-of-arrival (DoAs) for the purpose of devising a novel, sensing-assisted anti-jamming strategy while jointly optimizing beamforming, user scheduling, and resource allocation. Extensive experiments using both LLMs and VLMs demonstrate R-SFLLM's effectiveness, achieving close-to-baseline performance across various natural language processing (NLP) and computer vision (CV) tasks, datasets, and modalities. The proposed methodology further introduces an adversarial training component, where controlled noise exposure significantly enhances the model's resilience to perturbed parameters during training. The results show that more noise-sensitive models, such as RoBERTa, benefit from this feature, especially when resource allocation is unfair. It is also shown that worst-case jamming in particular translates into worst-case model outcomes, thereby necessitating the need for jamming-resilient SFL protocols.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-16T12:21:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Forensics and Security (Volume: 20), 2025</arxiv:journal_ref>
+    <author>
+      <name>Aladin Djuhera</name>
+    </author>
+    <author>
+      <name>Vlad C. Andrei</name>
+    </author>
+    <author>
+      <name>Xinyang Li</name>
+    </author>
+    <author>
+      <name>Ullrich J. Mönich</name>
+    </author>
+    <author>
+      <name>Holger Boche</name>
+    </author>
+    <author>
+      <name>Walid Saad</name>
+    </author>
+    <arxiv:doi>10.1109/TIFS.2025.3594107</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIFS.2025.3594107" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.16274v3</id>
+    <title>Radar Anti-jamming Strategy Learning via Domain-knowledge Enhanced Online Convex Optimization</title>
+    <updated>2024-07-11T12:33:21Z</updated>
+    <link href="https://arxiv.org/abs/2402.16274v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.16274v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dynamic competition between radar and jammer systems presents a significant challenge for modern Electronic Warfare (EW), as current active learning approaches still lack sample efficiency and fail to exploit jammer's characteristics. In this paper, the competition between a frequency agile radar and a Digital Radio Frequency Memory (DRFM)-based intelligent jammer is considered. We introduce an Online Convex Optimization (OCO) framework designed to illustrate this adversarial interaction. Notably, traditional OCO algorithms exhibit suboptimal sample efficiency due to the limited information obtained per round. To address the limitations, two refined algorithms are proposed, utilizing unbiased gradient estimators that leverage the unique attributes of the jammer system. Sub-linear theoretical results on both static regret and universal regret are provided, marking a significant improvement in OCO performance. Furthermore, simulation results reveal that the proposed algorithms outperform common OCO baselines, suggesting the potential for effective deployment in real-world scenarios.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-26T03:31:22Z</published>
+    <arxiv:comment>Accepted by SAM2024</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Liangqi Liu</name>
+    </author>
+    <author>
+      <name>Wenqiang Pu</name>
+    </author>
+    <author>
+      <name>Yingru Li</name>
+    </author>
+    <author>
+      <name>Bo Jiu</name>
+    </author>
+    <author>
+      <name>Zhi-Quan Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08634v1</id>
+    <title>Resilient Path Planning for UAVs in Data Collection under Adversarial Attacks</title>
+    <updated>2023-12-11T09:28:28Z</updated>
+    <link href="https://arxiv.org/abs/2401.08634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we investigate jamming-resilient UAV path planning strategies for data collection in Internet of Things (IoT) networks, in which the typical UAV can learn the optimal trajectory to elude such jamming attacks. Specifically, the typical UAV is required to collect data from multiple distributed IoT nodes under collision avoidance, mission completion deadline, and kinematic constraints in the presence of jamming attacks. We first design a fixed ground jammer with continuous jamming attack and periodical jamming attack strategies to jam the link between the typical UAV and IoT nodes. Defensive strategies involving a reinforcement learning (RL) based virtual jammer and the adoption of higher SINR thresholds are proposed to counteract against such attacks. Secondly, we design an intelligent UAV jammer, which utilizes the RL algorithm to choose actions based on its observation. Then, an intelligent UAV anti-jamming strategy is constructed to deal with such attacks, and the optimal trajectory of the typical UAV is obtained via dueling double deep Q-network (D3QN). Simulation results show that both non-intelligent and intelligent jamming attacks have significant influence on the UAV's performance, and the proposed defense strategies can recover the performance close to that in no-jammer scenarios.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-11T09:28:28Z</published>
+    <arxiv:comment>The final version of this paper has been accepted in IEEE Transactions on Information Forensics and Security</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <arxiv:journal_ref>vol. 18, pp. 2766-2779, 2023</arxiv:journal_ref>
+    <author>
+      <name>Xueyuan Wang</name>
+    </author>
+    <author>
+      <name>M. Cenk Gursoy</name>
+    </author>
+    <arxiv:doi>10.1109/TIFS.2023.3266699</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIFS.2023.3266699" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.05273v3</id>
+    <title>Few-Shot Recognition and Classification Framework for Jamming Signal: A CGAN-Based Fusion CNN Approach</title>
+    <updated>2024-06-26T07:43:13Z</updated>
+    <link href="https://arxiv.org/abs/2311.05273v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.05273v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subject to intricate environmental variables, the precise classification of jamming signals holds paramount significance in the effective implementation of anti-jamming strategies within communication systems. In light of this imperative, we propose an innovative fusion algorithm based on conditional generative adversarial network (CGAN) and convolutional neural network (CNN), which aims to deal with the difficulty in applying deep learning (DL) algorithms due to the instantaneous nature of jamming signals in practical communication systems. Compared with previous methods, our algorithm embeds jamming category labels to constrain the range of generated signals in the frequency domain by using the CGAN model, which simultaneously captures potential label information while learning the distribution of signal data thus achieves an 8% improvement in accuracy even when working with a few-sample dataset. Real-world satellite communication scenarios are simulated by adopting hardware platform, and we validate our algorithm by using the resulting time-domain waveform data. The experimental results indicate that our algorithm still performs extremely well, which demonstrates significant potential for practical application in real-world communication scenarios.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-09T11:03:26Z</published>
+    <arxiv:comment>Required to supplement the experiments in Section VII, enhance the notations in Table I, and make necessary adjustments to Equation 17 to ensure accuracy and completeness</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Xuhui Ding</name>
+    </author>
+    <author>
+      <name>Yue Zhang</name>
+    </author>
+    <author>
+      <name>Gaoyang Li</name>
+    </author>
+    <author>
+      <name>Xiaozheng Gao</name>
+    </author>
+    <author>
+      <name>Neng Ye</name>
+    </author>
+    <author>
+      <name>Dusit Niyato</name>
+    </author>
+    <author>
+      <name>Kai Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.14769v1</id>
+    <title>An introduction to radar Automatic Target Recognition (ATR) technology in ground-based radar systems</title>
+    <updated>2023-10-23T10:13:02Z</updated>
+    <link href="https://arxiv.org/abs/2310.14769v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.14769v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a brief examination of Automatic Target Recognition (ATR) technology within ground-based radar systems. It offers a lucid comprehension of the ATR concept, delves into its historical milestones, and categorizes ATR methods according to different scattering regions. By incorporating ATR solutions into radar systems, this study demonstrates the expansion of radar detection ranges and the enhancement of tracking capabilities, leading to superior situational awareness. Drawing insights from the Russo-Ukrainian War, the paper highlights three pressing radar applications that urgently necessitate ATR technology: detecting stealth aircraft, countering small drones, and implementing anti-jamming measures. Anticipating the next wave of radar ATR research, the study predicts a surge in cognitive radar and machine learning (ML)-driven algorithms. These emerging methodologies aspire to confront challenges associated with system adaptation, real-time recognition, and environmental adaptability. Ultimately, ATR stands poised to revolutionize conventional radar systems, ushering in an era of 4D sensing capabilities.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-23T10:13:02Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jiangkun Gong</name>
+    </author>
+    <author>
+      <name>Jun Yan</name>
+    </author>
+    <author>
+      <name>Deyong Kong</name>
+    </author>
+    <author>
+      <name>Deren Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.09376v1</id>
+    <title>Leveraging Large Language Models for DRL-Based Anti-Jamming Strategies in Zero Touch Networks</title>
+    <updated>2023-08-18T08:13:23Z</updated>
+    <link href="https://arxiv.org/abs/2308.09376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.09376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the dawn of sixth-generation (6G) networking approaches, it promises unprecedented advancements in communication and automation. Among the leading innovations of 6G is the concept of Zero Touch Networks (ZTNs), aiming to achieve fully automated, self-optimizing networks with minimal human intervention. Despite the advantages ZTNs offer in terms of efficiency and scalability, challenges surrounding transparency, adaptability, and human trust remain prevalent. Concurrently, the advent of Large Language Models (LLMs) presents an opportunity to elevate the ZTN framework by bridging the gap between automated processes and human-centric interfaces. This paper explores the integration of LLMs into ZTNs, highlighting their potential to enhance network transparency and improve user interactions. Through a comprehensive case study on deep reinforcement learning (DRL)-based anti-jamming technique, we demonstrate how LLMs can distill intricate network operations into intuitive, human-readable reports. Additionally, we address the technical and ethical intricacies of melding LLMs with ZTNs, with an emphasis on data privacy, transparency, and bias reduction. Looking ahead, we identify emerging research avenues at the nexus of LLMs and ZTNs, advocating for sustained innovation and interdisciplinary synergy in the domain of automated networks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-18T08:13:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abubakar S. Ali</name>
+    </author>
+    <author>
+      <name>Dimitrios Michael Manias</name>
+    </author>
+    <author>
+      <name>Abdallah Shami</name>
+    </author>
+    <author>
+      <name>Sami Muhaidat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06796v1</id>
+    <title>Defeating Proactive Jammers Using Deep Reinforcement Learning for Resource-Constrained IoT Networks</title>
+    <updated>2023-07-13T15:05:37Z</updated>
+    <link href="https://arxiv.org/abs/2307.06796v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06796v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional anti-jamming techniques like spread spectrum, adaptive power/rate control, and cognitive radio, have demonstrated effectiveness in mitigating jamming attacks. However, their robustness against the growing complexity of internet-of-thing (IoT) networks and diverse jamming attacks is still limited. To address these challenges, machine learning (ML)-based techniques have emerged as promising solutions. By offering adaptive and intelligent anti-jamming capabilities, ML-based approaches can effectively adapt to dynamic attack scenarios and overcome the limitations of traditional methods. In this paper, we propose a deep reinforcement learning (DRL)-based approach that utilizes state input from realistic wireless network interface cards. We train five different variants of deep Q-network (DQN) agents to mitigate the effects of jamming with the aim of identifying the most sample-efficient, lightweight, robust, and least complex agent that is tailored for power-constrained devices. The simulation results demonstrate the effectiveness of the proposed DRL-based anti-jamming approach against proactive jammers, regardless of their jamming strategy which eliminates the need for a pattern recognition or jamming strategy detection step. Our findings present a promising solution for securing IoT networks against jamming attacks and highlights substantial opportunities for continued investigation and advancement within this field.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T15:05:37Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Abubakar Sani Ali</name>
+    </author>
+    <author>
+      <name>Shimaa Naser</name>
+    </author>
+    <author>
+      <name>Sami Muhaidat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.14764v1</id>
+    <title>Robust Secrecy via Aerial Reflection and Jamming: Joint Optimization of Deployment and Transmission</title>
+    <updated>2023-02-28T17:05:11Z</updated>
+    <link href="https://arxiv.org/abs/2302.14764v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.14764v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconfigurable intelligent surfaces (RISs) are recognized with great potential to strengthen wireless security, yet the performance gain largely depends on the deployment location of RISs in the network topology. In this paper, we consider the anti-eavesdropping communication established through a RIS at a fixed location, as well as an aerial platform mounting another RIS and a friendly jammer to further improve the secrecy. The aerial RIS helps enhance the legitimate signal and the aerial cooperative jamming is strengthened through the fixed RIS. The security gain with aerial reflection and jamming is further improved with the optimized deployment of the aerial platform. We particularly consider the imperfect channel state information issue and address the worst-case secrecy for robust performance. The formulated robust secrecy rate maximization problem is decomposed into two layers, where the inner layer solves for reflection and jamming with robust optimization, and the outer layer tackles the aerial deployment through deep reinforcement learning. Simulation results show the deployment under different network topologies and demonstrate the performance superiority of our proposal in terms of the worst-case security provisioning as compared with the baselines.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T17:05:11Z</published>
+    <arxiv:comment>14 pages, 10 figures, accepted at IEEE IoTJ</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Xiao Tang</name>
+    </author>
+    <author>
+      <name>Hongliang He</name>
+    </author>
+    <author>
+      <name>Limeng Dong</name>
+    </author>
+    <author>
+      <name>Lixin Li</name>
+    </author>
+    <author>
+      <name>Qinghe Du</name>
+    </author>
+    <author>
+      <name>Zhu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.09518v1</id>
+    <title>Recurrent Neural Network-based Anti-jamming Framework for Defense Against Multiple Jamming Policies</title>
+    <updated>2022-08-19T19:12:38Z</updated>
+    <link href="https://arxiv.org/abs/2208.09518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.09518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional anti-jamming methods mainly focus on preventing single jammer attacks with an invariant jamming policy or jamming attacks from multiple jammers with similar jamming policies. These anti-jamming methods are ineffective against a single jammer following several different jamming policies or multiple jammers with distinct policies. Therefore, this paper proposes an anti-jamming method that can adapt its policy to the current jamming attack. Moreover, for the multiple jammers scenario, an anti-jamming method that estimates the future occupied channels using the jammers' occupied channels in previous time slots is proposed. In both single and multiple jammers scenarios, the interaction between the users and jammers is modeled using recurrent neural networks (RNN)s. The performance of the proposed anti-jamming methods is evaluated by calculating the users' successful transmission rate (STR) and ergodic rate (ER), and compared to a baseline based on Q-learning (DQL). Simulation results show that for the single jammer scenario, all the considered jamming policies are perfectly detected and high STR and ER are maintained. Moreover, when 70 % of the spectrum is under jamming attacks from multiple jammers, the proposed method achieves an STR and ER greater than 75 % and 80 %, respectively. These values rise to 90 % when 30 % of the spectrum is under jamming attacks. In addition, the proposed anti-jamming methods significantly outperform the DQL method for all the considered cases and jamming scenarios.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-19T19:12:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ali Pourranjbar</name>
+    </author>
+    <author>
+      <name>Georges Kaddoum</name>
+    </author>
+    <author>
+      <name>Walid Saad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.05269v1</id>
+    <title>A Novel Resource Allocation for Anti-jamming in Cognitive-UAVs: an Active Inference Approach</title>
+    <updated>2022-08-10T11:03:52Z</updated>
+    <link href="https://arxiv.org/abs/2208.05269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.05269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work proposes a novel resource allocation strategy for anti-jamming in Cognitive Radio using Active Inference ($\textit{AIn}$), and a cognitive-UAV is employed as a case study. An Active Generalized Dynamic Bayesian Network (Active-GDBN) is proposed to represent the external environment that jointly encodes the physical signal dynamics and the dynamic interaction between UAV and jammer in the spectrum. We cast the action and planning as a Bayesian inference problem that can be solved by avoiding surprising states (minimizing abnormality) during online learning. Simulation results verify the effectiveness of the proposed $\textit{AIn}$ approach in minimizing abnormalities (maximizing rewards) and has a high convergence speed by comparing it with the conventional Frequency Hopping and Q-learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-10T11:03:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>IEEE Communications Letters (2022)</arxiv:journal_ref>
+    <author>
+      <name>Ali Krayani</name>
+    </author>
+    <author>
+      <name>Atm S. Alam</name>
+    </author>
+    <author>
+      <name>Lucio Marcenaro</name>
+    </author>
+    <author>
+      <name>Arumugam Nallanathan</name>
+    </author>
+    <author>
+      <name>Carlo Regazzoni</name>
+    </author>
+    <arxiv:doi>10.1109/LCOMM.2022.3190971</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LCOMM.2022.3190971" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00159v1</id>
+    <title>Game-theoretic Learning Anti-jamming Approaches in Wireless Networks</title>
+    <updated>2022-06-20T14:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2207.00159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, the anti-jamming communication problem is investigated from a game-theoretic learning perspective. By exploring and analyzing intelligent anti-jamming communication, we present the characteristics of jammers and the requirements of an intelligent anti-jamming approach. Such approach is required of self-sensing, self-decision making, self-coordination, self-evaluation, and learning ability. Then, a game-theoretic learning anti-jamming (GTLAJ) paradigm is proposed, and its framework and challenges of GTLAJ are introduced. Moreover, through three cases, i.e., Stackelberg anti-jamming game, Markov anti-jamming game and hypergraph-based anti-jamming game, different anti-jamming game models and applications are discussed, and some future directions are presented.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-20T14:35:31Z</published>
+    <arxiv:comment>Published in IEEE Communcations Magazine</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Luliang Jia</name>
+    </author>
+    <author>
+      <name>Nan Qi</name>
+    </author>
+    <author>
+      <name>Feihuang Chu</name>
+    </author>
+    <author>
+      <name>Shengliang Fang</name>
+    </author>
+    <author>
+      <name>Ximing Wang</name>
+    </author>
+    <author>
+      <name>Shuli Ma</name>
+    </author>
+    <author>
+      <name>Shuo Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.08430v1</id>
+    <title>Towards Resilient Access Equality for 6G Serverless p-LEO Satellite Networks</title>
+    <updated>2022-05-17T15:16:48Z</updated>
+    <link href="https://arxiv.org/abs/2205.08430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.08430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low earth orbit (LEO) mega-constellations, integrating government space systems and commercial practices, have emerged as enabling technologies for the sixth generation (6G) networks due to their good merits of global coverage and ubiquitous services for military and civilian use cases. However, convergent LEO-based satellite networking infrastructures still lack leveraging the synergy of space and terrestrial systems. This paper, therefore, extends conventional serverless cloud platforms with serverless edge learning architectures for 6G proliferated LEO (p-LEO) satellite ecosystems and provides a new distributed training design from a networking perspective. The proposed design dynamically orchestrates communications and computation functionalities and resources among heterogeneous physical units to efficiently fulfill multi-agent deep reinforcement learning for service-level agreements. Innovative ecosystem enhancements, including ultrabroadband access, anti-jammed transmissions, resilient networking, and related open challenges, are also investigated for end-to-end connectivity, communications, and learning performance.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-17T15:16:48Z</published>
+    <arxiv:comment>Submitted for possible publication to the IEEE Communication magazine</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Lin Shih-Chun</name>
+    </author>
+    <author>
+      <name>Lin Chia-Hung</name>
+    </author>
+    <author>
+      <name>Chu Liang C.</name>
+    </author>
+    <author>
+      <name>Lien Shao-Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.09717v1</id>
+    <title>Towards an AI-Driven Universal Anti-Jamming Solution with Convolutional Interference Cancellation Network</title>
+    <updated>2022-03-18T03:30:57Z</updated>
+    <link href="https://arxiv.org/abs/2203.09717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.09717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wireless links are increasingly used to deliver critical services, while intentional interference (jamming) remains a very serious threat to such services. In this paper, we are concerned with the design and evaluation of a universal anti-jamming building block, that is agnostic to the specifics of the communication link and can therefore be combined with existing technologies. We believe that such a block should not require explicit probes, sounding, training sequences, channel estimation, or even the cooperation of the transmitter. To meet these requirements, we propose an approach that relies on advances in Machine Learning, and the promises of neural accelerators and software defined radios. We identify and address multiple challenges, resulting in a convolutional neural network architecture and models for a multi-antenna system to infer the existence of interference, the number of interfering emissions and their respective phases. This information is continuously fed into an algorithm that cancels the interfering signal. We develop a two-antenna prototype system and evaluate our jamming cancellation approach in various environment settings and modulation schemes using Software Defined Radio platforms. We demonstrate that the receiving node equipped with our approach can detect a jammer with over 99% of accuracy and achieve a Bit Error Rate (BER) as low as $10^{-6}$ even when the jammer power is nearly two orders of magnitude (18 dB) higher than the legitimate signal, and without requiring modifications to the link modulation. In non-adversarial settings, our approach can have other advantages such as detecting and mitigating collisions.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-18T03:30:57Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Hai N. Nguyen</name>
+    </author>
+    <author>
+      <name>Guevara Noubir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.10049v1</id>
+    <title>Counterfactual Regret Minimization for Anti-jamming Game of Frequency Agile Radar</title>
+    <updated>2022-02-21T08:47:44Z</updated>
+    <link href="https://arxiv.org/abs/2202.10049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.10049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The competition between radar and jammer is one emerging issue in modern electronic warfare, which in principle can be viewed as a non-cooperative game with two players. In this work, the competition between a frequency agile (FA) radar and a noise-modulated jammer is considered. As modern FA radar adopts coherent processing with several pulses, the competition is hence in a multiple-round way where each pulse can be modeled as one round interaction between the radar and jammer. To capture such multiple-round property as well as imperfect information inside the game, i.e., radar and jammer are unable to know the upcoming signal, we propose an extensive-form game formulation for such competition. Since the number of game information states grows exponentially with respect to number of pulses, finding Nash Equilibrium (NE) strategies may be a computationally intractable task. To effectively solve the game, a learning-based algorithm called deep Counterfactual Regret Minimization (CFR) is utilized. Numerical simulations demonstrates the effectiveness of deep CFR algorithm for approximately finding NE and obtaining the best response strategy.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-21T08:47:44Z</published>
+    <arxiv:comment>Conference paper</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Huayue Li</name>
+    </author>
+    <author>
+      <name>Zhaowei Han</name>
+    </author>
+    <author>
+      <name>Wenqiang Pu</name>
+    </author>
+    <author>
+      <name>Liangqi Liu</name>
+    </author>
+    <author>
+      <name>Kang Li</name>
+    </author>
+    <author>
+      <name>Bo Jiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.11324v4</id>
+    <title>Satellite-Based Communications Security: A Survey of Threats, Solutions, and Research Challenges</title>
+    <updated>2022-07-29T09:13:47Z</updated>
+    <link href="https://arxiv.org/abs/2112.11324v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.11324v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Satellite-based Communication systems are gaining renewed momentum in Industry and Academia, thanks to innovative services introduced by leading tech companies and the promising impact they can deliver towards the global connectivity objective tackled by early 6G initiatives. On the one hand, the emergence of new manufacturing processes and radio technologies promises to reduce service costs while guaranteeing outstanding communication latency, available bandwidth, flexibility, and coverage range. On the other hand, cybersecurity techniques and solutions applied in SATCOM links should be updated to reflect the substantial advancements in attacker capabilities characterizing the last two decades. However, business urgency and opportunities are leading operators towards challenging system trade-offs, resulting in an increased attack surface and a general relaxation of the available security services. In this paper, we tackle the cited problems and present a comprehensive survey on the link-layer security threats, solutions, and challenges faced when deploying and operating SATCOM systems.Specifically, we classify the literature on security for SATCOM systems into two main branches, i.e., physical-layer security and cryptography schemes.Then, we further identify specific research domains for each of the identified branches, focusing on dedicated security issues, including, e.g., physical-layer confidentiality, anti-jamming schemes, anti-spoofing strategies, and quantum-based key distribution schemes. For each of the above domains, we highlight the most essential techniques, peculiarities, advantages, disadvantages, lessons learned, and future directions.Finally, we also identify emerging research topics whose additional investigation by Academia and Industry could further attract researchers and investors, ultimately unleashing the full potential behind ubiquitous satellite communications.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-21T16:15:15Z</published>
+    <arxiv:comment>72 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pietro Tedeschi</name>
+    </author>
+    <author>
+      <name>Savio Sciancalepore</name>
+    </author>
+    <author>
+      <name>Roberto Di Pietro</name>
+    </author>
+    <arxiv:doi>10.1016/j.comnet.2022.109246</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.comnet.2022.109246" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.11222v1</id>
+    <title>Jamming Pattern Recognition over Multi-Channel Networks: A Deep Learning Approach</title>
+    <updated>2021-12-19T04:29:23Z</updated>
+    <link href="https://arxiv.org/abs/2112.11222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.11222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advent of intelligent jammers, jamming attacks have become a more severe threat to the performance of wireless systems. An intelligent jammer is able to change its policy to minimize the probability of being traced by legitimate nodes. Thus, an anti-jamming mechanism capable of constantly adjusting to the jamming policy is required to combat such a jammer. Remarkably, existing anti-jamming methods are not applicable here because they mainly focus on mitigating jamming attacks with an invariant jamming policy, and they rarely consider an intelligent jammer as an adversary. Therefore, in this paper, to employ a jamming type recognition technique working alongside an anti-jamming technique is proposed. The proposed recognition method employs a recurrent neural network that takes the jammer's occupied channels as inputs and outputs the jammer type. Under this scheme, the real-time jammer policy is first identified, and, then, the most appropriate countermeasure is chosen. Consequently, any changes to the jammer policy can be instantly detected with the proposed recognition technique allowing for a rapid switch to a new anti-jamming method fitted to the new jamming policy. To evaluate the performance of the proposed recognition method, the accuracy of the detection is derived as a function of the jammer policy switching time. Simulation results show the detection accuracy for all the considered users numbers is greater than 70% when the jammer switches its policy every 5 time slots and the accuracy raises to 90% when the jammer policy switching time is 45.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-19T04:29:23Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ali Pourranjbar</name>
+    </author>
+    <author>
+      <name>Georges Kaddoum</name>
+    </author>
+    <author>
+      <name>Walid Saad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.11178v3</id>
+    <title>Anti-Jamming Games in Multi-Band Wireless Ad Hoc Networks</title>
+    <updated>2022-06-11T17:14:01Z</updated>
+    <link href="https://arxiv.org/abs/2111.11178v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.11178v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For multi-band wireless ad hoc networks of multiple users, an anti-jamming game between the users and a jammer is studied. In this game, the users (resp. jammer) want to maximize (resp. minimize) the expected rewards of the users taking into account various factors such as communication rate, hopping cost, and jamming loss. We analyze the arms race of the game and derive an optimal frequency hopping policy at each stage of the arms race based on the Markov decision process (MDP). It is analytically shown that the arms race reaches an equilibrium after a few rounds, and a frequency hopping policy and a jamming strategy at the equilibrium are characterized. We propose two kinds of collision avoidance protocols to ensure that at most one user communicates in each frequency band, and provide various numerical results that show the effects of the reward parameters and collision avoidance protocols on the optimal frequency hopping policy and the expected rewards at the equilibrium. Moreover, we discuss about equilibria for the case where the jammer adopts some unpredictable jamming strategies.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-11T14:43:15Z</published>
+    <arxiv:comment>This manuscript was submitted to IEEE Transactions on Information Forensics and Security and a short version was submitted to IEEE GLOBECOM 2022 Figures 3 and 6 are revised from version 2</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Hyeon-Seong Im</name>
+    </author>
+    <author>
+      <name>Si-Hyeon Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14056v1</id>
+    <title>Reinforcement Learning for Deceiving Reactive Jammers in Wireless Networks</title>
+    <updated>2021-03-25T18:12:41Z</updated>
+    <link href="https://arxiv.org/abs/2103.14056v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14056v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional anti-jamming method mostly rely on frequency hopping to hide or escape from jammer. These approaches are not efficient in terms of bandwidth usage and can also result in a high probability of jamming. Different from existing works, in this paper, a novel anti-jamming strategy is proposed based on the idea of deceiving the jammer into attacking a victim channel while maintaining the communications of legitimate users in safe channels. Since the jammer's channel information is not known to the users, an optimal channel selection scheme and a sub optimal power allocation are proposed using reinforcement learning (RL). The performance of the proposed anti-jamming technique is evaluated by deriving the statistical lower bound of the total received power (TRP). Analytical results show that, for a given access point, over 50 % of the highest achievable TRP, i.e. in the absence of jammers, is achieved for the case of a single user and three frequency channels. Moreover, this value increases with the number of users and available channels. The obtained results are compared with two existing RL based anti-jamming techniques, and random channel allocation strategy without any jamming attacks. Simulation results show that the proposed anti-jamming method outperforms the compared RL based anti-jamming methods and random search method, and yields near optimal achievable TRP.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-25T18:12:41Z</published>
+    <arxiv:comment>in IEEE Transactions on Communications</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ali Pourranjbar</name>
+    </author>
+    <author>
+      <name>Georges Kaddoum</name>
+    </author>
+    <author>
+      <name>Aidin Ferdowsi</name>
+    </author>
+    <author>
+      <name>Walid Saad</name>
+    </author>
+    <arxiv:doi>10.1109/TCOMM.2021.3062854</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TCOMM.2021.3062854" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.03031v1</id>
+    <title>Cognitive-Driven Optimization of Sparse Array Transceiver for MIMO Radar Beamforming</title>
+    <updated>2021-03-04T13:45:00Z</updated>
+    <link href="https://arxiv.org/abs/2103.03031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.03031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cognitive multiple-input multiple-output (MIMO) radar is capable of adjusting system parameters adaptively by sensing and learning in complex dynamic environment. Beamforming performance of MIMO radar is guided by both beamforming weight coefficients and the transceiver configuration. We propose a cognitive-driven MIMO array design where both the beamforming weights and the transceiver configuration are adaptively and concurrently optimized under different environmental conditions. The perception-action cycle involves data collection of full virtual array, covariance reconstruction and joint design of the transmit and receive arrays by antenna selection.The optimal transceiver array design is realized by promoting two-dimensional group sparsity via iteratively minimizing reweighted mixed L21-norm, with constraints imposed on transceiver antenna spacing for proper transmit/receive isolation. Simulations are provided to demonstrate the "perception-action" capability of the proposed cognitive sparse MIMO array in achieving enhanced beamforming and anti-jamming in dynamic target and interference environment.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-04T13:45:00Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Weitong Zhai</name>
+    </author>
+    <author>
+      <name>Xiangrong Wang</name>
+    </author>
+    <author>
+      <name>Syed A. Hamza</name>
+    </author>
+    <author>
+      <name>Moeness G. Amin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10899v1</id>
+    <title>Artificial Intelligence for Satellite Communication: A Review</title>
+    <updated>2021-01-25T13:01:16Z</updated>
+    <link href="https://arxiv.org/abs/2101.10899v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.10899v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Satellite communication offers the prospect of service continuity over uncovered and under-covered areas, service ubiquity, and service scalability. However, several challenges must first be addressed to realize these benefits, as the resource management, network control, network security, spectrum management, and energy usage of satellite networks are more challenging than that of terrestrial networks. Meanwhile, artificial intelligence (AI), including machine learning, deep learning, and reinforcement learning, has been steadily growing as a research field and has shown successful results in diverse applications, including wireless communication. In particular, the application of AI to a wide variety of satellite communication aspects have demonstrated excellent potential, including beam-hopping, anti-jamming, network traffic forecasting, channel modeling, telemetry mining, ionospheric scintillation detecting, interference managing, remote sensing, behavior modeling, space-air-ground integrating, and energy managing. This work thus provides a general overview of AI, its diverse sub-fields, and its state-of-the-art algorithms. Several challenges facing diverse aspects of satellite communication systems are then discussed, and their proposed and potential AI-based solutions are presented. Finally, an outlook of field is drawn, and future steps are suggested.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-25T13:01:16Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Fares Fourati</name>
+    </author>
+    <author>
+      <name>Mohamed-Slim Alouini</name>
+    </author>
+    <arxiv:doi>10.23919/ICN.2021.0015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.23919/ICN.2021.0015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00270v1</id>
+    <title>Deep Reinforcement Learning-based Anti-jamming Power Allocation in a Two-cell NOMA Network</title>
+    <updated>2021-01-01T17:13:44Z</updated>
+    <link href="https://arxiv.org/abs/2101.00270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The performance of Non-orthogonal Multiple Access (NOMA) system dramatically decreases in the presence of inter-cell interference. This condition gets more challenging if a smart jammer is interacting in a network. In this paper, the NOMA power allocation of two independent Base Stations (BSs) against a smart jammer is, modeled as a sequential game. In this game, at first, each BS as a leader independently chooses its power allocation strategy. Then, the smart jammer as the follower selects its optimal strategy based on the strategies of the BSs. The solutions of this game are, derived under different conditions. Based on the game-theoretical analysis, three new schemes are proposed for anti-jamming NOMA power allocation in a two-cell scenario called a) Q-Learning based Unselfish (QLU) NOMA power allocation scheme, b) Deep Q-Learning based Unselfish (DQLU) NOMA power allocation scheme, and c) Hot Booting Deep Q-Learning based Unselfish (HBDQLU) NOMA power allocation scheme. In these methods the BSs do not coordinate with each other. But our analysis theoretically predicts that with high probability, the proposed methods will converge to the optimal strategy from the total network point of view. Simulation results show the convergence of the proposed schemes and also their outperformance with respect to the Q-Learning-based Selfish (QLS) NOMA power allocation method.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-01T17:13:44Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Sina Yousefzadeh Marandy</name>
+    </author>
+    <author>
+      <name>Mohammad Ali Amirabadi</name>
+    </author>
+    <author>
+      <name>Mohammad Hossein Kahaei</name>
+    </author>
+    <author>
+      <name>Seyed Mohammad Razavizadeh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.12761v1</id>
+    <title>Intelligent Reflecting Surface Assisted Anti-Jamming Communications Based on Reinforcement Learning</title>
+    <updated>2020-12-23T16:01:01Z</updated>
+    <link href="https://arxiv.org/abs/2012.12761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.12761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Malicious jamming launched by smart jammer, which attacks legitimate transmissions has been regarded as one of the critical security challenges in wireless communications. Thus, this paper exploits intelligent reflecting surface (IRS) to enhance anti-jamming communication performance and mitigate jamming interference by adjusting the surface reflecting elements at the IRS. Aiming to enhance the communication performance against smart jammer, an optimization problem for jointly optimizing power allocation at the base station (BS) and reflecting beamforming at the IRS is formulated. As the jamming model and jamming behavior are dynamic and unknown, a win or learn fast policy hill-climbing (WoLF-PHC) learning approach is proposed to jointly optimize the anti-jamming power allocation and reflecting beamforming strategy without the knowledge of the jamming model. Simulation results demonstrate that the proposed anti-jamming based-learning approach can efficiently improve both the IRS-assisted system rate and transmission protection level compared with existing solutions.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-23T16:01:01Z</published>
+    <arxiv:comment>This paper appears in the Proceedings of IEEE Global Communications Conference (GLOBECOM) 2020. A full version appears in IEEE Transactions on Wireless Communications. arXiv:2004.12539</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Helin Yang</name>
+    </author>
+    <author>
+      <name>Zehui Xiong</name>
+    </author>
+    <author>
+      <name>Jun Zhao</name>
+    </author>
+    <author>
+      <name>Dusit Niyato</name>
+    </author>
+    <author>
+      <name>Qingqing Wu</name>
+    </author>
+    <author>
+      <name>Massimo Tornatore</name>
+    </author>
+    <author>
+      <name>Stefano Secci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.12448v1</id>
+    <title>A hidden anti-jamming method based on deep reinforcement learning</title>
+    <updated>2020-12-23T02:06:25Z</updated>
+    <link href="https://arxiv.org/abs/2012.12448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.12448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most of the current anti-jamming algorithms for wireless communications only consider how to avoid jamming attacks, but ignore that the communication waveform or frequency action may be obtained by the jammers. Although existing anti-jamming methods can guarantee temporary communication effects, the long-term performance of these anti-jamming methods may be depressed when intelligent jammers are capable of learning from historical communication activities. Aiming at this issue, a hidden anti-jamming method based on the idea of reducing the jammer's sense probability is proposed. Firstly, the sensing probability of the jammer is obtained by calculating the correlation between the actions of the jammer and the user. Later, a deep reinforcement learning framework is designed, which aims at not only maximizing the communication throughput but also minimizing the action's correlation between the jammer and the user. Finally, a hidden anti-jamming algorithm is proposed, which links the instantaneous return with the communication quality of users and the correlation between users and jammer. The simulation result shows that the proposed algorithm not only avoids being sensed by the jammer but also improves its anti-jamming performance compared to the current algorithm that only considers jamming avoidance.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-23T02:06:25Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yifan Wang</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Mei Wang</name>
+    </author>
+    <author>
+      <name>Yu Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.07034v2</id>
+    <title>DeepFake: Deep Dueling-based Deception Strategy to Defeat Reactive Jammers</title>
+    <updated>2021-05-04T05:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2005.07034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.07034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce DeepFake, a novel deep reinforcement learning-based deception strategy to deal with reactive jamming attacks. In particular, for a smart and reactive jamming attack, the jammer is able to sense the channel and attack the channel if it detects communications from the legitimate transmitter. To deal with such attacks, we propose an intelligent deception strategy which allows the legitimate transmitter to transmit "fake" signals to attract the jammer. Then, if the jammer attacks the channel, the transmitter can leverage the strong jamming signals to transmit data by using ambient backscatter communication technology or harvest energy from the strong jamming signals for future use. By doing so, we can not only undermine the attack ability of the jammer, but also utilize jamming signals to improve the system performance. To effectively learn from and adapt to the dynamic and uncertainty of jamming attacks, we develop a novel deep reinforcement learning algorithm using the deep dueling neural network architecture to obtain the optimal policy with thousand times faster than those of the conventional reinforcement algorithms. Extensive simulation results reveal that our proposed DeepFake framework is superior to other anti-jamming strategies in terms of throughput, packet loss, and learning rate.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-13T00:37:43Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Nguyen Van Huynh</name>
+    </author>
+    <author>
+      <name>Dinh Thai Hoang</name>
+    </author>
+    <author>
+      <name>Diep N. Nguyen</name>
+    </author>
+    <author>
+      <name>Eryk Dutkiewicz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12539v1</id>
+    <title>Intelligent Reflecting Surface Assisted Anti-Jamming Communications: A Fast Reinforcement Learning Approach</title>
+    <updated>2020-04-27T01:54:34Z</updated>
+    <link href="https://arxiv.org/abs/2004.12539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Malicious jamming launched by smart jammers can attack legitimate transmissions, which has been regarded as one of the critical security challenges in wireless communications. With this focus, this paper considers the use of an intelligent reflecting surface (IRS) to enhance anti-jamming communication performance and mitigate jamming interference by adjusting the surface reflecting elements at the IRS. Aiming to enhance the communication performance against a smart jammer, an optimization problem for jointly optimizing power allocation at the base station (BS), and reflecting beamforming at the IRS is formulated while considering quality of service (QoS) requirements of legitimate users. As the jamming model and jamming behavior are dynamic and unknown, a fuzzy win or learn fast-policy hill-climbing (WoLFPHC) learning approach is proposed to jointly optimize the anti-jamming power allocation and reflecting beamforming strategy, where WoLFPHC is capable of quickly achieving the optimal policy without the knowledge of the jamming model, and fuzzy state aggregation can represent the uncertain environment states as aggregate states. Simulation results demonstrate that the proposed anti-jamming learning-based approach can efficiently improve both the IRS-assisted system rate and transmission protection level compared with existing solutions.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-27T01:54:34Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Helin Yang</name>
+    </author>
+    <author>
+      <name>Zehui Xiong</name>
+    </author>
+    <author>
+      <name>Jun Zhao</name>
+    </author>
+    <author>
+      <name>Dusit Niyato</name>
+    </author>
+    <author>
+      <name>Qingqing Wu</name>
+    </author>
+    <author>
+      <name>H. Vincent Poor</name>
+    </author>
+    <author>
+      <name>Massimo Tornatore</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05364v1</id>
+    <title>Fast Reinforcement Learning for Anti-jamming Communications</title>
+    <updated>2020-02-13T06:37:27Z</updated>
+    <link href="https://arxiv.org/abs/2002.05364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This letter presents a fast reinforcement learning algorithm for anti-jamming communications which chooses previous action with probability $τ$ and applies $ε$-greedy with probability $(1-τ)$. A dynamic threshold based on the average value of previous several actions is designed and probability $τ$ is formulated as a Gaussian-like function to guide the wireless devices. As a concrete example, the proposed algorithm is implemented in a wireless communication system against multiple jammers. Experimental results demonstrate that the proposed algorithm exceeds Q-learing, deep Q-networks (DQN), double DQN (DDQN), and prioritized experience reply based DDQN (PDDQN), in terms of signal-to-interference-plus-noise ratio and convergence rate.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-13T06:37:27Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Pei-Gen Ye</name>
+    </author>
+    <author>
+      <name>Yuan-Gen Wang</name>
+    </author>
+    <author>
+      <name>Jin Li</name>
+    </author>
+    <author>
+      <name>Liang Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08874v2</id>
+    <title>Avoiding Jammers: A Reinforcement Learning Approach</title>
+    <updated>2019-11-27T08:45:41Z</updated>
+    <link href="https://arxiv.org/abs/1911.08874v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.08874v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the anti-jamming performance of a cognitive radar under a partially observable Markov decision process (POMDP) model. First, we obtain an explicit expression for uncertainty of jammer dynamics, which paves the way for illuminating the performance metric of probability of being jammed for the radar beyond a conventional signal-to-noise ratio ($\mathsf{SNR}$) based analysis. Considering two frequency hopping strategies developed in the framework of reinforcement learning (RL), this performance metric is analyzed with deep Q-network (DQN) and long short term memory (LSTM) networks under various uncertainty values. Finally, the requirement of the target network in the RL algorithm for both network architectures is replaced with a softmax operator. Simulation results show that this operator improves upon the performance of the traditional target network.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-20T13:06:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Serkan Ak</name>
+    </author>
+    <author>
+      <name>Stefan Bruggenwirth</name>
+    </author>
+  </entry>
+</feed>

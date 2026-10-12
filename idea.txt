@@ -1,0 +1,24 @@
+Working title: "Is Wireless Encryption Ready for the AI Era? A Systematic Review of AI-Enabled Threats and Defenses."
+Central question: How well do current radio-link security mechanisms hold up against AI-capable adversaries, and what gaps exist for autonomous systems (drones, vehicles, swarms, IoT/edge)?
+Structure
+Threat axis: AI-assisted attacks on wireless security.
+Learned side-channel and RF-fingerprint attacks.
+Protocol reverse engineering and fuzzing.
+Traffic and signal analysis.
+Harvest-now-decrypt-later, plus post-quantum migration status.
+Defense axis: AI-assisted or learned security.
+Neural and learned cryptography.
+ML-based authentication and key management.
+Adversarially robust physical-layer security.
+Readiness axis: your core contribution. Score each included paper or mechanism on explicit criteria:
+Threat model stated.
+Evaluated against real cryptanalysis or a real adversary.
+Latency and energy cost on constrained radios.
+Reproducibility (code or data released).
+Standards alignment.
+Gap analysis for autonomous systems: mismatches between what the literature secures and what these systems need (real-time limits, over-the-air updates, multi-agent trust).
+Method: Follow PRISMA-style reporting, with the databases, search strings, date range, screening counts and a quality-assessment step all stated. About 100 papers should be the final included set.
+Risks to manage
+Define "readiness" before scoring, and report inter-rater agreement if two of you score.
+Don't overclaim. If most evidence is simulation-only, say so, because that finding is itself valuable.
+Cover quantum-era risks separately from AI risks so the thesis stays clean.

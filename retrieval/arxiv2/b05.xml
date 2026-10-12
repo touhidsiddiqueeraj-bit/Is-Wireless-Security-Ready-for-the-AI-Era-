@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5IRbhopoM/rC8kHFAYeuxc+tpHo</id>
+  <title>arXiv Query: search_query=all:Kyber AND all:IoT&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Kyber+AND+all:IoT&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03611v1</id>
+    <title>Q-FE: A Quantum-Native 6G Far-Edge Architecture Securing Industrial IoT Digital Twins via CSIDH-PQC and Asynchronous Federated Learning</title>
+    <updated>2026-06-02T13:13:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.03611v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03611v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sixth-generation (6G) wireless networks will underpin ultra-dense Industrial IoT (IIoT) ecosystems in which resource-constrained Far-Edge devices -- autonomous mobile robots, industrial actuators, connected vehicles -- must simultaneously satisfy sub-millisecond latency, $10^{-7}$-class reliability, and decades-long cryptographic security. Current architectures delegate Digital Twin (DT) computation to centralised cloud or Mobile Edge Computing (MEC) servers, incurring prohibitive round-trip latency, and rely on classical public-key cryptography vulnerable to quantum attacks under the harvest-now, decrypt-later (HNDL) threat model. We propose Q-FE, a Quantum-Native 6G Far-Edge architecture integrating three co-designed components: (i) Micro-Digital Twins ($μ$DTs) co-located with 6G base stations and high-capability endpoints; (ii) a Cross-Layer Post-Quantum Key Exchange module embedding CSIDH-512 isogeny key material directly within MAC-layer control frames, exploiting the scheme's uniquely compact keys ($\le 64$ bytes) to avoid packet fragmentation; and (iii) an Asynchronous Federated Learning (AFL) protocol governed by lightweight DAG smart contracts at MEC nodes, eliminating straggler bottlenecks and preventing model-poisoning and Sybil attacks without exposing raw data. End-to-end simulations (NS-3 + PySyft) demonstrate that Q-FE reduces MAC-layer overhead by 62% versus ML-KEM/Kyber-1024, maintains P99.9 URLLC latency at 0.78 ms, and accelerates global-model convergence by 31% over synchronous Federated Learning. Protocol complexity analysis confirms $O(N \log R)$ per aggregation round, and $μ$DT handover migration completes in $1.9 \pm 0.3$ ms across $10^4$ simulated events. A formal threat model confirms resilience against quantum eavesdropping, model-poisoning, and Sybil attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T13:13:44Z</published>
+    <arxiv:comment>This work has been submitted to the IEEE for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Vincenzo Sammartino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06881v1</id>
+    <title>Toward Quantum-Safe 6G: Experimental Evaluation of Post-Quantum Cryptography Techniques</title>
+    <updated>2026-05-07T19:30:56Z</updated>
+    <link href="https://arxiv.org/abs/2605.06881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>6G networks will require quantum-secure cryptography deployed across core infrastructure, edge nodes, resource-constrained IoT devices. Although post-quantum cryptographic (PQC) algorithms have been standardized by NIST, their practical deployability in bandwidth and latency limited wireless systems remains unclear. This paper presents a practical evaluation of NIST selected PQC schemes, including ML-KEM (Kyber), ML-DSA (Dilithium), and Falcon. Benchmarks conducted with OpenSSL and the OQS provider on heterogeneous platforms show that while computational performance is acceptable, ciphertext and signature size expansion significantly impact handshake reliability and bandwidth efficiency, particularly at the network edge. The results highlight key system-level trade-offs and motivate the need for PQC optimization and deployment-aware design for future quantum-secure 6G networks.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-07T19:30:56Z</published>
+    <arxiv:comment>Accepted for publication in the IEEE communications standards magazine</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Ananya Kudaloor</name>
+    </author>
+    <author>
+      <name>Adnan Aijaz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01053v1</id>
+    <title>Byzantine-Robust Federated Learning Framework with Post-Quantum Secure Aggregation for Real-Time Threat Intelligence Sharing in Critical IoT Infrastructure</title>
+    <updated>2026-01-03T03:13:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.01053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of Internet of Things devices in critical infrastructure has created unprecedented cybersecurity challenges, necessitating collaborative threat detection mechanisms that preserve data privacy while maintaining robustness against sophisticated attacks. Traditional federated learning approaches for IoT security suffer from two critical vulnerabilities: susceptibility to Byzantine attacks where malicious participants poison model updates, and inadequacy against future quantum computing threats that can compromise cryptographic aggregation protocols. This paper presents a novel Byzantine-robust federated learning framework integrated with post-quantum secure aggregation specifically designed for real-time threat intelligence sharing across critical IoT infrastructure. The proposed framework combines a adaptive weighted aggregation mechanism with lattice-based cryptographic protocols to simultaneously defend against model poisoning attacks and quantum adversaries. We introduce a reputation-based client selection algorithm that dynamically identifies and excludes Byzantine participants while maintaining differential privacy guarantees. The secure aggregation protocol employs CRYSTALS-Kyber for key encapsulation and homomorphic encryption to ensure confidentiality during parameter updates. Experimental evaluation on industrial IoT intrusion detection datasets demonstrates that our framework achieves 96.8% threat detection accuracy while successfully mitigating up to 40% Byzantine attackers, with only 18% computational overhead compared to non-secure federated approaches. The framework maintains sub-second aggregation latency suitable for real-time applications and provides 256-bit post-quantum security level.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-03T03:13:46Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Milad Rahmati</name>
+    </author>
+    <author>
+      <name>Nima Rahmati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14657v3</id>
+    <title>Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework</title>
+    <updated>2025-11-14T08:24:09Z</updated>
+    <link href="https://arxiv.org/abs/2509.14657v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14657v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of IoT nodes equipped with microphones and capable of performing on-device audio classification exposes highly sensitive data while operating under tight resource constraints. To protect against this, we present a defence-in-depth architecture comprising a security protocol that treats the edge device, cellular network and cloud backend as three separate trust domains, linked by TPM-based remote attestation and mutually authenticated TLS 1.3. A STRIDE-driven threat model and attack-tree analysis guide the design. At startup, each boot stage is measured into TPM PCRs. The node can only decrypt its LUKS-sealed partitions after the cloud has verified a TPM quote and released a one-time unlock key. This ensures that rogue or tampered devices remain inert. Data in transit is protected by TLS 1.3 and hybridised with Kyber and Dilithium to provide post-quantum resilience. Meanwhile, end-to-end encryption and integrity hashes safeguard extracted audio features. Signed, rollback-protected AI models and tamper-responsive sensors harden firmware and hardware. Data at rest follows a 3-2-1 strategy comprising a solid-state drive sealed with LUKS, an offline cold archive encrypted with a hybrid post-quantum cipher and an encrypted cloud replica. Finally, we set out a plan for evaluating the physical and logical security of the proposed protocol.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-18T06:25:50Z</published>
+    <arxiv:comment>Accepted at Computing Conference 2026, London, UK</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sergio Benlloch-Lopez</name>
+    </author>
+    <author>
+      <name>Miquel Viel-Vazquez</name>
+    </author>
+    <author>
+      <name>Javier Naranjo-Alcazar</name>
+    </author>
+    <author>
+      <name>Jordi Grau-Haro</name>
+    </author>
+    <author>
+      <name>Pedro Zuccarello</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08312v1</id>
+    <title>Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained Devices</title>
+    <updated>2025-07-11T05:03:19Z</updated>
+    <link href="https://arxiv.org/abs/2507.08312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid advancement of quantum computing poses a critical threat to classical cryptographic algorithms such as RSA and ECC, particularly in Internet of Things (IoT) devices, where secure communication is essential but often constrained by limited computational resources. This paper investigates the feasibility of deploying post-quantum cryptography (PQC) algorithms on resource-constrained devices. In particular, we implement three PQC algorithms -- BIKE, CRYSTALS-Kyber, and HQC -- on a lightweight IoT platform built with Raspberry Pi devices. Leveraging the Open Quantum Safe (\texttt{liboqs}) library in conjunction with \texttt{mbedTLS}, we develop quantum-secure key exchange protocols, and evaluate their performance in terms of computational overhead, memory usage, and energy consumption for quantum secure communication. Experimental results demonstrate that the integration of PQC algorithms on constrained hardware is practical, reinforcing the urgent need for quantum-resilient cryptographic frameworks in next-generation IoT devices. The implementation of this paper is available at https://iqsec-lab.github.io/PQC-IoT/.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T05:03:19Z</published>
+    <arxiv:comment>8 pages, 4 figures, 4 tables. This paper is accepted at the IEEE Quantum Week 2025 -- IEEE International Conference on Quantum Computing and Engineering (QCE) 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jesus Lopez</name>
+    </author>
+    <author>
+      <name>Viviana Cadena</name>
+    </author>
+    <author>
+      <name>Mohammad Saidur Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.01782v1</id>
+    <title>Energy-Efficient NTT Sampler for Kyber Benchmarked on FPGA</title>
+    <updated>2025-05-03T10:54:01Z</updated>
+    <link href="https://arxiv.org/abs/2505.01782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.01782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kyber is a lattice-based key encapsulation mechanism selected for standardization by the NIST Post-Quantum Cryptography (PQC) project. A critical component of Kyber's key generation process is the sampling of matrix elements from a uniform distribution over the ring Rq . This step is one of the most computationally intensive tasks in the scheme, significantly impacting performance in low-power embedded systems such as Internet of Things (IoT), wearable devices, wireless sensor networks (WSNs), smart cards, TPMs (Trusted Platform Modules), etc. Existing approaches to this sampling, notably conventional SampleNTT and Parse-SPDM3, rely on rejection sampling. Both algorithms require a large number of random bytes, which needs at least three SHAKE-128 squeezing steps per polynomial. As a result, it causes significant amount of latency and energy. In this work, we propose a novel and efficient sampling algorithm, namely Modified SampleNTT, which substantially educes the average number of bits required from SHAKE-128 to generate elements in Rq - achieving approximately a 33% reduction compared to conventional SampleNTT. Modified SampleNTT achieves 99.16% success in generating a complete polynomial using only two SHAKE-128 squeezes, outperforming both state-of-the-art methods, which never succeed in two squeezes of SHAKE-128. Furthermore, our algorithm maintains the same average rejection rate as existing techniques and passes all standard statistical tests for randomness quality. FPGA implementation on Artix-7 demonstrates a 33.14% reduction in energy, 33.32% lower latency, and 0.28% fewer slices compared to SampleNTT. Our results confirm that Modified SampleNTT is an efficient and practical alternative for uniform polynomial sampling in PQC schemes such as Kyber, especially for low-power security processors.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-03T10:54:01Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Paresh Baidya</name>
+    </author>
+    <author>
+      <name>Rourab Paul</name>
+    </author>
+    <author>
+      <name>Vikas Srivastava</name>
+    </author>
+    <author>
+      <name>Sumit Kumar Debnath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13799v1</id>
+    <title>Rudraksh: A compact and lightweight post-quantum key-encapsulation mechanism</title>
+    <updated>2025-01-23T16:16:23Z</updated>
+    <link href="https://arxiv.org/abs/2501.13799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Resource-constrained devices such as wireless sensors and Internet of Things (IoT) devices have become ubiquitous in our digital ecosystem. These devices generate and handle a major part of our digital data. However, due to the impending threat of quantum computers on our existing public-key cryptographic schemes and the limited resources available on IoT devices, it is important to design lightweight post-quantum cryptographic (PQC) schemes suitable for these devices. In this work, we explored the design space of learning with error-based PQC schemes to design a lightweight key-encapsulation mechanism (KEM) suitable for resource-constrained devices. We have done a scrupulous and extensive analysis and evaluation of different design elements, such as polynomial size, field modulus structure, reduction algorithm, and secret and error distribution of an LWE-based KEM. Our explorations led to the proposal of a lightweight PQC-KEM, Rudraksh, without compromising security. Our scheme provides security against chosen ciphertext attacks (CCA) with more than 100 bits of Core-SVP post-quantum security and belongs to the NIST-level-I security category (provide security at least as much as AES-128). We have also shown how ASCON can be used for lightweight pseudo-random number generation and hash function in the lattice-based KEMs instead of the widely used Keccak for lightweight design. Our FPGA results show that Rudraksh currently requires the least area among the PQC KEMs of similar security. Our implementation of Rudraksh provides a $\sim3\times$ improvement in terms of the area requirement compared to the state-of-the-art area-optimized implementation of Kyber, can operate at $63\%$-$76\%$ higher frequency with respect to high-throughput Kyber, and improves time-area-product $\sim2\times$ compared to the state-of-the-art compact implementation of Kyber published in HPEC 2022.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-23T16:16:23Z</published>
+    <arxiv:comment>33 pages, 11 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Suparna Kundu</name>
+    </author>
+    <author>
+      <name>Archisman Ghosh</name>
+    </author>
+    <author>
+      <name>Angshuman Karmakar</name>
+    </author>
+    <author>
+      <name>Shreyas Sen</name>
+    </author>
+    <author>
+      <name>Ingrid Verbauwhede</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.03338v1</id>
+    <title>Exploring Post-Quantum Cryptographic Schemes for TLS in 5G Nb-IoT: Feasibility and Recommendations</title>
+    <updated>2023-09-06T19:38:28Z</updated>
+    <link href="https://arxiv.org/abs/2309.03338v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.03338v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Narrowband Internet of Things (NB-IoT) is a wireless communication technology that enables a wide range of applications, from smart cities to industrial automation. As a part of the 5G extension, NB-IoT promises to connect billions of devices with low-power and low-cost requirements. However, with the advent of quantum computers, the incoming NB-IoT era is already under threat by these devices, which might break the conventional cryptographic algorithms that can be adapted to secure NB-IoT devices on large scale. In this context, we investigate the feasibility of using post-quantum key exchange and signature algorithms for securing NB-IoT applications. We develop a realistic ns-3 environment to represent the characteristics of NB-IoT networks and analyze the usage of post-quantum algorithms to secure communication. Our findings suggest that using NIST-selected post-quantum key-exchange protocol Kyber does not introduce significant overhead, but post-quantum signature schemes can result in impractical latency times and lower throughputs</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-06T19:38:28Z</published>
+    <arxiv:comment>10</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kadir Sabanci</name>
+    </author>
+    <author>
+      <name>Mumin Cebe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00440v3</id>
+    <title>Yet another Improvement of Plantard Arithmetic for Faster Kyber on Low-end 32-bit IoT Devices</title>
+    <updated>2024-02-18T05:49:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.00440v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00440v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents another improved version of Plantard arithmetic that could speed up Kyber implementations on two low-end 32-bit IoT platforms (ARM Cortex-M3 and RISC-V) without SIMD extensions. Specifically, we further enlarge the input range of the Plantard arithmetic without modifying its computation steps. After tailoring the Plantard arithmetic for Kyber's modulus, we show that the input range of the Plantard multiplication by a constant is at least 2.14 times larger than the original design in TCHES2022. Then, two optimization techniques for efficient Plantard arithmetic on Cortex-M3 and RISC-V are presented. We show that the Plantard arithmetic supersedes both Montgomery and Barrett arithmetic on low-end 32-bit platforms. With the enlarged input range and the efficient implementation of the Plantard arithmetic on these platforms, we propose various optimization strategies for NTT/INTT. We minimize or entirely eliminate the modular reduction of coefficients in NTT/INTT by taking advantage of the larger input range of the proposed Plantard arithmetic on low-end 32-bit platforms. Furthermore, we propose two memory optimization strategies that reduce 23.50% to 28.31% stack usage for the speed-version Kyber implementation when compared to its counterpart on Cortex-M4. The proposed optimizations make the speed-version implementation more feasible on low-end IoT devices. Thanks to the aforementioned optimizations, our NTT/INTT implementation shows considerable speedups compared to the state-of-the-art work. Overall, we demonstrate the applicability of the speed-version Kyber implementation on memory-constrained IoT platforms and set new speed records for Kyber on these platforms.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T13:16:13Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Junhao Huang</name>
+    </author>
+    <author>
+      <name>Haosong Zhao</name>
+    </author>
+    <author>
+      <name>Jipeng Zhang</name>
+    </author>
+    <author>
+      <name>Wangchen Dai</name>
+    </author>
+    <author>
+      <name>Lu Zhou</name>
+    </author>
+    <author>
+      <name>Ray C. C. Cheung</name>
+    </author>
+    <author>
+      <name>Cetin Kaya Koc</name>
+    </author>
+    <author>
+      <name>Donglong Chen</name>
+    </author>
+  </entry>
+</feed>

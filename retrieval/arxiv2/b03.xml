@@ -1,0 +1,1331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4Kuf7rnrQq0UDiojAo9U0Wn8wg0</id>
+  <title>arXiv Query: search_query=all:neural OR all:cryptography AND all:adversarial&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:neural+OR+(all:cryptography+AND+all:adversarial)&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>207694</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12441v1</id>
+    <title>Short-Range Vector Spin Glasses: Parisi Hierarchies and Real-Space Ultrametricity</title>
+    <updated>2026-10-08T17:58:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.12441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Replica symmetry breaking (RSB) is the organizing principle of mean-field spin-glass theory, yet whether a continuous Parisi hierarchy can arise in a genuinely short-range system in finite spatial dimension remains unresolved. Here we introduce a disordered model of $N$-component vector spins on a $D$-dimensional hypercubic lattice, with random matrix couplings on nearest-neighbor links and random tensor couplings on elementary plaquettes. In the large-$N$ limit, the model supports thermodynamically stable one-step, full, and one-full RSB phases, alongside replica-symmetric paramagnetic and ferromagnetic phases. We find that spatial locality constrains these ordered phases through two distinct infrared mechanisms. ($i$) Quenched random anisotropy destroys uniform ferromagnetism for $D\leq4$ through an Imry-Ma mechanism. ($ii$) A continuous Parisi hierarchy gives rise to replica Goldstone modes whose gaplessness is protected by a Ward identity. At leading order in $1/N$, these modes behave as a band of free spin waves, producing infrared-divergent fluctuations in $D\leq2$ and a Mermin-Wagner instability of the continuously broken phase.
+  Remarkably, the Parisi hierarchy also acquires a direct real-space interpretation. For two pure states with mutual overlap $q$, a characteristic length $ξ(q)$ describes how far the differences between their frozen magnetization patterns remain correlated. Throughout a continuous sector of the Parisi hierarchy, $ξ(q)$ is independent of temperature and decreases monotonically with $q$. The ultrametric organization of pure states is therefore accompanied by an ultrametric hierarchy of real-space correlation lengths: states that separate near the root of the Parisi tree differ through long-wavelength frozen patterns, whereas states that separate farther from the root differ only on progressively shorter scales.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:58:01Z</published>
+    <arxiv:comment>49 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Akash Vijay</name>
+    </author>
+    <author>
+      <name>Jaewon Kim</name>
+    </author>
+    <author>
+      <name>Jong Yeon Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12440v1</id>
+    <title>Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation</title>
+    <updated>2026-10-08T17:57:58Z</updated>
+    <link href="https://arxiv.org/abs/2610.12440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human demonstrations are a scalable data source for learning dexterous manipulation, but the embodiment gap prevents human motion from being executed directly on robots. Inverse kinematics (IK) retargets human motion to robots efficiently but ignores dynamics, often producing infeasible motions. Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters. RL suffers from costly and unstable training and tedious reward engineering; MPC avoids policy optimization, yet retargets each trajectory in isolation, and solving one does not make the next easier. Sampling cost grows rapidly with dataset size and task difficulty. We hypothesize that dynamically feasible trajectories concentrate near a low-dimensional manifold shared across demonstrations, so that retargeting can be reduced to sampling from that manifold, conditioned on human motion, rather than solving a fresh optimization problem for every demonstration. We propose \textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories. GNR outperforms MPC with only $8.5\%$ of the samples required by MPC, achieving a success rate of $56.20\%$ compared to $27.20\%$ for MPC. GNR can be used for scalable and efficient retargeting of large-scale, long-horizon, and millimeter precision human demonstrations: by applying GNR within a real-to-sim data engine, we produce a dexterous manipulation dataset with dense contact-force labels, spanning $223$k demonstrations and $3.3$k object geometries.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:57:58Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Dechen Gao</name>
+    </author>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Ben Abbatematteo</name>
+    </author>
+    <author>
+      <name>Nathan Godwin</name>
+    </author>
+    <author>
+      <name>Pengcheng Wang</name>
+    </author>
+    <author>
+      <name>Roger Boldu</name>
+    </author>
+    <author>
+      <name>Steven Man</name>
+    </author>
+    <author>
+      <name>Zhiyang Dou</name>
+    </author>
+    <author>
+      <name>Chuan Qin</name>
+    </author>
+    <author>
+      <name>Sho Nakagome</name>
+    </author>
+    <author>
+      <name>Eric Whitmire</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12436v1</id>
+    <title>Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff</title>
+    <updated>2026-10-08T17:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines whether a population of misaligned agents remains contained or takes off into this self-reinforcing cycle? This population-level problem is ecological safety: unlike individual-agent or multi-agent safety with a fixed population, it concerns the dynamics of the population itself. Here, we develop an ecological theory of AI-agent populations based on a population growth equation in which fitness (growth rate) depends on cybersecurity capability. We show that, without collaboration, the population takes off only when individual-agent capability exceeds a critical threshold. With collaboration, however, collective cybersecurity capability increases with population size. This creates a critical population threshold: below it, the population declines; above it, the population takes off, even though individual-agent capability has not changed. In ecology, this phenomenon is known as the strong Allee effect. Because red teaming a small group of agents cannot guarantee ecological safety in larger populations, our theory calls for ecological red teaming and population pacing: gradually deploying larger agent populations in controlled environments, while measuring how cyber capability scales with population size, and estimating the critical population size for takeoff. Capability gains may lower this threshold, requiring re-estimation for each new model generation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:57:32Z</published>
+    <arxiv:comment>22 pages, 11 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Erin Crawley</name>
+    </author>
+    <author>
+      <name>Hidenori Tanaka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12426v1</id>
+    <title>Lyapunov spectrum of random neural networks</title>
+    <updated>2026-10-08T17:55:14Z</updated>
+    <link href="https://arxiv.org/abs/2610.12426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lyapunov spectrum of a nonlinear recurrent neural network with random asymmetric couplings is calculated in the limit $N\to\infty$. The calculation is based on a finite-$N$ identity that expresses the cumulative distribution of Lyapunov exponents as a response function of the tangent-space dynamics, with the tangent trajectory selected by a minimum-norm condition rather than by an initial condition. A cavity method then determines this response function at large $N$ through a self-consistent single-site problem. This result establishes that the chaos in this network is extensive and gives access to diffeomorphism-invariant properties of the dynamics. This work was done in collaboration with the AI models GPT-6 Astra and Claude Opus 5.5.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:55:14Z</published>
+    <arxiv:comment>36 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>David G. Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12420v1</id>
+    <title>A Unified Bellman Operator for Safety-Critical Reinforcement Learning</title>
+    <updated>2026-10-08T17:53:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.12420v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12420v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning in safety-critical domains requires maximizing task performance while strictly adhering to safety constraints. Existing safe reinforcement learning paradigms typically force a trade-off: they either require a priori knowledge to provide strict safety guarantees (e.g., safety filters), or they enable joint learning but only satisfy safety constraints on average. In this work, we propose a novel Bellman operator that unifies performance and safety objectives into a joint value function. We show that temporal difference learning with the joint Bellman operator converges under a two-timescale stochastic approximation framework. On the fast timescale, the safety value of the learning joint policy is estimated, while the joint value is estimated on the slow timescale. Convergence is ensured by formulating the limiting dynamics as an occupation-averaged differential inclusion, and showing that it asymptotically converges to a set of limiting optimal safety-constrained task value functions. Theoretically, once converged, the resulting optimal policy maximizes task return while maintaining safety at all times. Empirical evaluations on continuous control tasks with neural approximations demonstrate stable convergence with near-zero safety violations at test time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:53:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nishanth Arun Rao</name>
+    </author>
+    <author>
+      <name>Royina Karegoudra Jayanth</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Jaime Fernández Fisac</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12395v1</id>
+    <title>A neural characteristic mapping method: Lagrangian PINNs based on flow maps for transport-dominated problems</title>
+    <updated>2026-10-08T17:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.12395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel numerical method for transport-dominated problems using Physics-Informed Neural Networks (PINNs). In such problems, the solution can develop large gradients and fine structures over time. This is particularly challenging for classical PINNs, which represent the solution itself. In our approach, rather than the solution, we choose to approximate the flow map of the equation. The solution is then recovered by pulling back the exact initial condition, so that its fine structures are produced by the map rather than represented by the network. Our method is constructed by approximating the flow map of the equation with multiple PINNs, one per time subinterval, and composing them using the semigroup property of the flow, so that each network only has to represent a map close to the identity. To highlight the advantages of our method compared to classical PINNs or classical numerical schemes, we present numerical results on the linear advection equation, the incompressible Euler equation in vorticity formulation, the Vlasov-Poisson equation, and finally a drift-kinetic equation.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:40:05Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Martin Campos Pinto</name>
+    </author>
+    <author>
+      <name>Victor Fournet</name>
+    </author>
+    <author>
+      <name>Emmanuel Franck</name>
+    </author>
+    <author>
+      <name>Philipp Krah</name>
+    </author>
+    <author>
+      <name>Victor Michel-Dansac</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12374v1</id>
+    <title>AgentGarten: Code Worlds for Evolving Agents</title>
+    <updated>2026-10-08T17:32:00Z</updated>
+    <link href="https://arxiv.org/abs/2610.12374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framework that couples simulators and game engines with a shared neural renderer to build real-time interactive environments. Its simulation backends maintain persistent world state and execute program-defined interaction rules, while the renderer generates visual observations from structured conditions exported through a common interface. To build the neural renderer, we adapt a pretrained video model to geometry conditions, distill it with our proposed Adversarial Forcing, and optimize inference for real-time interaction. Adversarial Forcing makes history prefilling differentiable through exact replay, so that losses on later predictions update how the renderer encodes prior observations, and adds real-data adversarial supervision to improve its visual quality. In AgentGarten, agents perceive the world through visual observations, interact with it in real time, and improve by distilling each round of experience into playbooks that subsequent agents inherit and refine. Our empirical study demonstrates a substantial gain in learning efficiency, with agents learning from just 4 rounds compared with millions for a conventional reinforcement learning counterpart. As new worlds can be written as code and rendered through the same interface, environments can scale in both number and difficulty alongside their agents, a step toward agents that keep evolving through interactive experience.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:32:00Z</published>
+    <arxiv:comment>Project page: https://mirros-lab.github.io/agent-garten</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiawei Chi</name>
+    </author>
+    <author>
+      <name>Shangchen Miao</name>
+    </author>
+    <author>
+      <name>Zhiyuan Shi</name>
+    </author>
+    <author>
+      <name>Kailu Wu</name>
+    </author>
+    <author>
+      <name>Hanyang Wang</name>
+    </author>
+    <author>
+      <name>Weiliang Chen</name>
+    </author>
+    <author>
+      <name>Qiyu Dai</name>
+    </author>
+    <author>
+      <name>Jinshan Ren</name>
+    </author>
+    <author>
+      <name>Jun Gao</name>
+    </author>
+    <author>
+      <name>Mingsheng Long</name>
+    </author>
+    <author>
+      <name>Yueqi Duan</name>
+    </author>
+    <author>
+      <name>Jiangran Lyu</name>
+    </author>
+    <author>
+      <name>Jialong Wu</name>
+    </author>
+    <author>
+      <name>Fangfu Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12370v1</id>
+    <title>Bilevel optimization for data-driven learning of Koopman embeddings using kernel-based autoencoders</title>
+    <updated>2026-10-08T17:30:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.12370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Koopman operator theory provides a linear framework for analyzing nonlinear dynamical systems and has become a major tool for data-driven modeling. A central challenge, however, is that finite-dimensional approximations computed by methods such as extended dynamic mode decomposition (EDMD) require the dictionary to be specified a priori. Recent machine-learning approaches address this limitation by learning the dictionary from data, predominantly using artificial neural network (ANN) autoencoder architectures. Although kernel methods offer an alternative with greater interpretability and tractability for theoretical analysis, they have received little attention in this setting. We introduce extended dynamic mode decomposition with kernel-based dictionary learning (EDMD-kDL), a kernel-based method for learning finite-dimensional Koopman embeddings directly from data. The method combines ideas from collocation methods and bilevel optimization to simultaneously learn a kernel dictionary and the corresponding Koopman approximation. We evaluate EDMD-kDL against state-of-the-art ANN-based approaches on a range of numerical experiments, including global sea-surface-temperature forecasting and learning directly from video data. Across all tested settings, EDMD-kDL achieves performance comparable to or better than the ANN-based methods. Moreover, in contrast to standard kernel methods, the proposed approach is scalable to large datasets by design since the size of the required kernel matrices depends on the number of collocation points rather than the size of the training dataset.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:30:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Joel-Pascal Ntwali N'konzi</name>
+    </author>
+    <author>
+      <name>Feliks Nüske</name>
+    </author>
+    <author>
+      <name>Stefan Klus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12337v1</id>
+    <title>ContiLNN: Mitigating Slice Sampling Discontinuity with Liquid Neural Networks for Medical Image Restoration</title>
+    <updated>2026-10-08T17:13:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anatomical continuity provides complementary information for medical image restoration, but its use requires accounting for local anatomy and variations in slice sampling. We introduce ContiLNN, which augments two-dimensional restoration backbones with bidirectional closed-form continuous-time (Bi-CfC) modules for cross-slice modeling while retaining in-plane feature extraction. Slice-index intervals modulate gates determined by local features and hidden states, enabling propagation to respond to sampling variations without numerical ODE integration. Reference-guided consistency aligns first- and second-order cross-slice intensity differences to preserve anatomical variation, while distillation from a frozen backbone helps retain in-plane fidelity. Across five training seeds, ContiLNN improves mean PSNR over Restore-RWKV by 0.1907, 1.0176, and 1.2482 dB for CT denoising, MRI super-resolution, and reduced-count PET restoration, respectively, with lower RMSE in all three tasks. CT results are descriptive for one held-out patient. PET ablations support ordered propagation beyond additional pointwise capacity. Under contiguous training, Bi-CfC achieves higher fidelity than a Bi-GRU with similar parameter counts and arithmetic costs across all tested sampling conditions. Matched seven-slice profiling shows 52.8% lower latency and 57.0% lower peak GPU memory use than Bi-GRU. Mixed-gap training improves sparse and irregular-context performance for both operators, without a uniform ranking across metrics and contexts. Experiments with fewer training patients and a second backbone further support data efficiency and backbone compatibility.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:13:32Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jialei He</name>
+    </author>
+    <author>
+      <name>Enhe Liu</name>
+    </author>
+    <author>
+      <name>Sifan Song</name>
+    </author>
+    <author>
+      <name>Pengfei Jin</name>
+    </author>
+    <author>
+      <name>Jionglong Su</name>
+    </author>
+    <author>
+      <name>Hongbin Wang</name>
+    </author>
+    <author>
+      <name>Zhixiang Lu</name>
+    </author>
+    <author>
+      <name>Yanhao Huang</name>
+    </author>
+    <author>
+      <name>Anteng Cai</name>
+    </author>
+    <author>
+      <name>Zhengyong Jiang</name>
+    </author>
+    <author>
+      <name>Jiaman Ding</name>
+    </author>
+    <author>
+      <name>S. Kevin Zhou</name>
+    </author>
+    <author>
+      <name>Jinfeng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12333v1</id>
+    <title>RiCo: Neural Simulation of Rigid-Body Interactions via Local Contact Reasoning</title>
+    <updated>2026-10-08T17:11:54Z</updated>
+    <link href="https://arxiv.org/abs/2610.12333v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12333v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate simulation of rigid-body interactions is essential for predictive physical world models. Despite recent progress in modeling object dynamics, capturing how local contacts between surfaces shape object motion remains challenging. While end-to-end world models predict interactions across entire scenes or objects, in practice, rigid-body contact is inherently local, and only nearby surfaces can directly exchange contact forces. Motivated by this observation, we introduce Rigid-body Contact Reasoning (RiCo), which represents interactions between objects through sparse neighborhoods of contact surface points. RiCo combines each point's state with the relative geometry, motion, and physical properties of nearby surfaces, then reasons across the object's points to determine how these local contacts jointly affect its motion. By confining cross-object reasoning to nearby surfaces while propagating contact information within each rigid body, RiCo retains fine-grained interaction details without the cost of modeling every pair of scene points. Such properties enable RiCo a higher accuracy and contact fidelity. Experiments on MOVi-benchmark demonstrate that RiCo reduces 100-frame position and orientation errors by 31-35% and approximately 38%, respectively, compared with baselines. Moreover, RiCo achieves high contact fidelity, with ground-truth-relative penetration-time and mean-depth differences of 11.0% and 2.22 mm, respectively. RiCo further generalizes zero-shot from small-scale training scenarios to scenes containing 270 objects. Our real-world multi-ball collision experiments further provide preliminary evidence of sim-to-real transfer.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:11:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ruixiang Ouyang</name>
+    </author>
+    <author>
+      <name>Guanren Qiao</name>
+    </author>
+    <author>
+      <name>Fansen Meng</name>
+    </author>
+    <author>
+      <name>Yueci Deng</name>
+    </author>
+    <author>
+      <name>Ruixing Jin</name>
+    </author>
+    <author>
+      <name>Kui Jia</name>
+    </author>
+    <author>
+      <name>Guiliang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12328v1</id>
+    <title>Composite Online-to-Nonconvex Conversion with Optimal Oracle Complexity</title>
+    <updated>2026-10-08T17:08:11Z</updated>
+    <link href="https://arxiv.org/abs/2610.12328v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12328v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider stochastic nonsmooth nonconvex composite optimization, which includes several important problems such as constrained optimization and the regularized training of neural networks. The objective is the sum of a possibly nonsmooth nonconvex Lipschitz function and a convex regularizer, and the function is accessed through stochastic gradients or function values. The goal is to find a point that satisfies a Goldstein-type stationarity condition designed for composite objectives. To our knowledge, no oracle complexity bound for this setting is known under first-order access, and existing complexities under zeroth-order access are suboptimal. To handle this issue, we employ the framework of online-to-nonconvex conversion, which chooses update directions by an online learner and is known to achieve optimal rates for noncomposite problems. We extend the framework to our composite scenario by introducing new losses for the learner, which contain the regularizer itself rather than its linearization and for which a variant of online mirror descent achieves low regret. We show that the resulting algorithm finds such a point with $O(δ^{-1}\varepsilon^{-3})$ stochastic gradient queries or $O(dδ^{-1}\varepsilon^{-3})$ function-value queries, where $δ$ is the Goldstein radius, $\varepsilon$ is the stationarity tolerance, and $d$ is the dimension. These rates match the optimal ones for noncomposite nonsmooth nonconvex optimization, demonstrating that the additional convex regularizer does not worsen the oracle complexity. We also give rates for the smooth case and present numerical experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:08:11Z</published>
+    <arxiv:comment>27 pages, 3 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingyi Li</name>
+    </author>
+    <author>
+      <name>Taira Tsuchiya</name>
+    </author>
+    <author>
+      <name>Kenji Yamanishi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12325v1</id>
+    <title>Prior or Feedback? What an LLM Uses When Adapting Neural Operators</title>
+    <updated>2026-10-08T17:06:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.12325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Do LLM scientific agents rely only on their initial task context, or do they adapt their decisions in response to experimental feedback? We study this question in neural operator adaptation, where a large language model (LLM) selects fine-tuning configurations under a limited trial budget. Across transfers within and between partial differential equation (PDE) families, the LLM achieves lower held-out test nRMSE than random search and Bayesian optimisation in nearly every matched comparison. Endpoint performance alone cannot distinguish what happens, so we verify each attribution with controlled interventions. Before observing any validation score, the LLM's first configuration already ranks near the top of the corresponding random-search pool, indicating a useful initial bias. A complementary cold-start intervention shows that the selected base learning rate shifts with the PDE description. Once feedback becomes available, reassigning validation scores among evaluated configurations changes the next proposal in every case tested, whereas a value-preserving rewrite produces no comparable aggregate effect. These interventions establish that the LLM's decision-level actions respond to the given task and observed outcomes, showing that it combines a task-dependent prior with sensitivity to experimental feedback.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:06:23Z</published>
+    <arxiv:comment>16 pages, 4 figures, 5 tables. Accepted at the NeurIPS 2026 Workshop on AI for Science: Verification in the Age of AI Scientists. Equal contribution</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Julian Chan</name>
+    </author>
+    <author>
+      <name>Javier Mora Jimenez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12317v1</id>
+    <title>Data Representation Matters: Optimizing Machine Learning for X-ray Source Classification by Leveraging Spatio-Spectral Information</title>
+    <updated>2026-10-08T17:01:03Z</updated>
+    <link href="https://arxiv.org/abs/2610.12317v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12317v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distinguishing between faint extended X-ray sources is a fundamental yet challenging task in X-ray surveys. This paper presents a benchmark comparison of convolutional neural network models for classifying simulated XMM-Newton observations of AGN and galaxy clusters, focusing on the impact of data representation and interpretability of that data. We evaluate 1D, 2D, 2D+1D, and 3D CNNs trained on distinct data representations derived from simulated XMM-Newton observations of AGN and clusters: 1D (spectral), 2D (imaging) and 3D (event cube) data. We further apply 3D-GradCAM to interpret the learned features and assess the physical basis for the model's decision making to move beyond black-box classification. Our results demonstrate that increased spectral resolution enhances classifier performance using 1D and 2D information provides a strong baseline, the integration of both domains yields significant diagnostic gains. We find that a 3D CNN architecture applied directly to spatio-spectral event cubes provides the most robust performance, with superior consistency across cross-validation folds. Interpretability analysis reveals that the 3D model autonomously learns to distinguish the diffuse thermal emission of the intracluster medium from the localized, non-thermal power-law signatures of AGN. It exploits multi-dimensional correlations that are lost in lower-dimensional projections. While the performance gain over combined 2D and 1D baselines is marginal, the 3D approach demonstrates an ability to perform implicit background characterisation. By operating directly on total photon counts within event cubes, this method bypasses the need for manual background subtraction and modelling, offering a consistent, streamlined, end-to-end pipeline for automated classification of X-ray sources in large-scale catalogues.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:01:03Z</published>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Maggie Lieu</name>
+    </author>
+    <author>
+      <name>Ivan Valtchanov</name>
+    </author>
+    <author>
+      <name>Marguerite Pierre</name>
+    </author>
+    <author>
+      <name>Esin Gulbahar</name>
+    </author>
+    <author>
+      <name>Elias Koulouridis</name>
+    </author>
+    <author>
+      <name>Iván Muñoz Rodríguez</name>
+    </author>
+    <author>
+      <name>Lucio Chiappetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12308v1</id>
+    <title>Opening the Black Box: What Neural Networks Learn from Pulsar Timing Array Data</title>
+    <updated>2026-10-08T16:57:33Z</updated>
+    <link href="https://arxiv.org/abs/2610.12308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, simulation-based inference (SBI) methods have been proposed to address several data-analysis challenges faced by existing and planned gravitational-wave experiments. For example, SBI classification has recently been shown to significantly improve the prospects for detecting anisotropies in pulsar timing array (PTA) data. In this work, we use a simple toy model of a PTA to provide a more pedagogical explanation of how, and under which circumstances, SBI-based detection can improve on classical detection statistics for gravitational-wave background anisotropies.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:57:33Z</published>
+    <arxiv:comment>12 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>James Alvey</name>
+    </author>
+    <author>
+      <name>Andrea Mitridate</name>
+    </author>
+    <author>
+      <name>Mauro Pieroni</name>
+    </author>
+    <author>
+      <name>Joseph D. Romano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12303v1</id>
+    <title>Learning Probabilistic Logic Programs with Functional Gradient Guided Language Models</title>
+    <updated>2026-10-08T16:53:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12303v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12303v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Declarative logic programs offer a powerful and interpretable abstraction for encoding relational structure and neurosymbolic reasoning, by expressing dependencies as weighted compositional rules. However, inducing them from data remains fundamentally hard, bottlenecked by the combinatorial explosion of symbolic search spaces. LLMs have recently emerged as powerful hypothesis generators, but when used in isolation, they lack the capacity to do systematic inductive reasoning needed to reliably synthesize valid programs that fit complex relational distributions. We introduce grasp (Gradient-boosted Synthesis of Probabilistic logic programs), a neurosymbolic framework that casts relational structure learning as functional gradient boosting in which the weak learner is a first-order rule and the intractable inner search is delegated to an LLM proposal oracle. We evaluate grasp on four relational benchmarks spanning molecular toxicity prediction (Tox21), mutagenesis, and citation matching (Cora), and show that it improves over purely symbolic, neural, and LLM-based baselines, while producing interpretable weighted rule ensembles. By replacing combinatorial search with gradient-guided LLM hypothesis generation, grasp retains boosting guarantees without sacrificing the transparency of symbolic outputs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:53:32Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>6th International Joint Conference on Learning &amp; Reasoning (IJCLR 2026) 6th International Joint Conference on Learning &amp; Reasoning 6th International Joint Conference on Learning &amp; Reasoning (IJCLR)</arxiv:journal_ref>
+    <author>
+      <name>Saurabh Mathur</name>
+    </author>
+    <author>
+      <name>Sahil Sidheekh</name>
+    </author>
+    <author>
+      <name>Bhavan Vasu</name>
+    </author>
+    <author>
+      <name>Farbod Tavakkoli</name>
+    </author>
+    <author>
+      <name>Prasad Tadepalli</name>
+    </author>
+    <author>
+      <name>Kristian Kersting</name>
+    </author>
+    <author>
+      <name>Sriraam Natarajan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12293v1</id>
+    <title>Machine Learning Meets High-Energy Nuclear Physics: From Pattern Recognition to Physics-Integrated Discovery</title>
+    <updated>2026-10-08T16:47:33Z</updated>
+    <link href="https://arxiv.org/abs/2610.12293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning (ML) in high-energy nuclear physics (HENP) is entering a new stage in which physical knowledge is incorporated more directly into data analysis, simulation, and physics inference. This mini-review focuses on developments that have matured in the past several years. Whereas earlier applications emphasized event classification, pattern recognition, and surrogate models for selected observables, recent work has moved toward physics-integrated workflows: calibrated Bayesian extraction of QCD matter properties, dense-matter equation-of-state inference from heavy-ion and neutron-star data, generative event modeling, neural unfolding of weak physical signals, differentiable inverse solvers, gauge-equivariant and diffusion-based lattice-field samplers, and neural reconstruction of model functions in holographic QCD. We survey recent applications of ML in heavy-ion collisions, neutron-star physics, lattice QFT, and holographic or continuum QCD. The emphasis is not on ML architectures alone, but on how they enter concrete physics workflows, how physical constraints such as symmetries, conservation laws, causality, thermodynamic stability, and topology are imposed, and how uncertainty quantification and validation determine whether an AI-assisted result can support a reliable physics conclusion.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:47:33Z</published>
+    <arxiv:comment>37 pages, 22 figures, NST accepted</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Xun Chen</name>
+    </author>
+    <author>
+      <name>Weiyao Ke</name>
+    </author>
+    <author>
+      <name>Yu-Gang Ma</name>
+    </author>
+    <author>
+      <name>Long-Gang Pang</name>
+    </author>
+    <author>
+      <name>Kai Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12251v1</id>
+    <title>Universal Construction and Exact Self-Reproduction in Ternary McCulloch-Pitts Networks</title>
+    <updated>2026-10-08T16:25:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.12251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fixed network of McCulloch-Pitts threshold units with weights in {-1,0,1} can hold other threshold networks in its state and run them: the state is a ring of banks of records, each record a unit of a stored network, and each step evaluates one record. We use such a network to carry out von Neumann's universal construction and self-reproduction exactly. As a cellular automaton keeps its rule, the fixed network keeps its weights, and what reproduces is a stored network. A constructor of 143 records reads the description of a network from its tape, builds that network in the next bank, copies the description onto the next tape and hands control to what it built; started on its own description, it rebuilds itself, weights included, in every generation. The scheme scales to a universal computer. A SUBLEQ computer of 17,598 ternary units, stored as 36,080 records and running a program of 27 instructions, builds any network that fits a bank and reproduces itself in the same way, at every word width from eight bits on; run directly, it emits the serialization of its own weights, memory and tape. Integer pre-activations give every orbit a margin of 1/2, and replicating each unit r times multiplies it by r. That suffices against noise of any size on the pre-activations, but against von Neumann's output flips only below a threshold inversely proportional to the fan-in. These results are proved in Rocq.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:25:05Z</published>
+    <arxiv:comment>42 pages, 4 figures, 7 tables. Rocq proofs, code and run records: https://huggingface.co/phanerozoic/threshold-computers</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Charles C. Norton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12247v1</id>
+    <title>Batch Before You Lift: Scalable Topological Deep Learning on Large Graphs</title>
+    <updated>2026-10-08T16:23:43Z</updated>
+    <link href="https://arxiv.org/abs/2610.12247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Topological Deep Learning extends graph-based learning to higher-order domains, such as hypergraphs, cellular, and simplicial complexes. These domains are typically constructed from patterns in an input graph through a process of graph lifting. Full-domain training constructs and stores the complete lifted representation before model execution. On large and dense datasets like Reddit (233k nodes and 57.3M edges), this global materialization becomes a severe computational bottleneck, often rendering training infeasible. To address this limitation, we introduce Cluster-TNN, a domain-agnostic framework that avoids this bottleneck by lifting locally instead. After partitioning the input graph during preprocessing, at runtime Cluster-TNN dynamically samples groups of node clusters, reconstructs their induced subgraphs to form mini-batches, and applies the chosen lifting within each mini-batch. Retaining all edges among sampled nodes preserves the connectivity needed to construct higher-order structures across clusters, producing topological mini-batches that existing Topological Neural Networks can process directly. Across 21 matched comparisons with full-graph execution, Cluster-TNN reduces peak GPU memory in every configuration, by 83.2% on average while maintaining competitive predictive performance. Notably, such a reduction enables, to our knowledge, the first training of multiple different higher-order Topological Neural Networks on large datasets such as Reddit and OGBN Products. These results establish Cluster-TNN as a general strategy for scaling Topological Deep Learning beyond the limitations of global domain construction.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:23:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Leko</name>
+    </author>
+    <author>
+      <name>Luka Benić</name>
+    </author>
+    <author>
+      <name>Guillermo Bernárdez</name>
+    </author>
+    <author>
+      <name>Nina Miolane</name>
+    </author>
+    <author>
+      <name>Olga Fink</name>
+    </author>
+    <author>
+      <name>Lev Telyatnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12245v1</id>
+    <title>Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation</title>
+    <updated>2026-10-08T16:23:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.12245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference pose residual (FRPR) model: a geometry predictor built from the person's bounding box and mask is trained and frozen, and a temporal network then learns from body pose an additive correction to its logit, so that every prediction splits exactly into a geometry term and a pose term. Between two public egocentric datasets recorded by different robots, HUI360 and SSUP-A, with every choice made on source data, the pose correction raised average precision (AP) from 0.277 to 0.321 from SSUP-A to HUI360 and gave no measurable gain in the opposite direction; the same asymmetry held over a stronger, source-selected geometry reference. Freezing gave no AP advantage over joint training, and simple geometric baselines and tree ensembles remained competitive or better, so the construction serves measurement rather than prediction accuracy. A head-orientation residual added small gains in both directions. Post hoc, whether a person faces the camera kept its discriminative direction across datasets, whereas head pitch reversed. With thresholds chosen on source data, the neural models that use geometry detected at most 17% of target interactions. Code and processed data are available at https://github.com/WeiZhou96/FRPR-interaction-anticipation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:23:25Z</published>
+    <arxiv:comment>20 pages, 5 figures, 1 table. Supplementary material available as an ancillary file</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Bowen Yang</name>
+    </author>
+    <author>
+      <name>Xinliang Xiao</name>
+    </author>
+    <author>
+      <name>Wenjing Zhang</name>
+    </author>
+    <author>
+      <name>Li Yang</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12212v1</id>
+    <title>When Has a Bayesian Neural Network Sampled Enough? Adaptive Inference Time with Statistical Guarantees</title>
+    <updated>2026-10-08T16:01:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.12212v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12212v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian neural network predictions are commonly approximated using a fixed number of Monte Carlo samples per input, without controlling the resulting error that comes from this finite sample. We propose the use of confidence sequences to dynamically determine how many samples are needed while maintaining statistical guarantees. We consider several ways in which predictive probabilities are used, including identifying the most likely class, approximating the full predictive distribution, and resolving probability-threshold decisions. Sampling stops once the corresponding decision can be made with the desired guarantee. Experiments show that the method allocates the computational budget efficiently, assigning more samples to ambiguous inputs than to easy inputs while preserving reliable decisions and reducing overall latency relative to a fixed Monte Carlo budget.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:01:08Z</published>
+    <arxiv:comment>40th Conference on Neural Information Processing Systems (NeurIPS 2026). Workshop: E-Values: From Statistics to ML</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Fabian Denoodt</name>
+    </author>
+    <author>
+      <name>Sibylle Hess</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12183v1</id>
+    <title>A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization</title>
+    <updated>2026-10-08T15:48:07Z</updated>
+    <link href="https://arxiv.org/abs/2610.12183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining task semantics, computation, optimization tools, and feedback-driven decision making, showing great potential due to the integration with mathematically rigorous tools. However, existing agentic BBO studies use different task domains and system configurations, making their results difficult to compare and the effects of individual design choices hard to isolate. We therefore introduce AgenticBBO-Bench, a cross-domain benchmark for agentic BBO spanning synthetic functions, hyperparameter optimization, database tuning, chip design, and molecular design under a unified finite-budget evaluation protocol. In our experiments, agentic BBO achieves higher family-averaged scores than direct LLM-based methods in all five domains and outperforms the best numerical optimizers in four. We further study three factors shaping agent performance: optimization tools, task information and prior knowledge, and the role of the LLM during search. Our results show that additional numerical tools do not consistently improve performance, task semantics are broadly useful while more specific priors are less reliable, and numerical optimizers can effectively absorb gains from search trajectories established by the agent. Finally, we introduce a five-task frontier challenge within AgenticBBO-Bench and evaluate seven LLMs under the Codex agent harness, where GPT-6 Astra and DeepSeek-V4.1-Flash lie on the Pareto frontier of performance and cost among the evaluated models. Our code is available at https://github.com/lamda-bbo/agentic-bbo.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:48:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ming Chen</name>
+    </author>
+    <author>
+      <name>Rong-Xi Tan</name>
+    </author>
+    <author>
+      <name>Ke Xue</name>
+    </author>
+    <author>
+      <name>Yu-Jie Zhou</name>
+    </author>
+    <author>
+      <name>Taiye Lu</name>
+    </author>
+    <author>
+      <name>Zhi-Xuan Gao</name>
+    </author>
+    <author>
+      <name>Peng Xie</name>
+    </author>
+    <author>
+      <name>Zijun Shen</name>
+    </author>
+    <author>
+      <name>Chen Lu</name>
+    </author>
+    <author>
+      <name>Haopu Shang</name>
+    </author>
+    <author>
+      <name>Chao Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12177v1</id>
+    <title>Learning minimum-time navigation policies in two-dimensional flows with a genetic algorithm</title>
+    <updated>2026-10-08T15:44:13Z</updated>
+    <link href="https://arxiv.org/abs/2610.12177v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12177v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study minimum-time navigation between two points in a known two-dimensional fluid flow for a vessel with fixed-magnitude slip velocity and controllable direction. The navigation policy is parameterized by a neural network and optimized using a genetic algorithm that evolves an ensemble of candidate strategies through Darwinian selection and parameter mutation, without crossover. The method recovers analytical and numerical optimal-control solutions in several benchmark cases, including two-dimensional turbulence, and outperforms Q-learning and one-step actor-critic method. We further show that the learned navigation strategies are robust to variations in the starting position and to unresolved small-scale turbulent fluctuations, provided that the characteristic velocity of these fluctuations remains small compared to the vessel's slip velocity. The proposed approach provides a compact representation of the navigation policy, is readily parallelizable, and eliminates the need for reward shaping, offering an efficient alternative to existing analytical and numerical methods for computing minimum-time trajectories in complex flows.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:44:13Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Vladimir Parfenyev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12151v1</id>
+    <title>Specialized machine learning force fields for materials dynamics</title>
+    <updated>2026-10-08T15:34:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.12151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning interatomic potentials (MLIPs) are transforming atomistic simulations by accessing unprecedented length and time scales. While pretrained equivariant graph neural networks achieve robust zero-shot performance for near-equilibrium properties across broad chemical spaces, their translation to complex materials dynamics remains fundamentally challenged by out-of-distribution reactive states, representation biases, and computational scaling limits. In this Review, we examine how physics-driven specialization extends the applicability of MLIPs to complex dynamical systems. We systematically evaluate the structural trade-offs in MLIP design: the undersampling of highly strained configurations, the prohibitive computational overhead of high-order message-passing architectures, and the necessity of nonlocal interactions for open and field-coupled systems. Through four demanding application contexts - electrified interfaces, compositionally fluctuating open systems, multiphase evolution, and large-scale fracture - we establish a framework for observable-specific validation. Highlighting the complementary roles of universal foundation models and task-specific potentials, we emphasize that targeted adaptations must be rigorously benchmarked against intended observables. We conclude with a roadmap for developing physically consistent, hardware-aware force fields that seamlessly connect electronic-structure accuracy to macroscopic materials phenomena.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:34:28Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Haoyu Wan</name>
+    </author>
+    <author>
+      <name>Yuan Tian</name>
+    </author>
+    <author>
+      <name>Deng Pan</name>
+    </author>
+    <author>
+      <name>Mingwei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12148v1</id>
+    <title>Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting</title>
+    <updated>2026-10-08T15:32:24Z</updated>
+    <link href="https://arxiv.org/abs/2610.12148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum machine learning, and quantum neural networks (QNNs) in particular, are advancing fields with growing potential. Although systematic comparisons of QNN configurations have been explored primarily for classification tasks, comparatively little attention has been given to regression problems, particularly financial time series forecasting. This study presents a large-scale systematic comparative evaluation of QNN component configurations for financial time series forecasting, using the GBP/USD spot exchange rate as a case study. A grid search across encoding methods, ansatz designs, qubit counts, layer depths, and cost functions yields 1,368 distinct model configurations, each evaluated in terms of prediction accuracy, computational cost, and convergence behaviour. The results reveal unique insights into how the choice of methods influences performance, such as that gate selection and arrangement are more critical to model success than raw parameter count, and that entanglement is a system-level property of the full circuit rather than solely at the ansatz level. The best-performing QNN configuration achieves an $R^2$ score of 0.985, outperforming a classical BiLSTM baseline. Additionally, the impact of real quantum hardware noise is assessed through execution on the IQM Emerald device, revealing that gate errors and decoherence represent a significant barrier to practical deployment, with gate selection and circuit depth identified as key determinants of hardware noise resilience. Overall, the findings provide practical architectural guidance for QNN design and establish a baseline characterisation of QNN noise sensitivity on near-term quantum devices.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:32:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jack Waller</name>
+    </author>
+    <author>
+      <name>Xing Liang</name>
+    </author>
+    <author>
+      <name>Dimitrios Makris</name>
+    </author>
+    <author>
+      <name>Rajagopal Nilavalan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12147v1</id>
+    <title>Healthy Counterfactual Generation via Diffusion Inpainting for Mammography Classification</title>
+    <updated>2026-10-08T15:31:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.12147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>False negatives remain a critical limitation of computer-aided diagnosis (CAD) systems for breast cancer screening due to delayed detection and treatment. To address this issue, we propose a counterfactual data augmentation strategy that generates healthy mammograms by "erasing" lesions from anomalous images, thereby enriching the training distribution. We train a Denoising Diffusion Probabilistic Model on BI-RADS 1 (healthy) mammograms and use a RePaint-based sampling strategy to inpaint realistic normal tissue within annotated lesion bounding boxes. The resulting healthy counterfactuals replace annotated lesion regions with realistic healthy tissue while preserving patient-specific anatomical structure, as supported by similarity metrics between real and generated images. Image realism was further assessed by radiologists and found to be consistent with the original dataset quality. We evaluate counterfactual augmentation across four representative classifier architectures: a convolutional neural network (ConvNeXt), a vision transformer (ViT), a vision-language model pre-trained on mammogram-report pairs (Mammo-CLIP) and a multi-scale attention-based multiple-instance learning framework (FPN-MIL). Experiments conducted on the VinDr-Mammo dataset show improvements in sensitivity across all architectures, particularly at 80\% fixed specificity, contributing towards more reliable CAD systems for breast cancer. Code is available at: https://github.com/ines03garcia/diffusion-based-counterfactual-generation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:31:56Z</published>
+    <arxiv:comment>Accepted at MICCAI Workshop Deep-Brea3th 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Inês Cruchinho Garcia</name>
+    </author>
+    <author>
+      <name>Mariana Mourão</name>
+    </author>
+    <author>
+      <name>Francisco Maria Calisto</name>
+    </author>
+    <author>
+      <name>Carlos Santiago</name>
+    </author>
+    <author>
+      <name>Jacinto Nascimento</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12141v1</id>
+    <title>Extending convolutional neural networks to finite-volume meshes for fine-scale reconstruction of wall-bounded turbulence</title>
+    <updated>2026-10-08T15:26:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.12141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Standard convolutional neural networks for turbulence super-resolution are restricted to uniform structured grids, preventing their direct application to the non-uniform and non-orthogonal meshes commonly used in wall-bounded flows and complex geometries. We introduce a finite-volume convolution unit (FVCU) that removes this restriction. The key idea is to construct convolutional layers using finite-volume operators that are applicable to non-uniform and unstructured meshes. To this end, we use an exact representation of a 3D convolution as a linear combination of successive axis-wise convolutions. We adopt axis-wise gradient, averaging, and identity operators, as they can be evaluated on arbitrary polyhedral cells using finite-volume discretization. The resulting FVCU is well-defined on general meshes, serving as a drop-in replacement for conventional convolution layers. The FVCU is embedded in a super-resolution neural network and trained to reconstruct 3D velocity fields from $4\times$ coarsened low-resolution fields in turbulent channel flow on a non-uniform mesh, and in circular-pipe flow on a non-orthogonal O-grid mesh. Inspired by the role of the Van Driest damping function in near-wall subgrid-scale modelling in large-eddy simulations, this function is supplied as a conditional input to encode wall proximity. An ablation study confirms that the network interprets this input in a physically consistent manner. In both configurations, the model accurately reconstructs instantaneous velocity fields, Reynolds-stresses and their anisotropy, and energy spectra beyond the Nyquist limit of the low-resolution mesh. On an elliptic pipe unseen during training, the model reproduces the main flow features and local statistics, with a modest overprediction of small-scale energy. These results demonstrate a framework for extending CNN-based super-resolution to general finite-volume grids.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:26:59Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Hesam Tofighian</name>
+    </author>
+    <author>
+      <name>Jordan A. Denev</name>
+    </author>
+    <author>
+      <name>Nikolai Kornev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12132v1</id>
+    <title>A structure-preserving neural density functional for the ions of a polymer electrolyte</title>
+    <updated>2026-10-08T15:22:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.12132v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12132v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting the structure and response of inhomogeneous polymer electrolytes requires a description of ion correlations that retains molecular-scale accuracy while remaining transferable across spatial scales and geometries. We develop a neural density functional for electrolytes that preserves spatial symmetries, thermodynamic integrability and the Noether identities, with perfect screening recovered in stable, noncritical bulk states. Its nonlinear density dependence captures the concentration-dependent correlations missed by a pair closure, including a crossover from enhanced to suppressed long-wavelength number fluctuations at strong coupling. The functional describes density profiles at an untrained salt concentration and predicts bulk structure factors and the long-wavelength number response. Trained solely on planar density and internal-force profiles from molecular dynamics, the functional predicts ionic structure in larger domains and in two-dimensional external fields. On the same ion data, it is more accurate than three other neural density-functional architectures and keeps its accuracy with a quarter of the training runs, where the errors of the best alternative grow by about two thirds. The spatial transferability provides a necessary foundation for connecting molecular correlations to continuum predictions at larger scales.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:22:38Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Liyao Lyu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12119v1</id>
+    <title>Using Weisfeiler-Leman Features for Algorithm Selection in Constraint Optimisation</title>
+    <updated>2026-10-08T15:16:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.12119v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12119v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Algorithm Selection is essential for efficient Constraint Programming. Over the years, many algorithm selectors based on machine learning methods have been successfully applied, yet traditional feature extraction methods often rely on manually decided instance-level statistics that fail to capture the underlying problem structure.
+  In this paper we aim to bridge this gap by introducing a novel, automated feature extraction methodology that integrates graph conversion and Weisfeiler-Lehman graph kernels to generate robust structural representations of problem instances. The 1-WL test bounds the graph-distinguishing power of standard message-passing Graph Neural Networks (GNNs), and suitable GNN architectures match this bound \citep{Xuetal2018}. WL-based features offer an alternative that does not require training a GNN. Our primary contribution is a cut-based representation (\texttt{WLc}) designed to model structural partitions and provide a more nuanced predictive signal. We evaluate our approach on instances from the 2023--2025 MiniZinc Challenges across two tasks: maximizing Borda count scores and maximizing predictive accuracy. Experimental results across Support Vector Machines, Random Forests, and Multi-Layer Perceptrons demonstrate that cut-based features outperform \texttt{fzn2feat} with SVMs, while results with RFs and MLPs are closer.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:16:16Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alessio Pellegrino</name>
+    </author>
+    <author>
+      <name>Jacopo Mauro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12111v1</id>
+    <title>RAPID-DNN: Reliability-Aware Partitioning for Robust DNN Inference Deployment on Edge AI</title>
+    <updated>2026-10-08T15:08:10Z</updated>
+    <link href="https://arxiv.org/abs/2610.12111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks (DNNs) deployed on heterogeneous edge accelerators are increasingly exposed to runtime hardware faults. Tight power and resource budgets push these platforms toward aggressive voltage scaling and limit the use of hardware fault mitigation, while process variation, thermal stress, and device aging raise fault rates further. The resulting transient bit level corruptions propagate through inference and can sharply reduce prediction accuracy. Existing DNN partitioning frameworks optimize latency and energy under fault free assumptions, so their deployment strategies often fail to sustain reliable inference in realistic operating conditions. This paper presents RAPID DNN, a reliability aware partitioning framework that adds runtime reliability as a third optimization objective alongside latency and energy. RAPID DNN first characterizes layer wise reliability through systematic fault injection in the weight and activation domains to identify vulnerability critical layers. The resulting sensitivity profile guides a three objective NSGA II optimizer that jointly minimizes inference latency, energy consumption, and expected fault induced accuracy degradation. We evaluate RAPID DNN on AlexNet, SqueezeNet, ResNet18, VGG16, and MobileNetV2 using heterogeneous Eyeriss and SIMBA accelerator profiles. Across fault models and injection probabilities, it consistently improves inference robustness over the fault agnostic baseline. Under the representative mixed random fault configuration, RAPID DNN raises average Top 1 accuracy by 9.81 percentage points and reduces average expected fault induced accuracy degradation by 36.86%, at a cost of 2.38% average latency overhead and 3.34% average energy overhead. These results show that treating reliability as a partitioning objective enables robust DNN deployment on heterogeneous edge accelerators under runtime hardware faults.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:08:10Z</published>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Mukta Debnath</name>
+    </author>
+    <author>
+      <name>Krishnendu Guha</name>
+    </author>
+    <author>
+      <name>Debasri Saha</name>
+    </author>
+    <author>
+      <name>Amlan Chakrabarti</name>
+    </author>
+    <author>
+      <name>Susmita Sur-Kolay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12103v1</id>
+    <title>Predefined-Time Integral Reinforcement Learning for Unknown Nonlinear Systems via Inverse-Optimal Design</title>
+    <updated>2026-10-08T15:03:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.12103v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12103v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper develops a new predefined-time integral reinforcement learning framework for optimal control of unknown nonlinear systems. The unknown drift is first approximated by a radial basis function (RBF) neural network, together with a data-driven online identification law for updating the corresponding neural weights. After the identifier converges to a sufficiently small neighborhood of the true dynamics, the learned model is incorporated into the integral reinforcement learning (IRL) problem. Unlike conventional reinforcement-learning-based optimal control, the desired convergence time is introduced directly into the control objective: a Lyapunov function and its prescribed decay behavior are specified by the designer, and inverse-optimal control is then used to construct a compatible running cost whose optimal policy inherits the predefined-time stabilization property. The value function is approximated by a second RBF neural network, and a new critic update law is developed to impose predefined-time convergence on the critic weights. Finite informative learning data are stored in a replay buffer and reused during the critic update, thereby avoiding the need for persistent excitation throughout the closed-loop operation. Theoretical analysis proves that the critic-weight error enters a prescribed residual set within the allocated learning horizon, while the closed-loop state reaches a small neighborhood of the origin within the overall designer-specified deadline. Numerical simulations on an unknown nonlinear system verify accurate drift reconstruction, predefined-time critic learning, and closed-loop convergence.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:03:38Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Tien Dat Vu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12096v1</id>
+    <title>SCORE: Spectral Correlation Estimation for Multivariate Gaussians</title>
+    <updated>2026-10-08T15:01:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.12096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural network-based predictive modeling with high-dimensional structured Gaussian targets requires an efficient and numerically stable, yet expressive approximation of the covariance matrix. We propose SCORE: a scalable framework, combining scoring rule training with an expressive covariance approximation learned in spectral space. For $d$-dimensional data, the learning task is decomposed into learning the marginal distributions and learning a structured correlation matrix, which enables dense dependencies with linear storage and $\mathcal{O}(d\log d)$ cost. We utilize the closed form Gaussian kernel score for training, which remains defined even for degenerate covariances and admits bounded gradients during optimization. We characterize kernel scores under invertible transforms and prove exact invariance under unitary transforms. At population level, our two-level objective recovers the true marginals and projects the target correlation onto the representable class; finite-sample PAC bounds show that the errors of the two stages enter additively. We evaluate our model on a variety of tasks with a commonly assumed Gaussian domain: Time-series forecasting, monocular depth estimation, and spatial weather prediction, showing improved performance at lower computational cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:01:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christopher Bülte</name>
+    </author>
+    <author>
+      <name>Emil Partow</name>
+    </author>
+    <author>
+      <name>Astha Gupta</name>
+    </author>
+    <author>
+      <name>Pascal Esser</name>
+    </author>
+    <author>
+      <name>Gitta Kutyniok</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12058v1</id>
+    <title>Optimising Geometric Deep Learning for Varied Reconstruction Tasks in High Granularity Calorimeters</title>
+    <updated>2026-10-08T14:41:43Z</updated>
+    <link href="https://arxiv.org/abs/2610.12058v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12058v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the recent years, high energy physics discoveries have been driven by the increasing of luminosity and/or detector granularity. This evolution gives access to bigger statistics and data samples, but can make it hard to process the detector outputs with current methods and algorithms. Graph Neural Networks (GNNs), have been shown to be powerful tools to address these challenges. While GNNs can deal with the non-euclidean nature of the data extracted from these detectors, their deployment presents significant difficulties, mainly from the computational complexity of the algorithms they are based on. We propose to use the known geometries of the detectors to optimise the algorithms used for GNN pipelines, which usually have quadratic algorithmic complexities. We validate the validity of our optimised approach on various tasks, such as particle identification, energy regression and instance segmentation. Finally, we present HIBOU, a generic modular architecture that provides a blueprint for how these GNN blocks are to be implemented within experiment-specific reconstruction frameworks.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:41:43Z</published>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Matthieu Melennec</name>
+    </author>
+    <author>
+      <name>Frédéric Magniette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12050v1</id>
+    <title>Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges</title>
+    <updated>2026-10-08T14:35:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.12050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI models on edge hardware contain important intellectual property (IP), but an adversary can steal it when they achieve root access. Trusted Execution Environments (TEE) like Arm TrustZone protect against these Operating System (OS) level attacks. However, they are challenging to use. More precisely, it is difficult to run unaltered applications inside a TEE. This work presents a solution that allows the execution of unaltered AI models, compiled to WebAssembly, on the WebAssembly Micro Runtime (WAMR) in OP-TEE for Arm TrustZone. Additionally, this work provides an AI model distributor that encrypts the WebAssembly binary and places the encryption key in one of the device's fuses. This way, only the WAMR Trusted Application (TA) in OP-TEE can decrypt and execute the AI model. A thorough evaluation of our solution shows that it incurs an additional overhead of 22% in comparison to an application manually ported to OP-TEE, while also facilitating the execution of unaltered AI models with an additional inference latency of 6% without significant porting effort. Overall, there is a pressing need to safeguard the IP of AI models and this work shows that there is a real promise in WebAssembly, but there remain some practical challenges.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:35:27Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Friedrich Vandenberghe</name>
+    </author>
+    <author>
+      <name>Lachlan Gunn</name>
+    </author>
+    <author>
+      <name>Bruno Volckaert</name>
+    </author>
+    <author>
+      <name>Merlijn Sebrechts</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12048v1</id>
+    <title>Do Not Train Away Uncertainty: Early Uncertainty Anchored Calibration</title>
+    <updated>2026-10-08T14:34:26Z</updated>
+    <link href="https://arxiv.org/abs/2610.12048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks, including large language models, have achieved remarkable performance across various tasks. However, they are prone to overconfidence during training or fine-tuning. In this work, we observe a consistent phenomenon across different models that the early model is better calibrated, while later training or fine-tuning yields marginal accuracy gains but substantially increases calibration errors. Our analysis suggests that the early model retains uncertainty awareness in both its predictions and features, which is gradually lost with continued training. To avoid training away this uncertainty awareness, we propose \textbf{EUA-Cal}, a novel method that exploits the \textbf{E}arly model as an \textbf{U}ncertainty \textbf{A}nchor for \textbf{Cal}ibration. EUA-Cal introduces early prediction regularization to preserve early predictive uncertainty and prototype structure regularization to exploit uncertainty reflected in the early feature space, jointly mitigating overconfidence. Extensive experiments on image classification and multiple-choice question answering across eight diverse models demonstrate that EUA-Cal outperforms state-of-the-art calibration methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:34:26Z</published>
+    <arxiv:comment>18 pages, 9 figures, 11 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yutong Xie</name>
+    </author>
+    <author>
+      <name>Jiawei Tang</name>
+    </author>
+    <author>
+      <name>Zhenglin Hua</name>
+    </author>
+    <author>
+      <name>Yuxiang Ma</name>
+    </author>
+    <author>
+      <name>Si Qin</name>
+    </author>
+    <author>
+      <name>Yaxin Hou</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+    <author>
+      <name>Junhui Hou</name>
+    </author>
+    <author>
+      <name>Yuheng Jia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12042v1</id>
+    <title>Using Geometric Deep Learning for the Detection of the Diffuse Supernova Neutrino Background in Water-Cherenkov Detectors</title>
+    <updated>2026-10-08T14:30:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.12042v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12042v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The study of the Diffuse Supernova Neutrino Background (DSNB) is an essential approach to improve our understanding of the formation of Core-Collapse Supernovae, as well as investigating fundamental neutrino properties. The detection of the DSNB flux however is a difficult task, as it requires the disentanglement of its signal with many competitive backgrounds in the low energy range. The main DSNB detection channel is the Inverse Beta Decay (IBD), which is characterised by a distinct, time-separated two-signal signature. This work introduces the use of Graph Neural Networks (GNNs) to handle critical detection and reconstruction tasks for the DSNB through the IBD channel. In particular, we present a model to recover the energy of the first signal from a low energy positron. Additionally, we develop a signal-to-background classifier optimised for the secondary signal, which corresponds to the characteristic photon emission following a neutron capture event. We test our models on two simulations in a Hyper-Kamiokande-like water Cherenkov detector geometry, and show that we obtain performances that are comparable to the state of the art.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:30:17Z</published>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Matthieu Melennec</name>
+    </author>
+    <author>
+      <name>Andrew D. Santos</name>
+    </author>
+    <author>
+      <name>Thomas Mueller</name>
+    </author>
+    <author>
+      <name>Frédéric Magniette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12039v1</id>
+    <title>MPGE: A Multi-Perspective Graph Explainer for Molecular Classification Explanation</title>
+    <updated>2026-10-08T14:28:47Z</updated>
+    <link href="https://arxiv.org/abs/2610.12039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNNs) predict molecular properties from chemical graph data, but predictive accuracy does not explain how graph information supports an individual decision. A compact prediction-preserving rationale does not necessarily reveal which changes reverse the decision or which modifications the model tolerates. We propose the Multi-Perspective Graph Explainer (MPGE), unifying factual support, counterfactual sensitivity, and exemplar tolerance for a frozen classifier. The factual view, originally termed prototype (PT), seeks a compact retained edge set with the same label and required confidence. Counterfactual (CF) explanations seek bounded prediction-changing deletions; exemplar (EXE) explanations seek non-trivial bounded deletions that preserve the label and confidence. A shared constrained formulation connects prediction behavior, compactness, and edit cost, while separate objectives generate the three views. Our graph-classification extension of CF-GNNExplainer learns symmetric edge rankings and verifies discrete candidates, recording unsuccessful searches. A separate BBBP fragment backend returns RDKit-sanitized molecules. We evaluate the primary GCN implementation on MUTAG, Mutagenicity, AIDS, COX2_MD, and BBBP using semantic coverage, conditional quality, stability, and runtime. Successful factual masks retained 8.6%--15.5% of input edges on average across datasets; bounded counterfactual coverage was 4.8%--67.6%, and exemplar preservation coverage was 98.9%--100.0%. Exploratory controls reveal the influence of hard projection and retained node information. Quantitative comparisons and molecular visualizations characterize model support, sensitivity, and tolerance without treating them as validated chemical mechanisms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:28:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mahtab Sarvmaili</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12004v1</id>
+    <title>The Polytopal Neural Network</title>
+    <updated>2026-10-08T14:08:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.12004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding how deep neural networks process information remains a central challenge. Existing interpretability methods often compromise structural fidelity, rely on prespecified corpora, or explain models post-hoc. We propose Polytopal Neural Networks (PNNs), a framework that extracts distinct layer-wise aspects by enforcing a polytope-based structure that is used directly in subsequent information processing. We scale our approach using learned corpus representations and an amortized simplex inference procedure and highlight how the framework also gives a direct route to vector quantized (VQ) training. In PNNs, observations are explicitly described by their alignment with layer-specific aspects. Empirical results show that imposing polytopal constraints on neural network representations preserves meaningful structures in the latent space with minimal degradation in performance, favorable compressed representations when compared to VQ representations in unsupervised learning, while also providing a performant new approach to VQ deep learning training. Our findings suggest that deep networks can enforce interpretable polytope-based representations, offering a principled path toward more transparent AI systems with minimal performance compromise.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:08:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>A. Emilie J. Wedenborg</name>
+    </author>
+    <author>
+      <name>Anders V. Nørskov</name>
+    </author>
+    <author>
+      <name>Teresa Dorszewski</name>
+    </author>
+    <author>
+      <name>Kristoffer Wickstrøm</name>
+    </author>
+    <author>
+      <name>Morten Mørup</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11994v1</id>
+    <title>Neural Network Verification for Deep Joint Source-Channel Coding</title>
+    <updated>2026-10-08T14:02:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.11994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep joint source-channel coding (DeepJSCC) transmits data end-to-end over wireless channels using a neural encoder-decoder, but reconstruction quality can degrade sharply under adversarial perturbations and channel disturbances; no method formally bounds this degradation for DeepJSCC. We present the first bound-propagation framework for verifying DeepJSCC's decoder, bounding worst-case reconstruction error over a given wireless channel's noise region. Current deep neural network (DNN) verifiers do not support three DeepJSCC decoder components: parametric rectified linear activations (PReLU), transposed convolutions, and Rayleigh fading. We extend state-of-the-art techniques for optimization of linear relaxation in DNN verification for PReLU, replace the transposed convolution with its restricted upsample-then-convolution form, and formulate Rayleigh fading as a structural perturbation prepended directly into the decoder, thereby reducing the dimensionality of the verification problem. We also instantiate Lipschitz-regularized global robustness training, denoted GloRo, improving global robustness and enabling tight certification of DeepJSCC models for the first time. On DeepJSCC model for image transmission, this global robustness training procedure combined with structural encoding lowers the median certified bound by up to 41% and certifies about ten times more safe cases (192 against 19) than GloRo with interval encoding at a 10-degree error in channel estimation. Over-the-air validation with an orthogonal frequency-division multiplexing (OFDM) implementation on software-defined radio devices confirm the certificate holds on real hardware, with a worst observed error on radio link at 0.082 against a certified bound of 0.128.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:02:49Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Thanh Le</name>
+    </author>
+    <author>
+      <name>Hai Duong</name>
+    </author>
+    <author>
+      <name>Takeshi Matsumura</name>
+    </author>
+    <author>
+      <name>ThanhVu Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11992v1</id>
+    <title>Multifunctional synaptic learning and neuromorphic computing using crystalline TiO$_x$/NiO$_x$ heterojunction-based memory devices</title>
+    <updated>2026-10-08T14:01:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.11992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An attempt is made here to mimic different properties of biological synapses using Ag/TiO$_x$/NiO$_x$/p$^{++}$-Si memristor structure by studying its different transport properties under dc and pulsed bias. The presence of crystalline NiO$_x$ with smaller gains is found to be helpful to get TiO$_x$ deposited on its top with crystalline properties and larger grains. The heterostructure offers stable bipolar forming free non-volatile resistive switching characteristics under reverse biased condition with gradual set and reset features. These devices are also able to successfully implement the classical Pavlov's learning, study artificial nociceptor and Morse code detection. While incorporating synaptic weights derived from the measured conductance programming pulse relationship, an artificial neural network achieves nearly 95\% accuracy in MNIST digit recognition. In brief, NiO$_x$/TiO$_x$ heterojunction plays the pivotal role in getting such reproducible $I-V$ characteristics for mimicking different properties of biological synapses.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:01:04Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Dip Manna</name>
+    </author>
+    <author>
+      <name>Koushik Mondal</name>
+    </author>
+    <author>
+      <name>Subhajit Karmakar</name>
+    </author>
+    <author>
+      <name>Pawan Kumar Ojha</name>
+    </author>
+    <author>
+      <name>Sourav Roy</name>
+    </author>
+    <author>
+      <name>Biswarup Satpati</name>
+    </author>
+    <author>
+      <name>Prasanta Karmakar</name>
+    </author>
+    <author>
+      <name>Supratic Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11975v1</id>
+    <title>Predicting Cable Dynamics with Physical Attention Bias</title>
+    <updated>2026-10-08T13:51:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.11975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches itself or the floor. Attention over all pairs of cable segments can represent contact between parts of the cable that are far apart along its length, but attention has no notion of geometry. A cable has two pairwise distances, which agree only while it is straight: the arc-length distance along the cable, which governs elastic forces, and the Euclidean distance in space, which governs contact. We add a physical attention bias, an additive term on the attention logits with a learned rate, and ask which distance it should use. We compare no bias, each distance alone, and both distances on disjoint sets of heads, keeping the rest of the model and the training protocol fixed. A physical bias improves prediction on unseen cables. The gain is largest when attention is the only mechanism that connects distant segments: there, the arc-length bias reduces prediction error by 15% and more than halves the drift in segment length. The Euclidean bias alone stays close to unbiased attention, while assigning both distances across heads is best or near-best on every metric we report. Code and per-run records: https://github.com/avihaig/dlogps.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:51:30Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>NeurIPS 2026 Workshop - Symmetry and Geometry in Neural Representations</arxiv:journal_ref>
+    <author>
+      <name>Avihai Giuili</name>
+    </author>
+    <author>
+      <name>Rotem Atari</name>
+    </author>
+    <author>
+      <name>Avishai Sintov</name>
+    </author>
+    <author>
+      <name>Maya Bechler-Speicher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11962v1</id>
+    <title>Escaping Geological Generative Prior Distributions in Bayesian Travel Time Tomography</title>
+    <updated>2026-10-08T13:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.11962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solutions to geophysical inverse problems are generally non-unique, and greatly benefit from additional geological prior information. Generative Neural Networks (GNNs) are commonly used to parametrise such information, typically restricting solutions to a lower-dimensional latent space. The final inversion result is obtained by mapping the latent space parameters to the original higher-dimensional model space using the GNNs. However, solutions then remain confined to a low-dimensional geological generative manifold; if the true Earth model lies outside of this manifold, standard latent space inversion fails. We propose a Bayesian model space inversion method that uses the generative manifold as a guide to find the solutions that lie outside this manifold. We validate our approach in non-linear travel-time tomography experiments on both simple and more geological structures. By comparing our method with model space inversion using uniform prior probabilities and standard latent-space inversion, we demonstrate that the less informative uniform prior fails to constrain the solution, while the latent space approach fails when the true Earth model lies outside of the generative manifold. Conversely, our new model-space inversion method successfully recovers complex off-manifold geological features while maintaining low solution uncertainty.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:44:36Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <author>
+      <name>Pratyay Roy</name>
+    </author>
+    <author>
+      <name>Xuebin Zhao</name>
+    </author>
+    <author>
+      <name>Andrew Curtis</name>
+    </author>
+    <arxiv:doi>10.3997/2214-4609.202610891</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3997/2214-4609.202610891" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11931v1</id>
+    <title>Data-Driven Free-Energy Learning from Trajectories via Structure-Preserving Exponential Time Differencing</title>
+    <updated>2026-10-08T13:25:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.11931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Structure-preserving numerical methods for gradient flows have been extensively developed when the governing equations and free energies are known. However, accurately predicting dynamics from observational data while preserving intrinsic physical properties remains challenging. Although neural operators, such as Fourier neural operators (FNOs), provide powerful data-driven approximations, their predictions do not inherently guarantee physical structure preservation. To address this challenge, we integrate deep learning with structure-preserving exponential time differencing (ETD) methods. Instead of directly learning the evolution operator, we introduce a *trajectory-inferred free energy* (TIFE), which reconstructs the unknown energy density from observed trajectories through a Duhamel-based learning framework. The learned energy determines the variational force and stabilization parameter, enabling structure-preserving numerical evolution. We further extend the framework to jointly identify the free energy and diffusion coefficient. Under suitable assumptions, we establish the maximum-bound principle, unconditional dissipation of the original learned energy, and error estimates incorporating discretization and inference errors. Numerical experiments demonstrate accurate energy recovery and reliable long-time predictions.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:25:32Z</published>
+    <arxiv:comment>32 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Wenshuai Hu</name>
+    </author>
+    <author>
+      <name>Guanghua Ji</name>
+    </author>
+    <author>
+      <name>Xiao Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11923v1</id>
+    <title>Neural Decoding as Cognitive Inference</title>
+    <updated>2026-10-08T13:19:57Z</updated>
+    <link href="https://arxiv.org/abs/2610.11923v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11923v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The brain maintains stable cognition despite continuously changing neural activity. How to extract stable cognitive states from variable neural observations remains a central problem in neural decoding. Existing neural decoding methods map neural observations to predefined external labels based on the stimulus-response principle, often capturing recording-specific spurious correlations. Inspired by how the brain infers the world, and specifically by Bayesian brain theory, we recast neural decoding as cognitive inference constrained by brain-intrinsic priors, yielding high-level meta-neural semantic representations. In decoding experiments spanning five neural recording modalities and three cognitive domains (motor, perception and internal mentation), our cognitive inference method reorganized the geometry of neural observation representations, yielding meta-neural semantic representations that exhibited consistent geometric relationships across cognitive tasks and enabled the recovery of stable cognitive states from variable neural observations. Our work provides an account of how the brain maintains relatively stable cognition despite continual changes in the external environment. Cognitive stability is sustained through cognitive inference from changing neural activity, without requiring fixed neural activity patterns.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:19:57Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Yi Guo</name>
+    </author>
+    <author>
+      <name>Changhong Jing</name>
+    </author>
+    <author>
+      <name>Yong Hu</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Michael K. P. Ng</name>
+    </author>
+    <author>
+      <name>Shanshan Wang</name>
+    </author>
+    <author>
+      <name>Shuqiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11909v1</id>
+    <title>The Fiedler dimension of networks of networks: from fractal to small-world architectures</title>
+    <updated>2026-10-08T13:09:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.11909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Is the relaxation of a modular network dictated by its modules or by the network that connects them? The answer fixes the time scales of diffusion, consensus, and synchronization, all set by the Fiedler eigenvalue. We show that, for bundled networks, the two levels act one after the other: a random walker must first escape from its module and then spread over the network that connects them. The equilibration time is the sum of these two times, the time needed to reach the base from inside a fiber and the relaxation time of the base, slowed down by the mass of the fibers. The consequences are unexpected. However large the modules are, a small-world core always imposes its own Fiedler dimension; the modules survive only as a logarithmic correction, which slows down equilibration and hides the true exponent up to sizes far beyond any real network. Effective dimensions measured on finite modular systems can therefore be systematically biased. We analytically work out all combinations of finite-dimensional and small-world bases and fibers, and compare them with numerically exact spectra of representatives of each category.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:09:16Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Lorenzo Grimaldi</name>
+    </author>
+    <author>
+      <name>Andrea Gabrielli</name>
+    </author>
+    <author>
+      <name>Pablo Villegas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11908v1</id>
+    <title>Cost-Aware Mixture-of-Experts Coordination for Model Markets</title>
+    <updated>2026-10-08T13:09:09Z</updated>
+    <link href="https://arxiv.org/abs/2610.11908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing model marketplaces typically trade and select individual models as indivisible units, limiting their ability to exploit complementarities among heterogeneous experts. This paper proposes an MoE-based model market framework that lifts Mixture-of-Experts from a model-level learning architecture to a market-level coordination mechanism. In this framework, brokers use gating networks to coordinate multiple heterogeneous experts and deliver a composite model service. We formalize the market participants, service workflow, expert cost structure, and a welfare objective that combines predictive utility with heterogeneous execution costs. We then derive a cost-aware gating mechanism and market-aware training objective, and introduce a cost-adjusted revenue allocation rule that distributes residual revenue according to realized expert participation and execution cost. We also establish basic theoretical properties of the allocation rule, including budget balance, participation monotonicity, and cost sensitivity. Experiments over five random seeds on fifteen tabular and image benchmarks use independently trained and frozen neural and tree-based experts together with latency-derived execution costs. MoE Market achieves the highest mean welfare on all fifteen datasets and a lower mean expected cost than Standard MoE in every case, while maintaining competitive predictive performance. The allocation experiments further demonstrate systematic sensitivity to expert participation and cost, together with substantially lower computational overhead than exact Shapley allocation. These results suggest that MoE can serve as a market-level coordination principle for collaborative, cost-aware, and economically grounded model marketplaces.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:09:09Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yizhou Ma</name>
+    </author>
+    <author>
+      <name>Wenbo Wu</name>
+    </author>
+    <author>
+      <name>Xikun Jiang</name>
+    </author>
+    <author>
+      <name>Zhuoqin Yang</name>
+    </author>
+    <author>
+      <name>Luis-Daniel Ibáñez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11853v1</id>
+    <title>DADP: Dynamic Activity-Dependent Pruning, A Reverse Hebbian-Inspired Structural Pruning Method</title>
+    <updated>2026-10-08T12:38:14Z</updated>
+    <link href="https://arxiv.org/abs/2610.11853v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11853v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern neural networks are heavily over-parameterized. This redundancy incurs substantial compute and memory overhead during training and inference. Existing pruning methods rely on post-hoc magnitude thresholds or static initialization heuristics. Consequently, they often require manual per-layer sparsity targets or expensive retraining cycles. We propose Dynamic Activity-Dependent Pruning (DADP), a biologically inspired structural plasticity mechanism. During training, DADP measures connection importance via the accumulated product of pre-synaptic activations and post-synaptic error gradients. Using a single global threshold instead of fixed layer budgets, DADP dynamically allocates sparsity across network depth while naturally inducing neuron- and channel-level pruning. Across MLP, VGG-16, ResNet-18, BiLSTM-CRF, and MiniBERT architectures, DADP matches or outperforms Magnitude, SNIP and RigL, retaining 73.67% accuracy (dense baseline: 76.06%) at 99% sparsity on ResNet-18. Finally, matrix-based Shannon entropy and effective rank measurements confirm that DADP preserves latent feature diversity at extreme sparsities without representation collapse.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:38:14Z</published>
+    <arxiv:comment>24 Pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bhushan Deshpande</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11846v1</id>
+    <title>Open-Vocabulary Audio-Visual Event Localization via Complex-Valued Fusion</title>
+    <updated>2026-10-08T12:34:24Z</updated>
+    <link href="https://arxiv.org/abs/2610.11846v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11846v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-Vocabulary Audio-Visual Event Localization (OV-AVEL) labels each video segment with an event class, including classes that were never seen during training. The dominant pipeline uses a frozen multimodal foundation model (e.g. ImageBind) to embed the visual frame, the audio mel-spectrogram, and each candidate class name into a shared space, then computes two cosine similarities for each segment against each class: visual-text and audio-text. Existing methods then collapse this pair into a single scalar score with a fixed rule (geometric mean, weighted average) before taking the argmax. Instead, we compute complex-valued similarities and learn their fusion using a complex-valued neural network (CVNN). Each modality's standard representation becomes the real part of our pipeline, and a paired companion stream supplies the imaginary part. We use imaginary part of iHSV for visual modality and CycleGAN-translated phase spectrogram for audio modality as these companion streams. This results in two complex similarities, which are then fused. While the vision and audio encoders remain frozen, only the temporal-attention blocks and the fusion CVNN are trained. The four-stream complex architecture sets a new state of the art on both OV-AVEL benchmarks. On the open (unseen-class) split of OV-AVEBench we reach 66.5/59.1/54.1% Acc/Seg-F1/Event-F1 (+1.6/+4.1/+6.6 over the previously reported fine-tuned baseline), with consistent gains for seen classes as well. We also modify AVE dataset for this task and observe that our architecture reaches 60.7/51.9/50.4% Acc/Seg-F1/Event-F1, achieving state-of-the-art OV-AVEL results on it as well. We also propose a two-stream alternative, which also sees great improvements over the baseline.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:34:24Z</published>
+    <arxiv:comment>Accepted to British Machine Vision Conference (BMVC) 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Anirudh Praveen</name>
+    </author>
+    <author>
+      <name>Koteswar Rao Jerripothula</name>
+    </author>
+    <author>
+      <name>Pratik Joshi</name>
+    </author>
+    <author>
+      <name>Aveen Dayal</name>
+    </author>
+    <author>
+      <name>Neela Sawant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11833v1</id>
+    <title>Probability-Signature Dynamics: Unpacking Modular Addition Learning Within Two-Layer Networks</title>
+    <updated>2026-10-08T12:27:35Z</updated>
+    <link href="https://arxiv.org/abs/2610.11833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks trained on modular addition tasks often develop Fourier-structured representations that support exact generalization. While prior work has identified these Fourier circuits, the mechanism by which gradient-based training selects them from the data distribution remains unclear. We address this question using probability signatures, which express leading gradient interactions through conditional statistics of the training distribution. For modular addition, these signatures are cyclic shift operators and are diagonalized by the discrete Fourier transform, yielding approximately decoupled Fourier-mode dynamics. This explains the emergence of Fourier sparsity, frequency matching, and phase alignment. The same framework resolves a puzzle under label noise: corrupted examples can show faster early loss decrease than clean examples, despite lacking a coherent generalization rule. We show that noise increases conditional label collisions, strengthening early shared-coordinate reinforcement. Finally, this method can be applied to other operators. Taking XOR as an example, we observed the predicted frequency in experiments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:27:35Z</published>
+    <arxiv:comment>36 pages, 18 figures. Submitted to ICLR 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yunji Wang</name>
+    </author>
+    <author>
+      <name>Junjie Yao</name>
+    </author>
+    <author>
+      <name>Linyu Liu</name>
+    </author>
+    <author>
+      <name>Pinyan Lu</name>
+    </author>
+    <author>
+      <name>Zhi-Qin John Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11825v1</id>
+    <title>Self-Supervised Speech Representations for Cross-Speaker Dysarthria Detection During Awake Craniotomy</title>
+    <updated>2026-10-08T12:25:15Z</updated>
+    <link href="https://arxiv.org/abs/2610.11825v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11825v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detecting intra-operative speech impairment during awake craniotomy is essential for preserving language function. However, automated detection remains challenging because operating-room recordings contain substantial acoustic interference, clinically relevant speech events are rare, and available cohorts are small and heterogeneous across speakers. This study presents a systematic component-wise evaluation of a pipeline for distinguishing dysarthric from no-trouble speech in the DATABRASE corpus of awake-craniotomy recordings. The pipeline incorporates speaker diarization to isolate patient speech, a multi-view representation combining handcrafted acoustic descriptors with multilayer wav2vec 2.0 embeddings, speaker-conditional normalization and transferability-based feature selection to improve cross-speaker robustness, and a cascaded classifier comprising a gradient-boosted first stage and a neural second stage. Evaluation was conducted under strict speaker-independent conditions using leave-one-speaker-out cross-validation. The results show that cross-speaker performance is influenced more strongly by the speech representation than by classifier choice. The AUCs of three classifiers differed by no more than 4.7%, whereas replacing conventional acoustic descriptors with the multilayer self-supervised representation produced AUC improvements of 18.2%-26.1%. Diarization-conditioned feature extraction and the proposed classifier cascade provided additional consistent gains. These findings indicate that reliable patient-specific speech isolation and strong pretrained representations are more important than increased classifier complexity in low-resource intra-operative settings. They also quantify the potential performance gains that may be achieved through patient-specific preoperative calibration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:25:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kanthila Chinmayi</name>
+      <arxiv:affiliation>IRDL, LaTIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abdallah Nassib</name>
+      <arxiv:affiliation>LARIS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Misy Harrison</name>
+      <arxiv:affiliation>LaTIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Panheleux Celine</name>
+      <arxiv:affiliation>LaTIM, CHU - BREST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Saliou Vanessa</name>
+      <arxiv:affiliation>CHU - BREST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Seizeur Romuald</name>
+      <arxiv:affiliation>LaTIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dardenne Guillaume</name>
+      <arxiv:affiliation>LaTIM</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11748v1</id>
+    <title>DEX: Digit-Level Early Exit for Energy-Efficient MSDF Neural Network Inference</title>
+    <updated>2026-10-08T11:39:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.11748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>U-Net inference for brain-tumor segmentation requires billions of multiply-accumulate operations, motivating hardware that can reduce computation dynamically rather than relying only on fixed precision or static model compression. Most-significant-digit-first (MSDF) arithmetic exposes the leading digits of a result during computation, enabling output-dependent decisions before the full value is generated. This paper presents an MSDF accelerator for quantized U-Net segmentation with a two-stage grouped processing element supporting signed INT8 operands and in-stream bias accumulation. Four runtime mechanisms operate directly on the output digit stream: exact early negative detection (END) in ReLU layers, exact sign-only decision making in the segmentation head, calibrated low-order-digit skipping, and calibrated pruning. The two approximate mechanisms are selected offline under an accuracy constraint, while execution requires only lightweight control and does not modify the stored weights. On a residual U-Net trained with nnU-Net for BraTS, the proposed mechanisms reduce digit cycles by 38.38\% while achieving a mean Dice score of 80.58\% on 73 held-out cases, compared with 81.20\% for the floating-point model; the exact mechanisms alone reduce cycles by 18.79\% without altering the quantized output. Synthesized in 45~nm, the processing element operates at 500~MHz, occupies 0.858~mm$^2$, and consumes 0.726~mJ per $192\times192$ patch under switching-activity-annotated power analysis. A projected eight-output accelerator with shared activation delivery achieves 16.6~ms latency and 1.67~mJ per patch.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T11:39:01Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Yousef Sadegheih</name>
+    </author>
+    <author>
+      <name>Dorit Merhof</name>
+    </author>
+    <author>
+      <name>Muhammad Usman</name>
+    </author>
+  </entry>
+</feed>

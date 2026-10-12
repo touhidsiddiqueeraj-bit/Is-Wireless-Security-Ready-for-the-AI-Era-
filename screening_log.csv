@@ -1,0 +1,136 @@
+record_id,title,source_db,stage,decision,exclusion_reason,track_tag,notes
+B01,Learning to Protect Communications with Adversarial Neural Cryptography,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B02,Physical Layer Authentication and Security Design in the Machine Learning Era,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B03,"A Comprehensive Survey on Radio Frequency (RF) Fingerprinting: Traditional Approaches, Deep Learning, and Open Challenges",open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B04,Radio Frequency Fingerprinting via Deep Learning: Challenges and Opportunities,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B05,A Formal Analysis of 5G Authentication,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B06,5GReasoner: A Property-Directed Security and Privacy Analysis Framework for 5G Cellular Network Protocol,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B07,Adversarial Machine Learning in Wireless Communications Using RF Data: A Review,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B08,Physical Layer Security for Integrated Sensing and Communication: A Survey,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+B09,Data and Model Poisoning Backdoor Attacks on Wireless Federated Learning and the Defense Mechanisms: A Comprehensive Survey,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+D01,Learning asymmetric encryption using adversarial neural networks,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D02,Practical Physical Layer Authentication for Mobile Scenarios Using a Synthetic Dataset Enhanced Deep Learning Approach,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D03,Deep Learning Based Adaptive Physical Layer Key Distribution,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D04,Deep Learning Dataset Generation for Physical Layer Authentication in Wireless Sensor Networks (WSN),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D05,Mobile Device Identification Based on Two-dimensional Representation of RF Fingerprint with Deep Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D06,Deep Learning Based Wireless Device Identification Using RF Fingerprint,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D07,Towards Receiver-Agnostic and Collaborative Radio Frequency Fingerprint Identification,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D08,Adversarial machine learning for image-based radio frequency fingerprinting: Attacks and defenses,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+D09,Physical Layer Key Generation from Wireless Channels with Non-ideal Channel Reciprocity: A Deep Learning Based Approach,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D10,Machine Learning-Based Secret Key Generation for IRS-assisted Multi-antenna Systems,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D11,Deep Learning-based Physical-Layer Secret Key Generation for FDD Systems (KGNet),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D12,Machine Learning-Assisted Wireless PHY Key Generation with Reconfigurable Intelligent Surfaces,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D13,Physical Layer Key Distribution Technology on Deep Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D14,Lightweight Reinforcement Learning with State Abstraction for Dynamic Spectrum Anti-Jamming Communications,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D15,Multi-Agent Reinforcement Learning Based UAV Swarm Communications Against Jamming,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D16,Deep Reinforcement Learning-Based Resource Management for UAV-Assisted Mobile Edge Computing Against Jamming,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D17,Reinforcement Learning Aided Secure UAV Communications against Roaming Adversaries,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D18,Physical Layer Authentication for UAV Communications Under Rayleigh and Rician Channels,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D19,Hybrid PLS-ML Authentication Scheme for V2I,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D20,Physical Layer Authentication in UAV Communications (spoofing),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D21,Deep Reinforcement Learning-Based Anti-Jamming Rate Adaptation (UAV ad hoc),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D22,Deep Reinforcement Learning Based UAV for Securing mmWave Communications,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D23,Communication and Energy Efficient Wireless Federated Learning with Intrinsic Privacy (PFELS),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D24,Wireless Federated Learning with Local Differential Privacy,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D25,Privacy-Preserving Wireless Federated Learning Exploiting Inherent Hardware Impairments,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D26,Providing Differential Privacy for Federated Learning Over Wireless: A Cross-layer Framework,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D27,Open Set RF Fingerprint Identification for Wireless Communications,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D28,A Novel Radio Frequency Fingerprint Identification Scheme for Few-shot Open-set Recognition,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D29,A Novel Framework for Few-Shot RF Fingerprint Identification Using Signal Recurrence Plot and Broad Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D30,Open Set RF Fingerprinting Identification: A Joint Prediction and Siamese Comparison Framework,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D31,Open-Set Radio Frequency Fingerprint Identification Based on Multi-Task Prototype Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D32,Securing UAV Communications by Fusing Cross-Layer Fingerprints (SecureLink),open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D33,Random Adversarial Data Obfuscation Model (RANDOM) Adversarial Neural Cryptography,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D34,Aerial Base Station Positioning and Power Control for Securing Communications: A Deep Q-Network Approach,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D35,Cooperative Jamming for Physical Layer Security Enhancement Using Deep Reinforcement Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D36,A Deep Ensemble-based Wireless Receiver Architecture for Mitigating Adversarial Attacks in Automatic Modulation Classification,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+D37,Adversarial Attack and Reliable Defense Based on Frequency Domain Feature Enhancement for Automatic Modulation Classification,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+D38,When Physical Layer Key Generation Meets RIS: Opportunities Challenges and Road Ahead,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D39,Disruptive RIS for Enhancing Key Generation and Secret Transmission in Low-Entropy Environments,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D40,A Fluid Antenna Enabled Physical Layer Key Generation for Next-G Wireless Networks,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D41,Enabling Deep Learning-based Physical-layer Secret Key Generation for FDD-OFDM Systems in Multi-Environments,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D42,RIS-Assisted Physical Layer Group Key Generation,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D43,Secure-IRS: Defending Against Adversarial Physical-Layer Sensing,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D44,Unsupervised Contrastive Learning for Robust RF Device Fingerprinting Under Time-Domain Shift,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D45,Dynamic and Open-Set RF Fingerprinting and Localization in Crowded Indoor Environments through Contrastive CSI Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D46,HoRFFI: High-Openness RF Fingerprint Identification with Similarity-Enhanced Variational Information Bottleneck,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D47,Transformer Masked Autoencoders for RF Device Fingerprinting,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D48,Watermarking and Anomaly Detection in Machine Learning Models for LoRa RF Fingerprinting,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D49,Domain-Adaptive Device Fingerprints for Network Access Authentication,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D50,HiNoVa: A Novel Open-set Detection Method for Automating RF Device Authentication,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D52,A Physical Layer Security Framework for IRS-Assisted Integrated Sensing and Semantic Communication Systems,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D53,Secure Semantic Communications: From Perspective of Physical Layer Security,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D54,Byzantine-Resilient Federated Machine Learning via Over-the-Air Computation,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D55,Open Set Wireless Transmitter Authorization: Deep Learning Approaches and Dataset Considerations,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D56,Radio frequency fingerprint identification for LoRa using deep learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D57,RF impairment model-based IoT physical-layer identification for enhanced domain generalization,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D58,Embedding-assisted attentional deep learning for real-world RF fingerprinting of Bluetooth,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D59,Radio frequency fingerprint identification in low SNR scenarios for automatic identification system,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D60,DeepCRF: Deep learning-enhanced CSI-based RF fingerprinting for channel-resilient WiFi device identification,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D61,OpenRFI: Open-Set Radio Frequency Fingerprint Identification via Test-Time Fine-Tuning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D62,Few-shot cross-receiver radio frequency fingerprinting identification based on feature separation,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D63,Open-Set RF Fingerprinting via Improved Prototype Learning,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D64,"Cross-domain, scalable, and interpretable RF device fingerprinting",open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D65,Few-shot learning and data augmentation for cross-domain UAV fingerprinting,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D66,Multi-Channel CNN-Based Open-Set RF Fingerprint Identification for LTE Devices,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D67,Proactive Radio Frequency Fingerprinting-Based Authentication Leverage IQ Perturbation,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D68,SV-NPR: an Open-Set RF Fingerprint Identification Framework Based on Siamese Network,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+D69,A Hybrid Model With Bayesian Nonparametric Inference for RF Fingerprint Identification,open-web-seed,full-text,include,ok,defense,agent-screened; verifier blind-checks 20%
+P01,Evaluating Post-Quantum Cryptographic Algorithms on Resource-Constrained Devices,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P02,Post-Quantum Cryptography for Internet of Things: A Survey on Performance and Optimization,open-web-seed,title-abstract,exclude,survey-opinion-only,pqc-context,background per protocol
+P03,Faster Kyber and Dilithium on the Cortex-M4,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P04,Vectorized Implementation of Kyber and Dilithium on 32-bit ARM Cortex-A,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P05,Compact Dilithium Implementations on Cortex-M3 and Cortex-M4,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P06,Efficient Hardware Implementation of the Lightweight CRYSTALS-Kyber,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P08,Post-Quantum Wireless-based Key Encapsulation Mechanism via CRYSTALS-Kyber for Resource-Constrained Devices,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P09,Toward Quantum-Safe 6G: Experimental Evaluation of Post-Quantum Cryptography,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P10,Post-Quantum Entropy as a Service for Embedded Systems,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+P11,LAKE: Lattice-Code Accelerated Kyber Encapsulation,open-web-seed,full-text,include,ok,pqc-context,agent-screened; verifier blind-checks 20%
+T01,Far Field EM Side-Channel Attack on AES Using Deep Learning,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T02,White-Box Adversarial Attacks on Deep Learning-Based Radio Frequency Fingerprint Identification,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T03,Adversarial Attacks Against Deep Learning-Based Radio Frequency Fingerprint Identification,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T04,Robust Adversarial Attacks on Deep Learning-Based RF Fingerprint Identification,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T05,Adversarial Attack and Defense for LoRa Device Identification and Authentication via Deep Learning,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+T06,Erasing Radio Frequency Fingerprinting via Active Adversarial Perturbation,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T07,RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T08,Is Your Bluetooth Chip Leaking Secrets via RF Signals?,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T09,Generative Adversarial Network in the Air: Deep Adversarial Learning for Wireless Signal Spoofing,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T10,Wi-Spoof: Generating adversarial wireless signals to deceive Wi-Fi sensing systems,open-web-seed,title-abstract,exclude,survey-opinion-only,threat,background per protocol
+T11,Physical Layer Spoof Detection and Authentication for IoT,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+T12,Stealthy Backdoor Attack on RF Signal Classification,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T13,Trojan Attacks on Wireless Signal Classification with Adversarial Machine Learning,open-web-seed,title-abstract,exclude,survey-opinion-only,background,background per protocol
+T14,Membership Inference Attack and Defense for Wireless Signal Classifiers with Deep Learning,open-web-seed,full-text,include,ok,both,agent-screened; verifier blind-checks 20%
+T15,Open Set RF Fingerprinting using Generative Outlier Augmentation,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T16,Explanation-Guided Backdoor Attacks on Model-Agnostic RF Fingerprinting,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T17,Stealthy Adversarial Attacks on Machine Learning-Based Classifiers of Wireless Signals,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T18,Penetrating RF Fingerprinting-based Authentication with a Generative Adversarial Attack,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T19,Classification of Encrypted IoT Traffic Despite Padding and Shaping,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T20,Protocol-agnostic IoT Device Classification on Encrypted Traffic,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T21,Analysis of encrypted wireless traffic for identification of IoT devices,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T22,Network Traffic Fingerprinting for IoT Device Identification Using Machine Learning,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T23,SoK: Evaluating 5G Protocols Against Legacy and Emerging Privacy and Security Attacks,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T25,Low-Interception Waveform: To Prevent the Recognition of Spectrum Waveform Modulation via Adversarial Examples,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T27,FLARE: A Wireless Side-Channel Fingerprinting Attack on Federated Learning,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T28,Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T30,Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based Wireless Communication Systems,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T31,System-level Analysis of Adversarial Attacks and Defenses on Intelligence in O-RAN based Cellular Networks,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T34,Practical Adversarial Attack on WiFi Sensing Through Unnoticeable Communication Packet Perturbation,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T35,Analysis of the vulnerability of machine learning regression models to adversarial attacks using data from 5G wireless networks,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T36,Chained Attacks on Drone-Based Federated Learning: From Network Disruption to Device Impersonation,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T38,Threat of adversarial attacks on DL-based IoT device identification,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T39,Generalized wireless adversarial deep learning,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T40,An Adversarial-Driven Experimental Study on Deep Learning for RF Fingerprinting,open-web-seed,full-text,include,ok,threat,agent-screened; verifier blind-checks 20%
+T24,EAP-AKA analysis,open-web-seed,title-gate,exclude,no-AI-link,background,v4-restored exclusion stub
+T45,Acoustic/vibration SCA on PQC,openalex,full-text,exclude,v4-scope/dedupe-cut,background,see run_log v4
+D78,RFFResNet,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D79,Wavelet-scattering RFFI,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D80,AI-assisted RFF 5G,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D81,Deep complex ResNet RFFI,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D82,MAMAB-DP FL,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D83,A-FADMM,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D84,xMK-CKKS FL,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D85,DWFL,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D86,ISIT privacy amplification,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D87,IET DP-FL multi-BS,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+D88,AFL-UAV FL,openalex-rerun,abstract,include,-,defense,round-4 include 2026-10-12
+T47,Jamming attacks on FL,openalex-rerun,abstract,include,-,threat,round-4 include 2026-10-12

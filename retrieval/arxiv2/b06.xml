@@ -1,0 +1,1455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dNHquXTFQjWClgoqfggy4wpQOWo</id>
+  <title>arXiv Query: search_query=all:modulation OR all:classification AND all:adversarial AND all:wireless&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:modulation+OR+(all:classification+AND+(all:adversarial+AND+all:wireless))&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>121753</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12431v1</id>
+    <title>Control-Ready Uncertainty for Trajectory Diffusion</title>
+    <updated>2026-10-08T17:57:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.12431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control. We evaluate SCOPE with mode-conditioned multimodal diffusion backbones in pedestrian forecasting, crowd navigation, Maze2D control, and real-world Franka Panda manipulation. Across these settings, SCOPE provides fast uncertainty estimation, which leads to better closed-loop performance. Project page: https://zackaxue.github.io/SCOPE-project-page/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:57:01Z</published>
+    <arxiv:comment>Accepted at the Conference on Robot Learning (CoRL) 2026 as a Spotlight presentation. 39 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhiwei Xue</name>
+    </author>
+    <author>
+      <name>Jia Yue Kam</name>
+    </author>
+    <author>
+      <name>Jinhang Qiu</name>
+    </author>
+    <author>
+      <name>Yifeng Cheng</name>
+    </author>
+    <author>
+      <name>Ege Gursoy</name>
+    </author>
+    <author>
+      <name>Jiaming Wang</name>
+    </author>
+    <author>
+      <name>Vincent Bonnet</name>
+    </author>
+    <author>
+      <name>Harold Soh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12406v1</id>
+    <title>Local polarization control of optical tweezer arrays</title>
+    <updated>2026-10-08T17:45:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.12406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical tweezer arrays trapping ultracold atoms and molecules are a versatile quantum science platform with broad impact in quantum simulation, quantum computation, and quantum metrology. The polarization dependence of anisotropic vector and tensor light shifts offers a degree of freedom for precise quantum state engineering of trapped particles. Similarly, state-selective operations depend on the polarization of the addressing light through the atom--light coupling strength. Yet, methods for controlling the polarization of individual tweezers or local addressing beams remain an experimental challenge. Here, we demonstrate independent, site-resolved linear polarization rotation across an optical tweezer array by exploiting the local birefringence tunability of a spatial light modulator. Applying this capability to an array of $^{88}\rm{Sr}$ atoms, we homogenize differential light shifts imparted by the 813-nm tweezers to the narrow ${^1{\rm S}_0}\leftrightarrow{^3{\rm P}_1}$ transition, enabling sideband cooling under a magic-angle condition. Furthermore, we show dynamic transport of trapped atoms across distinct polarization zones with high survival and preserved coherence. Finally, we characterize tweezer polarization noise and demonstrate closed-loop stabilization referenced to the atomic transition frequency, reaching mrad-level stability. Our work establishes a technique for manipulating polarization-sensitive atomic and molecular transitions in tweezer architectures, with immediate applications to optical tweezer clocks and multi-zone quantum processors.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:45:45Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Xiangkai Sun</name>
+    </author>
+    <author>
+      <name>Richard Bing-Shiun Tsai</name>
+    </author>
+    <author>
+      <name>Andrew Winnicki</name>
+    </author>
+    <author>
+      <name>Yuan Le</name>
+    </author>
+    <author>
+      <name>Kon H. Leung</name>
+    </author>
+    <author>
+      <name>Nelson Darkwah Oppong</name>
+    </author>
+    <author>
+      <name>Manuel Endres</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12401v1</id>
+    <title>Learning Kilometer-Scale Weather Prediction with Global-Regional Alignment</title>
+    <updated>2026-10-08T17:43:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.12401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kilometer-scale regional weather forecasting is essential for local weather warnings and weather-sensitive decisions. Existing data-driven approaches often rely on numerical forecasts for large-scale guidance or require additional training of global forecasting components. Pretrained global weather models offer an efficient source of large-scale forecasts, motivating their reuse to guide high-resolution regional prediction. However, this coupling requires aligning global and regional representations across different grids and integrating global guidance with local interactions to advance regional states. We propose ScaleCast, a regional forecasting framework that addresses these challenges through Global-Regional Alignment. Its Global-Regional Conversion module aligns joint global and regional representations with regional locations, while the Global-Regional Alignment and Dynamics block combines aligned guidance with regional neighborhood interactions. Experiments using ERA5 global analyses on a 0.25-degree grid and CERRA regional reanalysis at 5.5 km spacing demonstrate improved regional forecasts across surface and upper-air variables, with a single trained model supporting multiple global forecast drivers (i.e., Pangu-Weather, GraphCast, and HRES) without specific retraining. Fine-tuning on HRRR at 3 km spacing further demonstrates the framework's adaptability to a different regional domain and spatial resolution. Windstorm case studies show improved cyclone positioning and core-pressure estimates, while comparisons with HadISD station observations show closer agreement with local temperature and humidity changes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:43:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guowen Li</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Yujie Wang</name>
+    </author>
+    <author>
+      <name>Qiuyan Sun</name>
+    </author>
+    <author>
+      <name>Haoyuan Liang</name>
+    </author>
+    <author>
+      <name>Juepeng Zheng</name>
+    </author>
+    <author>
+      <name>Hong Cheng</name>
+    </author>
+    <author>
+      <name>Haohuan Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12396v1</id>
+    <title>Mixup Barcodes for Topology-Aware Financial Decision Making</title>
+    <updated>2026-10-08T17:40:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.12396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a topology-aware system based on mixup barcodes and persistent homology for financial decision making. The suggested approach uses topological summaries obtained from Takens delay embeddings of a univariate price series to quantify structural changes between reference and current market regimes. The 1-Wasserstein distance between persistence diagrams, a mixup barcode disruption index, and persistence entropy divergence are combined to provide a novel stress score. A Golden Cross trading method is dynamically modulated by this score, which transforms a binary buy/sell signal into a continuous position-sizing process. At embedding settings chosen by maximizing in-sample Sharpe over a 72-point grid, in-sample assessment on the S&amp;P 500 and Bitcoin yields Sharpe ratios of 1.116 and 1.238, respectively, with much lower maximum drawdown compared with both Buy-and-Hold and the standard Golden Cross baseline. Our findings imply that topological summaries of market geometry include useful information that goes beyond traditional trend markers.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:40:08Z</published>
+    <arxiv:comment>22 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Buddha Nath Sharma</name>
+    </author>
+    <author>
+      <name>Joe Opitz</name>
+    </author>
+    <author>
+      <name>Adam Moser</name>
+    </author>
+    <author>
+      <name>Sayam Palrecha</name>
+    </author>
+    <author>
+      <name>Sushovan Majhi</name>
+    </author>
+    <author>
+      <name>Atish Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12363v1</id>
+    <title>HANS: A Handwritten Answer Sheet Dataset for Noisy Hybrid Document Parsing</title>
+    <updated>2026-10-08T17:27:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.12363v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12363v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent grading and automated scoring technologies constitute critical infrastructure for smart education. However, existing document parsing and handwriting recognition benchmarks are predominantly designed for well-structured printed documents or isolated mathematical expressions, lacking datasets that capture the complex characteristics inherent to student answer sheets, including multi-line derivation processes, heterogeneous mixtures of text and mathematical formulae, and noise artifacts such as strikethroughs. To address this gap, we introduce HANS, the first dataset explicitly constructed for real-world educational scenarios, encompassing mathematical expressions, natural language text, hand-drawn tables, and diverse noise patterns including corrections and deletions, accompanied by fine-grained annotations that establish a reliable foundation for robust recognition research. Building upon HANS, we propose NA-GOT, an end-to-end framework that achieves two-stage noise suppression through a lightweight noise suppression module operating at the feature level, complemented by a noiseaware attention mechanism incorporated into the decoding stage. Experimental results demonstrate that HANS poses substantial challenges to existing methods, while NA-GOT achieves significant improvements in both accuracy and stability for answer process recognition. The dataset will be made publicly available upon publication.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:27:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiazhen Wu</name>
+    </author>
+    <author>
+      <name>Wansong Qin</name>
+    </author>
+    <author>
+      <name>Yangbin Zheng</name>
+    </author>
+    <author>
+      <name>Liangda Fang</name>
+    </author>
+    <author>
+      <name>Zhan Li</name>
+    </author>
+    <author>
+      <name>Xiujie Huang</name>
+    </author>
+    <author>
+      <name>Liushen Zhou</name>
+    </author>
+    <author>
+      <name>Quanlong Guan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12356v1</id>
+    <title>A morphological search for stable year-scale modulation in gamma-ray blazars</title>
+    <updated>2026-10-08T17:22:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.12356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Year-scale quasi-periodic oscillations (QPOs) in blazar gamma-ray light curves have been proposed as signatures of supermassive binary black holes and precessing jets. Red noise can mimic periodicity, and detection alone does not establish persistence or period stability. We develop and calibrate a morphological framework to characterize year-scale modulation and constrain the incidence of stable modulation in blazars. We analyze 120 Fermi-LAT light curves spanning 18.1 yr. Singular spectrum analysis selects the oscillatory mode and period, while weighted wavelet Z-transform ridge tracking measures persistence, period drift, and cycle-to-cycle volatility. Flux randomization, 10,000 red-noise simulations, and about 20,000 injections calibrate the classification. Of 97 quality-selected sources, two show persistent, coherent modulation consistent with a stationary period (Rank I: PG 1553+113 and B2 1215+30), six show coherent modulation whose stationarity cannot be established (Rank II), and 89 form Rank III. Neither Rank I nor Rank II significantly exceeds red-noise expectations. Stationary 1-3 yr injections reach Rank I in 63-97% of trials at signal-to-noise ratio (SNR) = 1, depending on period, and 100% at SNR = 2; 92% of drifting injections reach Rank II. These results limit stable, approximately sinusoidal 1-3 yr modulation to at most 7% of the sample at SNR &gt;= 1 and 5% at SNR &gt;= 2 (95% confidence). PG 1553+113 has the lowest false-alarm probability, 4.7% after trials. Stable year-scale modulation is uncommon, and no source is established as periodic. The framework distinguishes persistent, stationary modulation from coherent variability whose period may evolve or fluctuate, but not the physical mechanism. PG 1553+113 and B2 1215+30 are candidates for monitoring and continuous gravitational-wave searches, although their stability does not establish a binary origin.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:22:50Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Adithiya Dinesh</name>
+    </author>
+    <author>
+      <name>Alberto Domínguez</name>
+    </author>
+    <author>
+      <name>Alba Rico</name>
+    </author>
+    <author>
+      <name>Pablo Peñil</name>
+    </author>
+    <author>
+      <name>Marco Ajello</name>
+    </author>
+    <author>
+      <name>Sara Buson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12337v1</id>
+    <title>ContiLNN: Mitigating Slice Sampling Discontinuity with Liquid Neural Networks for Medical Image Restoration</title>
+    <updated>2026-10-08T17:13:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.12337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anatomical continuity provides complementary information for medical image restoration, but its use requires accounting for local anatomy and variations in slice sampling. We introduce ContiLNN, which augments two-dimensional restoration backbones with bidirectional closed-form continuous-time (Bi-CfC) modules for cross-slice modeling while retaining in-plane feature extraction. Slice-index intervals modulate gates determined by local features and hidden states, enabling propagation to respond to sampling variations without numerical ODE integration. Reference-guided consistency aligns first- and second-order cross-slice intensity differences to preserve anatomical variation, while distillation from a frozen backbone helps retain in-plane fidelity. Across five training seeds, ContiLNN improves mean PSNR over Restore-RWKV by 0.1907, 1.0176, and 1.2482 dB for CT denoising, MRI super-resolution, and reduced-count PET restoration, respectively, with lower RMSE in all three tasks. CT results are descriptive for one held-out patient. PET ablations support ordered propagation beyond additional pointwise capacity. Under contiguous training, Bi-CfC achieves higher fidelity than a Bi-GRU with similar parameter counts and arithmetic costs across all tested sampling conditions. Matched seven-slice profiling shows 52.8% lower latency and 57.0% lower peak GPU memory use than Bi-GRU. Mixed-gap training improves sparse and irregular-context performance for both operators, without a uniform ranking across metrics and contexts. Experiments with fewer training patients and a second backbone further support data efficiency and backbone compatibility.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:13:32Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jialei He</name>
+    </author>
+    <author>
+      <name>Enhe Liu</name>
+    </author>
+    <author>
+      <name>Sifan Song</name>
+    </author>
+    <author>
+      <name>Pengfei Jin</name>
+    </author>
+    <author>
+      <name>Jionglong Su</name>
+    </author>
+    <author>
+      <name>Hongbin Wang</name>
+    </author>
+    <author>
+      <name>Zhixiang Lu</name>
+    </author>
+    <author>
+      <name>Yanhao Huang</name>
+    </author>
+    <author>
+      <name>Anteng Cai</name>
+    </author>
+    <author>
+      <name>Zhengyong Jiang</name>
+    </author>
+    <author>
+      <name>Jiaman Ding</name>
+    </author>
+    <author>
+      <name>S. Kevin Zhou</name>
+    </author>
+    <author>
+      <name>Jinfeng Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12330v1</id>
+    <title>Characteristic cycles and the Gevrey filtration of irregularity in hypergeometric families</title>
+    <updated>2026-10-08T17:09:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.12330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the characteristic cycle multiplicities of $A$-hypergeometric systems are upper semicontinuous in the parameter for every rational projective weight, thereby proving a conjecture of Schulze and Walther [Duke Math. J. 142 (2008), 465--509]. The proof uses a specialization formula for filtered families satisfying a fixed product support condition, expressing the difference between the special and generic characteristic cycles as the characteristic cycle of the first Tor module. Combined with the Gevrey index theorem, this yields upper semicontinuity of generic Gevrey irregularity and of each of its graded dimensions. We also construct non-Cohen--Macaulay semigroup rings whose Gevrey dimensions are constant in the parameter despite the presence of a genuine irregular slope, showing that the Gevrey jump locus need not coincide with the full exceptional arrangement defined by Ext.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T17:09:16Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Sheng Tan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12269v1</id>
+    <title>Cadence: Strategic Guidance for Coding Agents</title>
+    <updated>2026-10-08T16:34:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.12269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Runtime monitors are increasingly used to improve the reliability of LLM-based coding agents by inspecting execution trajectories and delivering corrective guidance upon detecting misbehavior. However, their effectiveness remains limited by static guidance triggering schemes. Existing monitors rely either on fixed inspection intervals, missing timely guidance during severe misbehaviors while incurring unnecessary overhead during healthy execution, or on rigid heuristic rules, failing to detect complex reasoning errors. To address these limitations, we propose Cadence, a dynamic monitoring framework that adaptively schedules inspections and delivers guidance according to the agent's real-time execution health. Cadence consists of two core modules: a two-tier intervention module and an inspection scheduler. The intervention module delivers advisory-level guidance for normal executions and minor lapses, while providing replacement-level guidance for severe misbehaviors. Driven by the intervention level, the scheduler adjusts the inspection frequency by tightening supervision after replacement-level guidance and relaxing it after advisory-level guidance. Evaluated on 300 SWE-bench Lite tasks across two distinct agents, mini-swe-agent and Moatless, Cadence achieves the highest resolve rate among all evaluated monitors. Specifically, Cadence outperforms vanilla agents by 25.33\% (+76 resolved tasks) on mini-swe-agent and 15.67\% (+47 resolved tasks) on Moatless, while maintaining competitive token efficiency compared to state-of-the-art baselines.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:34:02Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Minxing Wang</name>
+    </author>
+    <author>
+      <name>He Ye</name>
+    </author>
+    <author>
+      <name>Earl T. Barr</name>
+    </author>
+    <author>
+      <name>Yintong Huo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12221v1</id>
+    <title>Twisted Jacquet modules and induction from Speh representations</title>
+    <updated>2026-10-08T16:07:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.12221v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12221v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fourier coefficients of Eisenstein series induced from Speh representations are the kernels of the generalized doubling method of Cai, Friedberg, Ginzburg and Kaplan. Ginzburg and Soudry integrated these coefficients against cusp forms to obtain Eisenstein series induced from shorter Speh representations and arbitrary cuspidal data. We determine the corresponding local modules over a non-archimedean local field $F$ of characteristic zero. Let $q_F$ be the cardinality of its residue field. Let $J_s$ be the twisted Jacquet module of the representation induced from $Δ(τ,m+i)|\det|^s$. It carries an action of $G\times H$, where $G$ and $H$ are split symplectic or special orthogonal groups. Let $σ$ be an admissible representation of $G$ of finite length. We prove that $(J_s\otimesσ)_G$ is induced from $Δ(τ,i)|\det|^s$ and a fixed conjugate of $σ$, outside a finite set of values of $q_F^{-s}$ depending on $τ$ and $σ$. No genericity assumption on $σ$ is needed. For irreducible $σ$, this determines all irreducible quotients of $J_s$ of the form $σ^\vee\boxtimesπ$. The proof computes every orbit contribution, including those that vanish globally by cuspidality. It also gives an explicit finite set containing the exceptional parameters. This set is empty for irreducible supercuspidal $σ$ unless $G$ is the split group $\mathrm{SO}_2$. We prove the analogous result for the symplectic double cover. Over finite fields of large characteristic, we give the complete decomposition of the twisted Jacquet module when $τ$ is cuspidal on $\mathrm{GL}_n$ and $n$ is larger than the rank of $G$.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:07:23Z</published>
+    <arxiv:comment>51 pages</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Alan Xuelun Hou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12142v1</id>
+    <title>Instruction-Conditioned Electromagnetic Spectrum Understanding via Budget-Adaptive Signal Tokenization</title>
+    <updated>2026-10-08T15:28:37Z</updated>
+    <link href="https://arxiv.org/abs/2610.12142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electromagnetic spectrum monitoring increasingly requires flexible analysis beyond task-specific recognition and detection. Multimodal large language models offer a unified interface, but extending vision-language models (VLMs) to raw I/Q signals requires tokenization that balances fidelity against a strict budget. For signals, dense encoding causes token costs to grow with observation length, whereas fixed-resolution compression may discard short-duration or localized signal evidence. Thus, we propose \textbf{BATok}, a budget-adaptive signal tokenizer that adjusts token capacity to the input length while allocating that capacity according to the signal content. BATok constructs candidate representations from signal-derived features using lightweight multi-resolution branches, then combines a local energy prior with learnable queries to resample these representations into compact signal tokens. The number of tokens adapts to the input length while remaining strictly bounded. The resulting tokens are projected into the language embedding space of VLMs. We further introduce \textbf{EMSpec-Instruct}, a multimodal instruction dataset aligning raw I/Q signals, waterfall images, and language supervision for modulation recognition, structured detection, and language-conditioned signal grounding. Experiments show that BATok learns effective signal representations and achieves competitive performance across all tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:28:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lei Zhai</name>
+    </author>
+    <author>
+      <name>Zhihao Chang</name>
+    </author>
+    <author>
+      <name>Shuyuan Yang</name>
+    </author>
+    <author>
+      <name>Zhixi Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12120v1</id>
+    <title>Derived functors and Hilbert polynomials over dominant Cohen-Macaulay rings</title>
+    <updated>2026-10-08T15:16:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.12120v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12120v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $(A,\mathfrak{m})$ be a Cohen-Macaulay local ring of dimension $d$, residue field $k$ and let $I$ be an $\mathfrak{m}$-primary ideal. Assume $k$ is infinite. Let $N$ be a perfect $A$-module of dimension $t \geq 1$. Let $M$ be a MCM $A$-module. The function $n \rightarrow \ell(\text{Tor}^A_j(M, N/I^{n+1}N))$ is of polynomial type and let $r_{I, N}^j(M)$ be its degree. In general we have $r_{I, N}^j(M) \leq r_{I,N}^2(\text{Syz}^d_A(k))$ for $j \geq d + 2$. If $A$ is also dominant in the sense of Takahashi and $M$ is non-free then we show $\limsup_{j \rightarrow \infty} r_{I, N}^j(M) = r_{I,N}^2(\text{Syz}^d_A(k))$. We prove an analogous result when $V$ is a Cohen-Macaulay module of finite injective dimension and the polynomial type function $n \rightarrow \ell(\text{Ext}_A^j(M, V/I^{n+1}V))$</summary>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:16:17Z</published>
+    <arxiv:comment>comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.AC"/>
+    <author>
+      <name>Tony J. Puthenpurakal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12091v1</id>
+    <title>On the kernels of Lefschetz operators</title>
+    <updated>2026-10-08T15:01:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.12091v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12091v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the kernels of Lefschetz operators arising from complete intersections of nef classes. When the classes are semiample, we provide a complete characterization of mixed Lefschetz properties below a fixed degree -- all obstructions are detected by irreducible subvarieties of relevant codimensions. We further show that the kernels in the next degree range vanish off the diagonal, while on the diagonal they admit bases consisting of fundamental classes of irreducible subvarieties annihilated by the Lefschetz operator. We also establish a kernel decoupling theorem for nef classes on complex Lefschetz modules. As an application, we obtain a kernel characterization for supercritical collections of nef classes, thereby proving a conjecture of Shenfeld-van Handel and Hu-Xiao.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T15:01:05Z</published>
+    <arxiv:comment>45 pages, comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jiajun Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12044v1</id>
+    <title>Strange-metal behavior in correlated molecular conductors</title>
+    <updated>2026-10-08T14:31:54Z</updated>
+    <link href="https://arxiv.org/abs/2610.12044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The $κ$-BEDT-TTF salts are prototypical Mott systems, realizing a correlation-driven electronic transition from a Fermi-liquid state to a Mott insulator. The metallic compounds with spatially modulated Hg-containing anions, $κ$-(BEDT-TTF)$_4$Hg$_{3-δ}X_8$ ($X$ = Br, and Cl), however, fall outside this classification. Our temperature-dependent transport and broad-range optical investigations reveal a $ρ(T)\propto T$ dependence of the resistivity up to elevated temperatures and a power-law behavior of the frequency-dependent conductivity $\vert\hatσ (ω)\vert \propto ω^{-0.7}$; well-known hallmarks of ``strange metals''. The linear-in-frequency scattering rate of these strange metals scales to the Planckian dissipation. We demonstrate that this response only occurs in systems with incommensurate anion layers and establish a direct link to large-scale spatial modulations. Our conclusions can be extended to other strongly correlated strange-metal compounds</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:31:54Z</published>
+    <arxiv:comment>7 Pages (3 Figures) + Supplementary</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Savita Priya</name>
+    </author>
+    <author>
+      <name>Maxim Wenzel</name>
+    </author>
+    <author>
+      <name>Christian Prange</name>
+    </author>
+    <author>
+      <name>Bertold Rasche</name>
+    </author>
+    <author>
+      <name>Christian Sindlinger</name>
+    </author>
+    <author>
+      <name>Takuya Kobayashi</name>
+    </author>
+    <author>
+      <name>Hiromi Taniguchi</name>
+    </author>
+    <author>
+      <name>Dita Puspita Sari</name>
+    </author>
+    <author>
+      <name>Yasuyuki Ishii</name>
+    </author>
+    <author>
+      <name>Kazuya Miyagawa</name>
+    </author>
+    <author>
+      <name>Kazushi Kanoda</name>
+    </author>
+    <author>
+      <name>Simone Fratini</name>
+    </author>
+    <author>
+      <name>Martin Dressel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.12024v1</id>
+    <title>HPQ-AKE: A Provably Secure Sign-Less Hybrid Authenticated Key Exchange Protocol for Bandwidth-Constrained IoT and Edge Networks</title>
+    <updated>2026-10-08T14:21:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.12024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.12024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Securing bandwidth-constrained Internet of Things (IoT) and edge networks during post-quantum migration creates an authentication trade-off: ML-KEM provides post-quantum key establishment, whereas post-quantum signatures increase certificate-chain size, verification cost, and handshake latency. We present HPQ-AKE, a sign-less hybrid authenticated key exchange for RSA-enabled IoT gateways and edge/cloud services that replaces transcript signatures with dual KEMs. HPQ-AKE combines ML-KEM-768 for post-quantum session secrecy and forward secrecy with RSA-OAEP for implicit mutual authentication, preserving existing RSA-enabled infrastructure during migration. We analyze HPQ-AKE in an extended Bellare-Rogaway model, separating classical authentication in the Random Oracle Model from session-key secrecy in the Quantum Random Oracle Model. Under the Module-LWE and RSA assumptions, it establishes AKE security, forward secrecy, and conditional KCI resistance under the long-term-key-only exposure assumptions. Evaluation combines x86 micro-benchmarking, analytical latency modeling, and 10,000-iteration Monte Carlo simulation. HPQ-AKE reduces modeled handshake transmission from 13,009 to 5,668 Bytes, a 56.4% reduction relative to a Hybrid TLS 1.3 Full handshake, while requiring 7.11 ms of total local computation on the measured x86 testbed. Under a simulated 50 kbps satellite-like link with 600 ms RTT and stochastic jitter, median latency is 1,914 ms, 31.4% below the 2,791 ms baseline. At 20 ms RTT, modeled break-even thresholds are 0.31 Mbps against the pre-cached baseline and 4.08 Mbps against the full baseline; both decrease as RTT increases. These x86-based results motivate evaluation on gateway-class IoT and edge platforms; performance on ARM gateways and unaccelerated microcontrollers remains unvalidated.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T14:21:41Z</published>
+    <arxiv:comment>Accepted for publication in High-Confidence Computing (Elsevier), October 2026. Author-accepted manuscript</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Khiem Pham-Tuan</name>
+    </author>
+    <author>
+      <name>Minh Quang Le</name>
+    </author>
+    <author>
+      <name>Khuong Nguyen-An</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11940v1</id>
+    <title>Temporal chirality in Floquet photonic media</title>
+    <updated>2026-10-08T13:32:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.11940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We reveal temporal chirality in time-modulated photonic media: reversing the orientation of a closed loop traced by the complex permittivity can leave the Floquet spectrum unchanged while strongly modifying the directional scattering response under the same excitation. This behavior is linked to two symmetry constraints on the evolution operator, namely pseudo-Hermiticity and pseudo-unitarity. We prove the general occurrence of temporal chirality based on a complex Bogoliubov parametrization of the scattering amplitudes. We illustrate these findings in a single-harmonic temporal-$\mathcal{PT}$-symmetric system: both modulation-loop orientations support the same vacuum-like Floquet photonic bands at the phase transition, but one suppresses backward photon generation whereas the other induces strong growth, as confirmed by full-wave simulations. Our results establish temporal chirality as a distinct notion in time-varying photonics and identify modulation-loop orientation as a control knob for Floquet wave dynamics.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:32:56Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Rui-Chuan Zhang</name>
+    </author>
+    <author>
+      <name>Yixin Sha</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11924v1</id>
+    <title>Revisiting Identity and Spectra Dispersion in Media-Bridged Time Series Forecasting: Linking Multivariate Signals and Narrative Flows</title>
+    <updated>2026-10-08T13:20:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.11924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Media-bridged time series forecasting is expanding to encompass traditional "multivariate" and emerging "multimodal" (e.g., through textual assistance). Existing Time Series Forecasting (TSF) models still rely on paradigm-specific relation, fusion, and temporal modules, hindering a common forecasting backbone across numerical and pre-aligned narrative-flow settings. To explore this, we propose the Multimedia Identity-Aware Prism Network (MIDAPN), a unified spatiotemporal forecasting backbone based on media-general graph adaptation and automatic temporal learning: (1) Following media pre-alignment, our Multimedia Identity-Aware Graph (MIDAG) revisits identity through static essence, dynamic behavior, and latent commonality, inducing affinities that extend variable-specific dependencies across media. Contextual Identity Modulation (CIM) further refines discriminative aggregation. (2) We develop Spectral Prism Convolution (SPConv) to automatically perform hierarchical temporal analysis, balancing coarse trends and fine-grained details. Meanwhile, its Adaptive Search Guidance configures a scale-efficient architecture for temporal-dimension reconstruction. These decoupled yet synergistic components jointly address media identity disentanglement and temporal-scale mismatch. Comprehensive evaluations involving 16 SOTA TSF models across 13 "multivariate" and 12 "multimodal" datasets, alongside targeted long-context comparisons against 14 time series foundation models and fused pretrained language models, demonstrate MIDAPN's consistent superiority and broad shared backbone compatibility. The code is available at \href{https://github.com/leijieruilq/MIDAPN/tree/main}{https://github.com/MIDAPN}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:20:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jierui Lei</name>
+    </author>
+    <author>
+      <name>Wenjian Zhang</name>
+    </author>
+    <author>
+      <name>Qingyi Yang</name>
+    </author>
+    <author>
+      <name>Yuyang Hong</name>
+    </author>
+    <author>
+      <name>Fangzheng Chen</name>
+    </author>
+    <author>
+      <name>Zhengbo Zhang</name>
+    </author>
+    <author>
+      <name>Haina Tang</name>
+    </author>
+    <author>
+      <name>Shiming Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11909v1</id>
+    <title>The Fiedler dimension of networks of networks: from fractal to small-world architectures</title>
+    <updated>2026-10-08T13:09:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.11909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Is the relaxation of a modular network dictated by its modules or by the network that connects them? The answer fixes the time scales of diffusion, consensus, and synchronization, all set by the Fiedler eigenvalue. We show that, for bundled networks, the two levels act one after the other: a random walker must first escape from its module and then spread over the network that connects them. The equilibration time is the sum of these two times, the time needed to reach the base from inside a fiber and the relaxation time of the base, slowed down by the mass of the fibers. The consequences are unexpected. However large the modules are, a small-world core always imposes its own Fiedler dimension; the modules survive only as a logarithmic correction, which slows down equilibration and hides the true exponent up to sizes far beyond any real network. Effective dimensions measured on finite modular systems can therefore be systematically biased. We analytically work out all combinations of finite-dimensional and small-world bases and fibers, and compare them with numerically exact spectra of representatives of each category.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T13:09:16Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Lorenzo Grimaldi</name>
+    </author>
+    <author>
+      <name>Andrea Gabrielli</name>
+    </author>
+    <author>
+      <name>Pablo Villegas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11881v1</id>
+    <title>From GeV to PeV: Orbital Modulation and Wind-Regulated Ultrahigh-energy Emission in Cygnus~X-3</title>
+    <updated>2026-10-08T12:52:42Z</updated>
+    <link href="https://arxiv.org/abs/2610.11881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent LHAASO observations reveal ultrahigh-energy (UHE) gamma-ray emission from Cygnus~X-3 with evidence for orbital modulation, providing a rare opportunity to study particle acceleration and transport on binary scales. We develop a common binary--jet model that jointly explains the contemporaneous GeV--PeV spectra and orbital light curves. The GeV emission is produced by anisotropic inverse-Compton scattering of stellar photons by relativistic electrons, while multi-PeV protons escaping from the inner region produce TeV--PeV gamma rays through photohadronic and hadronuclear interactions. The GeV orbital modulation constrains the binary--jet geometry, allowing the UHE observations to probe the escaping proton population and its interaction with the circum-binary environment. We find that the UHE emission is strongly regulated by the accretion-driven wind structure. In the present state, a fast disk wind displaces much of the denser Wolf--Rayet (WR) wind from the escaping-proton trajectories, suppressing hadronuclear emission. Changes in the strength, collimation, or orientation of the disk wind can expose the escaping protons to a much denser WR wind and enhance the PeV gamma-ray luminosity by orders of magnitude. This provides a possible connection to the much brighter, though unconfirmed, PeV activity reported in the 1980s, and links UHE gamma-ray activity to the accretion and outflow state of the binary.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:52:42Z</published>
+    <arxiv:comment>8 pages, 3 figures, 1 table, including appendix</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Su-Yu Wan</name>
+    </author>
+    <author>
+      <name>Ruo-Yu Liu</name>
+    </author>
+    <author>
+      <name>Xing-Fu Zhang</name>
+    </author>
+    <author>
+      <name>Dmitriy Khangulyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11824v1</id>
+    <title>SmartBike: A Low-Power Edge IoT System for Cycling Safety and Real-Time Awareness</title>
+    <updated>2026-10-08T12:25:07Z</updated>
+    <link href="https://arxiv.org/abs/2610.11824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Urban cycling is a sustainable mode of transportation, but cyclists remain highly vulnerable in dense traffic because of limited situational awareness and the lack of active safety assistance on conventional bicycles. This paper presents SmartBike, a low power Internet-of-Things (IoT) platform for cyclist safety, combining blind spot monitoring, rider usage detection, localization, and wireless edge-to-gateway communication. The proposed system consists of a bike-mounted IoT node and a gateway assisted monitoring interface. The node integrates three time-of-flight sensors for blind spot detection, an IMU module for motion sensing and on-board speed estimation, a GNSS module for localization, and a saddle mounted piezo-electric transducer for event-driven wake up. To satisfy the energy constraints of the IoT node, the design employs piezo-triggered activation, application specific sensing rates, and compact connectionless Bluetooth Low Energy (BLE) advertisements for low overhead transmission. The firmware is implemented in Zephyr RTOS using a lightweight state machine architecture, while the gateway performs passive BLE scanning, payload decoding, and real-time dashboard visualization. The BLE payload is reduced to 11 bytes, and power analysis shows that sensing accounts for more than 90% of the total energy budget, while wireless communication represents less overall consumption. With a 12600 mWh battery, the estimated lifetime reaches approximately 21 months under typical commuting conditions (Average 40 min per day).</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:25:07Z</published>
+    <arxiv:comment>5 pages, 4 figures, 4 tables. Presented at the 46th Symposium on Information Theory and Signal Processing in the Benelux (SITB 2026), Ghent, Belgium</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>Proceedings of the 46th Symposium on Information Theory and Signal Processing in the Benelux (SITB 2026), Ghent, Belgium, 19-20 May 2026, ISBN 978-90-834-3164-2</arxiv:journal_ref>
+    <author>
+      <name>Sogand Hashemi</name>
+    </author>
+    <author>
+      <name>Gonçalo Sarabanda Neves Loureiro</name>
+    </author>
+    <author>
+      <name>Catarina Pereira De Freitas Lima</name>
+    </author>
+    <author>
+      <name>Lyssa Ramaut</name>
+    </author>
+    <author>
+      <name>Liesbet Van der Perre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11815v1</id>
+    <title>Fast Pose Tracking of Rigid Objects with Compact Pose Graph Optimization</title>
+    <updated>2026-10-08T12:21:06Z</updated>
+    <link href="https://arxiv.org/abs/2610.11815v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11815v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tracking a novel object's 6D pose over long horizons currently requires either expensive onboarding or a reconstruction maintained throughout the sequence. This makes current trackers impractical for robotic manipulation and augmented reality, which need trackers that are ready to use and run in real time. We show that a lightweight tracking module can be applied on top of a wide range of correspondence estimation methods to keep drifts bounded while maintaining fast runtime. Our key idea is to avoid point-based optimization in the pose graph and operate only on relative pose constraints, which we weight by a derived uncertainty from the geometric alignment. This makes optimization independent of the number of correspondences while avoiding the direct inclusion of noisy point measurements, leading to fast and robust long-term tracking. Across four real-world benchmarks, our approach achieves tracking accuracy comparable to reconstruction-based trackers with a fraction of the optimization cost. Overall, these results suggest that a compact and reliable pose graph optimization can provide long-horizon consistency at substantially lower computational cost.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:21:06Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaojie Zhang</name>
+    </author>
+    <author>
+      <name>Tom Fischer</name>
+    </author>
+    <author>
+      <name>Viktor Larsson</name>
+    </author>
+    <author>
+      <name>Eddy Ilg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11809v1</id>
+    <title>WAND: Learning Robust Navigation under Complex Wind Disturbances and Dense Obstacles for Quadrotors</title>
+    <updated>2026-10-08T12:17:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.11809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust navigation in cluttered environments remains a fundamental challenge for quadrotors, particularly when strong wind disturbances arise, which perturb vehicle dynamics, limit control authority, and substantially increase collision risk. Existing learning-based navigation policies typically rely on obstacle perception and proprioceptive observations, requiring the policy to infer time-varying disturbance effects implicitly and thereby limiting robustness under partial observability. This paper proposes WAND (Wind-Aware Navigation with Disturbance Estimation), a reinforcement learning framework for navigation under time-varying wind disturbances in dense obstacle fields. Specifically, WAND estimates wind-induced disturbance acceleration from historical proprioceptive states using a Temporal Convolutional Network (TCN). This estimation is integrated into the policy via a zero-initialized residual module, \emph{WindAdapter}, while simultaneously providing feedforward compensation for low-level control. The dual use of the estimate couples disturbance-conditioned navigation with feedforward disturbance rejection. Across 12 wind-disturbed simulation settings, WAND improved the observed success rate by 8.3 percentage points on average relative to feedforward compensation alone. Controlled opposite-crosswind experiments further showed wind-direction-dependent trajectory adaptation. In indoor fan-induced flight tests, WAND succeeded in 18 of 20 trials, demonstrating the feasibility of real-time onboard navigation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:17:45Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>IEEE Robotics and Automation Letters, vol. 11, no. 11, pp. 12392-12399, Nov. 2026</arxiv:journal_ref>
+    <author>
+      <name>Zhonghan Tang</name>
+    </author>
+    <author>
+      <name>Chenhui Li</name>
+    </author>
+    <author>
+      <name>Shuai Liang</name>
+    </author>
+    <author>
+      <name>Zhongrui You</name>
+    </author>
+    <author>
+      <name>Jianan Li</name>
+    </author>
+    <author>
+      <name>Bin Zhao</name>
+    </author>
+    <author>
+      <name>Zhigang Wang</name>
+    </author>
+    <author>
+      <name>Xuelong Li</name>
+    </author>
+    <arxiv:doi>10.1109/LRA.2026.3730214</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LRA.2026.3730214" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11799v1</id>
+    <title>What powers the most energetic flares in the Kepler field? Revisiting the superflaring star KIC 2852961</title>
+    <updated>2026-10-08T12:09:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.11799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Flare activity in red giants is quite common when continuously monitored with high-precision space photometry. In fact, the most powerful flares, also known as "superflares" have been observed on red giant stars. KIC 2852961 is a red giant star producing the highest-energy flares in the Kepler field, and is also known for its large-amplitude starspot-induced light variations. Our goal is to find out what causes the extreme flare activity and flare energies in this star. For our investigations, we use ground-based spectroscopic measurements and space photometric data, which we process using standard tools. We also collect relevant data from databases of large surveys such as Gaia. Our new radial velocity data confirm that the red giant star is part of a close binary system, in which tidal forces play a crucial role in controlling the evolution of the binary system. Our results show that tidal evolution has driven the system close to orbital circularization and rotational synchronization, but it did not completely constrain the differential rotation of the red giant, in which the magnetic dynamo can operate extremely efficiently. We find that high-energy (super)flares are primarily controlled by the internal magnetic activity of the active giant component, rather than phase-dependent interactions with the secondary star. The large spot-induced rotational light modulations indicate extensive starspots that can store enormous amounts of magnetic energy. This provides the conditions for the formation of extremely large flares, confirming the close relationship between large spot coverage and high flare energies and/or frequency. Behind all this, differential rotation may play a dual role in the flare activity of KIC 2852961: it contributes both to the formation of large starspots and to the shearing and twisting of coronal magnetic fields that can power energetic superflares.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:09:59Z</published>
+    <arxiv:comment>20 pages, 15 figures, submitted to Astronomy and Astrophysics (after revision in accordance with the Referee's requests)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Zs. Kővári</name>
+    </author>
+    <author>
+      <name>B. Seli</name>
+    </author>
+    <author>
+      <name>L. Kriskovics</name>
+    </author>
+    <author>
+      <name>K. Oláh</name>
+    </author>
+    <author>
+      <name>P. Odert</name>
+    </author>
+    <author>
+      <name>M. Leitzinger</name>
+    </author>
+    <author>
+      <name>B. Schmercz</name>
+    </author>
+    <author>
+      <name>K. Vida</name>
+    </author>
+    <author>
+      <name>R. Greimel</name>
+    </author>
+    <author>
+      <name>B. Cseh</name>
+    </author>
+    <author>
+      <name>A. Görgei</name>
+    </author>
+    <author>
+      <name>T. Granzer</name>
+    </author>
+    <author>
+      <name>P. Sági</name>
+    </author>
+    <author>
+      <name>M. Weber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11792v1</id>
+    <title>AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance</title>
+    <updated>2026-10-08T12:06:03Z</updated>
+    <link href="https://arxiv.org/abs/2610.11792v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11792v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present AuraLuxMuse, a novel system for automated aesthetic stage lighting design that integrates expert knowledge, representation learning, and preference-adaptive modeling. Lighting design in live performance settings requires the seamless translation of musical features into dynamic lighting behaviors. However, traditional workflows remain time-consuming, labor-intensive, and difficult to transfer. AuraLuxMuse encodes music and professional cue sequences into a shared retrieval space, estimates cue-event density, and retargets selected fixture commands to the destination stage. It assists pre-production authoring by returning editable cues rather than replacing the designer with an unconstrained generator. At the heart of AuraLuxMuse are two key modules: Lighting-Aligned Music Pretraining (LAMP), which performs contrastive learning between audio and lighting cues for alignment, and Preference-Adaptive Mixture of Experts (PAMoE), which conditions preference-aware cue retrieval and adaptation on designers' intent through a gated ensemble of style-specific expert networks. To support training and evaluation, we introduce Musilux, the first dataset of paired musical audio and professional lighting cue sequences under diverse performance scenarios. We evaluate AuraLuxMuse across both virtual simulation environments and professional-grade laboratories. Experimental results, including objective and subjective evaluation, demonstrate that AuraLuxMuse retrieves and adapts stage-lighting cues that are visually cohesive, semantically meaningful, and artistically expressive, showing its potential for AI-assisted aesthetic stage design.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:06:03Z</published>
+    <arxiv:comment>Accepted to appear in SIGGRAPH Asia 2026 Conference Papers</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <author>
+      <name>Junyu Deng</name>
+    </author>
+    <author>
+      <name>Jiale Cao</name>
+    </author>
+    <author>
+      <name>Mengtian Li</name>
+    </author>
+    <author>
+      <name>Zhongxia Ji</name>
+    </author>
+    <author>
+      <name>Ruhua Chen</name>
+    </author>
+    <author>
+      <name>Yiyi He</name>
+    </author>
+    <author>
+      <name>Guangnan Ye</name>
+    </author>
+    <author>
+      <name>Zuo Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11708v1</id>
+    <title>Equivariant noncommutative crepant resolutions and $G$-maximal modifying modules</title>
+    <updated>2026-10-08T11:14:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.11708v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11708v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $S$ be a Cohen-Macaulay normal domain containing a field $k$ with an action of a finite group $G$ with $|G|$ invertible in $k$. We prove that $G$-equivariant noncommutative crepant resolutions of $S$ induce noncommutative crepant resolutions of $S^G$ if the $G$-action is small. We also discuss similar results for equivariant maximal modification algebras. We introduce the notion of $G$-maximal modifying ($G$-MM) module, and we show that $G$-MM module over $S$ induces MM $R$-module in some special cases. Furthermore, we prove that Gorenstein MMAs of three-dimensional $\mathbb{Q}$-Gorenstein Cohen-Macaulay rings are derived equivalent. As an application of these results, we prove the existence of an MM module and derived equivalences of MMAs for three-dimensional terminal singularities of index two.</summary>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T11:14:38Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AC"/>
+    <author>
+      <name>Yuki Hirano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11674v1</id>
+    <title>VESSI - VLM-Enhanced Support for Surveillance and Investigations</title>
+    <updated>2026-10-08T10:50:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.11674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated video surveillance analysis has become a critical component of intelligence infrastructures and Law Enforcement agencies. Traditional systems lack the semantic module for comprehensive situational awareness and forensic tasks, limiting their ability to interpret events meaningfully or support post-incident investigations. This slows operational insight and increases the burden on human analysts. Recent advances in Vision-Language Models (VLMs) offer promising pathways to bridge this gap. To address this, we propose VLM-Enhanced Support for Surveillance and Investigations (VESSI), a VLM-based framework designed to enhance automated video surveillance analysis through prompt-driven interrogation of video sequences where salient visual features are converted into textual descriptions. We test our framework with four state-of-the-art models. Since most datasets for this task are unlabeled, we also propose the Composite Model Utility Score (CMUS) to assess VLM performance. Experimental results show that our solution substantially improves the analysis capabilities of human operators and enhances the flexibility of automated surveillance systems. In our evaluation, the most reliable model flagged potentially relevant activity in more than 66% of the videos while reducing review time by more than 85%, offering a practical balance between selectivity and efficiency. The model ordering produced by the reference-free CMUS evaluation was reproduced by the normal-video CMUS evaluation and matched the false-positive-rate ordering obtained from 5,909 manually referenced frames. This agreement supports the operational use of the score within the evaluated setting.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T10:50:17Z</published>
+    <arxiv:comment>12-page main manuscript, 3 main figures; supplementary material included</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Saverio Cavasin</name>
+    </author>
+    <author>
+      <name>Pietro Tedeschi</name>
+    </author>
+    <author>
+      <name>Mattia Tamiazzo</name>
+    </author>
+    <author>
+      <name>Alessandro Brighente</name>
+    </author>
+    <author>
+      <name>Simone Milani</name>
+    </author>
+    <author>
+      <name>Mauro Conti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11657v1</id>
+    <title>YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation</title>
+    <updated>2026-10-08T10:34:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.11657v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11657v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dexterous teleoperation requires reliable human-hand state estimations. However, common low-cost motion-capture gloves and markerless trackers often exhibit biases that vary across users, glove fit, and recording sessions, degrading retargeting and demonstration quality. We present YOCO, a fast few-shot, fine-tuning-free calibration framework that corrects biased hand-pose streams from a small set of paired raw and target poses. Instead of optimizing a separate model for every operator or session, YOCO conditions a calibration HyperNet on the paired examples and predicts LoRA-style updates for a frozen MANO hand-estimation module, turning per-user calibration into a lightweight feed-forward adaptation step while preserving the geometric prior of MANO and the efficiency of a compact estimator. We train YOCO with synthetic drift augmentations on InterHand2.6M and evaluate on augmented InterHand sequences, offline real glove data, and dexterous teleoperation tasks. Across these settings, YOCO improves calibration efficiency, hand-state estimation quality and teleoperation performance compared with uncalibrated input and standard calibration baselines.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T10:34:05Z</published>
+    <arxiv:comment>CoRL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Yunqi Li</name>
+    </author>
+    <author>
+      <name>Yushi Du</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Yanchao Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11651v1</id>
+    <title>Evidence-Traceable Dynamic Interviewer Architecture for Expertise-Adaptive Qualitative Interviews Using Local LLMs</title>
+    <updated>2026-10-08T10:26:13Z</updated>
+    <link href="https://arxiv.org/abs/2610.11651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated interviewers and conversational agents are increasingly used in research, recruitment, customer service, and education. However, many existing systems rely on fixed question sequences and provide limited context-based personalization without considering participants' knowledge, which can lead to repetitive or irrelevant follow-up questions. Therefore, there is a need for an adaptive interviewing system that can adjust question depth while maintaining conversational continuity and semantic progression. To address this, an Evidence-Traceable Dynamic Interviewer Architecture is presented using a locally hosted Large Language Model (LLM), with the interview continuously adapted throughout the entire conversation based on the participant's responses and evolving context. The interviewer profiles participants' expertise in real time to generate knowledge-appropriate questions, well-articulated responses, and smooth transition messages that support conversational continuity. A five-module prompt-driven architecture and persistent interview-state record support these functions. The interviewer was evaluated with 246 participants. Expertise Profiling module (M3) showed 78.9% exact agreement with independently reported participant expertise, with a weighted Cohen's K of 0.80. Generate Iterative Questions module (M4) showed a strong expertise-complexity association (p=.79, p&lt;.001), and participants reported high relevance (mean 4.41), engagement (mean 4.32), and satisfaction (mean 4.38), providing evidence that the architecture's adaptive components operated consistently with their intended functions while participants reported a positive interview experience.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T10:26:13Z</published>
+    <arxiv:comment>Accepted to be part of the book titled: AI in Education : Pedagogy, Ethics, and Society which will be published by Springer Nature in the Book series: Transactions on Computational Science and Computational Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aisvarya Adeseye</name>
+    </author>
+    <author>
+      <name>Jouni Isoaho</name>
+    </author>
+    <author>
+      <name>Adeyemi Adeseye</name>
+    </author>
+    <author>
+      <name>Seppo Virtanen</name>
+    </author>
+    <author>
+      <name>Mohammad Tahir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11608v1</id>
+    <title>S$^3$Geo: Structure-Semantic Synergistic Learning for Cross-View Geo-Localization</title>
+    <updated>2026-10-08T09:51:31Z</updated>
+    <link href="https://arxiv.org/abs/2610.11608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cross-view geo-localization (CVGL) aims to estimate geographic locations by matching images captured from different viewpoints, such as drone and satellite views. Existing methods mainly rely on visual representations, but often fail to jointly model fine-grained structural correspondences and semantic priors, making them prone to confusion between visually similar but semantically different regions, and thus limiting robustness under large viewpoint variations. To address these challenges, we propose \textbf{S$^3$Geo}, a structure-semantic synergistic learning framework for cross-view matching. Specifically, we first introduce a Decoupled Query Pooling (DQP) module to extract a compact set of region-aware features from dense tokens, enabling explicit modeling of local structural patterns. We then design a query-level contrastive learning scheme with an optimal transport (OT)-based formulation to establish soft correspondences under cross-view spatial misalignment. Furthermore, we incorporate a Semantic Knowledge Distillation (SKD) strategy from a frozen CLIP teacher to transfer semantic priors and relational structures, thereby improving discrimination on hard negatives. By operating synergistically, the semantic priors provide robust contextual filtering, which guides the structural module to establish precise spatial alignments. Experiments on the University-1652 and SUES-200 datasets demonstrate that \textbf{S$^3$Geo} consistently outperforms state-of-the-art approaches without increasing inference complexity, validating the effectiveness of jointly modeling structural and semantic information for CVGL.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:51:31Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ziqian Mo</name>
+    </author>
+    <author>
+      <name>Hill Zhang</name>
+    </author>
+    <author>
+      <name>Haosheng Tan</name>
+    </author>
+    <author>
+      <name>Ling Li</name>
+    </author>
+    <author>
+      <name>Jiaheng Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11591v1</id>
+    <title>Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception</title>
+    <updated>2026-10-08T09:42:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.11591v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11591v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot navigation commonly uses wide-coverage, high-frequency sensing to reduce partial observability; this reliance becomes restrictive when another task temporarily redirects a shared sensor from navigation, interrupting navigation-relevant observations. We study navigation under intermittent perception: acting from an internal spatial belief and looking again only when execution needs a new observation, potentially freeing the shared sensor for other tasks between navigation observations. ALONE, a Bayesian spatial world model, propagates a structured spatial belief using executed actions and corrects it with selectively acquired observations; learned priors over common geometric structures infer unobserved structure from available observation history. It decodes the belief into a spatial estimate for the motion-planning module and predicts a reliability map expressing confidence in the estimate's accuracy. ALONE requests an observation only if insufficient reliability hinders navigation and new evidence should make relevant-region spatial information more reliable; otherwise, it continues acting from the propagated belief. We instantiate ALONE for drone navigation with intermittent single-camera depth images. Across two simulated scene families, it achieves 98% and 97% closed-loop success at a 10 Hz decision rate. Among successful trials, median fractions of decision steps requiring a new depth observation are only 0.9% and 1.3%, respectively, demonstrating high navigation success with substantially reduced observation demand. Real-world indoor flight experiments further validate navigation under intermittent depth observations, with all 10 trials successful.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:42:02Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Feihong Yang</name>
+    </author>
+    <author>
+      <name>Xiang Long</name>
+    </author>
+    <author>
+      <name>Jincheng Yu</name>
+    </author>
+    <author>
+      <name>Jianfei Zhang</name>
+    </author>
+    <author>
+      <name>Guangjun Ge</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11579v1</id>
+    <title>SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection</title>
+    <updated>2026-10-08T09:31:38Z</updated>
+    <link href="https://arxiv.org/abs/2610.11579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To adapt billion-parameter Vision Transformers for long-video understanding, recent methods freeze the backbone and train lightweight convolutional modules. While effective for parameter-efficient training, existing adapters do not reduce inference-time computation, leaving scalability with respect to video length largely unaddressed. Token selection can reduce attention cost by pruning redundant tokens, but it breaks the spatial grid structure required by convolutional adapters. This forces an expensive dense reconstruction, nullifying much of the potential speedup. We address this by introducing native sparse 2D convolutions, a primitive that allows these adapters, for the first time, to operate directly and efficiently on dynamically pruned token sets. We integrate this primitive into SV-TAD, an adapter framework for temporal action detection, reducing VideoMAEv2-L computation by up to 64% and achieving 2.2x faster inference, while maintaining state-of-the-art accuracy on THUMOS-14 and ActivityNet-1.3. When scaled to InternVideoNext-L, our approach surpasses the previous state of the art at roughly half its computational cost. Moreover, the sparse formulation naturally supports auxiliary task tokens, which improves fine-grained assembly detection on ATTACH.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:31:38Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>ECCV 2026. Lecture Notes in Computer Science, vol 17044. Springer</arxiv:journal_ref>
+    <author>
+      <name>Ricardo Pizarro</name>
+    </author>
+    <author>
+      <name>Roberto Valle</name>
+    </author>
+    <author>
+      <name>José M. Buenaposada</name>
+    </author>
+    <author>
+      <name>Luis M. Bergasa</name>
+    </author>
+    <author>
+      <name>Luis Baumela</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-032-37577-3_30</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-032-37577-3_30" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11576v1</id>
+    <title>A Note on n-Representations of Simplicial Groups</title>
+    <updated>2026-10-08T09:31:26Z</updated>
+    <link href="https://arxiv.org/abs/2610.11576v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11576v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $n\ge1$, we study representations of a simplicial group $G$ in the full $\infty$-subcategory of simplicial vector spaces whose normalized homology is concentrated in degrees $0,\ldots,n-1$, retaining its full mapping spaces. The resulting functor category depends only on the $n$-truncated homotopy type of $\mathbf{B}G$ and admits projectively bifibrant strict diagram and simplicial group-algebra module models. If restriction along a specified map $f:G\to H$ is an equivalence, then $π_0(f)$ is a group isomorphism; the proof uses ordinary extension and restriction of scalars. Yet for every $n\ge2$ and prime $q$ invertible in $k$, the nontrivial source $K(\mathbb Z/q,n-1)$ has the same $n$-representation category with vertex evaluation as the trivial group. The group-algebra augmentation is a weak equivalence, so the constant functor is also an equivalence for untruncated representations. Thus $n$-representations depend only on the $n$-truncation of $\mathbf{B}G$, but need not determine that truncation, even together with vertex evaluation.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:31:26Z</published>
+    <arxiv:comment>37 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Zhangqi Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11536v1</id>
+    <title>Nonlinearity management of matter-wave vector solitons of Bose-Einstein condensates in two dimensions</title>
+    <updated>2026-10-08T09:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.11536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of matter-wave vector solitons in two dimensions under nonlinearity management is studied. The averaged over strong and rapid modulations in time of the inter-species interactions vector Gross-Pitaevskii equation is derived. The averaging gives the appearance of the effective nonlinear quantum pressure depending on the population of the other component. Using this system of equations, the dynamical stabilization of the two-dimensional vector matter-wave solitons under the management of the mean-field nonlinearity is investigated. It is shown that the nonlinear quantum pressure arrests the collapse in the averaged system, giving rise to stable vector solitons. Full numerical simulations of the original, time-dependent system of Gross-Pitaevskii equations confirm that the management strongly prolongs the lifetime of these solitons compared to the unmanaged case.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:06:02Z</published>
+    <arxiv:comment>16 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>F. Kh. Abdullaev</name>
+    </author>
+    <author>
+      <name>J. S. Yuldashev</name>
+    </author>
+    <author>
+      <name>M. Ögren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11526v1</id>
+    <title>MSGAT: Multi-Head Spiking Graph Attention with Similarity-Space Fusion for Image-Text Retrieval</title>
+    <updated>2026-10-08T08:56:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.11526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spiking neural networks (SNNs) offer an energy-efficient computing paradigm through sparse event-driven computation, showing great potential for efficient multimodal learning. However, applying SNNs to high-level multimodal tasks, such as image-text retrieval (ITR), remains challenging, since sparse spike representations make it difficult to capture semantic structures required for cross-modal alignment. Existing spiking ITR methods rely on local alignment and additional soft-label supervision during training, while lacking awareness of structural and multi-granularity relationships. To address these issues, we propose a Multi-head Spiking Graph Attention Network (\textbf{MSGAT}) for structural modeling and equip it with dynamic attention heads to capture complementary relational patterns and enable spike-driven graph reasoning and aggregation. However, within a two-branch multi-granularity fusion framework, the fine-grained spike representations generated by MSGAT are sparse and discrete, whereas the global representations are continuous, making conventional feature-level fusion susceptible to interference across heterogeneous representations. Therefore, we introduce \textbf{Sim-Fuse}, a similarity-space fusion alignment strategy integrating coarse- and fine-grained matching relations while avoiding direct fusion of heterogeneous representations. Experiments on Flickr30K and MSCOCO show our method outperforms ANN methods under matched settings and existing SNN retrieval baselines. Moreover, with only two time steps, our SNN achieves comparable or superior performance to its ANN counterpart while reducing theoretical module-level energy by 55\%. The code is provided in the Supplementary Materials.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:56:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xintao Zong</name>
+    </author>
+    <author>
+      <name>Wenxuan Liu</name>
+    </author>
+    <author>
+      <name>Jianhao Ding</name>
+    </author>
+    <author>
+      <name>Zhaofei Yu</name>
+    </author>
+    <author>
+      <name>Tiejun Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11497v1</id>
+    <title>Universal Semisimple Reconstruction and Obstruction Theory</title>
+    <updated>2026-10-08T08:36:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.11497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a semisimple obstruction theory for finite-length abelian categories. To each object \(X\) we associate a canonical obstruction subobject \(\mathcal O(X)\), consisting of the part invisible to all morphisms into semisimple objects. The quotient \(X/\mathcal O(X)\) is semisimple and universal among such morphisms, yielding a canonical semisimplification reflector and characterizing semisimplicity by the vanishing of obstruction. Iterating the construction gives an obstruction filtration which, in finite-length module categories, recovers the classical radical filtration and Loewy theory. Obstruction is also heart-dependent: under Happel--Reiten--Smalø tilting, extension data can appear as new obstruction layers, leading to obstruction shadows and visible torsion. Thus classical radical theory arises as the fixed-heart module-theoretic instance of a categorical framework for semisimple reconstruction, persistence, and variation of heart.</summary>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:36:50Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CT"/>
+    <author>
+      <name>Joe Gildea</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11483v1</id>
+    <title>BridgeGuard: Explicit Safety Drift for Diffusion-based Autonomous Driving</title>
+    <updated>2026-10-08T08:26:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.11483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion-based driving planners capture diverse behaviors but can generate unsafe trajectories under distribution shift. We propose BridgeGuard, a safety-constrained diffusion planning method that progressively strengthens a constraint term during denoising to drive intermediate trajectories toward a scene-dependent safety domain. Corrections operate in a low-dimensional curve space, promoting geometric coherence. A learned module, DistanceFieldNet, predicts a time-dependent distance field from bird's-eye-view features. Value and spatial-gradient supervision at queries sampled beyond expert trajectories teaches this field about both safe and unsafe regions. The learned field supplies the constraint term through safety injection while the pretrained perception backbone and planner remain frozen. We further establish sufficient conditions for terminal safety in an idealized continuous-time bridge. On Bench2Drive, BridgeGuard improves driving score/success rate from 87.99/74.99% to 90.88/76.36% for BridgeDrive and from 80.79/58.18% to 90.46/74.09% for $\text{DiffusionDrive}^{\text{geo}}$, demonstrating cross-model generalization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:26:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhenjun Qiu</name>
+    </author>
+    <author>
+      <name>Jianing Huang</name>
+    </author>
+    <author>
+      <name>Dongang Liu</name>
+    </author>
+    <author>
+      <name>Baiyu Du</name>
+    </author>
+    <author>
+      <name>Yixun Niu</name>
+    </author>
+    <author>
+      <name>Hao Yang</name>
+    </author>
+    <author>
+      <name>Xinyu Huang</name>
+    </author>
+    <author>
+      <name>Chuan Hu</name>
+    </author>
+    <author>
+      <name>Shu Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11456v1</id>
+    <title>SpikeSSL: A Universal Spike Inference Framework with Dynamics-Informed State-Space Layers</title>
+    <updated>2026-10-08T08:09:47Z</updated>
+    <link href="https://arxiv.org/abs/2610.11456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-photon calcium imaging is a standard tool for recording large neural populations in vivo, yet inferring spikes accurately across the growing diversity of calcium indicators remains an open problem. Existing supervised methods achieve reasonable in-domain accuracy but generalize poorly to unseen indicators, because different indicators induce distinct fluorescence kinetics and signal statistics while existing architectures remain relatively simple generic temporal regressors without dynamics-matched inductive bias. We propose SpikeSSL, a universal spike inference framework whose temporal backbone is a bank of bidirectional IIR state-space layers broadly motivated by calcium dynamics. A multi-modal conditioning encoder maps indicator identity, sampling rate, and trace-level signal statistics into a global conditioning vector that modulates the backbone via Adaptive Layer Normalization, while a heteroscedastic variance head provides calibrated per-frame uncertainty. On a benchmark with five fixed evaluation splits built from 33 public ground-truth datasets, SpikeSSL achieves state-of-the-art performance in both in-domain and zero-shot leave-one-indicator-out settings. We also develop a biophysical simulation pipeline capable of generating paired fluorescence-spike traces with systematically varied kinetic parameters, spike statistics, response nonlinearities, baseline drift, and noise. Using this pipeline, we synthesize approximately 11,000 simulated traces. Augmenting training with these data effectively closes the cross-indicator domain gap and improves zero-shot generalization. Code is publicly available at https://github.com/detimage123/SpikeSSL.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:09:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chenghao Yue</name>
+    </author>
+    <author>
+      <name>Siming Xing</name>
+    </author>
+    <author>
+      <name>Shuran Liu</name>
+    </author>
+    <author>
+      <name>Angran Li</name>
+    </author>
+    <author>
+      <name>Yuanlong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11438v1</id>
+    <title>Robust quantum key distribution with imperfections in state preparation and characterization</title>
+    <updated>2026-10-08T08:00:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.11438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum key distribution (QKD) offers an approach for secure communication over quantum channels, based on the principles of quantum mechanics. However, the inevitable imperfections in QKD systems can introduce critical vulnerabilities, posing significant challenges to the deployment of QKD in terms of both practical security and performance. In this work, we present a comprehensive security analysis of QKD in the practical scenarios involving imperfections in modulation spaces. Specifically, our analysis focuses on the imperfections related to encoding, intensity modulation, and their characterization. We provide a unified framework based on the operator dominance method to overcome these issues and achieve a tight estimation of the secret key rate (SKR). The simulation results show that the SKR in practical scenarios, with parameters characterized from commercial QKD systems, closely matches the SKR under ideal conditions. In the finite case, the maximum transmission distance can reach up to 250 km with total pulse number $N=10^{12}$ and the SKR closely approaches the asymptotic limit up to 250 km with $N=10^{14}$. This validates the robustness of our method against imperfections in state preparation and characterization. Furthermore, the feasibility and robustness of method in measurement-device-independent (MDI) QKD have also been demonstrated. Our analysis not only promotes advancements in enhancing practical security and performance but also highlights the feasibility of deploying QKD for actual applications.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:00:08Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physical Review A, 2026</arxiv:journal_ref>
+    <author>
+      <name>Yi-Fei Lu</name>
+    </author>
+    <author>
+      <name>Yan-Yang Zhou</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Xin-Hang Li</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+    <author>
+      <name>Xiao-Lei Jiang</name>
+    </author>
+    <author>
+      <name>Jia-Ji Li</name>
+    </author>
+    <author>
+      <name>Chun Zhou</name>
+    </author>
+    <author>
+      <name>Hong-Wei Li</name>
+    </author>
+    <author>
+      <name>Yu-Yao Guo</name>
+    </author>
+    <author>
+      <name>Lin-Jie Zhou</name>
+    </author>
+    <author>
+      <name>Wan-Su Bao</name>
+    </author>
+    <arxiv:doi>10.1103/tkr4-3l6z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/tkr4-3l6z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11413v1</id>
+    <title>Impact of Stimulated Brillouin Scattering on Modulation Instability in Fiber Fabry-Perot Resonators</title>
+    <updated>2026-10-08T07:44:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.11413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the experimental and numerical demonstration of stimulated Brillouin scattering-induced stabilization of Kerr-driven modulation instability in fiber Fabry--Perot resonators. We show that Brillouin scattering shapes the modulation instability spectrum into a stable multi--free-spectral-range cascade that is otherwise unstable in the absence of Brillouin effects. We further identify that this stabilization originates from the real part of the Brillouin response, leading to an asymmetric Kerr-Brillouin interaction governed by the relative position of the Brillouin frequency shift with respect to the cavity resonances. These results establish stimulated Brillouin scattering as an additional degree of freedom for controlling nonlinear dynamics in Kerr resonators.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T07:44:50Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Alice Houard</name>
+    </author>
+    <author>
+      <name>Thomas Bunel</name>
+    </author>
+    <author>
+      <name>Matteo Conforti</name>
+    </author>
+    <author>
+      <name>Saliya Coulibaly</name>
+    </author>
+    <author>
+      <name>Arnaud Mussot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11408v1</id>
+    <title>MC-TRCM: Observation-Aware Recursive Fusion for Incomplete Mobile and Wearable Mental-Health Feature Views</title>
+    <updated>2026-10-08T07:38:43Z</updated>
+    <link href="https://arxiv.org/abs/2610.11408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public mobile and wearable mental-health datasets often provide summarized feature tables rather than synchronized raw sensor streams. In these releases, each anchor corresponds to a survey or label time and may combine phone or wearable summaries, prior symptom scores, demographics, clinical variables, and source-availability indicators. We propose the Modality-Conditioned Temporal Recursive Context Model (MC-TRCM), which preserves each feature source as a separate token and incorporates missingness as part of the input context. Observed sources are encoded with values and missingness summaries, absent sources use learned absence tokens, dataset and task embeddings condition fusion, and a recursive prediction head refines each output over validation-selected steps. We evaluated MC-TRCM on six predefined endpoints from DepreST-CAT and Prediction of Severity Change-Depression (PSYCHE-D) using participant-level splits and validation-only model selection. MC-TRCM achieved the lowest mean absolute error on DepreST-CAT Patient Health Questionnaire-9 (PHQ-9) and Generalized Anxiety Disorder-7 (GAD-7) severity, improving over the best tabular reference by 0.181 and 0.217 scale points. Classification endpoints showed task-dependent behavior: MC-TRCM matched the best rounded GAD-7 category balanced accuracy, was numerically highest by 0.002 balanced-accuracy points on PSYCHE-D multiclass prediction, and remained close to the strongest references on PHQ-9 category and PSYCHE-D binary prediction. Ablations support Feature-wise Linear Modulation, absence tokens, missingness projections, and recursive refinement, while calibration and feature-source controls characterize endpoint behavior. Our code is available at https://github.com/Botwwt/MC-TRCM.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T07:38:43Z</published>
+    <arxiv:comment>Accepted to ICONIP 2026. Code is available at https://github.com/Botwwt/MC-TRCM</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wentao Wang</name>
+    </author>
+    <author>
+      <name>Lifeng Han</name>
+    </author>
+    <author>
+      <name>Zining Ren</name>
+    </author>
+    <author>
+      <name>Hengyu Zhong</name>
+    </author>
+    <author>
+      <name>Guangyu Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11406v1</id>
+    <title>A Counterexample to Left-Right Symmetry for Diagonal Auslander-Regularity</title>
+    <updated>2026-10-08T07:35:40Z</updated>
+    <link href="https://arxiv.org/abs/2610.11406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a finite-dimensional Auslander-regular algebra $R$ with global dimension three, which is right diagonal but not left diagonal; moreover, any simple right $R$-module with grade $i$ has projective dimension $i$, but there is a simple left $R$-module with grade one and projective dimension two. It answers a question raised by Iyama negatively.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T07:35:40Z</published>
+    <arxiv:comment>4 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Zhenyu Wang</name>
+    </author>
+    <author>
+      <name>Zhaoyong Huang</name>
+    </author>
+    <author>
+      <name>Yu-Zhe Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11364v1</id>
+    <title>FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome</title>
+    <updated>2026-10-08T06:56:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.11364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A trained 3D Gaussian Splatting (3DGS) scene ships as a portable parameter array that can be copied, pruned, requantized, or repackaged outside its training pipeline, so ownership evidence is most useful when it lives in the released parameters and remains checkable long after the embedding tooling is gone. Existing 3DGS watermarks typically tie embedding or extraction to scene optimization, a learned decoder, or rendered views, so the evidence survives only as long as a second trained artifact does. FlyMark instead writes a keyed message into the parameters a 3DGS file already stores. Its carrier directions are derived from the photoreceptors of a published connectome, a citable versioned artifact that fixes the geometry exhaustively and leaves nothing to tune per scene. A virtual observer reads cone-wise apparent luminance along a scene-normalized orbit from stored centers, colors, and opacities; a keyed dithered quantization-index-modulation code replicates each message bit across these observations; and one sparse bounded least-squares solve realizes the targets through achromatic shifts of existing degree-zero colors under a hard per-channel linear-RGB bound. All geometry and higher-order appearance parameters are preserved bit-identically, and extraction needs only cone queries, rounding, and majority voting. Under a model-domain threat model on synthetic and real scenes, FlyMark attains high clean bit accuracy and visual fidelity while cleanly separating matched from wrong keys.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:56:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ziyuan Luo</name>
+    </author>
+    <author>
+      <name>Haoliang Li</name>
+    </author>
+    <author>
+      <name>Renjie Wan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11354v1</id>
+    <title>AdaptEvo: Adaptive Agent Learning with Evolving Supervision</title>
+    <updated>2026-10-08T06:47:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.11354v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11354v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rule-governed contextual decision tasks require models to apply specified rules to case-specific context and evidence. Written rules can leave gaps in decision guidance and process evaluation, while reference judgments vary in their support from the rules and evidence. To address these challenges, we introduce AdaptEvo, a framework for learning under imperfect supervision that couples confidence-adaptive policy optimization with evolving decision knowledge and evaluation rubrics. Its Training module uses Confidence-Adaptive GRPO (CA-GRPO) to balance outcome and process rewards according to reference confidence. Its Evolution module synthesizes reusable decision knowledge from recurring failures across training cases and refines process rubrics to detect overlooked errors. To support empirical evaluation, we construct an industrial multimodal content moderation dataset comprising a training set and In-Period and Out-of-Period test sets, with the latter collected under changed rules. Using Qwen3.6-35B-A3B, AdaptEvo achieves 61.9% exact-label accuracy and 72.2% binary decision accuracy on In-Period, exceeding GRPO by 7.5 and 3.7 percentage points, respectively. On Out-of-Period, the policy trained with CA-GRPO retains exact-label accuracy gains over the base model across evaluated checkpoints without injected decision knowledge, while GRPO declines with continued training. CA-GRPO also outperforms the tested fixed reward mixtures on both Out-of-Period metrics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:47:41Z</published>
+    <arxiv:comment>21 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shijun Wan</name>
+    </author>
+    <author>
+      <name>Jiancong Xie</name>
+    </author>
+    <author>
+      <name>Hang Xu</name>
+    </author>
+    <author>
+      <name>Jin Duan</name>
+    </author>
+    <author>
+      <name>Qixiong Wang</name>
+    </author>
+    <author>
+      <name>Xi Xiang</name>
+    </author>
+    <author>
+      <name>Maofei Que</name>
+    </author>
+    <author>
+      <name>Yahui Liu</name>
+    </author>
+    <author>
+      <name>Zhongyu Wei</name>
+    </author>
+    <author>
+      <name>Mu Chuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11348v1</id>
+    <title>Contributions of the breathing waveform and residual fluctuations to power and higher-order spectra in a Hall-thruster plume</title>
+    <updated>2026-10-08T06:43:31Z</updated>
+    <link href="https://arxiv.org/abs/2610.11348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Higher-frequency power in Hall-thruster plume-probe signals can arise from both harmonics of a repeatable breathing waveform and fluctuations about it, complicating spectral interpretation. We decompose 197 paired records from 20 sequentially sampled probe-pair geometries at one operating condition, estimating each phaseconditioned waveform from other records at the same geometry. The residual accounts for 87.1% and 99.7% of measured power in the 0.2-0.5 and 0.5-1 MHz bands, respectively, as medians across geometries. The repeatable waveform, however, reproduces the principal breathing-harmonic bicoherence structure. Residual power remains modulated by breathing phase after waveform removal, exceeding geometry-specific 95thpercentile circular-shift thresholds in both bands at all 20 geometries. Residual bicoherence is substantially weaker than that of the measured signal but exceeds record-specific random-phase thresholds in 195 of 197 records. An exact component expansion further shows that the all-waveform term dominates a specified signed third-order statistic over the fixed 50-80 kHz band near the second breathing harmonic. These results distinguish band-power allocation from harmonic organization within the evaluated frequency ranges. The attribution concerns uncalibrated probe-chain signals and does not identify distinct physical modes or measure energy-transfer rates. The findings motivate assessing repeatable-waveform contributions before interpreting breathing-harmonic bicoherence as evidence of interactions among residual fluctuations.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:43:31Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Zilong Peng</name>
+    </author>
+    <author>
+      <name>Baisheng Wang</name>
+    </author>
+    <author>
+      <name>Zhongping Zhao</name>
+    </author>
+    <author>
+      <name>Yao Tang</name>
+    </author>
+    <author>
+      <name>Yinjian Zhao</name>
+    </author>
+    <author>
+      <name>Daren Yu</name>
+    </author>
+    <author>
+      <name>Ming Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11325v1</id>
+    <title>Isotope Effects at Classical Cost through Mass-Differentiable Machine Learning</title>
+    <updated>2026-10-08T06:24:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.11325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Isotope effects govern fractionation and modulate reactivity, with applications from hydrogen energy to environmental science and catalysis, yet predicting them requires resolving small isotope-dependent free-energy differences that remain very challenging for conventional path-integral simulations in complex systems. Here we introduce iso-EPIGS, a path-integral coarse-graining framework built on a mass-differentiable neural network that reconstructs the mass- and temperature-dependent path integral centroid free-energy surface. Classical molecular dynamics on the learned surface yields rigorous isotope-resolved thermodynamics without explicit path-integral sampling. Benchmarks spanning gas, liquid, and crystalline phases, including liquid water and oxalic acid crystal, reproduce reference path-integral isotope free-energy differences, enthalpies, and lattice parameters at near classical computational cost. Crucially, iso-EPIGS trained solely on all-H and all-D isotopologues retains high accuracy for unseen partially deuterated isotopologues, demonstrating robust transferability across nuclear masses. Iso-EPIGS makes accurate isotope-effect simulations feasible for complex systems and lays the groundwork for foundation models of isotope effects across chemical space.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:24:08Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Ming-Zheng Du</name>
+    </author>
+    <author>
+      <name>Shi-Yu He</name>
+    </author>
+    <author>
+      <name>Jing Shen</name>
+    </author>
+    <author>
+      <name>Ziyan Ye</name>
+    </author>
+    <author>
+      <name>Jia-Xi Zeng</name>
+    </author>
+    <author>
+      <name>Dong H. Zhang</name>
+    </author>
+    <author>
+      <name>Venkat Kapil</name>
+    </author>
+    <author>
+      <name>Wei Fang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11323v1</id>
+    <title>Fermionic Spectral Functions in a Two-Current Gubser-Rocha Model with Axion Momentum Relaxation</title>
+    <updated>2026-10-08T06:23:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.11323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate fermionic spectral functions in a two-current Gubser-Rocha background with linear-axion momentum relaxation. Serving as a comparison channel, the dipole coupling $p_1$ is found to produce a soft asymmetric reconstruction without opening a clean hard Mott gap. Our main analysis then focuses on two axion-dependent non-minimal couplings modulated by current mixing. The $p_2$ tensor channel suppresses the zero-energy Fermi peak and shifts the dominant spectral weight to finite frequencies, resulting in a flat-bottom reconstruction. In contrast, the $p_3$ vector channel creates a strong spectral asymmetry in momentum space, generating open, Fermi-arc-like segments. Varying the momentum-relaxation strength $β/μ$ and the doping parameter $χ$ reveals a channel-dependent response to the two-current background. Increasing $β/μ$ generally broadens the $p_2$ response, whereas the one-sided $p_3$ feature varies non-monotonically under changes of the background parameters. These results clarify how current mixing, axion-induced momentum relaxation, and non-minimal fermion couplings jointly reshape holographic fermionic excitations. These results clarify how current mixing, axion-induced momentum relaxation, and non-minimal fermion couplings jointly reshape holographic fermionic excitations.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:23:27Z</published>
+    <arxiv:comment>27 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Cai-E Liu</name>
+    </author>
+    <author>
+      <name>Defu Hou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11299v1</id>
+    <title>DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration</title>
+    <updated>2026-10-08T06:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2610.11299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Voice agents are converging on a collaboration pattern: a full-duplex interaction model stays on the live channel as the entry to the conversation, while search, reasoning, and coding are handled through asynchronous delegation. A duplex model supports continuous listening and speaking, but complex reasoning and tool use may exceed its capabilities. A coding agent can plan and execute extended tasks, but its sequential interface is a poor fit for live conversation. Combining them requires a harness that coordinates task acceptance, progress, cancellation, replacement, and result delivery while keeping the conversation responsive. Existing harnesses often rely on coupled heuristics, making them difficult to improve systematically from evidence. We present DuplexAgent, a full-duplex collaboration system whose harness expresses this workflow as six editable modules, and Duplex-Harness-RSI, a closed loop that revises them from interaction traces. A simulator automatically generates timed test conversations, runs the system, and produces failure traces that identify the collaboration modules requiring repair. Reasoning LLMs and coding agents in the delegation pool also serve the improvement loop: the Exam Planner selects the next tests from observed weaknesses and the repair archive, and the Harness Editor proposes targeted module changes. The capabilities that serve the user thus also improve the system's coordination. Experiments on intelligence, agentic, and duplex benchmarks show that DuplexAgent combines continuous interaction with difficult reasoning and complex task execution, achieving stronger spoken-knowledge and executable-tool scores than the compared delegated systems while maintaining strong interruption response. A harness ablation further shows that this modular, verifiable loop outperforms the initial harness and repeated editing that lacks its diagnosis and repair archive.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T06:06:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yingda Shen</name>
+    </author>
+    <author>
+      <name>Yuxiang Wang</name>
+    </author>
+    <author>
+      <name>Kunyu Feng</name>
+    </author>
+    <author>
+      <name>Qinke Ni</name>
+    </author>
+    <author>
+      <name>Jiaqi Li</name>
+    </author>
+    <author>
+      <name>Minghao Hsu</name>
+    </author>
+    <author>
+      <name>Junan Zhang</name>
+    </author>
+    <author>
+      <name>Dekun Chen</name>
+    </author>
+    <author>
+      <name>Yutong Bian</name>
+    </author>
+    <author>
+      <name>Zhizheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11293v1</id>
+    <title>Multifunctionality in Janus CrMCN4 (M = Si/Ge) Monolayers: Valleytronic Physics, Piezoelectric Response, and Photocatalytic Potential</title>
+    <updated>2026-10-08T05:58:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.11293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two dimensional Janus semiconductors integrating spin-valley coupling, piezoelectricity, and tunable optical responses offer a platform for multifunctional nanodevices. Here, first-principles calculations reveal complementary composition and strain effects in CrSiCN4 and CrGeCN4 monolayers. Both are found to be nonmagnetic direct-gap semiconductors, with gaps of 1.23 and 1.09 eV using the Perdew-Burke-Ernzerhof functional including spin-orbit coupling, respectively. HSE06 hybrid-functional calculations retain the direct-gap character, yielding gaps of 1.46 eV for CrSiCN4 and 1.19 eV for CrGeCN4. Opposite out-of-plane spin character and Berry curvature emerge at K and K'. Biaxial strain reduces the respective gaps from 1.59 to 0.86 eV and 1.44 to 0.63 eV, drives direct-to-indirect transitions, and redshifts absorption while preserving valley spin contrast. CrGeCN4 exhibits larger in-plane piezoelectric response, whereas CrSiCN4 exhibits larger out-of-plane magnitude. Band-edge alignment satisfies the oxygen evolution reaction requirement but provides insufficient driving force for the hydrogen evolution reaction, motivating further strain-induced band-edge modulation toward overall water splitting. These results establish composition and strain as complementary controls for tailoring Cr-based Janus monolayers for valleytronic, optoelectronic, electromechanical, and photocatalytic applications.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T05:58:53Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Jubair Hossan Abir</name>
+    </author>
+    <author>
+      <name>M. R. U. S. Shapon</name>
+    </author>
+    <author>
+      <name>S. S. B. Pallab</name>
+    </author>
+    <author>
+      <name>Tanvir Khan</name>
+    </author>
+    <author>
+      <name>Raihana Shams Islam</name>
+    </author>
+    <author>
+      <name>Saleh Hasan Naqib</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11282v1</id>
+    <title>Affine Schur--Weyl theory for loop Semigroups and polynomial representations</title>
+    <updated>2026-10-08T05:48:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.11282v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11282v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical Schur--Weyl duality plays a fundamental role in the representation theory of general linear and symmetric groups. In this paper, we develop an affine Schur--Weyl theory for the Laurent polynomial loop semigroup.
+  Let $\hat G_K(n)$ denote the Laurent polynomial loop semigroup inside the loop group $GL_n(K((t)))$ over a field $K$, and let $\hat S_K(n,r)$ be the affine Schur algebra. The natural action of $\hat G_K(n)$ on the affine tensor space $Ω_K^{\otimes r}$ induces an algebra homomorphism $K\hat G_K(n)\rightarrow \hat S_K(n,r).$ We prove that this homomorphism is surjective for every field $K$ satisfying $|K|&gt;r$. Furthermore, we establish the double centralizer property for affine Schur algebras over unique factorization domains for all $n\geq2$. For $n\geq2$ and any field $K$ with $|K|&gt;r$, this yields the corresponding centralizer property for $\hat G_K(n)$. In contrast, for $n=1$ and $r\geq2$, the corresponding natural homomorphism is not surjective over any field. For $n\geq 2$, we use the double centralizer theorem to determine the center of the affine Schur algebra and, when $K$ is a field with $|K|&gt;r$, show that $\hatζ_{r,K}$ maps the center of $K\hat G_K(n)$ onto it.
+  Over an algebraically closed field $K$ of arbitrary characteristic, we prove that every finite-dimensional irreducible $\hat S_K(n,r)$-module is a tensor product of evaluation modules. Moreover, we obtain explicit character formulas expressing these irreducible characters as products of characters of irreducible classical Schur algebra modules.
+  Finally, we study polynomial representations of $\hat G_K(n)$ over algebraically closed fields $K$, and classify its finite-dimensional irreducible polynomial representations. For finite fields $\mathbb F_q$ with $q&gt;r$, this yields a classification in the defining-characteristic setting.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T05:48:53Z</published>
+    <arxiv:comment>61 pages</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Qiang Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11267v1</id>
+    <title>On-Chip Shaping of Surface Acoustic Waves via Continuous Diffractive Modulation</title>
+    <updated>2026-10-08T05:24:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.11267v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11267v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Precise shaping of surface acoustic waves (SAWs) on anisotropic piezoelectric substrates is complicated by elastic anisotropy and electromechanical coupling. Here we introduce a continuous diffractive acoustic lens (CDAL), in which weak phase-velocity perturbations produced by subwavelength metallization, together with diffraction, drive lateral field redistribution. An anisotropic thin-element propagation model enables efficient inverse design of the CDAL contour. Laser Doppler vibrometry verifies prescribed lateral field profiles and multichannel beam splitting with unequal widths. By combining continuous diffractive modulation with discrete source-phase encoding, we further shape the lateral field into a Bessel profile, demonstrating joint amplitude-and-phase control. This work provides a high-precision and fabrication-compatible mechanism for on-chip SAW field modulation.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T05:24:36Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Yuanpeng Ma</name>
+    </author>
+    <author>
+      <name>Yang Zhao</name>
+    </author>
+    <author>
+      <name>Shangyang Chen</name>
+    </author>
+    <author>
+      <name>Dachuan Sang</name>
+    </author>
+    <author>
+      <name>Sicheng Wang</name>
+    </author>
+    <author>
+      <name>Dong Zhang</name>
+    </author>
+    <author>
+      <name>Xiasheng Guo</name>
+    </author>
+  </entry>
+</feed>

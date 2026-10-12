@@ -1,0 +1,1214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E2NWcRKoxqgdkwr1xvlmhde5kic</id>
+  <title>arXiv Query: search_query=all:federated OR all:learning AND all:wireless AND all:privacy&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-10-11T08:32:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:federated+OR+(all:learning+AND+(all:wireless+AND+all:privacy))&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>13397</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11821v1</id>
+    <title>Federated Zeroth-Order Optimization with Direction Aggregation and Variance Reduction</title>
+    <updated>2026-10-08T12:23:34Z</updated>
+    <link href="https://arxiv.org/abs/2610.11821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study constrained nonsmooth nonconvex stochastic optimization in federated settings, where clients access only stochastic function evaluations. Existing federated zeroth-order methods primarily combine local zeroth-order updates with model averaging. However, they struggle with client drift induced by local projected updates and sampling variance in stochastic zeroth-order estimates. In this paper, we propose a federated zeroth-order framework based on direction aggregation, equipped with two local sampling schemes. Specifically, FedZOO constructs a local direction from a minibatch shared across multiple spherical queries, thereby controlling the stochastic errors arising from data sampling and gradient approximation. In contrast, FedVRZO forms its local estimator from independent sample--direction pairs, so that its sampling error is controlled directly by the number of sample--direction pairs. In both algorithms, clients compute the mean of the directions evaluated along their projected local trajectories, and the server performs a single projected update using the weighted aggregate of the client directions. Furthermore, we establish convergence guarantees for FedZOO and FedVRZO, respectively. Experiments on black-box adversarial attacks demonstrate the effectiveness of the proposed methods.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T12:23:34Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Qianlong Dang</name>
+    </author>
+    <author>
+      <name>Baosheng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11555v1</id>
+    <title>Best of Both Worlds in Federated LSA: Speedup When Possible, Personalization Always</title>
+    <updated>2026-10-08T09:18:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.11555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study personalized federated linear stochastic approximation (LSA), a framework which notably encompass personalized temporal difference learning. In this setting, heterogeneous agents collaborate to solve distinct linear fixed-point equations, each corresponding to an agent-specific learning problem. A central open question in personalized learning is whether a single method can adapt to an unknown level of heterogeneity by converging to each agent's personalized solution in all regimes while achieving a linear speedup in the number of agents when their learning problems are sufficiently similar. We answer this question affirmatively by introducing PF-LSA, a minimalist algorithm that mixes each agent's local stochastic update with the average update across agents, at no additional computational cost relative to standard federated methods. We prove that PF-LSA, achieves best-of-both-worlds guarantees without any prior knowledge on the level of heterogeneity. Our analysis is based on a sharp decomposition of the error into consensus and disagreement components. The consensus error decays rapidly, whereas the disagreement error decays more slowly but becomes negligible in low-heterogeneity regimes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T09:18:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Safwan Labbi</name>
+    </author>
+    <author>
+      <name>Paul Mangold</name>
+    </author>
+    <author>
+      <name>Eric Moulines</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11523v1</id>
+    <title>When to Intervene? State-Aware Sparse Manipulation in Federated Reinforcement Learning</title>
+    <updated>2026-10-08T08:55:10Z</updated>
+    <link href="https://arxiv.org/abs/2610.11523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated reinforcement learning (FRL) enables distributed agents to collaboratively train decision-making policies, but its decentralized training process also exposes global policy learning to Byzantine manipulation. Existing poisoning attacks primarily focus on how to construct malicious updates, while trajectory-level intervention timing remains largely implicit. In sequential decision making, however, where an intervention is applied can alter subsequent trajectories and learning signals. Through controlled experiments, we find that changing the selected trajectory states materially alters attack efficacy even when the malicious-update construction is fixed. We therefore identify when as a distinct attack dimension and introduce the Viability-constrained Behavioral Steering Attack (V-BSA), which uses local policy uncertainty to select sparse intervention states and applies envelope-constrained behavioral steering. Across discrete-action benchmarks, V-BSA achieves substantial degradation against robust aggregators and ensemble defenses with only a fraction of the interventions used by dense poisoning, while revealing task- and aggregation-dependent boundaries. Overall, our results highlight intervention timing as a distinct dimension of sequential robustness in FRL. The code is available at https://github.com/Yodeesy/V-BSA</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:55:10Z</published>
+    <arxiv:comment>27 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shutong Zheng</name>
+    </author>
+    <author>
+      <name>Sijia Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11511v1</id>
+    <title>EIFL: Efficiently Protecting Global Model Privacy and Integrity Against an Untrusted Server in Federated Learning</title>
+    <updated>2026-10-08T08:47:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.11511v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11511v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:47:52Z</published>
+    <arxiv:comment>submitted to IEEE Transactions on Dependable and Secure Computing</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zehui Liao</name>
+    </author>
+    <author>
+      <name>Qiang Li</name>
+    </author>
+    <author>
+      <name>Binghui Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11502v1</id>
+    <title>Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization</title>
+    <updated>2026-10-08T08:40:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.11502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown strong reasoning capabilities when fine-tuned with reinforcement learning (RL), particularly through Group Relative Policy Optimization (GRPO). However, existing GRPO methods assume centralized access to training data, which may not hold in practice due to privacy or regulatory constraints. To this end, we propose Fed-GRPO, a federated GRPO training framework that addresses these privacy constraints by enabling collaborative reasoning training without sharing raw data, which leverages the reward statistics naturally produced during GRPO training as zero-cost signals to guide aggregation, local training, and communication. Fed-GRPO contains three reward-signal-driven mechanisms: (i) \emph{signal-weighted aggregation} that weights clients by their reward standard deviation, prioritizing clients with stronger learning signals; (ii) \emph{global reward calibration} that re-weights per-prompt objectives based on the local-global reward gap, steering each client toward its relative weaknesses; and (iii) \emph{adaptive sparse communication} that allocates bandwidth based on the informativeness of each client's update. Extensive experiments on mathematical reasoning tasks demonstrate that Fed-GRPO achieves the best performance among all federated methods, clearly outperforms FedAvg and approaches centralized training performance, while losslessly reducing communication by $32\times$ and supporting up to $621\times$ compression under tight bandwidth budgets with only graceful accuracy degradation. Our code is available at https://github.com/HKU-HealthAI/Fed-GRPO.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:40:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pengxin Guo</name>
+    </author>
+    <author>
+      <name>Shuang Zeng</name>
+    </author>
+    <author>
+      <name>Zonggen Li</name>
+    </author>
+    <author>
+      <name>Weiying Zheng</name>
+    </author>
+    <author>
+      <name>Mengting Liu</name>
+    </author>
+    <author>
+      <name>Liangqiong Qu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11439v1</id>
+    <title>On-Chain Archaeology of Bitcoin Oracles: Evidence of Use under Limited Observability</title>
+    <updated>2026-10-08T08:00:11Z</updated>
+    <link href="https://arxiv.org/abs/2610.11439v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11439v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Before Ethereum made the "oracle problem" a household term, Bitcoin already had oracles serving as feeds, key-release services, federated signers, and arbiters that carried real value on the main chain. This study traces their use and the changing evidence of oracle activity from early days through July 2026. We combine a complete census of Counterparty betting (1,149 bets), analysis of the full Bitcoin chain through block 958,628, and searches for documented keys from Reality Keys, Orisi, Bitrated, and Oraclize in an 854-million-row public-key index. We also recover DLC oracle records from an archived explorer and live Nostr relays. Two results emerge. First, early contracts remain on-chain, but many event descriptions have disappeared, and protocol encoding and API limitations complicate access to the surviving record. However, for modern DLCs, public oracle announcements can survive even when the contracts using them cannot be identified on-chain. In the script classes examined, the share of spends that reveal no script peaks at 81.9% in 2024 after excluding spends containing inscription data. Second, public registries can give a misleading picture of oracle use. In Counterparty, 95% of pre-2018 sources declaring an oracle fee were never bet on. In Bitrated, 0.1% of archived keys appear on-chain overall, compared with 10 of 19 keys captured in 2014. Sport dominates Counterparty's matched volume, while a daily price series dominates the archived DLC announcements. These findings show how protocol design and data preservation shape the historical record of Bitcoin oracle use.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:00:11Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Giulio Caldarelli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10361v1</id>
+    <title>ORDERS: An Empirical Study of Norm-Rank Aggregation for Personalized Federated Learning</title>
+    <updated>2026-10-07T16:31:44Z</updated>
+    <link href="https://arxiv.org/abs/2610.10361v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10361v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized federated learning combines shared representations with client-specific predictors, but the contribution of a server weighting rule can be obscured by local training and evaluation choices. We study ORDERS, a configuration that combines a shared backbone, a private residual adapter and classifier, geometric weights assigned by descending update norm, feature alignment, and private-parameter perturbations. The server computes a weighted sum of updates obtained from the same broadcast model; it does not obtain an additional optimization effect from sequential addition. A fully specified evaluation comprises 80 final runs: eight configurations, two datasets, and five training seeds on one fixed partition per dataset. On two-class-per-client CIFAR-10, ORDERS achieves $80.51 \pm 0.79\%$ native mean client accuracy, compared with $79.02 \pm 1.42\%$ for FedPer-R1 and $80.27 \pm 0.73\%$ for the matched uniform-weight control. After common local fine-tuning, the difference from FedPer-R1 narrows to 0.32 percentage points. On Sent140, ORDERS reaches $74.71 \pm 0.49\%$, only 0.69 points above a post hoc client training-majority diagnostic. Ablations provide limited, endpoint-dependent evidence for norm ranking and alignment, and no clear benefit from perturbations. Parameter-payload savings are 5.47% and 0.78%, respectively.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T16:31:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Koffka Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10360v1</id>
+    <title>Receiver-Domain Behavioral Probing for Backdoor-Resilient Federated GPS Spoofing Detection in UAV Networks</title>
+    <updated>2026-10-07T16:31:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.10360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning lets a UAV fleet train a shared GPS spoofing detector without raw receiver data leaving any aircraft, and several recent UAV-FL designs weight each client by the validation accuracy it reports about itself. We show this self-report is an exploitable attack lever: two compromised clients of ten that poison part of their data, scale their updates, and inflate their reported accuracy raise backdoor lift to +0.3036, higher than the same attack achieves without lying. We propose receiver-domain behavioral probing, in which the coordinator evaluates every submitted model on counterfactual spoofed samples built by driving each discriminative GPS feature to a benign value, weighting clients by what their models do rather than what they claim. Under independent and identically distributed clients this reduces attacker-induced lift to -0.0265, statistically indistinguishable from an honest fleet, while flagging the compromised aircraft. Unlike Byzantine-robust aggregation it needs no exact attacker count, only an honest majority: when the true count exceeds the configured value, Multi-Krum degrades from +0.0061 to +0.2837 while ours stays near baseline. Evaluation uses one public single-receiver dataset partitioned into simulated clients; we also report where the mechanism fails, under strong client heterogeneity.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T16:31:28Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Will Jedrzejczak</name>
+    </author>
+    <author>
+      <name>Cole Walther</name>
+    </author>
+    <author>
+      <name>Dilpreet Gill</name>
+    </author>
+    <author>
+      <name>Moh Khalid Hasan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.09907v1</id>
+    <title>FedSSMCoOp: SSM Encoders for light-weight Federated Prompt Learning for Few-shot Classification</title>
+    <updated>2026-10-07T12:00:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.09907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.09907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models (VLMs) have shown strong performance across a wide range of downstream vision tasks, thanks to the complementary information contained in the respective domains. Despite the performance gains, most of these approaches rely on aligning these domains using the cosine similarity metric, which fails to capture token-level structure and cross-modal interactions prior to the classification stage. This is especially critical in biomedical applications under federated constraints, where data sharing is restricted, labeled data is scarce at each site, and it differs widely across institutions, leading to substantial statistical heterogeneity. To overcome this issue, we propose FedSSMCoOp, a federated few-shot image classification framework that enables multimodal learning while preserving data privacy. With the help of the SSM-based Vision Mamba and Cross Mamba blocks, and by optimizing only the soft-prompt and communication-prompt updates in the federated setting, the framework prioritizes both computation and performance. Importantly, this eliminates the need to use an external Large Language Model (LLM) for feature alignment. The framework is further trained and evaluated on various biomedical image datasets, and its performance is assessed. The proposed framework delivers stable performance relative to the baselines and is, on average, 1.96 times lighter. The corresponding script will be made available soon.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T12:00:59Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ankita Das</name>
+    </author>
+    <author>
+      <name>Ambarish Parthasarathy</name>
+    </author>
+    <author>
+      <name>Sumohana S. Channappayya</name>
+    </author>
+    <author>
+      <name>C. Krishna Mohan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10613v1</id>
+    <title>Temporal transformer CAN encoder with federated lightweight heads for anomaly detection</title>
+    <updated>2026-10-07T07:13:20Z</updated>
+    <link href="https://arxiv.org/abs/2610.10613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in timing, payload values, or message patterns can point to unusual activity. Whether due to errors, malfunctions, or deliberate interference, these anomalies are frequently subtle and challenging to identify with conventional methods that handle messages separately or rely on manually created rules. Motivated by this gap, we present a privacy-preserving framework for anomaly detection in in-vehicle networks, based on a Temporal Transformer CAN Encoder with Federated Lightweight Heads, to better capture these irregularities. The detection of subtle temporal and contextual anomalies is made possible by a lightweight Transformer encoder that learns how these signals evolve over time, while a federated learning mechanism enables several vehicles or ECUs to work together to improve a shared model without exchanging raw CAN data. This combination of federated learning and temporal sequence modeling provides robust anomaly detection performance while maintaining efficiency and privacy, according to experiments conducted on open-source datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T07:13:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Presented at ITS European Congress 2025</arxiv:journal_ref>
+    <author>
+      <name>Konstantinos Gyftodimos</name>
+    </author>
+    <author>
+      <name>Kyriakos Chiotis</name>
+    </author>
+    <author>
+      <name>Elena Politi</name>
+    </author>
+    <author>
+      <name>George Dimitrakopoulos</name>
+    </author>
+    <author>
+      <name>Eirini Liotou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.09091v1</id>
+    <title>FedRSPO+: A Heterogeneity-aware Algorithm for Decision-focused Federated Learning</title>
+    <updated>2026-10-06T20:46:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.09091v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.09091v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decision-focused learning (DFL) trains predictive models for downstream optimization, but existing methods largely assume centralized data. In cross-silo settings, federated learning offers a natural alternative, yet standard federated methods optimize prediction over decision quality and do not address heterogeneity in downstream objectives or feasible sets. This heterogeneity is especially challenging for DFL because small perturbations in polyhedral problems can cause discontinuous changes in optimal decisions, destabilizing client updates and aggregation. We propose FedRSPO+, a heterogeneity-aware framework for decision-focused federated learning, built on RSPO+, a regularized predict-then-optimize surrogate that smooths the decision map through projection. We show that RSPO+ upper bounds decision error and regret for the regularized decision and, under exact regularization and consistent LP solution selection, for the original LP decision. We further derive cross-client heterogeneity bounds that depend on both objective and feasible-set heterogeneity, vanish at homogeneity, and require no strong convexity. FedRSPO+ uses an annealed, modular training procedure compatible with standard federated personalization and aggregation methods. Experiments on synthetic knapsack, shortest-path, and real-world energy pricing tasks compare against prediction-only federated learning and DFL baselines under varying heterogeneity and communication budgets. Results suggest that smoothing is a useful ingredient for stable collaborative decision learning and provide a heterogeneity-aware foundation for federated DFL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T20:46:01Z</published>
+    <arxiv:comment>10 pages main paper + appendix. Accepted at NeurIPS 2026 main track</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Konstantinos Ziliaskopoulos</name>
+    </author>
+    <author>
+      <name>Alexander Vinel</name>
+    </author>
+    <author>
+      <name>Jiaqi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.08574v1</id>
+    <title>FedDermaSeg: Federated Learning for Dermatological Image Segmentation</title>
+    <updated>2026-10-06T15:49:04Z</updated>
+    <link href="https://arxiv.org/abs/2610.08574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.08574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Skin cancer is a major global health concern, and early detection and accurate lesion delineation are important for effective diagnosis and treatment planning. Automated skin lesion analysis can assist dermatologists, with lesion segmentation serving as a fundamental step in computer-aided diagnostic systems. Conventional deep learning-based segmentation models typically rely on centralized training, where images and their corresponding segmentation masks are collected on a central server. Such data aggregation raises privacy concerns in medical applications and requires substantial centralized computational resources. To address these limitations, we investigate the feasibility of federated learning for privacy-preserving skin lesion segmentation. The training and validation sets of the ISIC 2018 Skin Lesion Segmentation Challenge dataset are used to simulate a distributed learning environment and develop a federated segmentation model. The resulting model is evaluated on the ISIC 2018 test set and the PH2 dataset to assess its performance and generalizability. Experimental results demonstrate that the federated model achieves performance comparable to centralized training while consistently improving upon the locally trained models. These findings demonstrate the potential of federated learning for collaborative skin lesion segmentation without requiring centralized aggregation of medical images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T15:49:04Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Anabik Pal</name>
+    </author>
+    <author>
+      <name>Ganesh Patidar</name>
+    </author>
+    <author>
+      <name>Bikash Santra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.08464v1</id>
+    <title>Federated Bayesian Surveillance of Mechanical Thrombectomy Adverse Events: A Population Risk Layer for Surgical Digital Twins</title>
+    <updated>2026-10-06T14:49:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.08464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.08464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learned surgical simulators and world models can roll out plausible procedural futures, but they carry no grounded estimate of how often interventional devices actually harm patients. We propose treating population-scale adverse-event surveillance as a distinct belief layer of the surgical digital twin, and we evaluate a federated Bayesian protocol for learning it under formal privacy guarantees. Each site holds per-class Gamma-Poisson posteriors over adverse-event rates and exchanges only Rényi-differentially-private natural-parameter updates. We benchmark on the complete FDA MAUDE cohort for thrombus-retrieval catheters (product code NRY): 8,617 reports, of which 6,491 are classified by transparent keyword rules into five thrombectomy complication classes and partitioned across $K=8$ manufacturer sites. At a matched privacy budget of $(\\varepsilon \\approx 2.09, \δ= 10^{-5})$, the conjugate protocol attains a held-out Poisson score of -5.78 per test event versus -26.58 for FedAvg with differential privacy. The non-private federated model also outperforms centralized pooling (+3.19 vs +2.93), evidence that manufacturer-specific complication profiles are real and that federation preserves them. Because MAUDE lacks procedure denominators, outputs are relative rate orderings rather than absolute risks, and we report all privacy-utility operating points.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T14:49:28Z</published>
+    <arxiv:comment>Presented at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Workshop on Surgical Digital Twins (SurgTwin). 3 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Damini Rijhwani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.08387v1</id>
+    <title>Multi-Agent Reinforcement Learning for Movable Antenna-aided Cell-Free Massive MIMO Systems</title>
+    <updated>2026-10-06T14:07:18Z</updated>
+    <link href="https://arxiv.org/abs/2610.08387v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.08387v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The inherent non-convex minimum-separation constraints introduced by movable antennas present a formidable challenge to the joint optimization of antenna positions and transmission strategies, rendering conventional methods computationally infeasible, particularly in large-scale cell-free massive multiple-input multiple-output (MIMO). In this work, we propose the graph-based learning individual intrinsic reward heterogeneous-agent proximal policy optimization (GLIIR-HAPPO) algorithm, a novel heterogeneous multi-agent reinforcement learning (MARL) framework that fundamentally overcomes this impasse by systematically decomposing the original coupled optimization into coordinated subproblems. To ensure tractability, we embed the non-convex geometric constraints into a penalty-augmented reward structure and develop a specialized geometric solver that enables the positioning agents to efficiently navigate the high-dimensional action space. Specifically, we propose an architecture featuring a dynamic-interaction graph critic for adaptive cross-role coordination, together with role-conditioned federated distillation that synchronizes same-role policies through compact actor-output statistics. Beyond architectural design, we establish a rigorous theoretical analysis that derives monotonic performance improvement bounds and establishes convergence guarantees for the proposed bi-level optimization. Numerical simulations demonstrate that our framework yields significant sum-rate improvements over state-of-the-art MARL schemes. Moreover, the performance of our advanced architecture closely approaches its fully centralized counterpart, while drastically reducing communication overhead.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T14:07:18Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Bokai Xu</name>
+    </author>
+    <author>
+      <name>Jiayi Zhang</name>
+    </author>
+    <author>
+      <name>Shuaifei Chen</name>
+    </author>
+    <author>
+      <name>Ziheng Liu</name>
+    </author>
+    <author>
+      <name>Huahua Xiao</name>
+    </author>
+    <author>
+      <name>Derrick Wing Kwan Ng</name>
+    </author>
+    <author>
+      <name>Bo Ai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.08255v1</id>
+    <title>HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption</title>
+    <updated>2026-10-06T12:35:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.08255v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.08255v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many organizations adapt large pretrained models to their own tasks by fine-tuning on private data. Several of these parties often hold data for the same task and wish to fine-tune a model together without pooling that data. Federated learning (FL) enables joint fine-tuning, but reconstruction attacks on shared intermediate values (the model or its gradients) remain a privacy risk. A one-shot protocol that exchanges one encrypted contribution exposes no intermediate value. Such a protocol still gives the trained model to every participant, which is not permitted where the model is a regulated or proprietary asset. We present HE-OFT, the first cryptographically secure one-shot federated fine-tuning protocol in which no party receives the trained model. Each client fine-tunes a low-rank adapter and a classifier head on a frozen public backbone and keeps the adapter. The client uploads one encrypted head displacement, which the server combines under multiparty CKKS and never decrypts. A quorum of clients returns only the predicted label to the querier. On four text classification tasks and one vision task, HE-OFT reaches 61 to 79 per cent accuracy, against 20 to 48 per cent for a client training alone. HE-OFT keeps 85 to 96 per cent of the accuracy of a disclosed model. A test-time query takes 443.1 to 1713.1 s on one core, or 56.1 to 255.1 s with level restoration on a GPU. Restoring levels at the server cuts the traffic per query from up to 1.6 GiB to 13.5 MiB.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T12:35:08Z</published>
+    <arxiv:comment>Technical report. 32 pages, 7 figures, 12 tables. Code: https://github.com/CRYPTO-KU/HE-OFT</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Halil İbrahim Kanpak</name>
+    </author>
+    <author>
+      <name>Sinem Sav</name>
+    </author>
+    <author>
+      <name>Alptekin Küpçü</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07976v1</id>
+    <title>Quantifying the Privacy Posture of Operator-Side 5G/O-RAN Profiles</title>
+    <updated>2026-10-06T08:42:07Z</updated>
+    <link href="https://arxiv.org/abs/2610.07976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Operator-side network profiles derived from 5G/ORAN traffic carry personal data such as ephemeral subscriber identifiers, slice-level KPIs, and control-plane signalling, and must be anonymised before release to a federated-learning aggregator, threat-intelligence exchange, or ML training pipeline. We study how much re-identification risk remains after standard operator-side anonymisation. We quantify privacy posture with k-anonymity, l-diversity and t-closeness, aggregate them into a composite Privacy-Posture Index (PPI), and measure residual re-identification across eight transformation configurations on internal PCAP captures and the public Idaho Labs 5GAD corpus, under a full-QI syntactic bound and two simulated adversaries. The evaluation is modest in scale, and we read its trends as indicative rather than definitive. Three findings emerge. Pseudonymisation alone leaves re-identification unchanged; material privacy gains arise when quasi-identifiers are coarsened through generalisation, optionally combined with suppression. A downstream classification task then shows that suppression-heavy releases retain majority-class utility but sacrifice much of their minority-class recall, a cost the aggregate metrics hide. Finally, the standard kmin-based PPI correlates only modestly with the disclosure bound and not at all with the partial-knowledge attack, whereas a mean-class-size variant PPI correlates strongly with all three disclosure/attack measures; we therefore read PPI as a regulator-facing summary, not a security bound. The profiles are produced by passive operator-side monitoring with rule-based DPI; our contribution is the privacy-quantification layer that computes these metrics, applies the transformation policy, and exposes both through an inspectable dashboard.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T08:42:07Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nikolaos Kekatos</name>
+    </author>
+    <author>
+      <name>Apostolos Valiakos</name>
+    </author>
+    <author>
+      <name>Alexios Lekidis</name>
+    </author>
+    <author>
+      <name>Elpiniki Papageorgiou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07970v1</id>
+    <title>A Private IPFS Data Sanctuary for Verifiable Digital Collection Objects</title>
+    <updated>2026-10-06T08:36:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.07970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Background: Galleries, libraries, archives and museums (GLAM) increasingly produce scientific collection data whose digital state must remain identifiable, recoverable, and verifiable after acquisition. A staging architecture should provide redundancy without requiring every measurement to depend on one workstation or storage path. Methods: We evaluated a private seven-node InterPlanetary File System (IPFS) deployment at the Museum für Naturkunde Berlin. Five Raspberry Pi 5 edge peers and two archive-class peers contributed NVMe-backed repositories across two wired zones linked by a shared wireless path. Two real raw-acquisition folders were recovered by content identifier (CID), a large machine-learning model-weight folder was ingested, and sustained telemetry from two edge and two archive nodes was compared. Results: Raw acquisition A (6.20 GB) materialized in 34.0 s (182 MB/s effective logical rate) and raw acquisition B (5.19 GB) in 14.092 s (368 MB/s). A 156.1 GB model-weight folder was recursively added in approximately 300 s (520 MB/s logical ingest). Four sustained telemetry series comprised 857.3 logged node-hours and 27,616 valid block-stat probes, all reporting successful local block access. Conclusion: The prototype demonstrates a practical institution-local distributed file system (DFS) for content-addressed acquisition staging. Museum-specific object identifiers can remain stable at the collection-object level while each imported measurement automatically receives a content-derived state identity. Replication intentionally distributes identical blocks across failure domains, while content addressing enables reuse of unchanged blocks within repositories. This combination supports verifiable digital collection objects and a federated storage model for collaborating GLAM institutions.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T08:36:12Z</published>
+    <arxiv:comment>5 pages, 2 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Joachim Snellings</name>
+    </author>
+    <author>
+      <name>Jasper Funk-Smit</name>
+    </author>
+    <author>
+      <name>Margot Belot</name>
+    </author>
+    <author>
+      <name>Eran Wolff</name>
+    </author>
+    <author>
+      <name>Sebastian Baldauf</name>
+    </author>
+    <author>
+      <name>Lisa Pfeiffer</name>
+    </author>
+    <author>
+      <name>Frederik Berger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07912v1</id>
+    <title>Besicovitch Covering on Alexandrov Spaces</title>
+    <updated>2026-10-06T07:55:48Z</updated>
+    <link href="https://arxiv.org/abs/2610.07912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that finite-dimensional geodesic locally compact Alexandrov spaces with curvature bounded below (CBB), and in particular complete Riemannian manifolds with lower bounded sectional curvature, satisfy a Besicovitch covering theorem by showing that they are directionally limited in the sense of Federer.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T07:55:48Z</published>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Maxime Marot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07859v1</id>
+    <title>Tram-FL: Reducing Communication and Computation Costs through Sequential Model Circulation in Decentralized Federated Learning</title>
+    <updated>2026-10-06T07:01:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.07859v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07859v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional decentralized federated learning (DFL) often focuses on clients, with each client maintaining a model copy, performing updates individually, and undertaking model exchange and integration. While fully leveraging computational resources can shorten training times, it can also lead to significant computational and communication waste. This is especially pronounced with non-independent and identically distributed (non-IID) data, where achieving high model accuracy demands extra resources. This research shifts focus to the model itself, aiming to realize DFL with minimal computation and communication costs. To this end, we propose Tram-FL (Traveling Model Training Mechanism for Decentralized Federated Learning), a mechanism designed to efficiently address these challenges. It sequentially trains a single model by circulating it among nodes. We address the training scheduling problem in model circulation-based training, specifically determining which nodes should update the model and the number of updates to perform. This is approached by considering the model's circulation route and update iteration allocation, for which we propose simple yet effective methods. Additionally, with quantized momentum, Tram-FL achieves high accuracy with fewer model circulations while controlling communication load per transmission. Experimental results show that the proposed algorithm, even with non-IID data, converges to a global model with reduced communication and computation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T07:01:01Z</published>
+    <arxiv:comment>12 pages, 7 figures, 5 tables. This work has been submitted to the IEEE for possible publication</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kota Maejima</name>
+    </author>
+    <author>
+      <name>Takayuki Nishio</name>
+    </author>
+    <author>
+      <name>Asato Yamazaki</name>
+    </author>
+    <author>
+      <name>Yuko Hara-Azumi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07434v1</id>
+    <title>When Does AI Supervision Help? A Role-Aware Study of Network Fraud Decision Management with Blockchain Auditability</title>
+    <updated>2026-10-05T21:40:07Z</updated>
+    <link href="https://arxiv.org/abs/2610.07434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When does a second artificial intelligence (AI) component improve a primary network-fraud decision rather than add operational burden? We study this question through a role-aware Decider-Supervisor (DS) framework with blockchain auditability, evaluating four directional configurations that combine centralised machine learning, a Federated Averaging (FedAvg)-trained federated meta-model, and Base or Quantized Low-Rank Adaptation (QLoRA) large language model variants. The analysis compares primary-only and supervised decisions using non-hard fraud performance, intervention burden, conditional calibration, traffic-mix and Review-capacity sensitivity, dependability tests, and blockchain lifecycle controls. The deterministic hard gate resolves 89.994% of fraudulent requests, leaving the non-hard population as the main AI decision setting. Conditional validation calibration does not produce a consistently transferable supervisory advantage on deployment replay. DS-3 QLoRA is the least disruptive supervised configuration, but it still underperforms its primary FedAvg stage in F1 and total errors. Across 36 reweighted traffic mixtures, supervision reduces total errors only for DS-4 Base in two extreme high-fraud scenarios. Blockchain tests support digest verification, tamper detection, authorisation, single-use review resolution, and post-finalisation integrity, while exposing a pre-finalisation single-write limitation. The results show that the value of AI supervision depends on role assignment, calibration, escalation policy, traffic composition, and lifecycle controls rather than on the presence of a second model alone.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T21:40:07Z</published>
+    <arxiv:comment>27 pages, 10 figures, 13 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Saviz Changizi</name>
+    </author>
+    <author>
+      <name>Nasibeh Mohammadzadeh</name>
+    </author>
+    <author>
+      <name>Mohammad Shojafar</name>
+    </author>
+    <author>
+      <name>Rahim Tafazolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.07399v1</id>
+    <title>Fed-BRDECS: Privacy-Preserving and Heterogeneity-Aware Federated Deep Embedded Clustering</title>
+    <updated>2026-10-05T21:11:14Z</updated>
+    <link href="https://arxiv.org/abs/2610.07399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.07399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated deep clustering seeks to learn clustering-friendly representations from decentralized unlabeled data while preserving client privacy. However, Deep Embedded Clustering (DEC)-style objectives depend on global soft-assignment statistics that require clients to reveal their sensitive information. We propose Fed-BRDECS, a privacy-preserving and heterogeneity-aware federated deep embedded clustering framework. Fed-BRDECS replaces the globally normalized clustering objective with a locally computable sample-stability loss, avoiding the transmission of local soft-assignment distributions. To tackle non-IID client distributions, we introduce prediction-balanced sampling, which oversamples locally rare predicted clusters without requiring ground-truth labels, and centroid-level restarting, which periodically refreshes biased or inactive centroids. Experiments on image and text clustering benchmarks show that Fed-BRDECS consistently outperforms representative federated clustering and deep clustering baselines under both IID and non-IID partitions. We further demonstrate its applicability to federated time-series anomaly detection, where it improves reconstruction-based detectors without adding inference-time cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T21:11:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haemin Park</name>
+    </author>
+    <author>
+      <name>Diego Klabjan</name>
+    </author>
+    <author>
+      <name>Martin W. Braun</name>
+    </author>
+    <author>
+      <name>Xiuqi Li</name>
+    </author>
+    <author>
+      <name>Balakrishnan Ananthanarayanan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.06774v1</id>
+    <title>How Low Can You Go? Validating Administrative Union Records for Substate Estimates of US Union Membership</title>
+    <updated>2026-10-05T17:41:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.06774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.06774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unions are important economic and political actors at the local level, but the primary source on US union membership, the Current Population Survey (CPS), is unreliable below the state level. Researchers have therefore turned to union-reported membership in federal "LM" filings, geolocating unions and aggregating their reported membership to estimate union density for counties, commuting zones, and congressional districts. We ask whether this practice is sound. We develop and defend multilevel regression with poststratification (MrP) on the CPS as a benchmark, then validate LM-based estimates against it from the state level down. LM, CPS, and MrP are highly correlated at the state level, but this correlation is roughly halved at the congressional-district, commuting-zone, and county levels. The breakdown is driven in part by reporting "lumpiness," which produces improbable values, including union densities exceeding 100%. Missing public sector union members explains only a small part of this divergence. These issues are substantively consequential: in a standard commuting-zone "China shock" regression, swapping density measures changes the import-exposure coefficient enough to alter its magnitude, significance, and sign. We conclude that LM records remain a rich resource for studying unions as organizations, but aggregating LM-reported membership is not a reliable way to measure union density at fine geographic resolution.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T17:41:27Z</published>
+    <arxiv:comment>35 pages, 8 figures, 7 tables + Appendices</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>John S. Ahlquist</name>
+    </author>
+    <author>
+      <name>Eric Thai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.06420v1</id>
+    <title>Efficient Secure Federated Learning via Information-Theoretically Secure Key Distribution: A Medical Imaging Case Study</title>
+    <updated>2026-10-05T14:34:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.06420v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.06420v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated Learning (FL) enables collaborative training of models across institutions without centralizing sensitive data, making it well-suited for privacy-concerned applications, such as medical imaging. To protect FL model updates during secure aggregation, additive masking is commonly employed. However, its underlying classical key establishment is only computationally secure. On the other hand, physics-based Information-Theoretically Secure (ITS) key exchange introduces practical constraints: finite key generation rates and time-limited storage severely limit throughput and sustained training of uncompressed models. In this work, we address this bottleneck by developing an FL framework that integrates frozen backbones, knowledge distillation, and quantization. These techniques reduce communication payload and, consequently, key material consumption. Moving beyond simulation, we benchmark this framework on a real physics-based key distribution testbed involving a chest X-ray classification application. Our results show that key usage can be reduced by $\sim$35$\times$ while maintaining predictive accuracy. This prevents buffer depletion and key expiration, enabling sustainable FL training under physical key generation constraints.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T14:34:49Z</published>
+    <arxiv:comment>6 pages. Accepted at Federated Intelligence and Digital Twins for Autonomous Systems and IoT Workshop (FIDTA 2026), co-located with ACM MobiHoc 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ivan Donà</name>
+    </author>
+    <author>
+      <name>Hans H. Brunner</name>
+    </author>
+    <author>
+      <name>Álvaro Troyano Olivas</name>
+    </author>
+    <author>
+      <name>Chi-Hang Fred Fung</name>
+    </author>
+    <author>
+      <name>Momtchil Peev</name>
+    </author>
+    <author>
+      <name>Giovanni Iacca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.06062v1</id>
+    <title>Pay to Learn, Share to Earn: Incentivized Federated Multi-Player Bandits</title>
+    <updated>2026-10-05T09:54:57Z</updated>
+    <link href="https://arxiv.org/abs/2610.06062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.06062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated multi-player multi-armed bandit problems model collaborative sequential decision-making where multiple players interact with a common bandit environment and share information through a central server to accelerate learning. Existing federated bandit frameworks typically assume that all players willingly share their local observations with the server. However, this assumption is often unrealistic in practical settings where players are self-interested and may not participate in collaboration without explicit incentives. To address this challenge, we propose an incentive-aware federated bandit framework in which players receive rewards for sharing information with the server and incur costs when buying information from the server. We develop a UCB-based algorithm, termed Buying-UCB, that balances individual exploration and collaborative learning by incorporating both sharing incentives and information acquisition costs into the learning process. We theoretically analyze the proposed algorithm and derive upper bounds on the group regret and buying cost. Our analysis further characterizes the trade-off between fully collaborative federated learning and completely independent learning. Extensive numerical experiments validate the theoretical findings and demonstrate the effectiveness of the proposed framework under different collaboration and pricing regimes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T09:54:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pavamana K J</name>
+    </author>
+    <author>
+      <name>Chandramani Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05915v1</id>
+    <title>Large Stepsizes Federated Learning on Logistic Regression with Linearly Separable Data: The Case of Heterogeneous Devices</title>
+    <updated>2026-10-05T07:31:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.05915v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05915v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper revisits the distributed learning problem for training a multinomial logistic regression model with the Federated Averaging ($\texttt{FedAvg}$) algorithm. We concentrate on a scenario with arbitrarily large stepsizes and heterogeneous update rules where the devices may perform a different number of local updates in each round. We show that, with linearly separable data, $\texttt{FedAvg}$ is stable with any stepsizes and the objective values converge to zero at the rate of ${\cal O}(1/R)$, where $R$ is the number of communication rounds. Our result also demonstrates that the effects of device heterogeneity vanish asymptotically. For sufficiently large $R$, the objective values decrease monotonically and is bounded by ${\cal O}( 1 / (R T_{\rm avg}))$, where $T_{\rm avg}$ is the average number of local update steps per communication round across devices. Numerical experiments support our findings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T07:31:25Z</published>
+    <arxiv:comment>11 pages, 4 figures, accepted to the 65th IEEE Conference on Decision and Control</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hok Fong Wong</name>
+    </author>
+    <author>
+      <name>Hoi-To Wai</name>
+    </author>
+    <author>
+      <name>Chung-Yiu Yau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05598v1</id>
+    <title>When the Cross-Silo Federation Goes Offline: Continual Learning for Site Onboarding with Limited Unlabeled Data</title>
+    <updated>2026-10-04T23:04:02Z</updated>
+    <link href="https://arxiv.org/abs/2610.05598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An organization often holds too little labeled data to train a model that generalizes, and the records that would supply the rest sit with organizations that cannot release them. Cross-silo federated learning offers a way through, since participants exchange model parameters rather than records, but it ordinarily settles two aspects of the arrangement in advance, the participating sites and the classes the model can predict, and deployment can breach both. A new site joins after training, once the established sites have finished their engagement and gone offline, and its records arrive unlabeled, mixing conditions the model already recognizes with conditions no participant has observed. We present an autonomous three-stage procedure that expands the model entirely at the joining site: reconstruction experts screen for novelty, clustering separates the flagged records into candidate conditions, and class means describe the old classes, all inside one shared representation. Those classes were learned from records that never leave their owners, so the usual defenses against forgetting are unavailable, and the procedure supplies the evidence they would have carried from either of two dissimilar sources, prototypes held by the federation or records held by the joining site. On a real industrial condition-monitoring dataset, run end to end with no label consulted, either source holds old-class accuracy at 0.868 or above with forgetting at most 0.063, and the two differ by 0.021, so a configuration can be chosen by the disclosure it permits rather than the accuracy it delivers. Both keep old- and new-class accuracy in balance where every alternative we measure gives up one for the other, and both retain more of the old classes than distillation- and regularization-based baselines. The balance still holds with only 6 labeled records per arriving condition and 3 retained per old class.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-04T23:04:02Z</published>
+    <arxiv:comment>Accepted to the Continual Learning for Enterprise AI Agents (CLEA) workshop at NeurIPS 2026. 9 pages, 1 figure, plus appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ahmadreza Eslaminia</name>
+    </author>
+    <author>
+      <name>Klara Nahrstedt</name>
+    </author>
+    <author>
+      <name>Chenhui Shao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05378v1</id>
+    <title>Distributed Subliminal Learning: Replacing Model Updates with Random-Carrier Outputs</title>
+    <updated>2026-10-04T17:07:59Z</updated>
+    <link href="https://arxiv.org/abs/2610.05378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collaborative learning typically exchanges model parameters: federated clients communicate updates, while independently adapted foundation models are combined by exchanging adapters or checkpoints. This makes communication scale with model size and requires local specializations to be reconciled in weight space, where interference is common. We ask whether knowledge can instead be shared through model behavior on task-unrelated inputs. We introduce Distributed Subliminal Learning (DSL), a collaborative learning primitive in which participants adapt a common model locally, probe it with task-unrelated inputs, and transmit only the resulting carrier outputs. A coordinator pools these outputs and distills them into a shared model. The primitive supports one-shot foundation-model composition through carrier completions and iterative federated learning through carrier logits, without transmitting model updates or requiring task-related proxy data. In LLM composition, compared with LoRA averaging, DSL achieves higher preference retention (94.56% vs. 87.76%) and a larger GSM8K gain over the base model (22.0 vs. 0.6 points), while reducing upload by 30.6-49.0$\times$. In federated classification, DSL reaches 96.83% on MNIST with 8.9$\times$ less uplink than FedAvg and provides lower-communication operating points on CIFAR-10 and Tiny ImageNet. These results establish random-carrier outputs as a practical communication primitive for knowledge sharing across distinct collaborative learning paradigms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-04T17:07:59Z</published>
+    <arxiv:comment>Accepted to the Collaborative, Open, and DECentralized training of Foundation Models workshop at NeurIPS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dario Fenoglio</name>
+    </author>
+    <author>
+      <name>Gabriele Dominici</name>
+    </author>
+    <author>
+      <name>Martin Gjoreski</name>
+    </author>
+    <author>
+      <name>Marc Langheinrich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05290v1</id>
+    <title>Smoothed Gradient Method for Nonconvex Federated Stochastic Bilevel Optimization</title>
+    <updated>2026-10-04T15:09:14Z</updated>
+    <link href="https://arxiv.org/abs/2610.05290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, federated stochastic bilevel optimization has attracted increasing attention due to its wide range of applications in machine learning. To reduce the computational overhead associated with second-order Hessian and Jacobian matrices, several first-order methods have been proposed. However, existing methods typically impose restrictive assumptions on the lower-level function, suffer from a strong dependence on the condition number in their convergence rates, and require different learning-rate scales for variables across the upper- and lower-level problems, limiting their practical applicability and complicating hyperparameter tuning. To address these challenges, we propose a stochastic doubly smoothed gradient method for nonconvex federated stochastic bilevel optimization problems, which decouples the learning rates of upper- and lower-level variables and does not require a strongly-convex lower-level loss function. We establish rigorous theoretical guarantees for the proposed algorithm, demonstrating an improved convergence rate of $O(κ^{15/2}/ε^5)$ and a communication complexity of $O(κ^{4}/ε^3)$, where $κ$ denotes the condition number and $ε$ represents the solution accuracy. Notably, these bounds exhibit significantly better dependence on the condition number $κ$ than those of existing methods. Extensive experiments validate the effectiveness of our algorithm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-04T15:09:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xinwen Zhang</name>
+    </author>
+    <author>
+      <name>Peiran Yu</name>
+    </author>
+    <author>
+      <name>Zhaosong Lu</name>
+    </author>
+    <author>
+      <name>Hongchang Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05279v1</id>
+    <title>Fast Convergence through Distributed Augmentation for Class-Imbalanced Federated Learning</title>
+    <updated>2026-10-04T14:57:50Z</updated>
+    <link href="https://arxiv.org/abs/2610.05279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In federated learning, mitigating class imbalance is essential to improve minority-class performance. A common approach to address this problem is to augment minority-class samples to achieve local class balance. Existing approaches treat augmentation as a heuristic and do not establish how the amount of augmentation influences the convergence of federated learning, leading to excessive augmentation and increased training time. To address this limitation, we first establish the relationship between augmentation and the convergence behavior of federated learning. Leveraging this insight, we propose DAFL, a distributed augmentation framework that determines the minimum augmentation required for each client-class pair by jointly minimizing augmentation and training time while constraining global class imbalance, thereby improving minority-class F1-score. Experimental results demonstrate that DAFL consistently improves minority-class F1-score while substantially reducing training time, particularly under severe global class imbalance and high label proportion imbalance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-04T14:57:50Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arathi Nair M</name>
+    </author>
+    <author>
+      <name>J. Harshan</name>
+    </author>
+    <author>
+      <name>Anwitaman Datta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04718v1</id>
+    <title>Learning OTA: A Unified Framework for Edge Sensing, Computation, and Communication</title>
+    <updated>2026-10-03T19:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2610.04718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most federated learning (FL) studies implicitly assume that training data is readily available at participating edge devices. In practice, this data must first be acquired through heterogeneous sensors with potentially different measurement modalities, and the quality and cost of this acquisition process can directly affect the learning performance. This dependence creates a coupled relationship among sensing, computation, and communication, necessitating a system model that captures their joint effect on resource efficiency and learning accuracy. This paper develops such a unified treatment for an over-the-air (OTA) FL system in which each device configures its sensing modality, power, resolution, and sample size, with aggregations conducted OTA at the server. We derive models for sensing noise, energy consumption, latency, and OTA aggregation distortion, and establish a non-convex convergence bound quantifying how these factors influence the global model trajectory. Guided by this analysis, we formulate a per-round optimization that balances energy, latency, and learning quality under physical device constraints. The resulting mixed optimization is addressed through an alternating procedure with closed-form and one-dimensional updates for continuous variables and a lightweight discrete search. Numerical experiments corroborate the advantage of jointly optimizing sensing, computation, and communication decisions.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T19:15:03Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Mehdi Karbalayghareh</name>
+    </author>
+    <author>
+      <name>David J. Love</name>
+    </author>
+    <author>
+      <name>Christopher G. Brinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04700v1</id>
+    <title>Decouple, Purify and Unite: Semantic-Structural Prototype Learning for Federated Medical Segmentation</title>
+    <updated>2026-10-03T18:26:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.04700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning enables medical institutions to train a global model without sharing data, yet feature heterogeneity from diverse scanners or protocols remains challenging. Existing representation-based methods face two limitations: 1) Incomplete Contextual Representation Learning: single-layer or coupled representations overlook multi-level structural cues and entangle regional semantics with boundary details. 2) Layerwise Style and Aggregation Biases: domain-specific style discrepancies across intermediate layers degrade prototypes, while aggregation that overlooks client distribution shifts can further amplify bias. We propose FedBCS+, federated decoupled contextual alignment with style-purified aggregation. We employ Frequency-domain Style Recalibration (FSR) in prototype construction to decouple content-style representations and extract style-purified prototypes. Built upon these purified features, Decoupled Contextual Prototype Alignment (DCPA) explicitly decouples multi-level features into semantic and structural prototypes and aligns regional semantics and fine-grained anatomical structures separately. Style-purified Semantic Prototype Aggregation (S2PA) measures each client's purified prototype divergence from the global consensus and adaptively reweights aggregation toward under-represented clients to reduce consensus bias. On five heterogeneous medical segmentation benchmarks spanning histopathology, MRI, ultrasound, and colonoscopy, FedBCS+ achieves the highest mean Dice among the compared methods. A convergence analysis further characterizes how aggregation and alignment affect the optimization bound.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T18:26:17Z</published>
+    <arxiv:comment>17 pages, 9 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xingyue Zhao</name>
+    </author>
+    <author>
+      <name>Wenke Huang</name>
+    </author>
+    <author>
+      <name>Linghao Zhuang</name>
+    </author>
+    <author>
+      <name>Yanzhou Su</name>
+    </author>
+    <author>
+      <name>Zhifeng Wang</name>
+    </author>
+    <author>
+      <name>Haoyu Zhao</name>
+    </author>
+    <author>
+      <name>Mengfan Li</name>
+    </author>
+    <author>
+      <name>Junjun He</name>
+    </author>
+    <author>
+      <name>Tao Tan</name>
+    </author>
+    <author>
+      <name>Dakai Jin</name>
+    </author>
+    <author>
+      <name>Le Lu</name>
+    </author>
+    <author>
+      <name>Mang Ye</name>
+    </author>
+    <author>
+      <name>Qiang Yang</name>
+    </author>
+    <author>
+      <name>Ming Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04671v1</id>
+    <title>Asking the Crowd the Right Question: Bias-Cancelling Weights for Federated Learning</title>
+    <updated>2026-10-03T17:37:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.04671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A federated objective is a weighted sum of client risks, and the weights are almost always fixed in advance. We treat them instead as the only instrument of a wisdom-of-crowds mechanism: clients are noisy views of one truth, each seeing it through an independent distortion that is unbiased across the crowd. That the optimal weights are inversely proportional to the clients' error energies is classical; we begin at the question that answer presupposes, which energies belong there and whether a crowd can recover them from itself. Excess risk on the truth is of the exact order of the aggregate bias energy, so no optimizer can repair a bad weight vector; the truth itself is identifiable only up to a linear tilt, so subtracting estimated client biases provably reproduces uniform weighting. The expected per-client second moments, however, are exactly identified from the law of the crowd's disagreement by a well-conditioned linear inversion, a step random-effects meta-analysis cannot take because a source reports once; their realized counterparts are estimable up to an incoherence floor the algorithm can measure. This yields CROWD, which reads the disagreement off the optimization trajectory at no extra cost and matches a Bayesian minimax lower bound in the same constant: per instance as the horizon grows, and unconditionally as the prior becomes diffuse. For arbitrary distortions it stays competitive with the optimal weights, at a ratio governed by a geometric incoherence the algorithm can measure. On real scans split into sites with their own miscalibrated detectors it attains the oracle excess risk; on a companion federation that pulls bias and noise apart, weighting by noise variance is worse than not weighting at all, and CROWD is not.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T17:37:17Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Ilya Kuruzov</name>
+    </author>
+    <author>
+      <name>Dmitrii Vishovan</name>
+    </author>
+    <author>
+      <name>Kirill Novoselov</name>
+    </author>
+    <author>
+      <name>Yuriy Dorn</name>
+    </author>
+    <author>
+      <name>Darina Dvinskikh</name>
+    </author>
+    <author>
+      <name>Alexander Gasnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04526v1</id>
+    <title>Diffusion-Based Stress Testing of Overload Monitoring for Resilient Emergency Cellular Networks Using Internet CDR Proxies</title>
+    <updated>2026-10-03T13:46:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.04526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Disasters can overload cellular control-plane signaling within minutes, yet fine-grained Radio Resource Control (RRC) or Next Generation (NG) Application Protocol (NGAP) telemetry is privacy-sensitive and costly to collect for analytics. Many emergency monitoring pipelines therefore rely on coarse Call Detail Record (CDR) aggregates. We treat Internet activity in CDR grids as a practical proxy for hidden signaling stress under that constraint. We train a lightweight convolutional neural network (CNN) on stylized overload injections, stress-test it with diffusion-synthesized surges that preserve normal traffic structure, and adapt the detector by retraining on hard synthetic samples. Under stress-test conditions, the default alert threshold fails even though receiver operating characteristic (ROC) curves stay strong: the detector still assigns overloaded cells a larger overload probability than normal cells, but those probabilities fall below the default cutoff 0.5 and are labeled normal, so the F1-maximizing threshold -- selected post hoc on the same stress-test grids (oracle $τ^*$) -- shifts by $0.32 \pm 0.03$ (operating-point drift). Across three random seeds, hard-sample adaptation raises thresholded performance (F1) from 0% (no alerts at the default cutoff 0.5 on any seed) to $85.67 \pm 14.37$% and ranking from ROC-AUC $0.886 \pm 0.040$ to $0.99996 \pm 0.00007$. Diffusion-synthesized surges expose threshold fragility that matched-condition training -- training and testing on the same stylized injections -- hides, and hard-sample adaptation restores usable alerts at the default cutoff. Together, these steps define a reusable pre-deployment stress test for emergency monitors. Internet-only CDR input further supports lightweight AI-native workflows that combine monitoring, recalibration, and adaptation.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T13:46:27Z</published>
+    <arxiv:comment>6 pages, 5 figures. Accepted to the 5th Workshop on Next Generation Intelligent Wireless Emergency Communications, IEEE GLOBECOM 2026, Macau</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Bilal Hussain</name>
+    </author>
+    <author>
+      <name>Xiao Tang</name>
+    </author>
+    <author>
+      <name>Tan Li</name>
+    </author>
+    <author>
+      <name>Muhammad Azhar</name>
+    </author>
+    <author>
+      <name>Danista Khan</name>
+    </author>
+    <author>
+      <name>Fawad Ahmad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04474v1</id>
+    <title>Personalized Federated Vector Autoregression with Personalization Diversity</title>
+    <updated>2026-10-03T12:23:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.04474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized federated learning can improve estimation for high-dimensional time series while preserving client-specific dynamics. However, parameter heterogeneity creates a fundamental ambiguity between shared and personalized structure. We introduce the principle of personalization diversity, under which genuinely personalized effects recur in only a limited fraction of clients. Based on this principle, we propose PerFeCT-VAR, Personalized Federated Vector Autoregression via Frequency-Capped Thresholding, which decomposes each client-specific transition matrix into shared low-rank dynamics, shared sparse links, and personalized sparse departures. A cross-client frequency cap yields a sharp shared--personalized separation threshold and motivates frequency-capped thresholding for federated estimation. Our theory further accounts for heterogeneous client distributions through a distributional compatibility condition and establishes joint linear convergence of the shared and personalized components. Under sufficient personalization diversity, the shared dynamics retain federated total-sample-size gains while the personalized components achieve client-level accuracy. Simulations and an application to multi-store retail revenue data demonstrate the predictive and interpretive benefits of the proposed framework.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T12:23:12Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Zhiyun Fan</name>
+    </author>
+    <author>
+      <name>Xiaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Guodong Li</name>
+    </author>
+    <author>
+      <name>Di Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04163v1</id>
+    <title>Fully Homomorphic Encryption for Statistical Modeling</title>
+    <updated>2026-10-03T00:12:51Z</updated>
+    <link href="https://arxiv.org/abs/2610.04163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fully homomorphic encryption allows arithmetic to be carried out on encrypted values, so that a party performing a computation need not see the data it operates on. This is useful wherever collaborating parties or sites cannot share data records or computed summaries yet need to do a joint analysis. We demonstrate the protocols needed to perform such analyses reproducibly via two packages in R, a platform widely used for applied statistics. The first, openfhe.R, is an interface to the OpenFHE C++ library, which exposes exact integer arithmetic (BFV, BGV), approximate real-valued arithmetic (CKKS), Boolean circuits, and multiparty key generation. The second is homomorpheR, which builds a small set of master/worker primitives for multi-party protocols on top of the first. Together, the two let an ordinary R statistical routine compose with an encrypted-arithmetic layer at the function-value boundary, provided the quantity crossing that boundary decomposes as a sum over sites. Two validation studies are presented: distributed stratified Cox regression, where stats4::mle() converges through an encrypted channel, and federated Cox-lasso via convex optimization using consensus ADMM, where the cross-site update is the only encrypted step. We also discuss federated similarity retrieval and two-party prediction. Throughout, the parties are assumed honest-but-curious, and threshold key generation removes the assumption that any single party holds a usable secret key.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-03T00:12:51Z</published>
+    <arxiv:comment>39 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Balasubramanian Narasimhan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.04129v1</id>
+    <title>InvestigationWorlds: An Agentic Environment for Legal Investigation</title>
+    <updated>2026-10-02T22:59:45Z</updated>
+    <link href="https://arxiv.org/abs/2610.04129v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.04129v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce InvestigationWorlds, an agentic environment for legal investigation. We build on an underused artifact of U.S. civil litigation: the summary judgment motion. This motion relies upon a record composed of real evidence exhibits, and results in a court-adopted hypothesis that is treated as ground truth for the purposes of deciding the motion. Each environment is built from a real U.S. Federal Court case retrieved from Public Access to Court Electronic Records (PACER) and augmented by an attorney-validated generation pipeline that synthesizes role-tagged documents around the original record. The resulting corpus admits multiple coherent factual readings, only one of which matches the court-adopted hypothesis. Evaluating on 100 cases, we find agents often commit to incorrect hypotheses despite retrieving relevant evidence, struggling to distinguish the court-adopted hypothesis from alternative hypotheses.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T22:59:45Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2026 Evaluations &amp; Datasets</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Albert Yu Sun</name>
+    </author>
+    <author>
+      <name>Andrew Benard</name>
+    </author>
+    <author>
+      <name>Sil Hamilton</name>
+    </author>
+    <author>
+      <name>Anna Teresita A. Marcelo</name>
+    </author>
+    <author>
+      <name>Yong Jae Kim</name>
+    </author>
+    <author>
+      <name>Carl-Leander Henneking</name>
+    </author>
+    <author>
+      <name>Rundong Hu</name>
+    </author>
+    <author>
+      <name>Yuhong Wang</name>
+    </author>
+    <author>
+      <name>David Mimno</name>
+    </author>
+    <author>
+      <name>Bishan Yang</name>
+    </author>
+    <author>
+      <name>Igor Labutov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.06918v1</id>
+    <title>Learning from Unreliable Trajectories: Adversarially-Robust Federated Q-Learning</title>
+    <updated>2026-10-02T20:54:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.06918v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.06918v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study federated reinforcement learning in which multiple agents interact with a common Markov decision process and communicate through a central server to collaboratively learn the optimal state-action value function. Our goal is to understand whether the sample-efficiency benefits of collaboration can be retained when a fraction of the agents behave adversarially and transmit arbitrarily corrupted information. To address this problem, we introduce Robust Async-Fed-Q, an epoch-based federated learning algorithm that combines variance-reduced estimation of the Bellman optimality operator at the agents with robust aggregation at the server. We establish high-probability finite-time guarantees showing that the proposed method preserves the statistical gains of collaboration among the honest agents while tolerating adversarial corruption. In particular, the effect of the adversarial agents decreases as the amount of data collected by each honest agent grows and eventually vanishes in the infinite-sample limit. We complement these guarantees with information-theoretic lower bounds that characterize the unavoidable statistical cost of adversarial corruption, leading to the first nearly matching upper and lower bounds for adversarially robust federated reinforcement learning. We further extend our framework to accommodate single-trajectory Markovian sampling and heterogeneous partial coverage, where different agents may explore different regions of the state-action space and learning relies on their collective coverage. Finally, our epoch-based design substantially improves the best known communication complexity for federated Q-learning under asynchronous sampling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T20:54:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sreejeet Maity</name>
+    </author>
+    <author>
+      <name>Aritra Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03650v1</id>
+    <title>PoCoFL: POlicy-COmpliant Federated Learning</title>
+    <updated>2026-10-02T17:33:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.03650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated Learning (FL) is a privacy-oriented learning paradigm that enables collaborative model training while keeping training data local to participating clients. However, it does not guarantee that clients submit policy-compliant contributions or that aggregators process admitted contributions correctly. Existing verifiable FL systems tailor validation rules to specific FL settings, learning workflows, and cryptographic constructions, limiting their applicability across network topologies, participant roles, and aggregation semantics. In this paper, we present PoCoFL, a policy-compliant federated learning framework that separates three aspects: (i) FL type, (ii) policy semantics, and (iii) cryptographic realisation. We provide a formalisation that captures client and aggregation requirements as policy-dependent relations. Clients prove compliance of their contributions using commitments and non-interactive zero-knowledge proofs, while aggregators prove that the recorded set of admitted contributions was processed according to the selected aggregation policy. We demonstrate PoCoFL through four formal instantiations: (i) vanilla, (ii) continual, (iii) personalised, and (iv) threshold-encrypted federated learning. We evaluate the effects of policy enforcement on the learning objectives of vanilla, personalised, and continual FL. We further implement proof-of-concept realisations of all four instantiations, demonstrating the versatility and practical feasibility of PoCoFL. Overall, these results show that PoCoFL can capture complex policy representations while remaining network-topology agnostic.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T17:33:01Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Dominik Roy George</name>
+    </author>
+    <author>
+      <name>Varesh Mishra</name>
+    </author>
+    <author>
+      <name>Aysajan Abidin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03597v1</id>
+    <title>A Path Integral Surrogate for Multi-Step Gradient Inversion in Federated Learning</title>
+    <updated>2026-10-02T17:03:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.03597v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03597v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning lets many clients train a shared model together without ever sending their private data to a central server. Each client shares only a model update, and this update should reveal far less about the client than its raw training examples would. This premise is what protects the privacy of the clients. Gradient inversion attacks challenge it directly by trying to reconstruct a client's private input images from the single update it shared. Under FedAvg, a client's update accumulates several local training steps, so the server sees only the two endpoints of a hidden weight trajectory. Recent gradient inversion attacks fit a surrogate model along the path between these two endpoints but they still read its gradient at a single point. We propose the Path-Integral Surrogate Model Extension (PI-SME) which treats the accumulated update as a path integral of the gradient field and approximates it by Gauss--Legendre quadrature over several nodes along a learnable Bézier path. On CIFAR-100 and FEMNIST images across a range of trajectory lengths and class-restricted batches PI-SME reconstructs the private inputs more faithfully than the strongest surrogate baseline on several inversion metrics and the matching loss.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T17:03:12Z</published>
+    <arxiv:comment>5 pages, 2 figures, 3 tables. Submitted to IEEE ICASSP 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Agnivo Ghosh</name>
+    </author>
+    <author>
+      <name>Saumik Bhattacharya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03523v1</id>
+    <title>FedSwitch: Federated Region Classification From Wireless Channel Measurements</title>
+    <updated>2026-10-02T16:13:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.03523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wireless Internet-of-Things (IoT) networks can leverage locally observed channel state information (CSI) at base-stations (BSs) to perform region classification, i.e., infer the region of origin of a transmitter (TX), thereby enabling channel-based authentication. However, centralizing these measurements incurs substantial communication overhead and requires sharing location-dependent radio fingerprints. To address these difficulties, we propose an edge-native federated learning (FL) framework where BSs collaboratively train a shared classifier via a parameter server (PS) without exposing raw data, thereby supporting physical-layer security tasks like spoofing detection. To overcome the statistical heterogeneity arising from diverse BS locations and propagation conditions, we introduce FedSwitch, a personalized FL algorithm that automatically transitions edge nodes from collaborative training to local fine-tuning upon loss stagnation. We provide theoretical convergence guarantees for the proposed collaborative training phase and derive analytical bounds linking classification errors to statistical discrepancies. Extensive evaluations on synthetic channel measurements demonstrate that FedSwitch significantly improves region-classification accuracy over standard FL baselines.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T16:13:36Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Mattia Piana</name>
+    </author>
+    <author>
+      <name>Stefano Rini</name>
+    </author>
+    <author>
+      <name>Stefano Tomasin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03474v1</id>
+    <title>Fed-ADApt: Federated Anytime Depth Adaptation for Resource-Aware Medical Image Segmentation</title>
+    <updated>2026-10-02T15:47:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.03474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning (FL) enables collaborative training of medical image segmentation models without sharing raw patient data, yet existing approaches assume a homogeneous compute budget across institutions, limiting participation of low-resource sites. We propose Fed-ADApt, a depth-adaptive federated framework for UNet-based segmentation that jointly addresses low-compute training and inference. Fed-ADApt integrates multi-depth supervision with hierarchical depth-wise aggregation, allowing each site to train according to its local compute budget while contributing to a global model that supports dynamic depth selection at deployment. We evaluated Fed-ADApt on multi-site 2D retinal fundus disc segmentation and 3D brain tumor segmentation. Across both tasks, federated collaboration substantially improves robustness under domain shift. Fed-ADApt matched the full-resource FedAvg performance in 3D and achieved competitive 2D performance with a 4.7% average Dice reduction, while reducing average inference cost by 19.5% in 3D and 34.5% in 2D and substantially reducing training cost by 98% at the most constrained sites. Importantly, Fed-ADApt enables low-resource institutions that cannot train full-capacity models to participate in federations while maintaining competitive global performance under a favorable accuracy to efficiency trade-off. By considering training and inference compute budgets, Fed-ADApt provides a practical and equitable solution for federated medical image segmentation across heterogeneous clinical and edge-enabled imaging environments.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T15:47:49Z</published>
+    <arxiv:comment>Accepted to The 4th International Conference on Federated Learning Technologies and Applications (FLTA 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Abhijeet Parida</name>
+    </author>
+    <author>
+      <name>Zhifan Jiang</name>
+    </author>
+    <author>
+      <name>Pooneh Roshanitabrizi</name>
+    </author>
+    <author>
+      <name>Austin Tapp</name>
+    </author>
+    <author>
+      <name>Maria J. Ledesma-Carbayo</name>
+    </author>
+    <author>
+      <name>Syed Muhammad Anwar</name>
+    </author>
+    <author>
+      <name>Ziyue Xu</name>
+    </author>
+    <author>
+      <name>Marius George Linguraru</name>
+    </author>
+    <author>
+      <name>Holger R. Roth</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03330v1</id>
+    <title>Cordial Learning: Distributed Training with Correlated Data</title>
+    <updated>2026-10-02T14:03:06Z</updated>
+    <link href="https://arxiv.org/abs/2610.03330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a distributed learning task with agents that have correlated data. Specifically, the label of an agent depends on the input of other agents for the same sample, and these inputs are also correlated. Correlated data is the reality when agents share the same environment. Existing decentralized methods, such as federated learning, ignore the structure of the problem and perform poorly on correlated data. On the other hand, centralized approaches are infeasible due to privacy and communication constraints. We introduce cordial (correlated and distributed) learning to address this gap by sharing only low-dimensional outputs between the agents while training local models to extract informative signals from peers. This distributed learning induces a game in which the loss function of each agent depends on the models of others. Assuming a linear model, we prove that cordial learning converges with probability one to a globally optimal solution, despite the nonconvex global objective. Experiments on structured multi-digit MNIST tasks demonstrate that cordial learning remains highly effective even in highly nonlinear settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T14:03:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sarah Shitrit</name>
+    </author>
+    <author>
+      <name>Ilai Bistritz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03073v1</id>
+    <title>SecJev: Bringing Security Expertise to System One Decision Models</title>
+    <updated>2026-10-02T09:57:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.03073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Security workflows need models that turn complex observations and explicit policies into decisions. System One models introduced by Jev return typed predictions and probabilities; security specialization supplies the domain expertise behind those predictions. We introduce SecJev, to our knowledge the first family of Jev-like decision models specialized for security, spanning 0.8B to 9B parameters. Built on Kev's single-pass candidate scorer, SecJev learns Boolean, choice, and ordered decisions from text, telemetry, and observation histories. We develop SecJev-Corpus to unify source-label prediction and explicit-policy evaluation across 14 tasks and eight sources. It covers tool outputs, traffic, federated updates, consensus, authentication, and vehicle messages. Scene-weighted training adapts the models across these domains while preserving a shared typed decision interface. Security specialization improves every model in the family; SecJev-0.8B outperforms general Kev-9B by 20.51 percentage points in task-macro accuracy. Comparisons with answer-only generative fine-tuning show close accuracy and latency with lower peak inference memory. Tests on new source groups reproduce gains over Kev in prompt-injection and traffic decisions, with capture-dependent false alarms. We release adapters, decision heads, SecJev-Corpus, and training and inference code.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T09:57:05Z</published>
+    <arxiv:comment>22 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zheng Chen</name>
+    </author>
+    <author>
+      <name>Fei Yu</name>
+    </author>
+    <author>
+      <name>Haohao Huang</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Anlong Chen</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03054v1</id>
+    <title>RIPPLE in Still Water: Zero-Shot Clustering in Federated Learning with Wavelet Scattering Transform</title>
+    <updated>2026-10-02T09:35:39Z</updated>
+    <link href="https://arxiv.org/abs/2610.03054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clustered Federated Learning (FL) partitions a client population into groups of similar local distributions and trains one specialized model per cluster, mitigating client drift that degrades single-model methods under non-IID data. Prior methods discover cluster structure inside the training loop through gradient similarity, loss evaluation, or EM-style updates, thus increasing communication overhead, exposing gradients to inversion attacks, and providing no mechanism to assign clients absent from training. We propose RIPPLE, a clustered FL framework in which cluster assignment is computed entirely offline from a spectral characterization of each client's local data: a variance-weighted principal-component prototype embedded via the Wavelet Scattering Transform and decoded by a Gaussian Mixture VAE trained server-side on synthetic client populations before federation begins. Per-round communication cost matches FedAvg exactly, and a client absent from training obtains a personalized model from a single forward pass, without gradient computation, model evaluation, or extra communication round. We prove that the gap between RIPPLE's surrogate clustered objective and the oracle is bounded by a computable quantity decaying with client sample size and independent of federation duration; per-cluster convergence matches the minimax-optimal rate for non-convex smooth objectives. Across five benchmarks spanning controlled and realistic heterogeneity, RIPPLE consistently outperforms all baselines, with margins growing on the most realistic partitions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T09:35:39Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026 (main track)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alessandro Licciardi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.02957v1</id>
+    <title>Understanding Trajectory Heterogeneity in Federated World Model Learning</title>
+    <updated>2026-10-02T07:55:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.02957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.02957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models learn state evolution from trajectories, making access to temporal context a central training requirement. Federated learning can use distributed records, while ownership boundaries within a trajectory restrict the examples each client can construct. Our study benchmarks this cross-time setting through hourly action-conditioned clinical prediction on eight MIMIC-IV disease cohorts, comprising 40.87 million transition memberships. We specify severity-based client ownership, patient-separated construction, local history and future-window rules, and paired rollout evaluation from one to 32 hours. A matrix of ten federated algorithms covers 32 disease--partition configurations under five rounds of ten-percent participation. Three findings emerge from existing results and training logs. First, client ownership and participation jointly restrict long-window coverage: only 7.55\%--21.36\% of pooled-available 32-step windows have a locally complete anchor visited during training, averaged across diseases. Second, finer severity partitions accompany higher FedAvg error in 15 of 16 paired comparisons, while algorithm gains are small and horizon-dependent: FedProx reduces mean error by 0.56\%, with no consistent improvement at 32 steps. Third, algorithm labels conceal distinct update behavior, including inactive extrapolation and orders-of-magnitude differences in update scale. Cached-update performance also varies strongly across trajectory partitions under the same benchmark protocol. These results establish temporal access, participation coverage, optimization behavior, and horizon-resolved prediction as complementary dimensions for evaluating federated clinical world models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T07:55:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yipan Wei</name>
+    </author>
+    <author>
+      <name>Zhaokun Yan</name>
+    </author>
+    <author>
+      <name>Ziming Hong</name>
+    </author>
+    <author>
+      <name>Jiaqi Wu</name>
+    </author>
+    <author>
+      <name>Lixu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.02659v2</id>
+    <title>Distributed Learning with Selective State Space Models: Architecture-Aware Convergence Analysis</title>
+    <updated>2026-10-06T00:31:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.02659v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.02659v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern state space models (SSMs), such as Mamba2, provide a compelling alternative to transformers by combining linear-time sequence modeling with recurrent state-space dynamics. However, the behavior of SSMs in distributed learning settings remains poorly understood. In particular, the existing standard federated learning methods are largely architecture-agnostic, and do not account for the stability, selectivity, and state-space parameterization that characterize modern selective SSMs. To address this, we derive architecture-aware gradient and smoothness bounds for single- and multi-layer selective SSMs, and convergence bounds for FedAvg and FedProx, characterizing how recurrent stability, input-dependent discretization, and state projection norms affect federated optimization. We then numerically validate the single-layer bounds on sequences generated by a teacher SSM, using a learner that follows the analyzed recurrence. We use this analysis to formulate expectations about the effects of local training and client heterogeneity, and examine these expectations by comparing nine federated learning algorithms on Mamba2 language modeling across six text domains. These experiments illustrate how SSM-specific bounds can provide a basis for interpreting the behavior of practical federated learning algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T01:28:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adam Piaseczny</name>
+    </author>
+    <author>
+      <name>Md Kamran Chowdhury Shisher</name>
+    </author>
+    <author>
+      <name>Shiqiang Wang</name>
+    </author>
+    <author>
+      <name>Christopher G. Brinton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.02386v1</id>
+    <title>Social bot detection in the age of ChatGPT: Challenges and opportunities</title>
+    <updated>2026-10-01T19:08:58Z</updated>
+    <link href="https://arxiv.org/abs/2610.02386v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.02386v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a comprehensive overview of the challenges and opportunities in social bot detection in the context of the rise of sophisticated AI-based chatbots. By examining the state of the art in social bot detection techniques and the more salient real-world application to date, we identify gaps and emerging trends in the field, with a focus on addressing the unique challenges posed by AI-generated conversations and behaviors. We suggest potentially promising opportunities and research directions in social bot detection, including (i) the use of generative agents for synthetic data generation, testing and evaluation; (ii) the need for multimodal and cross-platform detection based on network and behavioral signatures of coordination and influence; (iii) the opportunity to extend bot detection to non-English and low-resource language settings; and, (iv) the room for development of collaborative, federated learning detection models that can help facilitate cooperation between different organizations and platforms while preserving user privacy.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T19:08:58Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>First Monday, 28(6), 2023</arxiv:journal_ref>
+    <author>
+      <name>Emilio Ferrara</name>
+    </author>
+    <arxiv:doi>10.5210/fm.v28i6.13185</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5210/fm.v28i6.13185" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.01718v1</id>
+    <title>vFedProtoQNAS: Prototype-Guided Personalized Quantum Neural Architecture Search for Virtual Federated Learning</title>
+    <updated>2026-10-01T13:57:53Z</updated>
+    <link href="https://arxiv.org/abs/2610.01718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.01718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum federated learning (QFL) has emerged as a promising approach for collaboratively training compact quantum neural networks (QNNs) over distributed private data on resource-constrained devices. However, differences in device capabilities make a single shared QNN architecture unsuitable for all clients. While personalized quantum neural architecture search (QNAS) allows each client to select a device-specific QNN, averaging parameters across structurally different QNN architectures mixes semantically inconsistent circuit operations. To address this, prototype-guided personalized QNAS for virtual FL (vFedProtoQNAS) is proposed, where model parameters are never aggregated across clients and federated collaboration is achieved through class-wise prototype sharing. Each client independently searches and trains a client-specific QNN, computes class-wise local prototypes from latent representations, and refines them using global prototypes from the server as federated semantic anchors. Experiments demonstrate that vFedProtoQNAS improves accuracy by 3.70\% over FedAvg and enhances class-consistent representation alignment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T13:57:53Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Seok Bin Son</name>
+    </author>
+    <author>
+      <name>Samuel Yen-Chi Chen</name>
+    </author>
+    <author>
+      <name>Soohyun Park</name>
+    </author>
+    <author>
+      <name>Joongheon Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.01650v1</id>
+    <title>Combining Homomorphic Encryption and Differential Privacy in Federated Learning for Model Inspection and Availability</title>
+    <updated>2026-10-01T13:13:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.01650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.01650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing prevalence of decentralized data has led to a growing interest in federated learning, which enables collaborative model training without clients sharing their sensitive local data. However, FL alone does not sufficiently protect sensitive training data and is generally coupled with privacy-preserving techniques, such as differential privacy and homomorphic encryption. Although powerful, these techniques address separate concerns via different mechanisms, so relying on just one might prove insufficient or impractical for addressing challenges associated with federated learning. In this work, we propose a privacy-preserving federated learning framework that combines homomorphic encryption-based training with differential privacy-based model inspection and release. We adopt a Markov chain Monte Carlo-based Bayesian privacy estimation method to estimate the privacy of our proposed framework. Our results show that this method improves both model utility and estimated privacy over the baseline method that relies solely on differential privacy for training. In our experiments with the FEMNIST dataset, by the end of training, our method reaches a test loss of $1.09$, compared to $2.37$ for the differential privacy-only approach, while providing stronger estimated privacy protection, with the estimated posterior mean of the privacy parameter $ε$ of $4.32$, compared to $7.26$ for the differential privacy-only approach. We also show that intermittent model monitoring can preserve the encrypted training trajectory while, under our evaluated experimental setting, providing estimated privacy comparable to or stronger than the differential privacy-only approach.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T13:13:56Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ceren Yıldırım</name>
+    </author>
+    <author>
+      <name>Kamer Kaya</name>
+    </author>
+    <author>
+      <name>Sinan Yıldırım</name>
+    </author>
+    <author>
+      <name>Erkay Savaş</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.01638v1</id>
+    <title>FedSAP: Federated Learning with Structured Adaptive Partitioning for Multi-Domain Heterogeneous Edge Devices</title>
+    <updated>2026-10-01T13:05:01Z</updated>
+    <link href="https://arxiv.org/abs/2610.01638v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.01638v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning (FL) on heterogeneous edge devices must jointly accommodate unequal resource budgets and domain-shifted local data. Existing resource-adaptive methods decide how much of a model each client trains but not where retained capacity should reside or how it should be shared, whereas federated domain-generalization methods usually assume a shared full architecture. Uniform compression can therefore discard high-utility channels, and a single aggregation path can mix transferable features with domain-sensitive updates. We propose FedSAP, a domain-aware heterogeneous FL framework that casts structured pruning as budget-constrained tri-state channel allocation. FedSAP converts each keep ratio into non-uniform layer budgets, assigns stable channels to a Global pool, useful domain-sensitive channels to pseudo-domain-specific Private pools, and low-utility channels to a Dropped state. This partition lets broadly useful features benefit from cross-client pooling while isolating domain-sensitive updates from incompatible clients. Domain-Guided Assignment infers pseudo-domains from shallow-gradient similarity, while Type-Matched Aggregation restricts each channel to its intended sharing scope. Across three random seeds, FedSAP reaches 76.00% and 72.67% mean global accuracy on Digits and Office-Caltech, exceeding the strongest baseline by 1.70 and 4.92 percentage points while supporting client pruning ratios of up to 80% across heterogeneous clients.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T13:05:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wentao Yue</name>
+    </author>
+    <author>
+      <name>Tianyou Lai</name>
+    </author>
+    <author>
+      <name>Hongji Li</name>
+    </author>
+    <author>
+      <name>Qingyu Mao</name>
+    </author>
+    <author>
+      <name>Qilei Li</name>
+    </author>
+  </entry>
+</feed>
