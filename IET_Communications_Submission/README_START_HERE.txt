@@ -41,11 +41,13 @@ BEFORE YOU SUBMIT (3 ACTIONS)
 2. Enter both ORCID iDs and link the corresponding author's iD
    (0009-0002-8804-6195) to the submitting account, as required for
    corresponding authors.
-3. Decide the supplementary route: the Data Availability statement points to
-   an anonymized supplementary archive mirrored on an anonymized hosting
-   service (confirm the mirror is live before submitting). If you prefer to
-   upload Supplementary Material directly, assemble the complete archive
-   first — 07_Supplementary here provides the corpus, bibliography, and
+3. Confirm the supplementary route: the Data Availability statement points to
+   the public research archive
+   (https://github.com/touhidsiddiqueeraj-bit/Is-Wireless-Security-Ready-for-the-AI-Era-)
+   and to the uploaded Supplementary Material. IET Communications operates
+   single-blind peer review, so no anonymized mirror is needed — just
+   confirm the archive link is live before submitting. The
+   07_Supplementary folder provides the corpus, bibliography, and
    scripts as a starting point.
 
 Submit via the "Submit an article" link on the IET Communications home page
