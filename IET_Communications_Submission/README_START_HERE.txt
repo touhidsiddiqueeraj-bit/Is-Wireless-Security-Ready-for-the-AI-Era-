@@ -12,14 +12,14 @@ CONTENTS
 01_Manuscript_IET_Communications.pdf/.docx   Full manuscript (41 pages,
    single-column working version; keep as record, DO NOT submit).
 01_Manuscript_IET_Communications_v2.pdf/.docx   SUBMIT THIS as the
-   Manuscript file: shortened version for the 18-page Review-Article
+   Manuscript file (in v2_18page/): shortened version for the 18-page Review-Article
    limit (9 figures, 6 tables, ~130 references; audit-trail detail moved
    to the supplement). The .docx is the editable file; the .pdf is
    identical content for reference. Both contain the two-author title
    page and declarations (no appendix; rubric anchors live in the
    supplement as Table S10).
 08_Supplementary_Methods_Figures_v2.pdf/.docx   SUBMIT THIS as a
-   Supplementary Material file: extended methods (S1), Figures S1–S5,
+   Supplementary Material file (in v2_18page/): extended methods (S1), Figures S1–S5,
    Tables S1–S10. Cite as "Supplementary Material" in the ScholarOne
    submission; every item is referenced from the v2 manuscript.
 02_Cover_Letter_IET_Communications.pdf/.docx Letter to the Editor-in-Chief.
