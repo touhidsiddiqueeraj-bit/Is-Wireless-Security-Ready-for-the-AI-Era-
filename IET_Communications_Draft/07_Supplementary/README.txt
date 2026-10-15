@@ -19,21 +19,24 @@ data/
         file are lightly normalized for release; the complete decision
         history lives in the full research archive's run log.
 
-analysis_scripts/
-    check_consistency.py   Consistency gate for the N=130 corpus (asserts
+analysis_scripts/ (as .txt: the submission system blocks .py uploads, so each
+    script is provided here with a .txt extension and identical content —
+    rename back to .py to run; runnable versions are in the public
+    research archive linked in the Data Availability statement)
+    check_consistency.txt   Consistency gate for the N=130 corpus (asserts
         corpus size, track/year/channel distributions, depth splits, and
         related invariants). It is written for the released research
         archive's layout — it additionally reads manuscript.tex, data/*.csv,
         and the archive's tables/ exports relative to that archive — so run
         it from a checkout of the full archive; the dataset-level checks can
-        be reproduced here with verify_dataset.py.
-    verify_dataset.py      Verifies headline counts against
+        be reproduced here with verify_dataset.txt.
+    verify_dataset.txt      Verifies headline counts against
         data/dataset_papers.csv.
-    claim_checks.py        Consolidated claim checks: computes the numbers
+    claim_checks.txt        Consolidated claim checks: computes the numbers
         reported in the manuscript directly from the released dataset and
         writes claim_checks.json.
-    regen_data_figs.py     Regenerates the data-driven figures from the CSV.
-    regen_concept_figs.py  Regenerates the conceptual figures.
+    regen_data_figs.txt     Regenerates the data-driven figures from the CSV.
+    regen_concept_figs.txt  Regenerates the conceptual figures.
 
 The screening log, retrieval records, and the complete runnable archive
 layout ship with the submission as described in the Data Availability
