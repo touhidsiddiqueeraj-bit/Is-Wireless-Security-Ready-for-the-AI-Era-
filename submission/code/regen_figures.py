@@ -239,9 +239,10 @@ plt.close(fig)
 def _m(track, col):
     rows = [r for r in ROWS if r["track"] == track]
     return round(sum(int(r[col]) for r in rows) / len(rows), 2)
-# R3/R5 are N/A for attack-only rows: shown as n/a, never pooled
-nums = [[f"{_m('threat','R1'):.2f}", f"{_m('threat','R2'):.2f}", "n/a",
-         f"{_m('threat','R4'):.2f}", "n/a"],
+# Attack-only rows carry R3/R5 only where an observed attacker-side signal exists
+# (6 rows R3=1, 5 rows R5=1, mention-level); per-track means report them.
+nums = [[f"{_m('threat','R1'):.2f}", f"{_m('threat','R2'):.2f}", f"{_m('threat','R3'):.2f}",
+         f"{_m('threat','R4'):.2f}", f"{_m('threat','R5'):.2f}"],
         [f"{_m('both','R1'):.2f}", f"{_m('both','R2'):.2f}", f"{_m('both','R3'):.2f}",
          f"{_m('both','R4'):.2f}", f"{_m('both','R5'):.2f}"],
         [f"{_m('defense','R1'):.2f}", f"{_m('defense','R2'):.2f}", f"{_m('defense','R3'):.2f}",
@@ -249,8 +250,6 @@ nums = [[f"{_m('threat','R1'):.2f}", f"{_m('threat','R2'):.2f}", "n/a",
         [f"{_m('pqc-context','R1'):.2f}", f"{_m('pqc-context','R2'):.2f}", f"{_m('pqc-context','R3'):.2f}",
          f"{_m('pqc-context','R4'):.2f}", f"{_m('pqc-context','R5'):.2f}"]]
 def _band(track, col):
-    if track == "threat" and col in ("R3", "R5"):
-        return "Weak"
     v = _m(track, col)
     return "Stronger" if v >= 1.0 else ("Partial" if v >= 0.10 else "Weak")
 tracks8, cols8 = (["threat", "both", "defense", "pqc-context"], ["R1", "R2", "R3", "R4", "R5"])
@@ -271,7 +270,7 @@ ax.set_xticks([j + 0.5 for j in range(5)],
 ax.set_yticks([3 - i + 0.5 for i in range(4)], ["Threat (30)", "Dual (7)", "Defense (84)", "PQC (9)"])
 ax.tick_params(length=0)
 ax.set_title(f"Readiness means by track (R1--R5, n = {N})")
-ax.text(2.5, -0.62, "Bands: dark >= 1.0, mid 0.10--0.99, light < 0.10; n/a = N/A for attack-only rows",
+ax.text(2.5, -0.62, "Bands: dark >= 1.0, mid 0.10--0.99, light < 0.10; threat R3/R5 are mention-level attack-side signals",
         ha="center", fontsize=8)
 fig.tight_layout()
 fig.savefig(f"{OUT}/Fig8_readiness.png", dpi=150)

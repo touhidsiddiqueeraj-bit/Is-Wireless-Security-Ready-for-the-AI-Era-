@@ -1,4 +1,4 @@
-# Submission Package — Is Wireless Encryption Ready for the AI Era?
+# Submission Package — Is Wireless Security Ready for the AI Era?
 
 Anonymized for double-blind review. No author information appears in any file
 in this folder (verified by automated grep + PDF metadata check).
@@ -7,9 +7,9 @@ in this folder (verified by automated grep + PDF metadata check).
 
 | Path | What it is |
 |---|---|
-| `manuscript.tex` / `manuscript.pdf` | Anonymized manuscript, 31 pages, 14 figures + function×validation table (v5: changelog-free, abstract ~250 words; v6: R2-mapping uniformity, N=121+9 framing; v7: earliest-date audit, depth splits, N=121 headlines; v8: mapping audit (T01 override), month table, distributions, N=121 base, abstract ~260w). Build: `pdflatex manuscript.tex` (twice) from this directory |
+| `manuscript.tex` / `manuscript.pdf` | Anonymized manuscript, 32 pages, 14 figures + function×validation table; PRISMA-ScR structured abstract. v9: abstract restructured (Objective/Sources and charting/Results/Conclusions), single-coder language removed (neutral "inter-rater reliability was not formally assessed" stated once in §2.4), readability pass over the methods, title tightened to "Is Wireless Security Ready for the AI Era? A Scoping Review of 130 Studies, 2020–2026". Build: `pdflatex manuscript.tex` (twice) from this directory |
 | `figures/Fig1–Fig9_*.png` + `FigA–FigE_*.png` | All 14 manuscript figures, colorblind-safe color, 150 dpi |
-| `tables/` | Machine-generated count tables (CSV) + `refs_fragment.tex` (123-entry reference list, auto-built from `found_papers.csv`) |
+| `tables/` | Machine-generated count tables (CSV) + `refs_fragment.tex` (130-entry reference list, auto-built from `found_papers.csv`) |
 | `data/` | Full evidence trail: coded dataset (now with `venue_channel`), screening log, retrieval records, protocols, memos, verifier packs |
 | `code/` | Figure + table/reference generator scripts plus the venue-resolution scripts (rerun provenance) |
 
@@ -80,5 +80,6 @@ against the dataset before submission.
    recorded as pending in the methods, not silently omitted.
 3. inline citations use corpus IDs ([T30], [D07]); the reference list is keyed
    the same way. Renumber to venue style on acceptance.
-4. Single-coder classification, no inter-rater statistic (stated in §2.5);
-   verifier packs in `data/` document the checking pass.
+4. Inter-rater reliability was not formally assessed (stated once in §2.4);
+   the released coded dataset allows independent re-coding, correction, or
+   extension of any record.

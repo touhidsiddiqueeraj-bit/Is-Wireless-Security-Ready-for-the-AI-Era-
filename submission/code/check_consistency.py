@@ -74,6 +74,10 @@ def mean(track, col):
     return round(sum(int(r[col]) for r in rows)/len(rows),2)
 check(mean("threat","R2")==1.53 and mean("defense","R2")==1.27 and mean("both","R2")==1.14, "R2 means drift")
 check(mean("threat","R1")==1.7 and mean("threat","R5")==0.17 and mean("threat","R4")==0.07 and mean("defense","R5")==0.07 and mean("defense","R3")==0.19, "R-means drift")
+check(mean("threat","R3")==0.2 and sum(1 for r in ds if r["track"]=="threat" and int(r["R3"])>=1)==6 and sum(1 for r in ds if r["track"]=="threat" and int(r["R5"])>=1)==5, "attack-side R3/R5 counts")
+check("threat R1 1.70 / R2 1.53 / R3 0.20 / R5 0.17" in tex, "threat R3/R5 sentence drift")
+for ban in ["n/a marks R3/R5 as N/A", "N/A rows are coded 0 as placeholders", "placeholders for the 30 attack-only rows", "R3/R5 not applicable for the 30 attack-only rows", "aligns with no standards"]:
+    check(ban not in tex, f"stale attack-side rubric string: {ban}")
 
 # year-table (Table 3) totals must match the year distribution
 yrsum = {"2020":4,"2021":17,"2022":10,"2023":21,"2024":29,"2025":36,"2026":13}
@@ -133,6 +137,24 @@ for s in ["threat 31 / defense 65 / both 4", "(n=109)", "core set, n=100", "1 of
           "42--42", "125 unique", "R2 0.57", "1.06 for journals", "not improving as output grows",
           "14 OpenAlex included", "63 journal papers", "preprint arm is small (n=14)"]:
     check(s not in tex, f"stale string still in tex: {s!r}")
+
+# function x validation cross-tab (Table "tab:funcval" rows re-derived from the dataset)
+FUNC2VAL = {"Authentication/RFFI":"Authentication/RFFI (69) & 23 & 22 & 4 & 20 & 0",
+            "Anti-jamming/secure comms":"Anti-jamming/secure comms (14) & 8 & 1 & 4 & 1 & 0",
+            "Key generation/distribution":"Key generation/distribution (12) & 3 & 1 & 7 & 1 & 0",
+            "Federated/privacy-preserving FL":"Federated/privacy FL (11) & 2 & 0 & 3 & 4 & 2",
+            "Protocol/traffic/cryptanalysis":"Protocol/traffic/cryptanalysis (10) & 3 & 2 & 0 & 4 & 1",
+            "PQC migration (contextual)":"PQC-context (9) & 5 & 0 & 0 & 3 & 1",
+            "Learned primitives/crypto":"Learned primitives (3) & 2 & 0 & 0 & 1 & 0",
+            "Side-channel attack analysis":"Side-channel analysis (2) & 1 & 0 & 0 & 1 & 0"}
+VALS = ["Testbed/field demonstration","Cross-domain/generalization test","Simulation-only","Standard split/unclear","Benchmark/analysis"]
+for fun, row_str in FUNC2VAL.items():
+    cnt = collections.Counter(r["validation"] for r in ds if r["function"] == fun)
+    derived = " & ".join(str(cnt.get(v, 0)) for v in VALS)
+    n = sum(1 for r in ds if r["function"] == fun)
+    label = re.sub(r"\s*\(\d+\)$", "", row_str.split(" & ")[0])
+    expected = f"{label} ({n}) & {derived}"
+    check(expected in tex, f"funcval row drift: {expected!r} not in tex")
 
 # no shared identifiers may remain silently double-counted
 doi_count = collections.Counter(r["doi_url"].strip() for r in fp.values() if r["id"] in set(x["id"] for x in ds))
