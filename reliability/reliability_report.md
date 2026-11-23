@@ -110,3 +110,24 @@ on abstract-coded rows; the R2 threat–defense gap is under-resolved at n ≈ 2
   codebook reproducibility on abstracts, not construct validity, and not label truth.
 - Coder 1 had read many of these papers during synthesis; the severity asymmetry is
   consistent with coder 1 coding from a richer mental model than the abstract alone.
+- Instrument defect, cosmetic only: the round-1 sheet rendered `abstracts.json` entries as
+  `{'title': …, 'abstract': …}` dict reprs. The abstract text was complete and unaltered —
+  only the wrapper and escaped quotes were noise — so round 1 stands as scored and its file
+  is left untouched. Round 2 renders clean text.
+
+## 7. Round 2 — clarification round (post hoc, disclosed)
+
+My call: run **one** clarification round rather than publish round 1 alone. The five
+failures are definitional (unused `R1 = 0` floor, no abstract-evidence threshold for
+hardware claims, R3's "cost **and** target" read as "cost or target"), and a κ of 0.21 on
+`validation` sits directly under Tables 3–4 and the R2 := f(validation) mapping. Reporting
+only round 1 would force those fields to be downgraded to anecdote; reporting both rounds
+keeps the field usable and shows exactly where the instrument needed tightening.
+
+- `codebook_v2.md`: rules for the five failing items only. Written **after** seeing round-1
+  disagreements — hence round 1 stays primary and this round is reported as secondary.
+- `coder2_round2.csv`: same 30 rows, same abstracts, six items only.
+- **R5 is carried unchanged as a control.** If its κ rises much, the sheet is teaching
+  rather than clarifying, and that will be reported as such.
+- Round-2 κ is an upper bound on instrument agreement, by construction. Round 1 remains the
+  unbiased estimate of first-pass reliability.
