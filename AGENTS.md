@@ -31,7 +31,7 @@ Live truth source: `dataset_papers.csv` (N=123) + `found_papers.csv`. All counts
 
 ## Act-mode constraints (honest limits — do not fabricate)
 - No institutional access: cannot run Scopus/IEEE/WoS. OpenAlex = executed substitute; report recall limit.
-- No second human coder: cannot invent kappa. Document single-coder + corrective verifier; add explicit rubric; require future kappa step.
+- Second coder exists as of 2026-11-23 but is an author (not an external reader), scored n=30 abstracts only, and κ is reported per item with CIs — never as a single corpus-wide number, never post-adjudication. The 20 body-read rows and the other 80 abstract rows remain single-coded and must stay disclosed.
 - 33 Unclear (abstract) rows stay unclear without full-text reads. Flag as limitation; fix conditional-on-data-source wording.
 - Offline-safe: verify DOIs/years only against local CSVs; do NOT invent DOIs or OpenAlex IDs.
 
