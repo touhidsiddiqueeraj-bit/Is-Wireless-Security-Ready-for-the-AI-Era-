@@ -165,3 +165,34 @@ disagreement cells remains open work (logged in `disagreements.csv`).
 - n = 30 of 110 abstract rows, author-as-coder, abstracts only. Stated in the paper.
 - Coder 1 was not blinded to their own earlier reading; their severity offset (−0.43 on R1)
   is consistent with coding from a richer model than the abstract alone. Reported.
+
+## 10. "Isn't κ too low to take seriously?" — checked, with five coefficients
+
+`prevalence_checks.py` → `tableS12_coefficients.csv`. κ is prevalence-sensitive, so a low value
+can in principle be an artefact of a skewed marginal rather than real disagreement. It is not,
+here:
+
+| Item | κ unweighted | κ weighted | Krippendorff α | Gwet AC1 | κ binary (0–1 vs 2) |
+|---|---|---|---|---|---|
+| R1 attacker-capability | 0.07 | 0.39 | 0.36 | 0.20 | 0.31 |
+| R2 evaluation realism | 0.29 | 0.29 | 0.24 | 0.52 | 0.29 |
+| R3 cost signal | −0.06 | 0.11 | 0.00 | 0.56 | — |
+| R5 standards signal | 0.76 | 0.76 | 0.76 | 0.92 | — |
+| validation approach | 0.21 | — | 0.08 | 0.27 | — |
+| data_source | 0.38 | — | 0.05 | 0.43 | — |
+
+Readings:
+
+- **R1, R2, validation, data_source: genuinely weak.** No coefficient puts R1 above 0.39 or
+  validation above 0.27. This is real disagreement, and it is reported as such.
+- **R3 is a different animal.** Both coders agree on 23 of 30 rows; 19 of those are a shared
+  `0`. κ and α collapse under that prevalence while AC1 (0.56) and raw agreement (0.63) do
+  not. The item's problem is **discrimination, not disagreement** — it is reported
+  descriptively, not used as an ordering device.
+- **R5 is fine** under every coefficient.
+
+Consequence for the paper: the claims that survive are the ones built on function (0.84),
+venue channel (0.83), track (0.72), method family (0.68), R5 (0.76) and R4 (no variance,
+hence no false-positive risk) — i.e. the corpus composition and the artifact/standards gaps.
+The claims that do not survive at fine grain are the readiness *level* comparisons
+(R1/R2/R3), which are now stated as directional.
