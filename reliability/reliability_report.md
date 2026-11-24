@@ -150,7 +150,11 @@ the paper no longer claims or implies anything stronger than κ ≈ 0.2–0.4 fo
 | §3.4 | R2 gap stated as a direction, not a magnitude, with the −0.08…+0.31 coder range |
 | Limitations | Replaces "not formally assessed" with the measured bound and its scope |
 | `08_Supplementary...docx` | New §S5 and **Table S11** (both rounds); future-work sentence now says the pass is done at n=30 and names the 80+20 rows still single-coded |
-| `03_Declarations...docx` | CRediT note points to §2.4/Table S11; data availability adds both score sheets and the agreement script; AI-use adds "rubric drafting" |
+| `03_Declarations...docx` | CRediT note points to §2.4/Table S11 and names the second coding under the validation role (Md. Abul Malek Fahim); author contributions add it explicitly; data availability adds both score sheets and the agreement script; AI-use adds "rubric drafting" |
+| `02_Cover_Letter...docx` | Replaces "inter-rater reliability was not formally assessed" with the measured n=30 statement; "16 of 30" → "up to 16 of 30" |
+| §3 opening | New two-paragraph reading guide: which numbers carry κ 0.68–0.84 (composition) and which carry 0.11–0.76 (readiness), with weak-item quantities given as upper bounds |
+| Abstract, §3.3, conclusions | "16 of 30 hardware" → "up to 16 of 30"; body gives the 10–16 bracket from the two codings; the conclusion stops calling the weakest field the "most robust contrast" |
+| §2.6 | Closed-loop count now flagged as a hand-judged construct with no separate reliability estimate |
 | PDFs | 01 (39 pp), 03, 08 regenerated with soffice |
 
 **Not changed:** every corpus count, every table number, every figure, `dataset_papers.csv`.
@@ -196,3 +200,13 @@ venue channel (0.83), track (0.72), method family (0.68), R5 (0.76) and R4 (no v
 hence no false-positive risk) — i.e. the corpus composition and the artifact/standards gaps.
 The claims that do not survive at fine grain are the readiness *level* comparisons
 (R1/R2/R3), which are now stated as directional.
+
+## 11. Where the paper now stands (author decision log)
+
+- Coder 2 = Md. Abul Malek Fahim (second author), named in the CRediT note and author
+  contributions; the AI-use statements still hold because no coding decision was
+  delegated to AI (the agent drafted the codebook text and computed the statistics).
+- The hardware headline is reported as **up to 16 of 30**, with 10–16 given in the body,
+  because the two codings gave 6 and 4 testbed rows among the 12 sampled attack rows.
+- Page count 01: 38 (pre-reliability) → 41. The delta is inline-figure pagination
+  (two figures now sit on their own pages), not content; image count is unchanged at 46.
