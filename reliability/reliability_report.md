@@ -115,19 +115,53 @@ on abstract-coded rows; the R2 threat–defense gap is under-resolved at n ≈ 2
   only the wrapper and escaped quotes were noise — so round 1 stands as scored and its file
   is left untouched. Round 2 renders clean text.
 
-## 7. Round 2 — clarification round (post hoc, disclosed)
+## 7. Round 2 — clarification round, result (post hoc, disclosed)
 
-My call: run **one** clarification round rather than publish round 1 alone. The five
-failures are definitional (unused `R1 = 0` floor, no abstract-evidence threshold for
-hardware claims, R3's "cost **and** target" read as "cost or target"), and a κ of 0.21 on
-`validation` sits directly under Tables 3–4 and the R2 := f(validation) mapping. Reporting
-only round 1 would force those fields to be downgraded to anecdote; reporting both rounds
-keeps the field usable and shows exactly where the instrument needed tightening.
+`round2_stats.py` → `tableS11b_round2.csv`. Coder 2 re-read the same 30 abstracts under
+`codebook_v2.md` and changed 9 of 180 cells (7 of them `R1 1→2`, one `1→0`, one validation
+cell), with reasoning in `coder2_note` for 24 rows — a genuine re-read, not a copy.
 
-- `codebook_v2.md`: rules for the five failing items only. Written **after** seeing round-1
-  disagreements — hence round 1 stays primary and this round is reported as secondary.
-- `coder2_round2.csv`: same 30 rows, same abstracts, six items only.
-- **R5 is carried unchanged as a control.** If its κ rises much, the sheet is teaching
-  rather than clarifying, and that will be reported as such.
-- Round-2 κ is an upper bound on instrument agreement, by construction. Round 1 remains the
-  unbiased estimate of first-pass reliability.
+| Item | κ round 1 | κ round 2 | Δ |
+|---|---|---|---|
+| R1 attacker-capability | 0.394 | 0.376 | −0.018 |
+| R2 evaluation realism | 0.292 | 0.292 | 0.000 |
+| R3 cost signal | 0.114 | 0.114 | 0.000 |
+| data_source | 0.379 | 0.379 | 0.000 |
+| validation | 0.207 | 0.195 | −0.012 |
+| R5 (control, unchanged) | 0.762 | 0.762 | 0.000 |
+
+**The clarification round did not help.** That is the finding, and it is a stronger one than
+an improved κ would have been: the control item did not move (no teaching effect), the
+rewritten items did not move either, so the disagreement is not in the rubric wording but in
+what abstracts permit a coder to conclude. R1 is the clearest case — v2 defined the unused
+floor explicitly, coder 2 used it (one row), and the 1↔2 boundary shifted seven rows the
+other way, leaving κ where it started.
+
+Practical consequence: the four-to-five weak items cannot be rescued by rewriting anchors.
+They are reported as measured, the readiness comparisons are downgraded to directional, and
+the paper no longer claims or implies anything stronger than κ ≈ 0.2–0.4 for them.
+
+## 8. What was changed in the submission package
+
+| File | Change |
+|---|---|
+| `01_Manuscript...docx` §2.4 | New paragraph: n=30, blinding, per-item κ, clarification round, weak items bounded at 0.1–0.4. Removed both "not formally assessed" sentences; AI-use sentence now names rubric drafting |
+| §2.5 | Discloses the two instrument defects: `R1 = 0` unexercised corpus-wide; data_source/validation overlap and are read as one descriptive axis |
+| §3.4 | R2 gap stated as a direction, not a magnitude, with the −0.08…+0.31 coder range |
+| Limitations | Replaces "not formally assessed" with the measured bound and its scope |
+| `08_Supplementary...docx` | New §S5 and **Table S11** (both rounds); future-work sentence now says the pass is done at n=30 and names the 80+20 rows still single-coded |
+| `03_Declarations...docx` | CRediT note points to §2.4/Table S11; data availability adds both score sheets and the agreement script; AI-use adds "rubric drafting" |
+| PDFs | 01 (39 pp), 03, 08 regenerated with soffice |
+
+**Not changed:** every corpus count, every table number, every figure, `dataset_papers.csv`.
+No score was revised on the basis of the reliability pass, and adjudication of the 92
+disagreement cells remains open work (logged in `disagreements.csv`).
+
+## 9. Residual risk after this pass
+
+- A referee can still say the five weak items are unreliable. The answer is now measured and
+  published rather than absent, and the strongest counts (function 0.84, venue 0.83) do not
+  depend on them.
+- n = 30 of 110 abstract rows, author-as-coder, abstracts only. Stated in the paper.
+- Coder 1 was not blinded to their own earlier reading; their severity offset (−0.43 on R1)
+  is consistent with coding from a richer model than the abstract alone. Reported.

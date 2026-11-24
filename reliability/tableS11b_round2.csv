@@ -1,0 +1,7 @@
+item,scale,n,exact_agreement,kappa_round2,kappa_ci_low,kappa_ci_high,pabak,kappa_round1
+R1,ordinal 0-2,30,0.467,0.376,0.133,0.573,-0.067,0.394
+R2,ordinal 0-2,30,0.633,0.292,0.03,0.587,0.267,0.292
+R3,ordinal 0-2,30,0.633,0.114,-0.2,0.438,0.267,0.114
+R5,ordinal 0-2,30,0.933,0.762,0.366,1.0,0.867,0.762
+validation,nominal,30,0.4,0.195,-0.03,0.412,-0.2,0.207
+data_source,nominal,30,0.533,0.379,0.154,0.59,0.067,0.379
